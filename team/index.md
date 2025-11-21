@@ -13,7 +13,10 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
+## Principle Investigator
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+
+## Lab Members
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
