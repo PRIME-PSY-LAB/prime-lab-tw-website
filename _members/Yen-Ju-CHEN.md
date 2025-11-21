@@ -12,7 +12,15 @@ links:
   email: chen.yen-ju.t05@kyoto-u.jp
 ---
 
-## 🧪 Research Interests
+<!-- ===========================
+     Collapsible Blocks
+     =========================== -->
+
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">🧪 Research Interests</span>
+  </summary>
 
 - Perceptual psychology  
 - Visual science  
@@ -20,89 +28,78 @@ links:
 - Mathematical & computational modeling  
 - Deep learning and neural networks  
 - Image-computable modeling of visual perception  
-- Temporal processing and perceptual organization  
+- Temporal processing & perceptual organization  
 - Human motion perception  
-- Continuous tracking (behavioral paradigm)  
-- Temporal correlation-based segmentation mechanisms  
+- Continuous tracking paradigm  
+- Temporal correlation-based segmentation  
 
+</details>
 
-## 🎓 Academic Record
+---
 
-### **Ph.D. in Informatics (Intelligence Science & Technology)**  
-Kyoto University, Japan  
-**2022/10 – 2025/09**
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">🎓 Academic Record</span>
+  </summary>
 
-### **M.S. in Psychology**  
-National Cheng Kung University  
-**2020/09 – 2022/06**
+**Ph.D. in Informatics (Intelligence Science & Technology)**  
+Kyoto University (2022/10 – 2025/09)
 
-### **B.S. in Psychology**  
-Soochow University  
-**2016/09 – 2020/06**
+**M.S. in Psychology**  
+National Cheng Kung University (2020/09 – 2022/06)
 
+**B.S. in Psychology**  
+Soochow University (2016/09 – 2020/06)
 
-## 🏅 Grants & Awards
+</details>
 
-### **JST Next-Generation Leading Researcher Program (Japan Science and Technology Agency)**  
-- **Period:** 2024/03 – 2025/09  
-- **Project ID:** JPMJSP2110  
-- **Funding:** 3,840,000 JPY  
-- **Topic:** Constructing a human-like dynamic perceptual organization model (visual transformer approach)
+---
 
-### **Kyoto University — STIC Fellowship**  
-- **Period:** 2023/10 – 2024/03  
-- **Project ID:** JPMJFS2123  
-- **Funding:** 1,050,000 JPY  
-- **Topic:** Human-like dynamic perceptual organization model
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">🏅 Grants & Awards</span>
+  </summary>
 
-### **MOST Undergraduate Research Grant (Taiwan)**  
-- **Period:** 2019/08 – 2020/07  
-- **Project ID:** 108-2813-C-031-010-H  
-- **Funding:** 48,000 TWD  
-- **Topic:** Arousal & approach motivation effects on time perception
+**JST Next-Generation Leading Researcher Program**  
+- 2024/03 – 2025/09  
+- Project: JPMJSP2110  
+- Funding: 3,840,000 JPY  
 
-### **Undergraduate Research Creativity Award**  
-- **Year:** 2020  
-- **Funding:** 20,000 TWD  
-- **Project ID:** 108-2813-C-031-010-H  
+**Kyoto University STIC Fellowship**  
+- 2023/10 – 2024/03  
+- Project: JPMJFS2123  
+- Funding: 1,050,000 JPY  
 
+**MOST Undergraduate Research Grant (Taiwan)**  
+- 2019/08 – 2020/07  
+- Project: 108-2813-C-031-010-H  
+- Funding: 48,000 TWD  
 
-## 🧑‍🏫 Professional Experience
+**Undergraduate Research Creativity Award**  
+- 2020  
+- Funding: 20,000 TWD  
 
-### **Visiting Researcher**  
-University of Nottingham, UK — Department of Psychology  
-**2024/08 – 2024/09**
+</details>
 
-### **Research Assistant**  
-Kyoto University, Graduate School of Informatics  
+---
+
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">👨‍🏫 Professional Experience</span>
+  </summary>
+
+**Visiting Researcher — University of Nottingham (UK)**  
+2024/08 – 2024/09  
+
+**Research Assistant — Kyoto University**  
+2022/10 – 2025/09  
 Supervisor: Shin’ya Nishida  
-**2022/10 – 2025/09**
 
-### **Research Assistant**  
-Soochow University, Taiwan — Department of Psychology  
+**Research Assistant — Soochow University**  
+2017/09 – 2018/09  
 Supervisor: Man-Ying Wang  
-**2017/09 – 2018/09**
 
-
-## 👨‍🏫 Teaching Experience
-
-### Teaching Assistant — Sensation & Perception  
-National Cheng Kung University  
-Instructor: Pi-Chun Huang  
-**2021/02 – 2021/07**
-
-### Teaching Assistant — Cognitive Psychology  
-NCKU  
-Instructor: Shu-Lan Hsieh  
-**2020/09 – 2021/02**
-
-### Teaching Assistant — Psychological & Educational Statistics  
-Soochow University  
-Instructor: Chun-Hung Chen  
-**2019/02 – 2020/06**
-
-
-## 👥 Professional Memberships
-
-- Taiwanese Psychological Association (2021–2022)  
-- Vision Science Society (2021–2025)
+</details>
