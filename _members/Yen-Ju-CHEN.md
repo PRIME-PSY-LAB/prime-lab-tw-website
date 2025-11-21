@@ -113,6 +113,7 @@ Soochow University, Taipei, Taiwan<br>
 
 **Visiting Researcher — University of Nottingham (UK)**  
 2024/08 – 2024/09  
+Supervisor: Alan Johnston
 
 **Research Assistant — Kyoto University**  
 2022/10 – 2025/09  
