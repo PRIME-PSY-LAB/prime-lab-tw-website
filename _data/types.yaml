@@ -128,7 +128,8 @@ linkedin:
 
 researchgate:
   icon: fa-brands fa-researchgate
-  label: ResearchGate
+  text: ResearchGate
+  tooltip: ResearchGate
   prefix: https://www.researchgate.net/$VALUE
 
 

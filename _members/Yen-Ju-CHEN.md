@@ -49,22 +49,21 @@ links:
 <section markdown="1">
 
 **Assitant Professor**  
-Department of Psychology    (2026/02 – now)
-Soochow University, Taipei, Taiwan
+Department of Psychology    (2026/02 – now)<br>
+Soochow University, Taipei, Taiwan<br>
 
 **Ph.D. in Informatics (Intelligence Science & Technology)**  
-Intelligence Science and Technology Course    (2022/10 – 2025/09)
-Graduate School of Informatics
-Kyoto University, Kyoto, Japan
+Intelligence Science and Technology Course    (2022/10 – 2025/09)<br>
+Graduate School of Informatics<br>
+Kyoto University, Kyoto, Japan<br>
 
 **M.S. in Psychology**  
-Department of Psychology    (2020/09 – 2022/06)
-National Cheng Kung University, Tainan, Taiwan
+Department of Psychology    (2020/09 – 2022/06)<br>
+National Cheng Kung University, Tainan, Taiwan<br>
 
 **B.S. in Psychology**  
-Department of Psychology    (2016/09 – 2020/06)
-Soochow University, Taipei, Taiwan
-
+Department of Psychology    (2016/09 – 2020/06)<br>
+Soochow University, Taipei, Taiwan<br>
 </section>
 
 </details>
