@@ -16,18 +16,28 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 ## Principle Investigator
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 
+## Doctor student
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
 ## Master student
 {% include list.html data="members" component="portrait" filter="role == 'ms'" %}
 
 ## Bachelor student
 {% include list.html data="members" component="portrait" filter="role == 'bs'" %}
 
-## Allumni
-{% include list.html data="members" component="portrait" filter="role == 'al'" %}
+## Alumni
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">click for details</span>
+  </summary>
+  
 
-{% include section.html background="images/background.jpg" dark=true %}
+  {% include list.html data="members" component="portrait" filter="role == 'al'" %}
 
----
+
+</details>
+
 
 ## Our colaborators
 
@@ -49,7 +59,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 </details>
 
 
----
+{% include section.html background="images/background.jpg" dark=true %}
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
