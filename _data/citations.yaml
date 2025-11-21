@@ -8,9 +8,12 @@
   - Zitang Sun
   - Yen-ju Chen
   - "Shin\u2019ya Nishida"
-  publisher: Journal of Vision
+  publisher: Lecture Notes in Computer Science
   date: '2025-11-09'
   link: https://doi.org/hbb5fr
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
   type: paper
   group: highlighted
   buttons:
@@ -20,8 +23,28 @@
   - VLM
   - IQA
   - reasoning
+- id: doi:10.1371/journal.pcbi.1013001
+  title: Human visual grouping based on within- and cross-area temporal correlations
+  authors:
+  - Yen-Ju Chen
+  - Zitang Sun
+  - "Shin\u2019ya Nishida"
+  publisher: PLOS Computational Biology
+  date: '2025-09-01'
+  link: https://doi.org/hbb5cv
+  orcid: 0000-0002-2038-1440
   plugin: sources.py
   file: sources_novel_20251121.yaml
+  type: paper
+  group: highlighted
+  image: /images/PaperThumbnail/PLOS2025.PNG
+  buttons:
+  - type: paper
+    link: https://dx.plos.org/10.1371/journal.pcbi.1013001
+  tags:
+  - computational modeling
+  - temporal correlation
+  - segmentation
 - id: doi:10.1167/jov.25.8.19
   title: Revealing temporal dynamics of the visuomotor system via continuous tracking
     of position and attribute
@@ -32,6 +55,9 @@
   publisher: Journal of Vision
   date: '2025-07-24'
   link: https://doi.org/hbb5cs
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
   type: paper
   group: highlighted
   image: https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/938721/i1534-7362-25-8-19-f1_1753349989.00743.png?Expires=1765886870&Signature=z5ytxG1pg6Y4tXiXqxSV4g6-yE25jDIbw4hUd9C6ar1bgaakvcni41j8dOkSWXyV4D0NW~BF0KUBG30y0DG18H6B9id0Le3fVvfmtHeQEqopQ0GJbcQvfV9lWmGX8Vqg7wvN22EhMUK58MN0Wh87hxyQ5XboLsdhZ6oTS1kMR1nOOc9nVurzDIgH4RsVw06PkE01LIyvEDOEFB7rF-3DaxlCfPoBmdIEJFZv7IJIIXjzZMJIcZ8KoO9ST3Noon9vrL0kFJswTlpVedXhEJtysXkJ5t~j~YXmkpGDAciVPmV9FQ6tlSlTM6GfmFkW-g~72tFqtPbqTvD-JWkt-uM-Ng__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
@@ -42,8 +68,6 @@
   - temporal dynamics
   - continuous tracking
   - visuomotor
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
 - id: doi:10.1038/s42256-025-01068-w
   title: Machine learning modelling for multi-order human visual motion processing
   authors:
@@ -55,8 +79,12 @@
   publisher: Nature Machine Intelligence
   date: '2025-07-15'
   link: https://doi.org/g93w3v
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
   type: paper
   group: highlighted
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01068-w/MediaObjects/42256_2025_1068_Fig1_HTML.png?as=webp
   buttons:
   - type: paper
     link: https://www.nature.com/articles/s42256-025-01068-w
@@ -64,68 +92,203 @@
   - machine learning
   - motion perception
   - computational modeling
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
-- id: doi:10.1101/2025.03.27.645664
-  title: Human visual grouping based on within- and cross-area temporal correlations
-  authors:
-  - Yen-Ju Chen
-  - Zitang Sun
-  - "Shin\u2019ya Nishida"
-  publisher: bioRxiv
-  date: '2025-04-01'
-  link: https://doi.org/hbb5ct
-  type: paper
-  buttons:
-  - type: paper
-    link: https://doi.org/10.1101/2025.03.27.645664
-  tags:
-  - preprint
-  - temporal correlation
-  - segmentation
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
-- id: doi:10.1371/journal.pcbi.1013001
-  title: Human visual grouping based on within- and cross-area temporal correlations
-  authors:
-  - Yen-Ju Chen
-  - Zitang Sun
-  - "Shin\u2019ya Nishida"
-  publisher: PLOS Computational Biology
-  date: '2025-09-01'
-  link: https://doi.org/hbb5cv
-  type: paper
-  group: highlighted
-  buttons:
-  - type: paper
-    link: https://dx.plos.org/10.1371/journal.pcbi.1013001
-  tags:
-  - computational modeling
-  - temporal correlation
-  - segmentation
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
-- id: arxiv:2501.12810
+- id: doi:10.21203/rs.3.rs-5631041/v1
   title: Machine Learning Modeling for Multi-order Human Visual Motion Processing
+  authors:
+  - Shin'ya Nishida
+  - Zitang Sun
+  - Yen-Ju Chen
+  - Yung-hao Yang
+  - Yuan Li
+  publisher: Springer Science and Business Media LLC
+  date: '2025-01-28'
+  link: https://doi.org/hbb5fs
+  orcid: 0000-0002-2038-1440
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1167/jov.24.5.15
+  title: Feature-invariant processing of spatial segregation based on temporal asynchrony
+  authors:
+  - Yen-Ju Chen
+  - Zitang Sun
+  - Shin'ya Nishida
+  publisher: Journal of Vision
+  date: '2024-05-31'
+  link: https://doi.org/hbb5cz
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
+  type: paper
+  image: https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/938673/m_i1534-7362-24-5-15-f2_1717084366.00956.png?Expires=1765981901&Signature=lHbKU04UxabD9MHfic54Vlj0Ek9HTcKgBPzblfWazi9fwZx8JLXZb5dvcrFT-tREtxs23k75CzFwn0kA5L7ri3QbD8dcLOmD13djQQdA6EtyKd3eXtCsrHndKoavEB2oSNxJpIN1hyAVQmJ5ihhLL2MHu5Kc5HnvJnYTvPlc6pMTA~YTuzyxuV5RGoMtscBXwszuXHkhoDATk24aoLmL6XDXQxHlt8p04kzKh~8lKb8sXUgz7FiexboaoLbNWCf03~y35Wb5a5rAGDOEPVofpoDIzs8uk~-9Im8TNkwIHw88VygOxl6MfU7EVByE~pF5OLJaNisb5v~xFbP6FZAE9A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  buttons:
+  - type: paper
+    link: https://jov.arvojournals.org/article.aspx?articleid=2793706
+  tags:
+  - temporal asynchrony
+  - spatial segregation
+  - feature-invariant
+- id: doi:10.32470/ccn.2023.1080-0
+  title: 'Comparative Analysis of Visual Motion Perception: Computer Vision Models
+    versus Human Vision'
   authors:
   - Zitang Sun
   - Yen-Ju Chen
   - Yung-Hao Yang
-  - Yuan Li
   - Shin'ya Nishida
-  publisher: arXiv
-  date: '2025-01-24'
-  link: https://arxiv.org/abs/2501.12810
+  publisher: 2023 Conference on Cognitive Computational Neuroscience
+  date: '2023-01-01'
+  link: https://doi.org/hbb5c5
+  orcid: 0000-0002-2038-1440
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1167/jov.23.9.4894
+  title: 'Modeling of Human Motion Perception Mechanism: A Simulation based on Deep
+    Neural Network and Attention Transformer'
+  authors:
+  - Zitang sun
+  - Yen-Ju Chen
+  - Yung-Hao Yang
+  - "Shin\u2019ya Nishida"
+  publisher: Journal of Vision
+  date: '2023-08-01'
+  link: https://doi.org/hbb5c2
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
   type: paper
   buttons:
   - type: paper
-    link: http://arxiv.org/abs/2501.12810
+    link: https://jov.arvojournals.org/article.aspx?articleid=2791615
   tags:
-  - preprint
   - motion perception
-  - deep learning
+  - deep neural network
+  - attention transformer
+- id: doi:10.1167/jov.23.9.4864
+  title: Temporal limits of visual segmentation based on temporal asynchrony in luminance,
+    color, motion direction, and their mixtures
+  authors:
+  - Yen-Ju Chen
+  - "Shin\u2019ya Nishida"
+  publisher: Journal of Vision
+  date: '2023-08-01'
+  link: https://doi.org/hbb5c3
+  orcid: 0000-0002-2038-1440
   plugin: sources.py
   file: sources_novel_20251121.yaml
+  type: paper
+  buttons:
+  - type: paper
+    link: https://jov.arvojournals.org/article.aspx?articleid=2791641
+  tags:
+  - temporal limits
+  - segmentation
+  - luminance
+  - color
+  - motion direction
+- id: issn:10495258
+  title: ISSN 1049-5258 (Print) | Advances in neural information processing systems
+    | The ISSN Portal
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://portal.issn.org/resource/ISSN/10495258
+  orcid: 0000-0002-2038-1440
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2305.09156
+  title: Modelling Human Visual Motion Processing with Trainable Motion Energy Sensing
+    and a Self-attention Network
+  authors:
+  - Zitang Sun
+  - Yen-Ju Chen
+  - Yung-hao Yang
+  - Shin'ya Nishida
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbb5ft
+  orcid: 0000-0002-2038-1440
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1167/jov.22.14.3830
+  title: 'Generalized form of common fate: evidence of structure dominance effect'
+  authors:
+  - Yen-Ju Chen
+  - Pi-Chun Huang
+  publisher: Journal of Vision
+  date: '2022-12-01'
+  link: https://doi.org/hbb5c6
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
+  type: paper
+  buttons:
+  - type: paper
+    link: https://doi.org/10.1167/jov.22.14.3830
+  tags:
+  - common fate
+  - temporal structure
+  - grouping
+- id: doi:10.1177/03010066221141167
+  title: The 44th European Conference on Visual Perception (ECVP) 2022,                     Nijmegen,
+    The Netherlands
+  authors: []
+  publisher: Perception
+  date: '2022-12-01'
+  link: https://doi.org/hbb5fv
+  orcid: 0000-0002-2038-1440
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1167/jov.21.9.2137
+  title: Temporal synchrony accompany with structure cue is more effective in the
+    segmentation task
+  authors:
+  - Yen-Ju Chen
+  - Pi-Chun Huang
+  publisher: Journal of Vision
+  date: '2021-09-01'
+  link: https://doi.org/hbb5c7
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
+  type: paper
+  buttons:
+  - type: paper
+    link: https://doi.org/10.1167/jov.21.9.2137
+  tags:
+  - temporal synchrony
+  - structure cue
+  - segmentation
+- id: doi:10.1109/MDM.2019.00112
+  title: Application of Weighted Alternating Least Squares on Constructing the Disease
+    Networks in the Heterogeneous Process of Aging
+  authors:
+  - Shu-Ti Wang
+  - Yen-Ju Chen
+  - Yi-Di Xu
+  - Te-Tien Ting
+  - Ta-Chien Chan
+  publisher: IEEE International Conference on Mobile Data Management (MDM)
+  date: '2019-06-01'
+  link: https://doi.org/hbb5c4
+  orcid: 0000-0002-2038-1440
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
+  type: paper
+  buttons:
+  - type: paper
+    link: https://doi.org/10.1109/MDM.2019.00112
+  tags:
+  - disease networks
+  - aging
+  - data mining
+- title: "\u559A\u8D77\u7A0B\u5EA6\u5728\u6B63\u5411IAPS\u5716\u7247\u523A\u6FC0\u4E0B\
+    \u5C0D\u6642\u9593\u77E5\u89BA\u7684\u5F71\u97FF\uFF1A\u63A7\u5236\u8DA8\u8FD1\
+    \u52D5\u6A5F"
+  publisher: '2019 Taiwan Psychology Association annual conference '
+  date: '2022-12-20'
+  orcid: 0000-0002-2038-1440
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1167/jov.24.10.374
   title: Acquisition of second-order motion perception by learning to recognize the
     motion of objects made by non-diffusive materials
@@ -166,67 +329,6 @@
   - attribute tracking
   plugin: sources.py
   file: sources_novel_20251121.yaml
-- id: doi:10.1167/jov.24.5.15
-  title: Feature-invariant processing of spatial segregation based on temporal asynchrony
-  authors:
-  - Yen-Ju Chen
-  - Zitang Sun
-  - Shin'ya Nishida
-  publisher: Journal of Vision
-  date: '2024-05-31'
-  link: https://doi.org/hbb5cz
-  type: paper
-  buttons:
-  - type: paper
-    link: https://jov.arvojournals.org/article.aspx?articleid=2793706
-  tags:
-  - temporal asynchrony
-  - spatial segregation
-  - feature-invariant
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
-- id: doi:10.1167/jov.23.9.4894
-  title: 'Modeling of Human Motion Perception Mechanism: A Simulation based on Deep
-    Neural Network and Attention Transformer'
-  authors:
-  - Zitang sun
-  - Yen-Ju Chen
-  - Yung-Hao Yang
-  - "Shin\u2019ya Nishida"
-  publisher: Journal of Vision
-  date: '2023-08-01'
-  link: https://doi.org/hbb5c2
-  type: paper
-  buttons:
-  - type: paper
-    link: https://jov.arvojournals.org/article.aspx?articleid=2791615
-  tags:
-  - motion perception
-  - deep neural network
-  - attention transformer
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
-- id: doi:10.1167/jov.23.9.4864
-  title: Temporal limits of visual segmentation based on temporal asynchrony in luminance,
-    color, motion direction, and their mixtures
-  authors:
-  - Yen-Ju Chen
-  - "Shin\u2019ya Nishida"
-  publisher: Journal of Vision
-  date: '2023-08-01'
-  link: https://doi.org/hbb5c3
-  type: paper
-  buttons:
-  - type: paper
-    link: https://jov.arvojournals.org/article.aspx?articleid=2791641
-  tags:
-  - temporal limits
-  - segmentation
-  - luminance
-  - color
-  - motion direction
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
 - id: arxiv:2305.09156
   title: Modelling Human Visual Motion Processing with Trainable Motion Energy Sensing
     and a Self-attention Network
@@ -248,28 +350,6 @@
   - self-attention
   plugin: sources.py
   file: sources_novel_20251121.yaml
-- id: doi:10.1109/MDM.2019.00112
-  title: Application of Weighted Alternating Least Squares on Constructing the Disease
-    Networks in the Heterogeneous Process of Aging
-  authors:
-  - Shu-Ti Wang
-  - Yen-Ju Chen
-  - Yi-Di Xu
-  - Te-Tien Ting
-  - Ta-Chien Chan
-  publisher: IEEE International Conference on Mobile Data Management (MDM)
-  date: '2019-06-01'
-  link: https://doi.org/hbb5c4
-  type: paper
-  buttons:
-  - type: paper
-    link: https://doi.org/10.1109/MDM.2019.00112
-  tags:
-  - disease networks
-  - aging
-  - data mining
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
 - id: doi:10.32470/CCN.2023.1080-0
   title: 'Comparative Analysis of Visual Motion Perception: Computer Vision Models
     versus Human Vision'
@@ -289,42 +369,5 @@
   - motion perception
   - human vs computer vision
   - comparative analysis
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
-- id: doi:10.1167/jov.22.14.3830
-  title: 'Generalized form of common fate: evidence of structure dominance effect'
-  authors:
-  - Yen-Ju Chen
-  - Pi-Chun Huang
-  publisher: Journal of Vision
-  date: '2022-12-01'
-  link: https://doi.org/hbb5c6
-  type: paper
-  buttons:
-  - type: paper
-    link: https://doi.org/10.1167/jov.22.14.3830
-  tags:
-  - common fate
-  - temporal structure
-  - grouping
-  plugin: sources.py
-  file: sources_novel_20251121.yaml
-- id: doi:10.1167/jov.21.9.2137
-  title: Temporal synchrony accompany with structure cue is more effective in the
-    segmentation task
-  authors:
-  - Yen-Ju Chen
-  - Pi-Chun Huang
-  publisher: Journal of Vision
-  date: '2021-09-01'
-  link: https://doi.org/hbb5c7
-  type: paper
-  buttons:
-  - type: paper
-    link: https://doi.org/10.1167/jov.21.9.2137
-  tags:
-  - temporal synchrony
-  - structure cue
-  - segmentation
   plugin: sources.py
   file: sources_novel_20251121.yaml
