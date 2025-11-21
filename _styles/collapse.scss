@@ -1,44 +1,41 @@
-/* ========== Collapsible Block Animation ========== */
+/* ===== Collapsible blocks: keep theme style, only add arrow animation ===== */
 
 details.collapse-block {
-  margin: 1.2rem 0;
-  padding: 0.7rem 1rem;
-  border-radius: 8px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  background: rgba(255, 255, 255, 0.5);
+  margin: 1rem 0;
 }
 
-/* summary： clickable row */
+/* clickable row */
 details.collapse-block > summary {
   cursor: pointer;
   display: flex;
   align-items: center;
+  gap: 0.4rem;
   list-style: none;
-  font-size: 1.05rem;
-  user-select: none;
 }
 
-/* hide default triangle */
+/* hide default marker (Chrome / Edge / Safari) */
 details.collapse-block > summary::-webkit-details-marker {
   display: none;
+}
+
+/* hide default marker (modern browsers) */
+details.collapse-block > summary::marker {
+  content: "";
 }
 
 /* arrow icon */
 details.collapse-block .collapse-arrow {
   display: inline-block;
-  margin-right: 0.55rem;
-  transition: transform 0.25s ease-in-out;
-  font-size: 0.9rem;
-  opacity: 0.8;
+  transition: transform 0.2s ease-in-out;
+  font-size: 0.9em;
 }
 
 /* rotate when open */
 details.collapse-block[open] .collapse-arrow {
   transform: rotate(90deg);
-  opacity: 1;
 }
 
-/* title text */
+/* label */
 details.collapse-block .collapse-label {
   font-weight: 600;
 }
