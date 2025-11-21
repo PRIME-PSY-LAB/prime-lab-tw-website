@@ -1,9 +1,9 @@
 ---
 name: Yen-Ju Chen
 image: images/PersonalPhoto/YJC.jpg
-role: Principal investigator
+role: pi
 position: Assistant Professor
-Degree: Ph.D., Kyoto University
+affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
 aliases:
 
 links:
