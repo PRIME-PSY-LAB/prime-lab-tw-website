@@ -130,7 +130,6 @@ researchgate:
   icon: fa-brands fa-researchgate
   text: ResearchGate
   tooltip: ResearchGate
-  prefix: https://www.researchgate.net/profile/$VALUE
 
 
 # alerts

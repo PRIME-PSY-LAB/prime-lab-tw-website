@@ -8,7 +8,7 @@ aliases:
 
 links:
   google-scholar: 9RKoQacAAAAJ
-  researchgate: Yen-Ju-Chen-12
+  researchgate: https://www.researchgate.net/profile/Yen-Ju-Chen-12
   orcid: 0000-0002-2038-1440
   github: gloneer
   email: chen.yen-ju.t05@kyoto-u.jp
