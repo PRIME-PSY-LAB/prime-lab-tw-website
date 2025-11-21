@@ -1,21 +1,3 @@
----
-name: Yen-Ju Chen
-image: images/PersonalPhoto/YJC.jpg
-role: pi
-position: Assistant Professor
-affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
-aliases:
-
-links:
-  home-page: 
-  orcid: 0000-0002-4655-3773
-  email: chen.yen-ju.t05@kyoto-u.jp
----
-
-<!-- ===========================
-     Collapsible Blocks
-     =========================== -->
-
 <details class="collapse-block">
   <summary>
     <span class="collapse-arrow">▶</span>
@@ -36,13 +18,10 @@ links:
 - Temporal correlation-based segmentation  
 
   </div>
+
 </details>
 
 ---
-
-<!-- ===========================
-     Collapsible Blocks
-     =========================== -->
 
 <details class="collapse-block">
   <summary>
@@ -62,13 +41,10 @@ National Cheng Kung University (2020/09 – 2022/06)
 Soochow University (2016/09 – 2020/06)
 
   </div>
+
 </details>
 
 ---
-
-<!-- ===========================
-     Collapsible Blocks
-     =========================== -->
 
 <details class="collapse-block">
   <summary>
@@ -98,13 +74,10 @@ Soochow University (2016/09 – 2020/06)
 - Funding: 20,000 TWD  
 
   </div>
+
 </details>
 
 ---
-
-<!-- ===========================
-     Collapsible Blocks
-     =========================== -->
 
 <details class="collapse-block">
   <summary>
@@ -116,7 +89,6 @@ Soochow University (2016/09 – 2020/06)
 
 **Visiting Researcher — University of Nottingham (UK)**  
 2024/08 – 2024/09  
-Supervisor: Alan Johnston
 
 **Research Assistant — Kyoto University**  
 2022/10 – 2025/09  
@@ -127,4 +99,5 @@ Supervisor: Shin’ya Nishida
 Supervisor: Man-Ying Wang  
 
   </div>
+
 </details>
