@@ -1,3 +1,18 @@
+---
+name: Yen-Ju Chen
+image: images/PersonalPhoto/YJC.jpg
+role: pi
+position: Assistant Professor
+affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
+aliases:
+
+links:
+  home-page: 
+  orcid: 0000-0002-4655-3773
+  email: chen.yen-ju.t05@kyoto-u.jp
+---
+
+
 <details class="collapse-block">
   <summary>
     <span class="collapse-arrow">▶</span>
@@ -59,7 +74,7 @@ Soochow University (2016/09 – 2020/06)
 - Project: JPMJSP2110  
 - Funding: 3,840,000 JPY  
 
-**Kyoto University SPRING Fellowship**  
+**Kyoto University STIC Fellowship**  
 - 2023/10 – 2024/03  
 - Project: JPMJFS2123  
 - Funding: 1,050,000 JPY  
