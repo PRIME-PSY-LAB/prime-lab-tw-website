@@ -1,7 +1,7 @@
 ---
 ---
 
-# PRIME Lab's Website
+# Quick about us
 
 We are focusing on the perception psychology, especially vision. We mainly use the behavioral experiment accompanied with all the mathematical annd machine learning approach for addressing the question.
 
