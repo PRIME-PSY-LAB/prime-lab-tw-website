@@ -1,27 +1,36 @@
 ---
-title: Research
+title: Publications
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Publications
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-book-open" %} Publications
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our lab publishes work on visual perception, temporal processing,  
+motion perception, and computational models of human vision.
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include list.html
+  data="citations"
+  component="citation"
+  style="rich"
+  filter="group == 'highlighted'"
+%}
 
 {% include section.html %}
 
-## All
+## All publications
 
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html
+  data="citations"
+  component="citation"
+  style="rich"
+%}
