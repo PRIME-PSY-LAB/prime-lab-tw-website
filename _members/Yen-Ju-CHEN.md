@@ -22,8 +22,6 @@ links:
     <span class="collapse-label">🧪 Research Interests</span>
   </summary>
 
-  <div markdown="1">
-
 - Perceptual psychology  
 - Visual science  
 - Psychophysics  
@@ -35,7 +33,6 @@ links:
 - Continuous tracking paradigm  
 - Temporal correlation-based segmentation  
 
-  </div>
 </details>
 
 ---
@@ -46,8 +43,6 @@ links:
     <span class="collapse-label">🎓 Academic Record</span>
   </summary>
 
-  <div markdown="1">
-
 **Ph.D. in Informatics (Intelligence Science & Technology)**  
 Kyoto University (2022/10 – 2025/09)
 
@@ -57,7 +52,6 @@ National Cheng Kung University (2020/09 – 2022/06)
 **B.S. in Psychology**  
 Soochow University (2016/09 – 2020/06)
 
-  </div>
 </details>
 
 ---
@@ -67,8 +61,6 @@ Soochow University (2016/09 – 2020/06)
     <span class="collapse-arrow">▶</span>
     <span class="collapse-label">🏅 Grants & Awards</span>
   </summary>
-
-  <div markdown="1">
 
 **JST Next-Generation Leading Researcher Program**  
 - 2024/03 – 2025/09  
@@ -89,7 +81,6 @@ Soochow University (2016/09 – 2020/06)
 - 2020  
 - Funding: 20,000 TWD  
 
-  </div>
 </details>
 
 ---
@@ -100,11 +91,8 @@ Soochow University (2016/09 – 2020/06)
     <span class="collapse-label">👨‍🏫 Professional Experience</span>
   </summary>
 
-  <div markdown="1">
-
 **Visiting Researcher — University of Nottingham (UK)**  
 2024/08 – 2024/09  
-Supervisor: Alan Johnston
 
 **Research Assistant — Kyoto University**  
 2022/10 – 2025/09  
@@ -114,5 +102,4 @@ Supervisor: Shin’ya Nishida
 2017/09 – 2018/09  
 Supervisor: Man-Ying Wang  
 
-  </div>
 </details>
