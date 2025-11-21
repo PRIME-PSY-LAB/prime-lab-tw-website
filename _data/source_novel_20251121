@@ -1,76 +1,76 @@
 # -------- 2025 --------
-- id: "doi:10.1007/978-981-95-4378-6_20"
+- id: doi:10.1007/978-981-95-4378-6_20
   type: paper
   publisher: Journal of Vision
   date: 2025-11-09
   group: highlighted
   buttons:
     - type: paper
-      link: "https://doi.org/hbb5fr"
+      link: https://doi.org/hbb5fr
   tags:
     - VLM
     - IQA
     - reasoning
 
 
-- id: "doi:10.1167/jov.25.8.19"
+- id: doi:10.1167/jov.25.8.19
   type: paper
   publisher: Journal of Vision
   date: 2025-07-24
   group: highlighted
   buttons:
     - type: paper
-      link: "https://doi.org/10.1167/jov.25.8.19"
+      link: https://doi.org/10.1167/jov.25.8.19
   tags:
     - temporal dynamics
     - continuous tracking
     - visuomotor
 
-- id: "doi:10.1038/s42256-025-01068-w"
+- id: doi:10.1038/s42256-025-01068-w
   type: paper
   publisher: Nature Machine Intelligence
   date: 2025-07-15
   group: highlighted
   buttons:
     - type: paper
-      link: "https://www.nature.com/articles/s42256-025-01068-w"
+      link: https://www.nature.com/articles/s42256-025-01068-w
   tags:
     - machine learning
     - motion perception
     - computational modeling
 
-- id: "doi:10.1101/2025.03.27.645664"
+- id: doi:10.1101/2025.03.27.645664
   type: paper
   publisher: bioRxiv
   date: 2025-04-01
   buttons:
     - type: paper
-      link: "https://doi.org/10.1101/2025.03.27.645664"
+      link: https://doi.org/10.1101/2025.03.27.645664
   tags:
     - preprint
     - temporal correlation
     - segmentation
 
-- id: "doi:10.1371/journal.pcbi.1013001"
+- id: doi:10.1371/journal.pcbi.1013001
   type: paper
   publisher: PLOS Computational Biology
   date: 2025-09-01
   group: highlighted
   buttons:
     - type: paper
-      link: "https://dx.plos.org/10.1371/journal.pcbi.1013001"
+      link: https://dx.plos.org/10.1371/journal.pcbi.1013001
   tags:
     - computational modeling
     - temporal correlation
     - segmentation
 
-- id: "arxiv:2501.12810"
+- id: arxiv:2501.12810
   type: paper
   publisher: arXiv
   date: 2025-01-24
   buttons:
     - type: paper
-      link: "http://arxiv.org/abs/2501.12810"
+      link: http://arxiv.org/abs/2501.12810
   tags:
     - preprint
     - motion perception
@@ -79,37 +79,37 @@
 
 # -------- 2024 --------
 
-- id: "doi:10.1167/jov.24.10.374"
+- id: doi:10.1167/jov.24.10.374
   type: paper
   publisher: Journal of Vision
   date: 2024-09-01
   buttons:
     - type: paper
-      link: "https://jov.arvojournals.org/article.aspx?articleid=2801335"
+      link: https://jov.arvojournals.org/article.aspx?articleid=2801335
   tags:
     - second-order motion
     - material perception
     - motion processing
 
-- id: "doi:10.1167/jov.24.10.465"
+- id: doi:10.1167/jov.24.10.465
   type: paper
   publisher: Journal of Vision
   date: 2024-09-01
   buttons:
     - type: paper
-      link: "https://jov.arvojournals.org/article.aspx?articleid=2801252"
+      link: https://jov.arvojournals.org/article.aspx?articleid=2801252
   tags:
     - temporal dynamics
     - position tracking
     - attribute tracking
 
-- id: "doi:10.1167/jov.24.5.15"
+- id: doi:10.1167/jov.24.5.15
   type: paper
   publisher: Journal of Vision
   date: 2024-05-31
   buttons:
     - type: paper
-      link: "https://jov.arvojournals.org/article.aspx?articleid=2793706"
+      link: https://jov.arvojournals.org/article.aspx?articleid=2793706
   tags:
     - temporal asynchrony
     - spatial segregation
@@ -118,25 +118,25 @@
 
 # -------- 2023 --------
 
-- id: "doi:10.1167/jov.23.9.4894"
+- id: doi:10.1167/jov.23.9.4894
   type: paper
   publisher: Journal of Vision
   date: 2023-08-01
   buttons:
     - type: paper
-      link: "https://jov.arvojournals.org/article.aspx?articleid=2791615"
+      link: https://jov.arvojournals.org/article.aspx?articleid=2791615
   tags:
     - motion perception
     - deep neural network
     - attention transformer
 
-- id: "doi:10.1167/jov.23.9.4864"
+- id: doi:10.1167/jov.23.9.4864
   type: paper
   publisher: Journal of Vision
   date: 2023-08-01
   buttons:
     - type: paper
-      link: "https://jov.arvojournals.org/article.aspx?articleid=2791641"
+      link: https://jov.arvojournals.org/article.aspx?articleid=2791641
   tags:
     - temporal limits
     - segmentation
@@ -144,37 +144,37 @@
     - color
     - motion direction
 
-- id: "arxiv:2305.09156"
+- id: arxiv:2305.09156
   type: paper
   publisher: arXiv
   date: 2023-05-01
   buttons:
     - type: paper
-      link: "https://arxiv.org/abs/2305.09156"
+      link: https://arxiv.org/abs/2305.09156
   tags:
     - preprint
     - motion energy
     - self-attention
 
-- id: "doi:10.1109/MDM.2019.00112"
+- id: doi:10.1109/MDM.2019.00112
   type: paper
   publisher: IEEE International Conference on Mobile Data Management (MDM)
   date: 2019-06-01
   buttons:
     - type: paper
-      link: "https://doi.org/10.1109/MDM.2019.00112"
+      link: https://doi.org/10.1109/MDM.2019.00112
   tags:
     - disease networks
     - aging
     - data mining
 
-- id: "doi:10.32470/CCN.2023.1080-0"
+- id: doi:10.32470/CCN.2023.1080-0
   type: paper
   publisher: Conference on Cognitive Computational Neuroscience (CCN)
   date: 2023-09-01
   buttons:
     - type: paper
-      link: "https://2023.ccneuro.org/view_paper.php?PaperNum=1080"
+      link: https://2023.ccneuro.org/view_paper.php?PaperNum=1080
   tags:
     - motion perception
     - human vs computer vision
@@ -183,13 +183,13 @@
 
 # -------- 2022 --------
 
-- id: "doi:10.1167/jov.22.14.3830"
+- id: doi:10.1167/jov.22.14.3830
   type: paper
   publisher: Journal of Vision
   date: 2022-12-01
   buttons:
     - type: paper
-      link: "https://doi.org/10.1167/jov.22.14.3830"
+      link: https://doi.org/10.1167/jov.22.14.3830
   tags:
     - common fate
     - temporal structure
@@ -198,13 +198,13 @@
 
 # -------- 2021 --------
 
-- id: "doi:10.1167/jov.21.9.2137"
+- id: doi:10.1167/jov.21.9.2137
   type: paper
   publisher: Journal of Vision
   date: 2021-09-01
   buttons:
     - type: paper
-      link: "https://doi.org/10.1167/jov.21.9.2137"
+      link: https://doi.org/10.1167/jov.21.9.2137
   tags:
     - temporal synchrony
     - structure cue
