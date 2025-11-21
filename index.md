@@ -1,9 +1,9 @@
 ---
 ---
 
-# PRIME-PSY-LAB's Website
+# PRIME Lab's Website
 
-An engaging 1-3 sentence description of your lab.
+We are focusing on the perception psychology, especially vision. We mainly use the behavioral experiment accompanied with all the mathematical annd machine learning approach for addressing the question.
 
 {% include section.html %}
 
