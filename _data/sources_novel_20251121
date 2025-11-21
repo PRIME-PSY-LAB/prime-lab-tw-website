@@ -1,4 +1,3 @@
-# -------- 2025 --------
 - id: doi:10.1007/978-981-95-4378-6_20
   type: paper
   publisher: Journal of Vision
@@ -11,8 +10,6 @@
     - VLM
     - IQA
     - reasoning
-
-
 - id: doi:10.1167/jov.25.8.19
   type: paper
   publisher: Journal of Vision
@@ -26,7 +23,6 @@
     - temporal dynamics
     - continuous tracking
     - visuomotor
-
 - id: doi:10.1038/s42256-025-01068-w
   type: paper
   publisher: Nature Machine Intelligence
@@ -39,7 +35,6 @@
     - machine learning
     - motion perception
     - computational modeling
-
 - id: doi:10.1101/2025.03.27.645664
   type: paper
   publisher: bioRxiv
@@ -51,7 +46,6 @@
     - preprint
     - temporal correlation
     - segmentation
-
 - id: doi:10.1371/journal.pcbi.1013001
   type: paper
   publisher: PLOS Computational Biology
@@ -64,7 +58,6 @@
     - computational modeling
     - temporal correlation
     - segmentation
-
 - id: arxiv:2501.12810
   type: paper
   publisher: arXiv
@@ -76,10 +69,6 @@
     - preprint
     - motion perception
     - deep learning
-
-
-# -------- 2024 --------
-
 - id: doi:10.1167/jov.24.10.374
   type: paper
   publisher: Journal of Vision
@@ -91,7 +80,6 @@
     - second-order motion
     - material perception
     - motion processing
-
 - id: doi:10.1167/jov.24.10.465
   type: paper
   publisher: Journal of Vision
@@ -103,7 +91,6 @@
     - temporal dynamics
     - position tracking
     - attribute tracking
-
 - id: doi:10.1167/jov.24.5.15
   type: paper
   publisher: Journal of Vision
@@ -115,10 +102,6 @@
     - temporal asynchrony
     - spatial segregation
     - feature-invariant
-
-
-# -------- 2023 --------
-
 - id: doi:10.1167/jov.23.9.4894
   type: paper
   publisher: Journal of Vision
@@ -130,7 +113,6 @@
     - motion perception
     - deep neural network
     - attention transformer
-
 - id: doi:10.1167/jov.23.9.4864
   type: paper
   publisher: Journal of Vision
@@ -144,7 +126,6 @@
     - luminance
     - color
     - motion direction
-
 - id: arxiv:2305.09156
   type: paper
   publisher: arXiv
@@ -156,7 +137,6 @@
     - preprint
     - motion energy
     - self-attention
-
 - id: doi:10.1109/MDM.2019.00112
   type: paper
   publisher: IEEE International Conference on Mobile Data Management (MDM)
@@ -168,7 +148,6 @@
     - disease networks
     - aging
     - data mining
-
 - id: doi:10.32470/CCN.2023.1080-0
   type: paper
   publisher: Conference on Cognitive Computational Neuroscience (CCN)
@@ -180,10 +159,6 @@
     - motion perception
     - human vs computer vision
     - comparative analysis
-
-
-# -------- 2022 --------
-
 - id: doi:10.1167/jov.22.14.3830
   type: paper
   publisher: Journal of Vision
@@ -195,10 +170,6 @@
     - common fate
     - temporal structure
     - grouping
-
-
-# -------- 2021 --------
-
 - id: doi:10.1167/jov.21.9.2137
   type: paper
   publisher: Journal of Vision
