@@ -9,11 +9,8 @@ proofer: false
 # site social media and other links
 links:
   email: contact@prime.lab.tw@gmail.com
-  orcid: 0000-0002-2038-1440
   google-scholar: 9RKoQacAAAAJ
   github: PRIME-PSY-LAB
-  twitter: 
-  youtube: 
 
 ### jekyll settings
 

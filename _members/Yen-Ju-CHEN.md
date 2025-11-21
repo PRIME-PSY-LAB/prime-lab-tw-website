@@ -7,8 +7,10 @@ affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
 aliases:
 
 links:
-  home-page: 
-  orcid: 0000-0002-4655-3773
+  google-scholar: 9RKoQacAAAAJ
+  researchgate: Yen-Ju-Chen-12
+  orcid: 0000-0002-2038-1440
+  github: gloneer
   email: chen.yen-ju.t05@kyoto-u.jp
 ---
 
@@ -46,14 +48,22 @@ links:
 
 <section markdown="1">
 
+**Assitant Professor**  
+Department of Psychology    (2026/02 – now)
+Soochow University, Taipei, Taiwan
+
 **Ph.D. in Informatics (Intelligence Science & Technology)**  
-Kyoto University (2022/10 – 2025/09)
+Intelligence Science and Technology Course    (2022/10 – 2025/09)
+Graduate School of Informatics
+Kyoto University, Kyoto, Japan
 
 **M.S. in Psychology**  
-National Cheng Kung University (2020/09 – 2022/06)
+Department of Psychology    (2020/09 – 2022/06)
+National Cheng Kung University, Tainan, Taiwan
 
 **B.S. in Psychology**  
-Soochow University (2016/09 – 2020/06)
+Department of Psychology    (2016/09 – 2020/06)
+Soochow University, Taipei, Taiwan
 
 </section>
 
