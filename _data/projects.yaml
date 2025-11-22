@@ -1,9 +1,9 @@
 - title: Temporal correlation and visual segmentation
   subtitle: How temporal similarity structures guide grouping
-  group: current
+  group: Current
   image: images/photo.jpg
   link: /research/temporal-correlation/
-  description: >
+  description: 
     We study how temporal correlations across space support visual grouping
     and figure–ground segmentation in dynamic scenes.
   tags:
