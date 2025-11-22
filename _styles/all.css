@@ -166,4 +166,67 @@ details.collapse-block .collapse-label {
   color: var(--color-accent, #3ea6ff);
 }
 
+/* 補上 highlight 卡片內部的排版樣式 */
+/* 圖片區塊 */
+.highlight-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* 如果沒有 image，用一個淺色 placeholder */
+.highlight-image.placeholder {
+  background: rgba(255, 255, 255, 0.06);
+  height: 150px;
+  border-radius: 0.5rem;
+}
+
+/* 內文容器 */
+.highlight-content {
+  padding: 0 0.2rem;
+}
+
+/* 標題 */
+.highlight-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.highlight-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.highlight-title a:hover {
+  text-decoration: underline;
+}
+
+/* 作者 + 日期那一行 */
+.highlight-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin-top: 0.25rem;
+}
+
+/* tags 區域 */
+.highlight-tags {
+  margin-top: 0.5rem;
+}
+
+.highlight-tags .tag {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.55rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  letter-spacing: 0.2px;
+}
+
 /*# sourceMappingURL=all.css.map */
