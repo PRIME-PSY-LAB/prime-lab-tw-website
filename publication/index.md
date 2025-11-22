@@ -107,6 +107,35 @@ _Once you mark some entries in `_data/sources_*.yaml` or `citations.yaml` with `
 
 {% include search-box.html %}
 
+{%- comment -%}
+  Collect all unique tags from site.data.citations
+{%- endcomment -%}
+
+{% assign all_tags = "" | split: "" %}
+{% for c in site.data.citations %}
+  {% if c.tags %}
+    {% assign all_tags = all_tags | concat: c.tags %}
+  {% endif %}
+{% endfor %}
+{% assign uniq_tags = all_tags | uniq | sort %}
+
+{% if uniq_tags.size > 0 %}
+<div class="pub-tag-filter">
+  {% for tag in uniq_tags %}
+    {% assign clean = tag | strip %}
+    {% assign query = '"tag: ' | append: clean | append: '"' %}
+    {% assign encoded = query | uri_escape %}
+    <a
+      class="tag pub-tag-filter-chip"
+      href="{{ page.url | relative_url }}?search={{ encoded }}"
+    >
+      {{ clean }}
+    </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+
 {% include search-info.html %}
 
 {% include list.html
@@ -114,3 +143,4 @@ _Once you mark some entries in `_data/sources_*.yaml` or `citations.yaml` with `
   component="citation"
   style="rich"
 %}
+
