@@ -368,6 +368,34 @@
   <script src="/prime-lab-tw-website/_scripts/tooltip.js"></script>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".pub-carousel-track");
+  if (!track) return;
+
+  const slides = Array.from(track.children);
+  const prevBtn = document.querySelector(".pub-prev");
+  const nextBtn = document.querySelector(".pub-next");
+
+  let index = 0;
+
+  function updateCarousel() {
+    const offset = -index * 100;
+    track.style.transform = `translateX(${offset}%)`;
+  }
+
+  prevBtn.addEventListener("click", () => {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", () => {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+  });
+});
+</script>
+
 </head>
 
   <body>
@@ -478,79 +506,48 @@ motion perception, and computational models of human vision.</p>
 
 <h2 id="highlights">Highlights</h2>
 
+<div class="pub-carousel">
+
+  <button class="pub-prev">❮</button>
+
+  <div class="pub-carousel-track">
+    
+      <div class="pub-slide">
+        
+
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/hbb5fr" class="citation-image" aria-label="Building Reasonable Inference for Vision-Language Models in Blind Image Quality Assessment">
-        <img src="" alt="Building Reasonable Inference for Vision-Language Models in Blind Image Quality Assessment" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
     <div class="citation-text">
       
-      <i class="icon fa-solid fa-scroll"></i>
+      
 
-      <a href="https://doi.org/hbb5fr" class="citation-title">
-        Building Reasonable Inference for Vision-Language Models in Blind Image Quality Assessment
+      <a class="citation-title">
+        [no title info]
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Yuan Li, Zitang Sun, Yen-ju Chen, Shin’ya Nishida
+        
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">Lecture Notes in Computer Science</span>
+        <span class="citation-publisher">[no publisher info]</span>
          · 
-        <span class="citation-date">09 Nov 2025</span>
+        <span class="citation-date">[no date info]</span>
          · 
-        <span class="citation-id">doi:10.1007/978-981-95-4378-6_20</span>
+        <span class="citation-id">[no id info]</span>
       </div>
 
       
         
 
         
-          <div class="citation-buttons">
-            
-              
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://doi.org/hbb5fr" data-tooltip="Paper" data-style="bare" aria-label="Paper">
-      <i class="icon fa-solid fa-scroll"></i>
-      
-        <span>Paper</span>
-      
-    </a>
-  </div>
-
-
-            
-          </div>
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20vlm%22" class="tag" data-tooltip='Show items with the tag "vlm"'>
-        vlm
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20iqa%22" class="tag" data-tooltip='Show items with the tag "iqa"'>
-        iqa
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20reasoning%22" class="tag" data-tooltip='Show items with the tag "reasoning"'>
-        reasoning
-      </a>
-    
-  </div>
-
 
         
       
@@ -558,79 +555,44 @@ motion perception, and computational models of human vision.</p>
   </div>
 </div>
 
+      </div>
+    
+      <div class="pub-slide">
+        
+
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/hbb5cv" class="citation-image" aria-label="Human visual grouping based on within- and cross-area temporal correlations">
-        <img src="/prime-lab-tw-website/images/PaperThumbnail/PLOS2025.PNG" alt="Human visual grouping based on within- and cross-area temporal correlations" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
     <div class="citation-text">
       
-      <i class="icon fa-solid fa-scroll"></i>
+      
 
-      <a href="https://doi.org/hbb5cv" class="citation-title">
-        Human visual grouping based on within- and cross-area temporal correlations
+      <a class="citation-title">
+        [no title info]
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Yen-Ju Chen, Zitang Sun, Shin’ya Nishida
+        
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">PLOS Computational Biology</span>
+        <span class="citation-publisher">[no publisher info]</span>
          · 
-        <span class="citation-date">01 Sep 2025</span>
+        <span class="citation-date">[no date info]</span>
          · 
-        <span class="citation-id">doi:10.1371/journal.pcbi.1013001</span>
+        <span class="citation-id">[no id info]</span>
       </div>
 
       
         
 
         
-          <div class="citation-buttons">
-            
-              
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://dx.plos.org/10.1371/journal.pcbi.1013001" data-tooltip="Paper" data-style="bare" aria-label="Paper">
-      <i class="icon fa-solid fa-scroll"></i>
-      
-        <span>Paper</span>
-      
-    </a>
-  </div>
-
-
-            
-          </div>
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20computational-modeling%22" class="tag" data-tooltip='Show items with the tag "computational-modeling"'>
-        computational-modeling
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20temporal-correlation%22" class="tag" data-tooltip='Show items with the tag "temporal-correlation"'>
-        temporal-correlation
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20segmentation%22" class="tag" data-tooltip='Show items with the tag "segmentation"'>
-        segmentation
-      </a>
-    
-  </div>
-
 
         
       
@@ -638,79 +600,44 @@ motion perception, and computational models of human vision.</p>
   </div>
 </div>
 
+      </div>
+    
+      <div class="pub-slide">
+        
+
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/hbb5cs" class="citation-image" aria-label="Revealing temporal dynamics of the visuomotor system via continuous tracking of position and attribute">
-        <img src="https://arvo.silverchair-cdn.com/arvo/content_public/journal/jov/938721/i1534-7362-25-8-19-f1_1753349989.00743.png?Expires=1765886870&Signature=z5ytxG1pg6Y4tXiXqxSV4g6-yE25jDIbw4hUd9C6ar1bgaakvcni41j8dOkSWXyV4D0NW~BF0KUBG30y0DG18H6B9id0Le3fVvfmtHeQEqopQ0GJbcQvfV9lWmGX8Vqg7wvN22EhMUK58MN0Wh87hxyQ5XboLsdhZ6oTS1kMR1nOOc9nVurzDIgH4RsVw06PkE01LIyvEDOEFB7rF-3DaxlCfPoBmdIEJFZv7IJIIXjzZMJIcZ8KoO9ST3Noon9vrL0kFJswTlpVedXhEJtysXkJ5t~j~YXmkpGDAciVPmV9FQ6tlSlTM6GfmFkW-g~72tFqtPbqTvD-JWkt-uM-Ng__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" alt="Revealing temporal dynamics of the visuomotor system via continuous tracking of position and attribute" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
     <div class="citation-text">
       
-      <i class="icon fa-solid fa-scroll"></i>
+      
 
-      <a href="https://doi.org/hbb5cs" class="citation-title">
-        Revealing temporal dynamics of the visuomotor system via continuous tracking of position and attribute
+      <a class="citation-title">
+        [no title info]
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Yen-Ju Chen, Zitang Sun, Shin’ya Nishida
+        
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">Journal of Vision</span>
+        <span class="citation-publisher">[no publisher info]</span>
          · 
-        <span class="citation-date">24 Jul 2025</span>
+        <span class="citation-date">[no date info]</span>
          · 
-        <span class="citation-id">doi:10.1167/jov.25.8.19</span>
+        <span class="citation-id">[no id info]</span>
       </div>
 
       
         
 
         
-          <div class="citation-buttons">
-            
-              
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://doi.org/10.1167/jov.25.8.19" data-tooltip="Paper" data-style="bare" aria-label="Paper">
-      <i class="icon fa-solid fa-scroll"></i>
-      
-        <span>Paper</span>
-      
-    </a>
-  </div>
-
-
-            
-          </div>
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20temporal-dynamics%22" class="tag" data-tooltip='Show items with the tag "temporal-dynamics"'>
-        temporal-dynamics
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20continuous-tracking%22" class="tag" data-tooltip='Show items with the tag "continuous-tracking"'>
-        continuous-tracking
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20visuomotor%22" class="tag" data-tooltip='Show items with the tag "visuomotor"'>
-        visuomotor
-      </a>
-    
-  </div>
-
 
         
       
@@ -718,84 +645,776 @@ motion perception, and computational models of human vision.</p>
   </div>
 </div>
 
+      </div>
+    
+      <div class="pub-slide">
+        
+
 <div class="citation-container">
   <div class="citation">
     
-      <a href="https://doi.org/g93w3v" class="citation-image" aria-label="Machine learning modelling for multi-order human visual motion processing">
-        <img src="https://media.springernature.com/full/springer-static/image/art:10.1038/s42256-025-01068-w/MediaObjects/42256_2025_1068_Fig1_HTML.png?as=webp" alt="Machine learning modelling for multi-order human visual motion processing" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
       </a>
     
 
     <div class="citation-text">
       
-      <i class="icon fa-solid fa-scroll"></i>
+      
 
-      <a href="https://doi.org/g93w3v" class="citation-title">
-        Machine learning modelling for multi-order human visual motion processing
+      <a class="citation-title">
+        [no title info]
       </a>
 
       <div class="citation-authors" tabindex="0">
-        Zitang Sun, Yen-Ju Chen, Yung-Hao Yang, Yuan Li, Shin’ya Nishida
+        
 
       </div>
 
       <div class="citation-details">
-        <span class="citation-publisher">Nature Machine Intelligence</span>
+        <span class="citation-publisher">[no publisher info]</span>
          · 
-        <span class="citation-date">15 Jul 2025</span>
+        <span class="citation-date">[no date info]</span>
          · 
-        <span class="citation-id">doi:10.1038/s42256-025-01068-w</span>
+        <span class="citation-id">[no id info]</span>
       </div>
 
       
         
 
         
-          <div class="citation-buttons">
-            
-              
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://www.nature.com/articles/s42256-025-01068-w" data-tooltip="Paper" data-style="bare" aria-label="Paper">
-      <i class="icon fa-solid fa-scroll"></i>
-      
-        <span>Paper</span>
-      
-    </a>
-  </div>
-
-
-            
-          </div>
-        
-
-        
-          
-
-
-  <div class="tags">
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20machine-learning%22" class="tag" data-tooltip='Show items with the tag "machine-learning"'>
-        machine-learning
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20motion-perception%22" class="tag" data-tooltip='Show items with the tag "motion-perception"'>
-        motion-perception
-      </a>
-    
-      <a href="/prime-lab-tw-website/publication/?search=%22tag:%20computational-modeling%22" class="tag" data-tooltip='Show items with the tag "computational-modeling"'>
-        computational-modeling
-      </a>
-    
-  </div>
-
 
         
       
     </div>
   </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+      <div class="pub-slide">
+        
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a class="citation-image" aria-label="citation link">
+        <img src="" alt="citation image" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a class="citation-title">
+        [no title info]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">[no id info]</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    
+  </div>
+
+  <button class="pub-next">❯</button>
 </div>
   </section>
 

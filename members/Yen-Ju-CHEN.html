@@ -314,6 +314,34 @@
   <script src="/prime-lab-tw-website/_scripts/tooltip.js"></script>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".pub-carousel-track");
+  if (!track) return;
+
+  const slides = Array.from(track.children);
+  const prevBtn = document.querySelector(".pub-prev");
+  const nextBtn = document.querySelector(".pub-next");
+
+  let index = 0;
+
+  function updateCarousel() {
+    const offset = -index * 100;
+    track.style.transform = `translateX(${offset}%)`;
+  }
+
+  prevBtn.addEventListener("click", () => {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", () => {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+  });
+});
+</script>
+
 </head>
 
   <body>
@@ -591,6 +619,32 @@ Soochow University, Taipei, Taiwan<br></p>
 <details class="collapse-block">
   <summary>
     <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">👨‍🏫 Professional Experience</span>
+  </summary>
+
+<section>
+
+    <p><strong>Visiting Researcher — University of Nottingham (UK)</strong><br>
+2024/08 – 2024/09<br>
+Supervisor: Alan Johnston</p>
+
+    <p><strong>Research Assistant — Kyoto University</strong><br>
+2022/10 – 2025/09<br>
+Supervisor: Shin’ya Nishida</p>
+
+    <p><strong>Research Assistant — Soochow University</strong><br>
+2017/09 – 2018/09<br>
+Supervisor: Man-Ying Wang</p>
+
+  </section>
+
+</details>
+
+<hr>
+
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
     <span class="collapse-label">🏅 Grants &amp; Awards</span>
   </summary>
 
@@ -627,31 +681,6 @@ Soochow University, Taipei, Taiwan<br></p>
 
 </details>
 
-<hr>
-
-<details class="collapse-block">
-  <summary>
-    <span class="collapse-arrow">▶</span>
-    <span class="collapse-label">👨‍🏫 Professional Experience</span>
-  </summary>
-
-<section>
-
-    <p><strong>Visiting Researcher — University of Nottingham (UK)</strong><br>
-2024/08 – 2024/09<br>
-Supervisor: Alan Johnston</p>
-
-    <p><strong>Research Assistant — Kyoto University</strong><br>
-2022/10 – 2025/09<br>
-Supervisor: Shin’ya Nishida</p>
-
-    <p><strong>Research Assistant — Soochow University</strong><br>
-2017/09 – 2018/09<br>
-Supervisor: Man-Ying Wang</p>
-
-  </section>
-
-</details>
 
 
 

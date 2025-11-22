@@ -229,4 +229,65 @@ details.collapse-block .collapse-label {
   letter-spacing: 0.2px;
 }
 
+/* ============================
+   Publication Highlight Carousel
+   ============================ */
+.pub-carousel {
+  position: relative;
+  width: 100%;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pub-carousel-track {
+  display: flex;
+  transition: transform 300ms ease;
+  width: 100%;
+}
+
+.pub-slide {
+  min-width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  /* hover glass effect */
+  transition: transform 160ms ease-out, box-shadow 160ms ease-out, background 160ms ease-out, border-color 160ms ease-out;
+}
+
+.pub-slide:hover {
+  transform: translateY(-6px);
+}
+
+/* 左右 arrow 按鈕 */
+.pub-prev,
+.pub-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.12);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+  backdrop-filter: blur(6px);
+}
+
+.pub-prev:hover,
+.pub-next:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.pub-prev {
+  left: 0.25rem;
+}
+
+.pub-next {
+  right: 0.25rem;
+}
+
 /*# sourceMappingURL=all.css.map */

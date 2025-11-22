@@ -316,6 +316,34 @@
   <script src="/prime-lab-tw-website/_scripts/tooltip.js"></script>
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".pub-carousel-track");
+  if (!track) return;
+
+  const slides = Array.from(track.children);
+  const prevBtn = document.querySelector(".pub-prev");
+  const nextBtn = document.querySelector(".pub-next");
+
+  let index = 0;
+
+  function updateCarousel() {
+    const offset = -index * 100;
+    track.style.transform = `translateX(${offset}%)`;
+  }
+
+  prevBtn.addEventListener("click", () => {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", () => {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+  });
+});
+</script>
+
 </head>
 
   <body>
