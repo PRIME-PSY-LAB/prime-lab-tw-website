@@ -10,29 +10,37 @@
 {% endfor %}
 
 <script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
 document.addEventListener("DOMContentLoaded", function () {
-  const track = document.querySelector(".pub-carousel-track");
-  if (!track) return;
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
 
+  const track = carousel.querySelector(".pub-carousel-track");
   const slides = Array.from(track.children);
-  const prevBtn = document.querySelector(".pub-prev");
-  const nextBtn = document.querySelector(".pub-next");
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
 
   let index = 0;
 
   function updateCarousel() {
-    const offset = -index * 100;
-    track.style.transform = `translateX(${offset}%)`;
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
   }
 
-  prevBtn.addEventListener("click", () => {
+  prevBtn.addEventListener("click", function () {
     index = (index - 1 + slides.length) % slides.length;
     updateCarousel();
   });
 
-  nextBtn.addEventListener("click", () => {
+  nextBtn.addEventListener("click", function () {
     index = (index + 1) % slides.length;
     updateCarousel();
   });
+
+  updateCarousel();
 });
-</script>
+
