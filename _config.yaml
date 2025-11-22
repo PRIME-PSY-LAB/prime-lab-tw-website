@@ -33,7 +33,8 @@ defaults:
       layout: post
   # markdown files in /_research_intro
   - scope:
-      type: "research_intro"
+      path: ""
+      type: research_intro
     values:
       layout: project
 
@@ -49,7 +50,7 @@ collections:
     output: false
   research_intro:
     output: true
-    permalink: /research/:slug/
+    permalink: /research/:name/
 
 
 # jekyll plugins

@@ -1,14 +1,14 @@
-- title: Temporal correlation in visual grouping
-  subtitle: Temporal structure and segmentation in human vision
-  slug: temporal-correlation-grouping
-  group: Current
-  image: images/projects/temporal-correlation.jpg
-  link: /research/temporal-correlation-grouping/
-  description: Psychophysical and computational studies of how temporal correlations in dynamic textures support figure–ground segmentation and perceptual grouping.
+- title: Temporal correlation and visual segmentation
+  subtitle: How temporal similarity structures guide grouping
+  group: current
+  image: images/photo.jpg
+  link: /research/temporal-correlation/
+  description: >
+    We study how temporal correlations across space support visual grouping
+    and figure–ground segmentation in dynamic scenes.
   tags:
-    - temporal correlation
     - segmentation
-    - grouping
+    - temporal correlation
     - granted
 
 - title: Multi-order human motion processing
