@@ -42,6 +42,10 @@ collections:
   # do not generate page for each highlight post
   highlight_post:
     output: false
+  research_intro:
+    output: true
+    permalink: /research/:slug/
+
 
 # jekyll plugins
 plugins:

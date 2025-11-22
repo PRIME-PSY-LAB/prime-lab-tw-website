@@ -1,47 +1,37 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Temporal correlation in visual grouping
+  subtitle: Temporal structure and segmentation in human vision
+  slug: temporal-correlation-grouping
+  group: Current
+  image: images/projects/temporal-correlation.jpg
+  link: /research/temporal-correlation-grouping/
+  description: Psychophysical and computational studies of how temporal correlations in dynamic textures support figure–ground segmentation and perceptual grouping.
   tags:
-    - resource
+    - temporal correlation
+    - segmentation
+    - grouping
+    - granted
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Multi-order human motion processing
+  subtitle: Deep neural models aligned with human motion perception
+  slug: multi-order-motion
+  group: Collaborative
+  image: images/projects/multi-order-motion.jpg
+  link: /research/multi-order-motion/
+  description: Developing image-computable models of first- and higher-order motion, bridging psychophysics, neurophysiology and modern deep learning.
   tags:
-    - resource
+    - motion perception
+    - deep learning
+    - computational modeling
+    - granted
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Temporal limits of feature-based segmentation
+  subtitle: Luminance, color, motion and their mixtures
+  slug: temporal-limits-segmentation
+  group: Past
+  image: images/projects/temporal-limits.jpg
+  link: /research/temporal-limits-segmentation/
+  description: Projects focusing on temporal asynchrony and temporal structure in feature-based figure–ground segmentation.
   tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - temporal limits
+    - segmentation
+    - ungranted
