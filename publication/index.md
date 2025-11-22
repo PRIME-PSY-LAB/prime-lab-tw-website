@@ -14,12 +14,34 @@ motion perception, and computational models of human vision.
 
 ## Highlights
 
-{% include list.html
-  data="citations"
-  component="citation"
-  style="rich"
-  filter="group == 'highlighted'"
+{% assign highlight_pubs = site.data.citations
+  | where_exp: "c", "c.group == 'highlighted'"
 %}
+
+{% if highlight_pubs.size > 0 %}
+
+<div class="pub-carousel">
+
+  <button class="pub-prev">❮</button>
+
+  <div class="pub-carousel-track">
+    {% for pub in highlight_pubs %}
+      <div class="pub-slide">
+        {% include citation.html
+          item=pub
+          style="rich"
+        %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <button class="pub-next">❯</button>
+</div>
+
+{% else %}
+_You haven't marked any publications as highlighted yet._
+{% endif %}
+
 
 {% include section.html %}
 

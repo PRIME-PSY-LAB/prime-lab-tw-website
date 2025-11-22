@@ -72,6 +72,35 @@ Soochow University, Taipei, Taiwan<br>
 
 ---
 
+
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">👨‍🏫 Professional Experience</span>
+  </summary>
+
+<section markdown="1">
+
+**Visiting Researcher — University of Nottingham (UK)**  
+2024/08 – 2024/09  
+Supervisor: Alan Johnston
+
+**Research Assistant — Kyoto University**  
+2022/10 – 2025/09  
+Supervisor: Shin’ya Nishida  
+
+**Research Assistant — Soochow University**  
+2017/09 – 2018/09  
+Supervisor: Man-Ying Wang  
+
+</section>
+
+</details>
+
+
+---
+
+
 <details class="collapse-block">
   <summary>
     <span class="collapse-arrow">▶</span>
@@ -103,28 +132,4 @@ Soochow University, Taipei, Taiwan<br>
 
 </details>
 
----
 
-<details class="collapse-block">
-  <summary>
-    <span class="collapse-arrow">▶</span>
-    <span class="collapse-label">👨‍🏫 Professional Experience</span>
-  </summary>
-
-<section markdown="1">
-
-**Visiting Researcher — University of Nottingham (UK)**  
-2024/08 – 2024/09  
-Supervisor: Alan Johnston
-
-**Research Assistant — Kyoto University**  
-2022/10 – 2025/09  
-Supervisor: Shin’ya Nishida  
-
-**Research Assistant — Soochow University**  
-2017/09 – 2018/09  
-Supervisor: Man-Ying Wang  
-
-</section>
-
-</details>
