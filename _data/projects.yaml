@@ -3,13 +3,11 @@
   group: Past
   image: images/Research_Intro_image/motion-model/Mario_model.gif
   link: /research/motion-model/
-  description: >
-    We develop a dual-pathway V1–MT style motion model that combines
-    trainable motion-energy sensing with graph-based recurrent
-    integration. By manipulating material properties of moving objects,
-    we test how natural optics drive the emergence of second-order
-    motion perception and compare the model’s behaviour with human
-    psychophysics and state-of-the-art optical-flow methods.
+  authors:
+    - name: Yen-Ju Chen
+      link: /team/yen-ju-chen/
+    - name: Zitang Sun
+    - name: Shin'ya Nishida
   tags:
     - motion perception
     - deep learning

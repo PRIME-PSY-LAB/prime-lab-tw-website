@@ -138,8 +138,8 @@ In this project we:
 ## Figure
 
 
-![Dual-pathway motion perception model](/images/Research_Intro_image/motion-model/image.png)
-![Some fantastic model output](/images/Research_Intro_image/motion-model/modeldemo.gif)
+![Dual-pathway motion perception model]({{'/images/Research_Intro_image/motion-model/image.png'|relative_url}})
+![Some fantastic model output]({{'/images/Research_Intro_image/motion-model/modeldemo.gif'|relative_url}})
 
 *Figure. Overview of the two-stage dual-pathway motion model. Stage I
 implements trainable motion-energy sensors for first- and higher-order
