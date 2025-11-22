@@ -138,7 +138,6 @@ In this project we:
 ## Figure
 
 
-```markdown
 ![Dual-pathway motion perception model](/images/Research_Intro_image/motion-model/image.png)
 ![Some fantastic model output](/images/Research_Intro_image/motion-model/modeldemo.gif)
 
@@ -151,23 +150,23 @@ network to infer object motion and segment moving objects.*
 
 ## Related publications
 
-Sun, Z., Chen, Y.-J., Yang, Y.-H., Li, Y., & Nishida, S.
+Sun, Z., **Chen, Y.-J.**, Yang, Y.-H., Li, Y., & Nishida, S.
 Machine learning modelling for multi-order human visual motion
 processing. Nature Machine Intelligence, 2025.
 DOI: 10.1038/s42256-025-01068-w
 
-Sun, Z., Chen, Y.-J., Yang, Y.-H., & Nishida, S.
+Sun, Z., **Chen, Y.-J.**, Yang, Y.-H., & Nishida, S.
 Modelling Human Visual Motion Processing with Trainable Motion Energy
 Sensing and a Self-attention Network. arXiv:2305.09156, 2023.
 DOI: 10.48550/arXiv.2305.09156
 
-Sun, Z., Chen, Y.-J., Yang, Y.-H., & Nishida, S.
+Sun, Z., **Chen, Y.-J.**, Yang, Y.-H., & Nishida, S.
 Modeling of Human Motion Perception Mechanism: A Simulation based on
 Deep Neural Network and Attention Transformer. Journal of Vision,
 23(9), 4894, 2023.
 DOI: 10.1167/jov.23.9.4894
 
-Sun, Z., Chen, Y.-J., Yang, Y.-H., & Nishida, S.
+Sun, Z., **Chen, Y.-J.**, Yang, Y.-H., & Nishida, S.
 Acquisition of second-order motion perception by learning to recognize
 the motion of objects made by non-diffusive materials. Journal of
 Vision, 24(10), 374, 2024.
