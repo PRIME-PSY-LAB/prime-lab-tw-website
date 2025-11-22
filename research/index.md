@@ -22,34 +22,7 @@ and high-performance computing resources for large-scale simulations and trainin
 
 {% include search-box.html %}
 
-<div class="project-tag-list">
-  {% assign unique_tags = site.data.projects | map: "tags" | join: "," | split: "," | uniq %}
-  
-  <!-- granted / ungranted first -->
-  {% assign sorted_tags = "granted,ungranted" | split: "," %}
-  
-  {% for tag in unique_tags %}
-    {% unless sorted_tags contains tag %}
-      {% assign sorted_tags = sorted_tags | push: tag %}
-    {% endunless %}
-  {% endfor %}
-
-  {% for tag in sorted_tags %}
-    {% if tag != "" %}
-      <a
-  href="{{ '/research/?search=' | append: 'tag:' | append: tag | uri_escape }}"
-  class="tag"
-      >
-        {{ tag }}
-      </a>
-
-
-    {% endif %}
-  {% endfor %}
-</div>
-
-
-
+{% include tags.html tags=site.tags %}
 
 {% include search-info.html %}
 
