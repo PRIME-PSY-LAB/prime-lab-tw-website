@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Temporal correlation and visual segmentation | Perceptual Representation and InforMation Engineering Lab</title>
+<title>Machine learning modelling for multi-order human visual motion processing | Perceptual Representation and InforMation Engineering Lab</title>
 
 <link rel="icon" href="/prime-lab-tw-website/images/icon.png">
 
-<meta name="title" content="Temporal correlation and visual segmentation">
+<meta name="title" content="Machine learning modelling for multi-order human visual motion processing">
 <meta name="description" content="Delve into the mind, depict with the beauty of math.">
 
-<meta property="og:title" content="Temporal correlation and visual segmentation">
+<meta property="og:title" content="Machine learning modelling for multi-order human visual motion processing">
 <meta property="og:site_title" content="Perceptual Representation and InforMation Engineering Lab">
 <meta property="og:description" content="Delve into the mind, depict with the beauty of math.">
 <meta property="og:url" content="https://prime-psy-lab.github.io/prime-lab-tw-website">
 <meta property="og:image" content="/prime-lab-tw-website/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Temporal correlation and visual segmentation">
+<meta property="twitter:title" content="Machine learning modelling for multi-order human visual motion processing">
 <meta property="twitter:description" content="Delve into the mind, depict with the beauty of math.">
 <meta property="twitter:url" content="https://prime-psy-lab.github.io/prime-lab-tw-website">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Temporal correlation and visual segmentation",
+    "name": "Machine learning modelling for multi-order human visual motion processing",
     "description": "Delve into the mind, depict with the beauty of math.",
-    "headline": "Temporal correlation and visual segmentation",
+    "headline": "Machine learning modelling for multi-order human visual motion processing",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/prime-lab-tw-website/images/icon.png" }
@@ -439,15 +439,15 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="1" style="--image: url('/prime-lab-tw-website/images/background.jpg')">
+  <section class="background" data-size="1" style="--image: url('/prime-lab-tw-website/images/Research_Intro_image/motion-model/Mario_model.gif')">
     <!--
-  <background>images/background.jpg</background>
+  <background>/images/Research_Intro_image/motion-model/Mario_model.gif</background>
   <dark></dark>
   <size>1</size>
 -->
 
 
-<h1 class="center">Temporal correlation and visual segmentation</h1>
+<h1 class="center">Machine learning modelling for multi-order human visual motion processing</h1>
   <p class="center">
     
 
@@ -455,12 +455,24 @@ document.addEventListener("DOMContentLoaded", function () {
   </p>
 <div class="tags">
     
-      <a href="/prime-lab-tw-website/research?search=%22tag:%20segmentation%22" class="tag" data-tooltip='Show items with the tag "segmentation"'>
-        segmentation
+      <a href="/prime-lab-tw-website/research?search=%22tag:%20motion-perception%22" class="tag" data-tooltip='Show items with the tag "motion-perception"'>
+        motion-perception
       </a>
     
-      <a href="/prime-lab-tw-website/research?search=%22tag:%20temporal-correlation%22" class="tag" data-tooltip='Show items with the tag "temporal-correlation"'>
-        temporal-correlation
+      <a href="/prime-lab-tw-website/research?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/prime-lab-tw-website/research?search=%22tag:%20computational-modeling%22" class="tag" data-tooltip='Show items with the tag "computational-modeling"'>
+        computational-modeling
+      </a>
+    
+      <a href="/prime-lab-tw-website/research?search=%22tag:%20first-order-motion%22" class="tag" data-tooltip='Show items with the tag "first-order-motion"'>
+        first-order-motion
+      </a>
+    
+      <a href="/prime-lab-tw-website/research?search=%22tag:%20second-order-motion%22" class="tag" data-tooltip='Show items with the tag "second-order-motion"'>
+        second-order-motion
       </a>
     
   </div>
@@ -481,21 +493,188 @@ document.addEventListener("DOMContentLoaded", function () {
 -->
 
 
+<h1 id="machine-learning-modelling-for-multi-order-human-visual-motion-processing">Machine learning modelling for multi-order human visual motion processing</h1>
+
+<p>This project develops a biologically inspired motion perception model that
+can process both <strong>first-order</strong> (luminance-based) and <strong>higher-order</strong>
+feature motion, and compares its behavior with human vision in natural
+scenes.</p>
+
+<p>The core idea is to combine <strong>trainable motion-energy sensing</strong> with a
+<strong>graph-based recurrent integration network</strong>, and to ask under what
+training environments the model naturally acquires human-like sensitivity
+to second-order motion—especially for objects made of non-Lambertian
+materials such as glossy, transparent, or metallic surfaces.</p>
+
+<hr>
+
 <h2 id="overview">Overview</h2>
 
-<p>這裡寫研究問題、主要發現、研究脈絡等等。</p>
+<p>Classical optical-flow models in computer vision can reach or even exceed
+human accuracy on standard benchmarks, but they typically rely on the
+<strong>intensity conservation law</strong>, and therefore fail to capture motions that
+are carried by higher-order features (e.g., contrast envelopes, dynamic
+textures).</p>
 
-<h2 id="methods">Methods</h2>
+<p>Psychophysical and neurophysiological studies, however, show that the
+biological visual system has <strong>separate, yet interacting pathways</strong> for
+first- and second-order motion.</p>
+
+<p>In this project we:</p>
 
 <ul>
-  <li>Psychophysics with dynamic textures</li>
-  <li>Continuous tracking / 2IFC 等等</li>
+  <li>Build a two-stage, dual-pathway motion model that mimics the <strong>V1 → MT</strong>
+motion-processing hierarchy.</li>
+  <li>Train the model on <strong>naturalistic videos</strong> to estimate object motion.</li>
+  <li>Manipulate the <strong>material properties</strong> of moving objects to test the
+hypothesis that second-order motion mechanisms are useful for
+<strong>robust motion estimation under optical turbulence</strong>.</li>
+  <li>Compare model responses with <strong>human psychophysics</strong> and with
+conventional computer-vision models.</li>
 </ul>
+
+<hr>
+
+<h2 id="model-and-methods">Model and methods</h2>
+
+<h3 id="stage-i--trainable-motion-energy-sensing">Stage I – Trainable motion energy sensing</h3>
+
+<ul>
+  <li>256 motion-energy units with <strong>Gabor spatial filters</strong> and temporal
+filters are implemented in a deep-learning framework.</li>
+  <li>The parameters (preferred speed, direction, spatial frequency, etc.)
+are <strong>trainable</strong>, so the units learn an efficient motion code from
+natural videos.</li>
+  <li>This stage mimics <strong>V1-like local motion detectors</strong> and can reproduce
+classical findings such as component- vs. pattern-selective cells and
+responses to motion illusions (reverse phi, missing fundamental, etc.).</li>
+</ul>
+
+<h3 id="stage-ii--graph-based-recurrent-integration">Stage II – Graph-based recurrent integration</h3>
+
+<ul>
+  <li>Local motion energies are treated as nodes in a <strong>fully connected
+motion graph</strong>.</li>
+  <li>A <strong>self-attention mechanism</strong> defines adaptive connectivity between
+nodes; recurrent updates integrate local motions into a coherent
+global motion field.</li>
+  <li>This stage mimics <strong>MT-like integration</strong>, solves aperture problems, and
+also supports <strong>motion-based instance segmentation</strong> via graph
+partitioning without extra training.</li>
+</ul>
+
+<h3 id="dual-pathway-design-for-higher-order-motion">Dual-pathway design for higher-order motion</h3>
+
+<ul>
+  <li>A second sensing pathway is added <strong>before</strong> the motion-energy stage:
+a stack of <strong>3D CNN layers</strong> performs nonlinear preprocessing to extract
+higher-order spatiotemporal features (dynamic textures, flicker, etc.).</li>
+  <li>This structure is inspired by the <strong>filter–rectify–filter</strong> framework
+for second-order motion processing.</li>
+  <li>Both pathways are trained end-to-end to estimate object motion from
+videos.</li>
+</ul>
+
+<h3 id="training-data-and-material-manipulation">Training data and material manipulation</h3>
+
+<ul>
+  <li>Naturalistic motion datasets are used as a baseline.</li>
+  <li>To probe the role of second-order mechanisms, the authors create two
+versions of a motion dataset:
+    <ul>
+      <li>
+<strong>Lambertian</strong> objects with matte surfaces.</li>
+      <li>
+<strong>Non-Lambertian</strong> objects with glossy, transparent, or metallic
+materials that induce strong optical turbulence.</li>
+    </ul>
+  </li>
+  <li>By training the dual-pathway model on these datasets separately, the
+study tests how <strong>material statistics</strong> drive the emergence of
+second-order motion sensitivity.</li>
+</ul>
+
+<hr>
+
+<h2 id="key-findings">Key findings</h2>
+
+<h3 id="human-aligned-motion-coding">Human-aligned motion coding</h3>
+
+<ul>
+  <li>Stage I and Stage II units naturally separate into <strong>component</strong> and
+<strong>pattern</strong> motion-selective populations, paralleling V1 vs. MT
+recordings.</li>
+  <li>The model reproduces a range of <strong>psychophysical phenomena</strong>, including
+global motion integration and context-dependent pooling, with parameter
+regimes that closely match human data.</li>
+</ul>
+
+<h3 id="robust-motion-estimation-and-segmentation">Robust motion estimation and segmentation</h3>
+
+<ul>
+  <li>On benchmarks such as <strong>MPI-Sintel</strong> and <strong>KITTI</strong>, the model achieves
+competitive optical-flow estimation while showing <strong>stronger alignment
+with human perceptual errors</strong> than standard CV models.</li>
+  <li>The graph representation in Stage II enables <strong>training-free
+motion-based segmentation</strong>: simple graph bipartitioning on the motion
+graph yields instance-like segmentation of moving objects.</li>
+</ul>
+
+<h3 id="acquisition-of-second-order-motion-perception">Acquisition of second-order motion perception</h3>
+
+<ul>
+  <li>When trained only on standard motion datasets, the model fails to
+perceive second-order motion—mirroring current CV models.</li>
+  <li>When trained on datasets containing <strong>non-Lambertian materials</strong> with
+optical turbulence, the dual-pathway model:
+    <ul>
+      <li>Spontaneously develops <strong>second-order motion sensitivity</strong> comparable
+to human observers.</li>
+      <li>Uses higher-order signals to <strong>stabilize object motion estimation</strong>
+in the presence of noisy first-order flow.</li>
+    </ul>
+  </li>
+  <li>These results support the hypothesis that second-order motion
+mechanisms in biological vision may have evolved to <strong>robustly track
+object motion under complex material-dependent optics</strong>.</li>
+</ul>
+
+<hr>
+
+<h2 id="figure">Figure</h2>
+
+<p>```markdown
+<img src="/images/Research_Intro_image/motion-model/image.png" alt="Dual-pathway motion perception model">
+<img src="/images/Research_Intro_image/motion-model/modeldemo.gif" alt="Some fantastic model output"></p>
+
+<p><em>Figure. Overview of the two-stage dual-pathway motion model. Stage I
+implements trainable motion-energy sensors for first- and higher-order
+motions; Stage II integrates local motion via a graph-based recurrent
+network to infer object motion and segment moving objects.</em></p>
 
 <h2 id="related-publications">Related publications</h2>
 
-<p>你可以在這裡放連到 Publications 頁面的搜尋連結：
-<a href="/publication/?search=%22temporal%20correlation%22">See related publications</a></p>
+<p>Sun, Z., Chen, Y.-J., Yang, Y.-H., Li, Y., &amp; Nishida, S.
+Machine learning modelling for multi-order human visual motion
+processing. Nature Machine Intelligence, 2025.
+DOI: 10.1038/s42256-025-01068-w</p>
+
+<p>Sun, Z., Chen, Y.-J., Yang, Y.-H., &amp; Nishida, S.
+Modelling Human Visual Motion Processing with Trainable Motion Energy
+Sensing and a Self-attention Network. arXiv:2305.09156, 2023.
+DOI: 10.48550/arXiv.2305.09156</p>
+
+<p>Sun, Z., Chen, Y.-J., Yang, Y.-H., &amp; Nishida, S.
+Modeling of Human Motion Perception Mechanism: A Simulation based on
+Deep Neural Network and Attention Transformer. Journal of Vision,
+23(9), 4894, 2023.
+DOI: 10.1167/jov.23.9.4894</p>
+
+<p>Sun, Z., Chen, Y.-J., Yang, Y.-H., &amp; Nishida, S.
+Acquisition of second-order motion perception by learning to recognize
+the motion of objects made by non-diffusive materials. Journal of
+Vision, 24(10), 374, 2024.
+DOI: 10.1167/jov.24.10.374</p>
   </section>
 
   
