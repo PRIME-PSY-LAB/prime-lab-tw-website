@@ -36,7 +36,14 @@ and high-performance computing resources for large-scale simulations and trainin
 
   {% for tag in sorted_tags %}
     {% if tag != "" %}
-      <a href="{{ '/research/?search="tag: ' | append: tag | append: '"'}}" class="tag">{{ tag }}</a>
+      <a
+  href="{{ '/research/?search=' | append: 'tag:' | append: tag | uri_escape }}"
+  class="tag"
+      >
+        {{ tag }}
+      </a>
+
+
     {% endif %}
   {% endfor %}
 </div>
