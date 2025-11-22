@@ -28,7 +28,7 @@ You can explore our lab through:
 ## Highlights
 
 {% assign highlight_posts = site.posts
-  | where_exp: "post", "post.tags contains 'highlight'"
+  | where: "highlight", true
   | sort: "date"
   | reverse
 %}

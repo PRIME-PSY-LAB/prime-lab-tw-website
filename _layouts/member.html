@@ -6,6 +6,15 @@ layout: default
 
 {% include portrait.html lookup=page.slug %}
 
+{%- comment -%} 如果這個成員有 cv，就顯示「See my CV」按鈕 {%- endcomment -%}
+{% if page.cv %}
+  <p>
+    <a class="button" href="{{ page.cv | relative_url }}" target="_blank" rel="noopener">
+      <i class="fa-solid fa-file-pdf"></i> See my CV
+    </a>
+  </p>
+{% endif %}
+
 <div>
   {% for link in page.links %}
     {% assign key = link[0] %}

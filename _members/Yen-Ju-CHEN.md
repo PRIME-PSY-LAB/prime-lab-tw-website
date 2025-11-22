@@ -3,8 +3,10 @@ name: Yen-Ju Chen
 image: images/PersonalPhoto/YJC.jpg
 role: pi
 position: Assistant Professor
+desciprtion: Assistant Professor
 affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
 aliases:
+cv: /assets/Personal CV.pdf
 
 links:
   google-scholar: 9RKoQacAAAAJ
