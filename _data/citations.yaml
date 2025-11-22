@@ -84,7 +84,7 @@
   file: sources_novel_20251121.yaml
   type: paper
   group: highlighted
-  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01068-w/MediaObjects/42256_2025_1068_Fig1_HTML.png?as=webp
+  image: /images/PaperThumbnail/NMI.png
   buttons:
   - type: paper
     link: https://www.nature.com/articles/s42256-025-01068-w
