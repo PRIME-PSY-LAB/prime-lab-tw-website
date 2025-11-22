@@ -76,7 +76,7 @@ WALS enhances weaker but meaningful correlations while suppressing noise from ac
 
 ## Figure
 
-![Comorbidity network figure](IMG1.png)
+![Comorbidity network figure]({{'/images/Research_Intro_image/comorbidity-network/IMG1.png' | relative_url}})
 
 *Figure. (a) Research workflow (data → matrix → embedding → network).  
 (b) Conceptual comorbidity network.  
