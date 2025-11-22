@@ -12,7 +12,7 @@ motion perception, and computational models of human vision.
 
 {% include section.html %}
 
-## Highlighted
+## Highlights
 
 {% include list.html
   data="citations"

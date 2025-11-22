@@ -27,51 +27,63 @@ You can explore our lab through:
 
 ## Highlights
 
-{% assign highlight_posts = site.highlight_post
-  | sort: "date"
-  | reverse
-%}
+{%- comment -%}
+  1. 從 _highlight_post/ 這個 collection 取出所有「標記」
+  2. 依檔名排序（YYYY-MM-DD-title，字典序 = 時間序），再反轉成新到舊
+{%- endcomment -%}
+{% assign highlight_markers = site.highlight_post | sort: "name" | reverse %}
 
-{% if highlight_posts.size > 0 %}
+{% if highlight_markers.size > 0 %}
 
 <div class="highlight-grid">
-{% for post in highlight_posts %}
-  <article class="highlight-card">
+  {%- for marker in highlight_markers -%}
+    {%- comment -%}
+      尋找 _posts 裡檔名相同的真正文章：
+      `_posts/2025-11-01-tryhighglight-copy.md`
+      `_highlight_post/2025-11-01-tryhighglight-copy.md`
+      → 兩者的 `name` 都是 "2025-11-01-tryhighglight-copy"
+    {%- endcomment -%}
+    {% assign post = site.posts | where: "name", marker.name | first %}
 
-    <a href="{{ post.link | default: post.url | relative_url }}" class="highlight-image-link">
-      {% if post.image %}
-      <img src="{{ post.image | relative_url }}" class="highlight-image">
-      {% else %}
-      <div class="highlight-image placeholder"></div>
-      {% endif %}
-    </a>
+    {%- if post -%}
+    <article class="highlight-card">
 
-    <div class="highlight-content">
-      <h3 class="highlight-title">
-        <a href="{{ post.link | default: post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
+      <a href="{{ post.url | relative_url }}" class="highlight-image-link">
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" class="highlight-image">
+        {% else %}
+          <div class="highlight-image placeholder"></div>
+        {% endif %}
+      </a>
 
-      <div class="highlight-meta">
-        <span>🧑 {{ post.author }}</span>
-        <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
+      <div class="highlight-content">
+        <h3 class="highlight-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+
+        <div class="highlight-meta">
+          <span>🧑 {{ post.author }}</span>
+          <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
+        </div>
+
+        {% if post.tags %}
+        <div class="highlight-tags">
+          {% for tag in post.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
       </div>
 
-      {% if post.tags %}
-      <div class="highlight-tags">
-        {% for tag in post.tags %}
-          <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
-
-  </article>
-{% endfor %}
+    </article>
+    {%- endif -%}
+  {%- endfor -%}
 </div>
 
 {% else %}
-_Once you add files to `_highlight_post`, they will appear here as featured posts._
+_Once you add matching files to `_highlight_post/`, the corresponding posts will appear here as featured._
 {% endif %}
+
 
 
 
