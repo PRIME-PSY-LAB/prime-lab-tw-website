@@ -14,21 +14,18 @@ We mainly use **behavioral experiments** combined with **computational modeling*
 
 You can explore our lab through:
 
-- [Research topics]({{ "/research/" | relative_url }}) – overview of our main research themes and our research enviroment.  
+- [Research topics]({{ "/research/" | relative_url }}) – overview of our main research themes and our research environment.  
 - [Publications]({{ "/publication/" | relative_url }}) – journal papers, conference papers, and preprints.  
-- [Team]({{ "/team/" | relative_url }}) – Everythings about our members.  
-- [Blog]({{ "/blog/" | relative_url }}) – All the record of our milestones.
-- [Activities]({{ "/activity/" | relative_url }}) –  lab news, talks, image records for academic or social events.  
-- [Contact]({{ "/contact/" | relative_url }}) – how to visit, collaborate, or join the lab  
+- [Team]({{ "/team/" | relative_url }}) – everything about our members.  
+- [Blog]({{ "/blog/" | relative_url }}) – records of our milestones and lab updates.  
+- [Activities]({{ "/activity/" | relative_url }}) – news, talks, and image archives from academic or social events.  
+- [Contact]({{ "/contact/" | relative_url }}) – how to visit, collaborate, or join the lab.  
+
 
 {% include section.html %}
 
-## Highlights
 
-{% comment %}
-  從 _posts 中挑出 tags 裡包含 'highlight' 的文章，
-  依日期由新到舊排列，顯示為 hover 有浮起效果的卡片。
-{% endcomment %}
+## Highlights
 
 {% assign highlight_posts = site.posts
   | where_exp: "post", "post.tags contains 'highlight'"
@@ -39,18 +36,45 @@ You can explore our lab through:
 {% if highlight_posts.size > 0 %}
 
 <div class="highlight-grid">
-  {% for post in highlight_posts %}
+{% for post in highlight_posts %}
   <article class="highlight-card">
-    {% include post-excerpt.html post=post %}
+
+    <a href="{{ post.url | relative_url }}" class="highlight-image-link">
+      {% if post.image %}
+      <img src="{{ post.image | relative_url }}" class="highlight-image">
+      {% else %}
+      <div class="highlight-image placeholder"></div>
+      {% endif %}
+    </a>
+
+    <div class="highlight-content">
+      <h3 class="highlight-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+
+      <div class="highlight-meta">
+        <span>🧑 {{ post.author }}</span>
+        <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
+      </div>
+
+      {% if post.tags %}
+      <div class="highlight-tags">
+        {% for tag in post.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+
   </article>
-  {% endfor %}
+{% endfor %}
 </div>
 
 {% else %}
-
-_Once you tag posts with `highlight`, they will appear here as featured stories._
-
+_Once you tag posts with `highlight`, they will appear here as featured posts._
 {% endif %}
+
+
 
 {% include section.html %}
 
