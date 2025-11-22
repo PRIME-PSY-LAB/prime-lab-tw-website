@@ -20,61 +20,29 @@ and high-performance computing resources for large-scale simulations and trainin
 
 ## Explore our projects
 
-{%- comment -%}
-  Search box for projects
-{%- endcomment -%}
 {% include search-box.html %}
 
-{%- comment -%}
-  Tag filter built from _data/projects.yaml
-  - collect all tags
-  - unique + sort
-  - render as clickable tag chips
-  - clicking = search for "tag: xxx"
-  - make sure "granted" and "ungranted" appear first
-{%- endcomment -%}
-
-{% assign all_proj_tags = "" | split: "" %}
-{% for p in site.data.projects %}
-  {% if p.tags %}
-    {% assign all_proj_tags = all_proj_tags | concat: p.tags %}
-  {% endif %}
-{% endfor %}
-{% assign uniq_proj_tags = all_proj_tags | uniq | sort %}
-
-{% if uniq_proj_tags.size > 0 %}
-<div class="project-tag-filter">
-  {# --- granted / ungranted first --- #}
-  {% for tag in uniq_proj_tags %}
-    {% if tag == "granted" or tag == "ungranted" %}
-      {% assign clean = tag | strip %}
-      {% assign query = '"tag: ' | append: clean | append: '"' %}
-      {% assign encoded = query | uri_escape %}
-      <a
-        class="tag project-tag-chip project-tag-chip--status"
-        href="{{ page.url | relative_url }}?search={{ encoded }}"
-      >
-        {{ clean }}
-      </a>
-    {% endif %}
-  {% endfor %}
-
-  {# --- the rest of tags --- #}
-  {% for tag in uniq_proj_tags %}
-    {% unless tag == "granted" or tag == "ungranted" %}
-      {% assign clean = tag | strip %}
-      {% assign query = '"tag: ' | append: clean | append: '"' %}
-      {% assign encoded = query | uri_escape %}
-      <a
-        class="tag project-tag-chip"
-        href="{{ page.url | relative_url }}?search={{ encoded }}"
-      >
-        {{ clean }}
-      </a>
+<div class="project-tag-list">
+  {% assign unique_tags = site.data.projects | map: "tags" | join: "," | split: "," | uniq %}
+  
+  <!-- granted / ungranted first -->
+  {% assign sorted_tags = "granted,ungranted" | split: "," %}
+  
+  {% for tag in unique_tags %}
+    {% unless sorted_tags contains tag %}
+      {% assign sorted_tags = sorted_tags | push: tag %}
     {% endunless %}
   {% endfor %}
+
+  {% for tag in sorted_tags %}
+    {% if tag != "" %}
+      <a href="{{ '/research/?search="tag: ' | append: tag | append: '"'}}" class="tag">{{ tag }}</a>
+    {% endif %}
+  {% endfor %}
 </div>
-{% endif %}
+
+
+
 
 {% include search-info.html %}
 

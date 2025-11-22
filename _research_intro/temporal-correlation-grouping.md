@@ -1,4 +1,5 @@
 ---
+layout: project
 title: Temporal correlation in visual grouping
 slug: temporal-correlation-grouping
 layout: page
