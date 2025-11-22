@@ -163,3 +163,31 @@
     right: -0.25rem;
   }
 }
+
+/* ===========================
+   Publications – Tag filter chips
+   =========================== */
+
+.pub-tag-filter {
+  margin: 0.85rem 0 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+/* 讓它沿用全站的 .tag 樣式，但多一點互動感 */
+.pub-tag-filter-chip {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.82rem;
+  transition:
+    transform 120ms ease-out,
+    box-shadow 120ms ease-out,
+    background 120ms ease-out;
+}
+
+.pub-tag-filter-chip:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.12);
+}
