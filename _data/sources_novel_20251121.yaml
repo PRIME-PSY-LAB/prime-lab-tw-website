@@ -2,6 +2,7 @@
   type: paper
   date: 2025-11-09
   group: highlighted
+  image: /images/PaperThumbnail/ICONIP.png
   buttons:
     - type: paper
       link: https://doi.org/hbb5fr

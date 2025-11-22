@@ -32,7 +32,7 @@ and high-performance computing resources for large-scale simulations and trainin
   {% include list.html
     component="card"
     data="projects"
-    filter="group == 'Current'"
+    filter="group == 'Current'" 
   %}
 </div>
 
