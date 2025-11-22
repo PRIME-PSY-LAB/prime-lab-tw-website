@@ -438,7 +438,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
-        <a href="/prime-lab-tw-website/research/" data-tooltip="Research Direction, Introduction, equipment">
+        <a href="/prime-lab-tw-website/research/" data-tooltip="Research direction, projects, environment">
           Research
         </a>
       
@@ -494,27 +494,151 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
   <section class="background" data-size="page">
-    <h1 id="research">
-<i class="icon fa-solid fa-wrench"></i>Research</h1>
+    <h1 id="-research">
+<i class="icon fa-solid fa-wrench"></i> Research</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p>Our lab studies human visual perception and temporal processing,<br>
+with a particular focus on motion perception, perceptual organization,<br>
+and image-computable / deep-learning models of human vision.</p>
 
-<div class="tags">
+<p>We combine psychophysical experiments (continuous tracking, segmentation tasks,<br>
+motion perception tasks) with computational modeling.<br>
+Experiments are run in a controlled visual environment using calibrated displays<br>
+and high-performance computing resources for large-scale simulations and training.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="explore-our-projectsdiv-classsearch-box">Explore our projects&lt;div class="search-box"&gt;</h2>
+<p><input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  &lt;button
+    disabled
+    data-tooltip=”Clear search”
+    aria-label=”clear search”
+    onclick=”onSearchClear()”</p>
+<blockquote>
+
+  <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>&lt;i class="icon fa-solid fa-magnifying-glass"&gt;&lt;/i&gt;   &lt;/button&gt;
+</code></pre></div>  </div>
+</blockquote>
+<p>&lt;/div&gt;</p>
+
+<div class="project-tag-filter">
+  {# --- granted / ungranted first --- #}
+  
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
+  
+    
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip project-tag-chip--status" href="/prime-lab-tw-website/research/?search=%22tag:%20granted%22">
+        granted
       </a>
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip project-tag-chip--status" href="/prime-lab-tw-website/research/?search=%22tag:%20ungranted%22">
+        ungranted
       </a>
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
-        website
+  
+
+  {# --- the rest of tags --- #}
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip" href="/prime-lab-tw-website/research/?search=%22tag:%20computational%20modeling%22">
+        computational modeling
       </a>
     
-  </div>
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip" href="/prime-lab-tw-website/research/?search=%22tag:%20deep%20learning%22">
+        deep learning
+      </a>
+    
+  
+    
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip" href="/prime-lab-tw-website/research/?search=%22tag:%20grouping%22">
+        grouping
+      </a>
+    
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip" href="/prime-lab-tw-website/research/?search=%22tag:%20motion%20perception%22">
+        motion perception
+      </a>
+    
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip" href="/prime-lab-tw-website/research/?search=%22tag:%20segmentation%22">
+        segmentation
+      </a>
+    
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip" href="/prime-lab-tw-website/research/?search=%22tag:%20temporal%20correlation%22">
+        temporal correlation
+      </a>
+    
+  
+    
+      
+      
+      
+      <a class="tag project-tag-chip" href="/prime-lab-tw-website/research/?search=%22tag:%20temporal%20limits%22">
+        temporal limits
+      </a>
+    
+  
+    
+  
+</div>
 
 <div class="search-info"></div>
   </section>
@@ -530,27 +654,42 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
-<h2 id="featured">Featured</h2>
+<h2 id="current-projects">Current projects</h2>
 
+<div class="project-grid">
+  
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+     
 <div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Dataset" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+  <a href="/prime-lab-tw-website/research/temporal-correlation-grouping/" aria-label="Temporal correlation in visual grouping" class="card-image">
+    <img src="/prime-lab-tw-website/images/projects/temporal-correlation.jpg" alt="Temporal correlation in visual grouping" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Dataset
+      <a href="/prime-lab-tw-website/research/temporal-correlation-grouping/" class="card-title">
+        Temporal correlation in visual grouping
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
+      <span class="card-subtitle">Temporal structure and segmentation in human vision</span>
     
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Psychophysical and computational studies of how temporal correlations in dynamic textures support figure–ground segmentation and perceptual grouping.
 
       </p>
     
@@ -559,10 +698,22 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template">
+  <div class="tags">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20temporal-correlation%22" class="tag" data-tooltip='Show items with the tag "temporal-correlation"'>
+        temporal-correlation
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20segmentation%22" class="tag" data-tooltip='Show items with the tag "segmentation"'>
+        segmentation
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20grouping%22" class="tag" data-tooltip='Show items with the tag "grouping"'>
+        grouping
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20granted%22" class="tag" data-tooltip='Show items with the tag "granted"'>
+        granted
       </a>
     
   </div>
@@ -572,44 +723,9 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="card" data-style="">
-  <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://github.com/" class="card-title">
-        Cool Package
-    </a>
-    
-
-    
-      <span class="card-subtitle">a subtitle</span>
-    
-
-    
-      <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    
-
-    
-      
+  
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template">
-    
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-  </div>
-
-
-    
-  </div>
 </div>
   </section>
 
@@ -624,27 +740,42 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
-<h2 id="more">More</h2>
+<h2 id="collaborative-projects">Collaborative projects</h2>
 
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+<div class="project-grid">
+  
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+     
+<div class="card" data-style="">
+  <a href="/prime-lab-tw-website/research/multi-order-motion/" aria-label="Multi-order human motion processing" class="card-image">
+    <img src="/prime-lab-tw-website/images/projects/multi-order-motion.jpg" alt="Multi-order human motion processing" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Tutorial
+      <a href="/prime-lab-tw-website/research/multi-order-motion/" class="card-title">
+        Multi-order human motion processing
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
+      <span class="card-subtitle">Deep neural models aligned with human motion perception</span>
     
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Developing image-computable models of first- and higher-order motion, bridging psychophysics, neurophysiology and modern deep learning.
 
       </p>
     
@@ -653,14 +784,22 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template">
+  <div class="tags">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20motion-perception%22" class="tag" data-tooltip='Show items with the tag "motion-perception"'>
+        motion-perception
       </a>
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20deep-learning%22" class="tag" data-tooltip='Show items with the tag "deep-learning"'>
+        deep-learning
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20computational-modeling%22" class="tag" data-tooltip='Show items with the tag "computational-modeling"'>
+        computational-modeling
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20granted%22" class="tag" data-tooltip='Show items with the tag "granted"'>
+        granted
       </a>
     
   </div>
@@ -670,25 +809,66 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
+  
+
+
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="past-projects">Past projects</h2>
+
+<details class="collapse-block">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">click to see past projects</span>
+  </summary>
+
+  <section>
+    <div class="project-grid project-grid--past">
+    
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+     
 <div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+  <a href="/prime-lab-tw-website/research/temporal-limits-segmentation/" aria-label="Temporal limits of feature-based segmentation" class="card-image">
+    <img src="/prime-lab-tw-website/images/projects/temporal-limits.jpg" alt="Temporal limits of feature-based segmentation" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Web App
+      <a href="/prime-lab-tw-website/research/temporal-limits-segmentation/" class="card-title">
+        Temporal limits of feature-based segmentation
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
+      <span class="card-subtitle">Luminance, color, motion and their mixtures</span>
     
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Projects focusing on temporal asynchrony and temporal structure in feature-based figure–ground segmentation.
 
       </p>
     
@@ -697,10 +877,18 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template">
+  <div class="tags">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20temporal-limits%22" class="tag" data-tooltip='Show items with the tag "temporal-limits"'>
+        temporal-limits
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20segmentation%22" class="tag" data-tooltip='Show items with the tag "segmentation"'>
+        segmentation
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20ungranted%22" class="tag" data-tooltip='Show items with the tag "ungranted"'>
+        ungranted
       </a>
     
   </div>
@@ -710,25 +898,47 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<div class="card" data-style="small">
-  <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+  
+
+
+  </div>
+  </section>
+</details>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="research-environment">Research environment</h2>
+
+<div class="project-grid project-grid--environment"> 
+<div class="card" data-style="">
+  <a href="/prime-lab-tw-website/research/environment/" aria-label="Lab space equipment" class="card-image">
+    <img src="" alt="Lab space equipment" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://github.com/" class="card-title">
-        Cool Web Server
+      <a href="/prime-lab-tw-website/research/environment/" class="card-title">
+        Lab space &amp; equipment
     </a>
     
 
     
-      <span class="card-subtitle">a subtitle</span>
+      <span class="card-subtitle">Visual psychophysics facilities, displays and computing</span>
     
 
     
       <p>
-        Lorem ipsum <em>dolor sit amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Overview of our experimental rooms, calibrated displays, stimulus control computers, and GPU workstations used for modeling and large-scale simulations.
 
       </p>
     
@@ -737,10 +947,18 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       
 
 
-  <div class="tags" data-repo="greenelab/lab-website-template">
+  <div class="tags">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
-        software
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20environment%22" class="tag" data-tooltip='Show items with the tag "environment"'>
+        environment
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20equipment%22" class="tag" data-tooltip='Show items with the tag "equipment"'>
+        equipment
+      </a>
+    
+      <a href="/prime-lab-tw-website/research/?search=%22tag:%20facilities%22" class="tag" data-tooltip='Show items with the tag "facilities"'>
+        facilities
       </a>
     
   </div>
@@ -748,6 +966,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
     
   </div>
+</div>
+
 </div>
   </section>
 
