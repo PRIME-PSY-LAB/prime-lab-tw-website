@@ -1,6 +1,6 @@
 ---
 layout: project
-title: I am title
+title: Influence of Arousal to time perception under positive IAPS picture: Controlling confound of approach motivation
 permalink: /research/time-perception/
 ---
 
