@@ -1,38 +1,27 @@
 ---
-title: Publications
+title: Research
 nav:
   order: 1
-  tooltip: Publications
+  tooltip: Research Direction, Introduction, equipment
 ---
 
-# {% include icon.html icon="fa-solid fa-book-open" %} Publications
+# {% include icon.html icon="fa-solid fa-wrench" %}Research
 
-Our lab publishes work on visual perception, temporal processing,  
-motion perception, and computational models of human vision.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-{% include section.html %}
-
-## Highlighted
-
-{% include list.html
-  data="citations"
-  component="citation"
-  style="rich"
-  filter="group == 'highlighted'"
-%}
-
-{% include section.html %}
-
-## All publications
-
-{% include search-box.html %}
+{% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %}
 
-{% include list.html
-  data="citations"
-  component="citation"
-  style="rich"
-%}
+{% include section.html %}
 
+## Featured
 
+{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+
+{% include section.html %}
+
+## More
+
+{% include list.html component="card" data="projects" filter="!group" style="small" %}
