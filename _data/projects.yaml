@@ -4,10 +4,10 @@
   image: images/Research_Intro_image/motion-model/Mario_model.gif
   link: /research/motion-model/
   authors:
-    - name: Yen-Ju Chen
-      link: /team/yen-ju-chen/
-    - name: Zitang Sun
-    - name: Shin'ya Nishida
+    - Yen-Ju Chen
+    - Zitang Sun
+    - Yung-Hao Yang
+    - Shin'ya Nishida
   tags:
     - motion perception
     - deep learning
@@ -18,6 +18,21 @@
     - Past
     - Collaborative
 
+- title: Temporal synchrony and structure in visual segmentation
+  subtitle: When does temporal structure trump synchrony?
+  group: Past
+  image: images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp
+  link: /research/temporal-async-seg/
+  authors:
+    - Yen-Ju Chen
+    - Pi-Chun Huang
+  tags:
+    - temporal vision
+    - temporal synchrony
+    - temporal structure
+    - visual segmentation
+    - perceptual grouping
+    - Past
 
 - title: Comorbidity Network of Physical and Mental Disorders
   subtitle: Network modeling of multi-disease interactions
