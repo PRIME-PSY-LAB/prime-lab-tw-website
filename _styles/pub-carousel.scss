@@ -19,16 +19,16 @@
 /* 每一張卡片佔滿可視寬度 */
 .pub-highlight-card {
   flex: 0 0 100%;
-  padding: 0 0.25rem;
+  padding: 0 1rem;   /* 卡片左右 padding 加大 */
 }
 
 /* 玻璃感長條卡片 + hover 浮起效果 */
 .pub-highlight-inner {
   display: flex;
   align-items: stretch;
-  gap: 1rem;
+  gap: 1.5rem;
   border-radius: 0.9rem;
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 2rem;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -40,7 +40,7 @@
     background 160ms ease-out,
     border-color 160ms ease-out,
     backdrop-filter 160ms ease-out;
-  min-height: 8rem; /* 比較有份量一點 */
+  min-height: 12rem; /* 比較有份量一點 */
 }
 
 .pub-highlight-card:hover .pub-highlight-inner {
@@ -54,7 +54,7 @@
 
 /* 左側縮圖區 */
 .pub-highlight-image {
-  flex: 0 0 120px;
+  flex: 0 0 180px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +82,7 @@
 
 .pub-highlight-title {
   margin: 0 0 0.25rem;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -96,7 +96,7 @@
 
 .pub-highlight-meta {
   margin: 0 0 0.25rem;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   opacity: 0.85;
 }
 
