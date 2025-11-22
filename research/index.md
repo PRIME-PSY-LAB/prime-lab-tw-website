@@ -22,8 +22,6 @@ and high-performance computing resources for large-scale simulations and trainin
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
-
 {% include search-info.html %}
 
 {% include section.html %}
@@ -34,7 +32,7 @@ and high-performance computing resources for large-scale simulations and trainin
   {% include list.html
     component="card"
     data="projects"
-    filter="group == 'Current'"
+    filter="group == 'Current'" | "group == 'current'"
   %}
 </div>
 
