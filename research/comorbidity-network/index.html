@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Temporal correlation and visual segmentation | Perceptual Representation and InforMation Engineering Lab</title>
+<title>Comorbidity Network of Physical and Mental Disorders | Perceptual Representation and InforMation Engineering Lab</title>
 
 <link rel="icon" href="/prime-lab-tw-website/images/icon.png">
 
-<meta name="title" content="Temporal correlation and visual segmentation">
+<meta name="title" content="Comorbidity Network of Physical and Mental Disorders">
 <meta name="description" content="Delve into the mind, depict with the beauty of math.">
 
-<meta property="og:title" content="Temporal correlation and visual segmentation">
+<meta property="og:title" content="Comorbidity Network of Physical and Mental Disorders">
 <meta property="og:site_title" content="Perceptual Representation and InforMation Engineering Lab">
 <meta property="og:description" content="Delve into the mind, depict with the beauty of math.">
 <meta property="og:url" content="https://prime-psy-lab.github.io/prime-lab-tw-website">
 <meta property="og:image" content="/prime-lab-tw-website/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Temporal correlation and visual segmentation">
+<meta property="twitter:title" content="Comorbidity Network of Physical and Mental Disorders">
 <meta property="twitter:description" content="Delve into the mind, depict with the beauty of math.">
 <meta property="twitter:url" content="https://prime-psy-lab.github.io/prime-lab-tw-website">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Temporal correlation and visual segmentation",
+    "name": "Comorbidity Network of Physical and Mental Disorders",
     "description": "Delve into the mind, depict with the beauty of math.",
-    "headline": "Temporal correlation and visual segmentation",
+    "headline": "Comorbidity Network of Physical and Mental Disorders",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/prime-lab-tw-website/images/icon.png" }
@@ -439,34 +439,21 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="1" style="--image: url('/prime-lab-tw-website/images/background.jpg')">
+  <section class="background" data-size="1" style="--image: url('/prime-lab-tw-website/images/ResearchFigures/comorbidity-network.png')">
     <!--
-  <background>images/background.jpg</background>
+  <background>/images/ResearchFigures/comorbidity-network.png</background>
   <dark></dark>
   <size>1</size>
 -->
 
 
-<h1 class="center">Temporal correlation and visual segmentation</h1>
+<h1 class="center">Comorbidity Network of Physical and Mental Disorders</h1>
   <p class="center">
     
 
 
+
   </p>
-<div class="tags">
-    
-      <a href="/prime-lab-tw-website/research?search=%22tag:%20segmentation%22" class="tag" data-tooltip='Show items with the tag "segmentation"'>
-        segmentation
-      </a>
-    
-      <a href="/prime-lab-tw-website/research?search=%22tag:%20temporal-correlation%22" class="tag" data-tooltip='Show items with the tag "temporal-correlation"'>
-        temporal-correlation
-      </a>
-    
-  </div>
-
-
-  
   </section>
 
   
@@ -481,21 +468,113 @@ document.addEventListener("DOMContentLoaded", function () {
 -->
 
 
+<h1 id="comorbidity-network-of-physical--mental-disorders">Comorbidity Network of Physical &amp; Mental Disorders</h1>
+<p>Understanding how diseases co-occur can reveal shared biological mechanisms, lifestyle risks, and healthcare pathways.<br>
+This project examines <em>population-level comorbidity patterns</em> and introduces a <strong>Weighted Alternating Least Squares (WALS)</strong> method to reconstruct and analyze disease relations from large health-record datasets.</p>
+
+<hr>
+
 <h2 id="overview">Overview</h2>
 
-<p>這裡寫研究問題、主要發現、研究脈絡等等。</p>
+<p>Comorbidity — the co-occurrence of two or more diseases in the same individual — is widespread across physical and mental health conditions.<br>
+Rather than treating diseases as isolated events, this project builds a <strong>network representation</strong> where:</p>
+
+<ul>
+  <li>
+<strong>nodes</strong> = diseases</li>
+  <li>
+<strong>edges</strong> = statistical comorbidity strengths</li>
+  <li>
+<strong>weights</strong> = corrected risk of co-occurrence</li>
+</ul>
+
+<p>The goal is to <em>capture hidden structure</em> in disease interactions and support prediction, prevention, and personalized health-management strategies.</p>
+
+<h3 id="research-aims">Research aims</h3>
+<ul>
+  <li>Identify systematic patterns in how diseases cluster.</li>
+  <li>Understand the linkage between mental and physical disorders.</li>
+  <li>Develop a more robust method to compute co-occurrence strength.</li>
+  <li>Provide a framework for healthcare decision support.</li>
+</ul>
+
+<hr>
 
 <h2 id="methods">Methods</h2>
 
+<h3 id="1-data-source">1. Data source</h3>
+<p>The study uses national-scale health insurance / medical database records, containing:</p>
 <ul>
-  <li>Psychophysics with dynamic textures</li>
-  <li>Continuous tracking / 2IFC 等等</li>
+  <li>diagnosis histories</li>
+  <li>demographic information</li>
+  <li>disease categories</li>
+  <li>temporal co-occurrence frequencies</li>
 </ul>
+
+<h3 id="2-preprocessing">2. Preprocessing</h3>
+<ul>
+  <li>ICD codes grouped into clinically meaningful disease categories</li>
+  <li>Co-diagnosis matrices computed across population</li>
+  <li>Noise reduction using frequency thresholds</li>
+  <li>Normalization to reduce bias from highly prevalent diseases</li>
+</ul>
+
+<h3 id="3-wals-weighted-alternating-least-squares">3. WALS (Weighted Alternating Least Squares)</h3>
+
+<p>The key methodological innovation is the <strong>WALS algorithm</strong>, designed to:</p>
+
+<ul>
+  <li>factorize the comorbidity matrix</li>
+  <li>reduce random noise from sparse co-occurrences</li>
+  <li>learn a low-dimensional embedding representing disease relations</li>
+  <li>reconstruct a <em>denoised, stable</em> comorbidity network</li>
+</ul>
+
+<p>This improves upon raw matrix statistics by emphasizing <em>reliable</em> correlations.</p>
+
+<hr>
+
+<h2 id="results">Results</h2>
+
+<p>Key findings include:</p>
+
+<h3 id="-distinct-clusters-of-disorders">● Distinct clusters of disorders</h3>
+<p>Mental disorders form strong links with certain chronic physical conditions—including metabolic, cardiovascular, and inflammatory diseases—suggesting shared mechanisms or lifestyle factors.</p>
+
+<h3 id="-hidden-structure-revealed-by-wals">● Hidden structure revealed by WALS</h3>
+<p>WALS enhances weaker but meaningful correlations while suppressing noise from accidental co-occurrence.</p>
+
+<h3 id="-potential-clinical-applications">● Potential clinical applications</h3>
+<ul>
+  <li>identifying high-risk comorbidity pathways</li>
+  <li>supporting early diagnosis and integrated care</li>
+  <li>understanding shared etiological mechanisms</li>
+</ul>
+
+<hr>
+
+<h2 id="figure">Figure</h2>
+
+<p><img src="_research_intro%5CComorbidity-Network%5CIMG1.png" alt="Comorbidity Illustration"></p>
+
+<p><em>Figure. (a) Research workflow (data → matrix → embedding → network).<br>
+(b) Conceptual comorbidity network.<br>
+(c) Simplified WALS processing pipeline.</em></p>
+
+<hr>
 
 <h2 id="related-publications">Related publications</h2>
 
-<p>你可以在這裡放連到 Publications 頁面的搜尋連結：
-<a href="/publication/?search=%22temporal%20correlation%22">See related publications</a></p>
+<ul>
+  <li>
+<strong>Wang, S.-T., Chen, Y.-J., Xu, Y.-D., Ting, T.-T., &amp; Chan, T.-C. (2019).</strong><br>
+<em>Application of Weighted Alternating Least Squares on Constructing the Disease Networks in the Heterogeneous Process of Aging.</em><br>
+IEEE Mobile Data Management (MDM).<br>
+DOI: <a href="https://doi.org/10.1109/MDM.2019.00112">10.1109/MDM.2019.00112</a>
+</li>
+</ul>
+
+<hr>
   </section>
 
   
