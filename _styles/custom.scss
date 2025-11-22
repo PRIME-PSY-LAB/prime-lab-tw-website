@@ -1,0 +1,122 @@
+/* ===========================
+   Home page – Highlight cards
+   =========================== */
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.highlight-card {
+  position: relative;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition:
+    transform 160ms ease-out,
+    box-shadow 160ms ease-out,
+    background 160ms ease-out,
+    border-color 160ms ease-out;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+/* 讓內建的 post-excerpt 看起來像「卡片內容」 */
+.highlight-card .post-excerpt {
+  margin: 0;
+}
+
+/* Hover 時浮起 + 玻璃感 */
+.highlight-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* ===========================
+   Home page – News list
+   =========================== */
+
+.news-list-container {
+  max-height: 14rem;        /* 大約可顯示 4–6 條，視字數而定 */
+  overflow-y: auto;
+  margin-top: 0.75rem;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* 隱藏捲軸外觀（可視情況保留） */
+.news-list-container::-webkit-scrollbar {
+  width: 6px;
+}
+.news-list-container::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 1rem 0.5rem 1rem;
+}
+
+/* 單一列 */
+.news-item {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 最後一條不要下劃線 */
+.news-item:last-child {
+  border-bottom: none;
+}
+
+/* title 一行 + hover 極簡效果 */
+.news-main {
+  display: block;
+  text-decoration: none;
+}
+
+.news-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.3;
+  transition: color 140ms ease-out, transform 140ms ease-out;
+}
+
+/* meta 行：author + date 橫向排，灰度小字 */
+.news-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 0.05rem;
+  font-size: 0.78rem;
+  opacity: 0.8;
+}
+
+.news-author,
+.news-date {
+  white-space: nowrap;
+}
+
+/* 小螢幕時 author/date 換行也不會太擠 */
+@media (max-width: 600px) {
+  .news-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* row hover 效果：稍微提亮 + 位移一點點 */
+.news-item:hover .news-title {
+  transform: translateX(2px);
+  color: var(--color-accent, #3ea6ff);
+}

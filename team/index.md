@@ -56,7 +56,7 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 - [Kiyofumi Miyoshi](https://researchmap.jp/kiyofumimiyoshi?lang=en),   Kyoto University, Kyoto, Japan
 - [Alan Johnston](https://www.nottingham.ac.uk/psychology/people/alan.johnston),    University of Nottingham, Nottingham, UK
 - [Zitang Sun](https://www.researchgate.net/profile/Zitang-Sun),    Sony Co., Japan
-- 
+
 </section>
 
 </details>
