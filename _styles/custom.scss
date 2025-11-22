@@ -1,57 +1,7 @@
-@charset "UTF-8";
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-}
-
-/* ===== Collapsible blocks: keep theme style, only add arrow animation ===== */
-details.collapse-block {
-  margin: 1rem 0;
-}
-
-/* clickable row */
-details.collapse-block > summary {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  list-style: none;
-}
-
-/* hide default marker (Chrome / Edge / Safari) */
-details.collapse-block > summary::-webkit-details-marker {
-  display: none;
-}
-
-/* hide default marker (modern browsers) */
-details.collapse-block > summary::marker {
-  content: "";
-}
-
-/* arrow icon */
-details.collapse-block .collapse-arrow {
-  display: inline-block;
-  transition: transform 0.2s ease-in-out;
-  font-size: 0.9em;
-}
-
-/* rotate when open */
-details.collapse-block[open] .collapse-arrow {
-  transform: rotate(90deg);
-}
-
-/* label */
-details.collapse-block .collapse-label {
-  font-weight: 600;
-}
-
 /* ===========================
    Home page – Highlight cards
    =========================== */
+
 .highlight-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -66,7 +16,11 @@ details.collapse-block .collapse-label {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.06);
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  transition: transform 160ms ease-out, box-shadow 160ms ease-out, background 160ms ease-out, border-color 160ms ease-out;
+  transition:
+    transform 160ms ease-out,
+    box-shadow 160ms ease-out,
+    background 160ms ease-out,
+    border-color 160ms ease-out;
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
 }
@@ -89,8 +43,9 @@ details.collapse-block .collapse-label {
 /* ===========================
    Home page – News list
    =========================== */
+
 .news-list-container {
-  max-height: 14rem; /* 大約可顯示 4–6 條，視字數而定 */
+  max-height: 14rem;        /* 大約可顯示 4–6 條，視字數而定 */
   overflow-y: auto;
   margin-top: 0.75rem;
   border-radius: 0.75rem;
@@ -102,7 +57,6 @@ details.collapse-block .collapse-label {
 .news-list-container::-webkit-scrollbar {
   width: 6px;
 }
-
 .news-list-container::-webkit-scrollbar-thumb {
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.2);
@@ -160,10 +114,9 @@ details.collapse-block .collapse-label {
     align-items: flex-start;
   }
 }
+
 /* row hover 效果：稍微提亮 + 位移一點點 */
 .news-item:hover .news-title {
   transform: translateX(2px);
   color: var(--color-accent, #3ea6ff);
 }
-
-/*# sourceMappingURL=all.css.map */
