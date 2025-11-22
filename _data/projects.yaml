@@ -14,8 +14,8 @@
 - title: Comorbidity Network of Physical and Mental Disorders
   subtitle: Network modeling of multi-disease interactions
   group: Past
-  image: images/ResearchFigures/comorbidity-network.png
-  link: /research/Comorbidity-Network/comorbidity-network/
+  image: /research/comorbidity-network/IMG1.png
+  link: /research/comorbidity-network/
   description: >
     This project investigates how physical and mental disorders co-occur
     across populations using a network approach enhanced by a Weighted

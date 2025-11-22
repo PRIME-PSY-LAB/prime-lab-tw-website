@@ -50,7 +50,7 @@ collections:
     output: false
   research_intro:
     output: true
-    permalink: /research/:name/
+    permalink: /research/:path/
 
 
 # jekyll plugins

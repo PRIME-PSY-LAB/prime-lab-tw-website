@@ -1,7 +1,7 @@
 ---
+layout: project
 title: Comorbidity Network of Physical and Mental Disorders
-slug: comorbidity-network
-image: /images/ResearchFigures/comorbidity-network.png
+permalink: /research/comorbidity-network/
 ---
 
 # Comorbidity Network of Physical & Mental Disorders
@@ -76,7 +76,7 @@ WALS enhances weaker but meaningful correlations while suppressing noise from ac
 
 ## Figure
 
-![Comorbidity Illustration](_research_intro\Comorbidity-Network\IMG1.png)
+![Comorbidity network figure](IMG1.png)
 
 *Figure. (a) Research workflow (data → matrix → embedding → network).  
 (b) Conceptual comorbidity network.  
