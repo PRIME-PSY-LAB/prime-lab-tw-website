@@ -12,11 +12,11 @@ We mainly use **behavioral experiments**, combined with **computational modeling
 
 You can learn more from:
 
-- [Research topics]({{ "/projects/" | relative_url }}) – overview of our main research themes and our research enviroment.  
+- [Research topics]({{ "/research/" | relative_url }}) – overview of our main research themes and our research enviroment.  
 - [Publications]({{ "/publication/" | relative_url }}) – journal papers, conference papers, and preprints.  
 - [Team]({{ "/team/" | relative_url }}) – Everythings about our members.  
 - [Blog]({{ "/blog/" | relative_url }}) – All the record of our milestones.  
-- [Activities]({{ "/blog/" | relative_url }}) – lab news, talks, image records for academic or social events.  
+- [Activities]({{ "/activity/" | relative_url }}) – lab news, talks, image records for academic or social events.  
 - [Contact]({{ "/contact/" | relative_url }}) – how to reach us if you interest.  
 
 {% include section.html %}
