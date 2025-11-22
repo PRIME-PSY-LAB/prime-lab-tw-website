@@ -5,9 +5,6 @@ title: Temporal correlation and visual segmentation
 layout: project
 tags: [segmentation, temporal correlation]
 image: images/background.jpg   # 有 hero 圖就填，沒有可以先拿掉
-summary: >
-  How temporal correlations across space support visual grouping
-  and segmentation in dynamic textures.
 ---
 
 ## Overview

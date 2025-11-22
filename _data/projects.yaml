@@ -11,27 +11,18 @@
     - temporal correlation
     - granted
 
-- title: Multi-order human motion processing
-  subtitle: Deep neural models aligned with human motion perception
-  slug: multi-order-motion
-  group: Collaborative
-  image: images/projects/multi-order-motion.jpg
-  link: /research/multi-order-motion/
-  description: Developing image-computable models of first- and higher-order motion, bridging psychophysics, neurophysiology and modern deep learning.
-  tags:
-    - motion perception
-    - deep learning
-    - computational modeling
-    - granted
-
-- title: Temporal limits of feature-based segmentation
-  subtitle: Luminance, color, motion and their mixtures
-  slug: temporal-limits-segmentation
+- title: Comorbidity Network of Physical and Mental Disorders
+  subtitle: Network modeling of multi-disease interactions
   group: Past
-  image: images/projects/temporal-limits.jpg
-  link: /research/temporal-limits-segmentation/
-  description: Projects focusing on temporal asynchrony and temporal structure in feature-based figure–ground segmentation.
+  image: images/ResearchFigures/comorbidity-network.png
+  link: /research/Comorbidity-Network/comorbidity-network/
+  description: >
+    This project investigates how physical and mental disorders co-occur
+    across populations using a network approach enhanced by a Weighted
+    Alternating Least Squares (WALS) algorithm.
   tags:
-    - temporal limits
-    - segmentation
+    - data mining
+    - disease networks
+    - aging
     - ungranted
+    - Past

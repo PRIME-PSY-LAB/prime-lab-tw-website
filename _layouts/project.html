@@ -2,24 +2,39 @@
 layout: default
 ---
 
-<article class="project-page">
-  <h1>{{ page.title }}</h1>
+{%- comment -%}
+Hero 區塊：如果 page.image 有設，就當背景；沒有就只是留白分隔
+{%- endcomment -%}
+{% include section.html background=page.image %}
 
-  <div class="project-meta">
-    {% if page.subtitle %}
-      <p class="subtitle">{{ page.subtitle }}</p>
-    {% endif %}
-  </div>
+<h1 class="center">{{ page.title }}</h1>
 
-  <div class="project-content">
-    {{ content }}
-  </div>
+{%- comment -%}
+簡短 summary（可選）—— 來自 front matter 的 summary
+{%- endcomment -%}
+{% if page.summary %}
+  <p class="center project-summary">
+    {{ page.summary }}
+  </p>
+{% endif %}
 
-  {% if page.tags %}
-    <div class="project-tags">
-      {% for tag in page.tags %}
-        <span class="tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
-  {% endif %}
-</article>
+{%- comment -%}
+如果有 tags，就用跟 blog 一樣的 tags 樣式，但連回 research 頁
+{%- endcomment -%}
+{% if page.tags %}
+  <p class="center">
+    {% include tags.html tags=page.tags link="research" %}
+  </p>
+{% endif %}
+
+{% include section.html %}
+
+{{ content }}
+
+{% include section.html %}
+
+<p class="center">
+  <a href="{{ '/research/' | relative_url }}">
+    ← Back to Research
+  </a>
+</p>
