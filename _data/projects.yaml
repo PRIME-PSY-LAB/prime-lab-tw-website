@@ -1,15 +1,25 @@
-- title: Temporal correlation and visual segmentation
-  subtitle: How temporal similarity structures guide grouping
-  group: Current
-  image: images/photo.jpg
-  link: /research/temporal-correlation/
-  description: 
-    We study how temporal correlations across space support visual grouping
-    and figure–ground segmentation in dynamic scenes.
+- title: Multi-order Human Visual Motion Processing
+  subtitle: Dual-pathway motion model bridging human and machine vision
+  group: Past
+  image: images/Research_Intro_image/motion-model/Mario_model.gif
+  link: /research/motion-model/
+  description: >
+    We develop a dual-pathway V1–MT style motion model that combines
+    trainable motion-energy sensing with graph-based recurrent
+    integration. By manipulating material properties of moving objects,
+    we test how natural optics drive the emergence of second-order
+    motion perception and compare the model’s behaviour with human
+    psychophysics and state-of-the-art optical-flow methods.
   tags:
-    - segmentation
-    - temporal correlation
+    - motion perception
+    - deep learning
+    - computational modeling
+    - first-order motion
+    - second-order motion
     - granted
+    - Past
+    - Collaborative
+
 
 - title: Comorbidity Network of Physical and Mental Disorders
   subtitle: Network modeling of multi-disease interactions
