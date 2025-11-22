@@ -27,8 +27,7 @@ You can explore our lab through:
 
 ## Highlights
 
-{% assign highlight_posts = site.posts
-  | where: "highlight", true
+{% assign highlight_posts = site.highlight_post
   | sort: "date"
   | reverse
 %}
@@ -39,7 +38,7 @@ You can explore our lab through:
 {% for post in highlight_posts %}
   <article class="highlight-card">
 
-    <a href="{{ post.url | relative_url }}" class="highlight-image-link">
+    <a href="{{ post.link | default: post.url | relative_url }}" class="highlight-image-link">
       {% if post.image %}
       <img src="{{ post.image | relative_url }}" class="highlight-image">
       {% else %}
@@ -49,7 +48,7 @@ You can explore our lab through:
 
     <div class="highlight-content">
       <h3 class="highlight-title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ post.link | default: post.url | relative_url }}">{{ post.title }}</a>
       </h3>
 
       <div class="highlight-meta">
@@ -71,8 +70,9 @@ You can explore our lab through:
 </div>
 
 {% else %}
-_Once you tag posts with `highlight`, they will appear here as featured posts._
+_Once you add files to `_highlight_post`, they will appear here as featured posts._
 {% endif %}
+
 
 
 

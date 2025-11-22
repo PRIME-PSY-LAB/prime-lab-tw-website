@@ -39,6 +39,9 @@ collections:
   # generate page for each post
   posts:
     output: true
+  # do not generate page for each highlight post
+  highlight_post:
+    output: false
 
 # jekyll plugins
 plugins:
