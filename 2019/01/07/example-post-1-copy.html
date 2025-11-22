@@ -66,10 +66,10 @@
 
   <meta name="author" content="sarah-johnson">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-11-22T06:42:10+00:00">
+  <meta property="og:updated_time" content="2025-11-22T06:59:17+00:00">
   <meta property="article:published_time" content="2019-01-07T00:00:00+00:00">
-  <meta property="article:modified_time" content="2025-11-22T06:42:10+00:00">
-  <meta name="revised" content="2025-11-22T06:42:10+00:00">
+  <meta property="article:modified_time" content="2025-11-22T06:59:17+00:00">
+  <meta name="revised" content="2025-11-22T06:59:17+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "Example post 1 ccc" },
       "datePublished": "2019-01-07T00:00:00+00:00",
-      "dateModified": "2025-11-22T06:42:10+00:00",
+      "dateModified": "2025-11-22T06:59:17+00:00",
     
     "name": "Example post 1 ccc",
     "description": "Delve into the mind, depict with the beauty of math.",
@@ -323,32 +323,40 @@
 
 
 <script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
 document.addEventListener("DOMContentLoaded", function () {
-  const track = document.querySelector(".pub-carousel-track");
-  if (!track) return;
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
 
+  const track = carousel.querySelector(".pub-carousel-track");
   const slides = Array.from(track.children);
-  const prevBtn = document.querySelector(".pub-prev");
-  const nextBtn = document.querySelector(".pub-next");
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
 
   let index = 0;
 
   function updateCarousel() {
-    const offset = -index * 100;
-    track.style.transform = `translateX(${offset}%)`;
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
   }
 
-  prevBtn.addEventListener("click", () => {
+  prevBtn.addEventListener("click", function () {
     index = (index - 1 + slides.length) % slides.length;
     updateCarousel();
   });
 
-  nextBtn.addEventListener("click", () => {
+  nextBtn.addEventListener("click", function () {
     index = (index + 1) % slides.length;
     updateCarousel();
   });
+
+  updateCarousel();
 });
-</script>
+
 
 </head>
 
@@ -361,7 +369,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-<header class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true">
+<header
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  
+>
   <a href="/prime-lab-tw-website/" class="home">
     
       <span class="logo">
@@ -384,37 +399,55 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
-        <a href="/prime-lab-tw-website/research/" data-tooltip="Research Direction, Introduction, equipment">
+        <a
+          href="/prime-lab-tw-website/research/"
+          data-tooltip="Research Direction, Introduction, equipment"
+        >
           Research
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/publication/" data-tooltip="Publications">
+        <a
+          href="/prime-lab-tw-website/publication/"
+          data-tooltip="Publications"
+        >
           Publications
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/team/" data-tooltip="About our team">
+        <a
+          href="/prime-lab-tw-website/team/"
+          data-tooltip="About our team"
+        >
           Team
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/blog/" data-tooltip="News and inspiration">
+        <a
+          href="/prime-lab-tw-website/blog/"
+          data-tooltip="News and inspiration"
+        >
           Blog
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/activity/" data-tooltip="lab research, activity gallery">
+        <a
+          href="/prime-lab-tw-website/activity/"
+          data-tooltip="lab research, activity gallery"
+        >
           Activity
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/contact/" data-tooltip="Email, address, and location">
+        <a
+          href="/prime-lab-tw-website/contact/"
+          data-tooltip="Email, address, and location"
+        >
           Contact
         </a>
       
@@ -439,7 +472,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="1">
+  <section
+    class="background"
+    data-size="1"
+    
+    
+  >
     <!--
   <background></background>
   <dark></dark>
@@ -485,17 +523,32 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
 
-  <div class="tags">
+  <div
+    class="tags"
     
-      <a href="/prime-lab-tw-website/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+  >
+    
+      <a
+        href="/prime-lab-tw-website/blog?search=&quot;tag: biology&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;biology&quot;"
+      >
         biology
       </a>
     
-      <a href="/prime-lab-tw-website/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+      <a
+        href="/prime-lab-tw-website/blog?search=&quot;tag: medicine&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;medicine&quot;"
+      >
         medicine
       </a>
     
-      <a href="/prime-lab-tw-website/blog?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
+      <a
+        href="/prime-lab-tw-website/blog?search=&quot;tag: big-data&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;big-data&quot;"
+      >
         big-data
       </a>
     
@@ -506,7 +559,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <!--
   <background></background>
   <dark></dark>
@@ -521,7 +579,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <!--
   <background></background>
   <dark></dark>
@@ -554,7 +617,14 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
 
-<footer class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true" data-size="wide">
+<footer
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  data-size="wide"
+>
   <!--
     <div>
       Extra details like contact info or address
@@ -570,7 +640,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a
+      class="button"
+      href="mailto:prime.lab.tw@gmail.com"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -585,7 +664,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=9RKoQacAAAAJ"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -600,7 +688,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a
+      class="button"
+      href="https://github.com/PRIME-PSY-LAB"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
       <i class="icon fa-brands fa-github"></i>
       
     </a>
@@ -611,16 +708,25 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 
   <div>
-    © 2025
+    &copy; 2025
     Perceptual Representation and InforMation Engineering Lab
-      |   Built with
+    &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input
+    type="checkbox"
+    class="dark-toggle"
+    data-tooltip="Dark mode"
+    aria-label="toggle dark mode"
+    oninput="onDarkToggleChange(event)"
+  >
 </footer>
 
   </body>
+</html>
+</script>
+</head>
 </html>

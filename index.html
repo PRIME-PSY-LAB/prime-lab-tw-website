@@ -369,32 +369,40 @@
 
 
 <script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
 document.addEventListener("DOMContentLoaded", function () {
-  const track = document.querySelector(".pub-carousel-track");
-  if (!track) return;
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
 
+  const track = carousel.querySelector(".pub-carousel-track");
   const slides = Array.from(track.children);
-  const prevBtn = document.querySelector(".pub-prev");
-  const nextBtn = document.querySelector(".pub-next");
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
 
   let index = 0;
 
   function updateCarousel() {
-    const offset = -index * 100;
-    track.style.transform = `translateX(${offset}%)`;
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
   }
 
-  prevBtn.addEventListener("click", () => {
+  prevBtn.addEventListener("click", function () {
     index = (index - 1 + slides.length) % slides.length;
     updateCarousel();
   });
 
-  nextBtn.addEventListener("click", () => {
+  nextBtn.addEventListener("click", function () {
     index = (index + 1) % slides.length;
     updateCarousel();
   });
+
+  updateCarousel();
 });
-</script>
+
 
 </head>
 
@@ -407,7 +415,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-<header class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true" data-big>
+<header
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  
+    data-big
+  
+>
   <a href="/prime-lab-tw-website/" class="home">
     
       <span class="logo">
@@ -430,37 +447,55 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
-        <a href="/prime-lab-tw-website/research/" data-tooltip="Research Direction, Introduction, equipment">
+        <a
+          href="/prime-lab-tw-website/research/"
+          data-tooltip="Research Direction, Introduction, equipment"
+        >
           Research
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/publication/" data-tooltip="Publications">
+        <a
+          href="/prime-lab-tw-website/publication/"
+          data-tooltip="Publications"
+        >
           Publications
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/team/" data-tooltip="About our team">
+        <a
+          href="/prime-lab-tw-website/team/"
+          data-tooltip="About our team"
+        >
           Team
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/blog/" data-tooltip="News and inspiration">
+        <a
+          href="/prime-lab-tw-website/blog/"
+          data-tooltip="News and inspiration"
+        >
           Blog
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/activity/" data-tooltip="lab research, activity gallery">
+        <a
+          href="/prime-lab-tw-website/activity/"
+          data-tooltip="lab research, activity gallery"
+        >
           Activity
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/contact/" data-tooltip="Email, address, and location">
+        <a
+          href="/prime-lab-tw-website/contact/"
+          data-tooltip="Email, address, and location"
+        >
           Contact
         </a>
       
@@ -485,7 +520,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <h1 id="quick-about-us">Quick about us</h1>
 
 <p>Our lab investigates <strong>visual perception and temporal processing</strong>, with a focus on:</p>
@@ -502,18 +542,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <p>You can explore our lab through:</p>
 
 <ul>
-  <li>
-<a href="/prime-lab-tw-website/research/">Research topics</a> – overview of our main research themes and our research environment.</li>
-  <li>
-<a href="/prime-lab-tw-website/publication/">Publications</a> – journal papers, conference papers, and preprints.</li>
-  <li>
-<a href="/prime-lab-tw-website/team/">Team</a> – everything about our members.</li>
-  <li>
-<a href="/prime-lab-tw-website/blog/">Blog</a> – records of our milestones and lab updates.</li>
-  <li>
-<a href="/prime-lab-tw-website/activity/">Activities</a> – news, talks, and image archives from academic or social events.</li>
-  <li>
-<a href="/prime-lab-tw-website/contact/">Contact</a> – how to visit, collaborate, or join the lab.</li>
+  <li><a href="/prime-lab-tw-website/research/">Research topics</a> – overview of our main research themes and our research environment.</li>
+  <li><a href="/prime-lab-tw-website/publication/">Publications</a> – journal papers, conference papers, and preprints.</li>
+  <li><a href="/prime-lab-tw-website/team/">Team</a> – everything about our members.</li>
+  <li><a href="/prime-lab-tw-website/blog/">Blog</a> – records of our milestones and lab updates.</li>
+  <li><a href="/prime-lab-tw-website/activity/">Activities</a> – news, talks, and image archives from academic or social events.</li>
+  <li><a href="/prime-lab-tw-website/contact/">Contact</a> – how to visit, collaborate, or join the lab.</li>
 </ul>
   </section>
 
@@ -521,7 +555,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <!--
   <background></background>
   <dark></dark>
@@ -530,12 +569,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <h2 id="highlights">Highlights</h2>
 
-<div class="highlight-grid">
-<article class="highlight-card">
+<div class="highlight-grid"><article class="highlight-card">
 
       <a href="/prime-lab-tw-website/2025/11/01/tryhighglight.html" class="highlight-image-link">
         
-          <img src="/prime-lab-tw-website/images/photo.jpg" class="highlight-image">
+          <img src="/prime-lab-tw-website/images/photo.jpg" class="highlight-image" />
         
       </a>
 
@@ -564,7 +602,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       <a href="/prime-lab-tw-website/2025/11/01/tryhighglight-copy.html" class="highlight-image-link">
         
-          <img src="/prime-lab-tw-website/images/photo.jpg" class="highlight-image">
+          <img src="/prime-lab-tw-website/images/photo.jpg" class="highlight-image" />
         
       </a>
 
@@ -589,15 +627,19 @@ document.addEventListener("DOMContentLoaded", function () {
         
       </div>
 
-    </article>
-</div>
+    </article></div>
   </section>
 
   
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <!--
   <background></background>
   <dark></dark>
@@ -718,7 +760,14 @@ document.addEventListener("DOMContentLoaded", function () {
     
 
 
-<footer class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true" data-size="wide">
+<footer
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  data-size="wide"
+>
   <!--
     <div>
       Extra details like contact info or address
@@ -734,7 +783,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a
+      class="button"
+      href="mailto:prime.lab.tw@gmail.com"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -749,7 +807,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=9RKoQacAAAAJ"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -764,7 +831,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a
+      class="button"
+      href="https://github.com/PRIME-PSY-LAB"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
       <i class="icon fa-brands fa-github"></i>
       
     </a>
@@ -775,16 +851,25 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
 
   <div>
-    © 2025
+    &copy; 2025
     Perceptual Representation and InforMation Engineering Lab
-      |   Built with
+    &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input
+    type="checkbox"
+    class="dark-toggle"
+    data-tooltip="Dark mode"
+    aria-label="toggle dark mode"
+    oninput="onDarkToggleChange(event)"
+  >
 </footer>
 
   </body>
+</html>
+</script>
+</head>
 </html>

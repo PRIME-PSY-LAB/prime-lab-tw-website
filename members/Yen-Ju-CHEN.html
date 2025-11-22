@@ -315,32 +315,40 @@
 
 
 <script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
 document.addEventListener("DOMContentLoaded", function () {
-  const track = document.querySelector(".pub-carousel-track");
-  if (!track) return;
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
 
+  const track = carousel.querySelector(".pub-carousel-track");
   const slides = Array.from(track.children);
-  const prevBtn = document.querySelector(".pub-prev");
-  const nextBtn = document.querySelector(".pub-next");
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
 
   let index = 0;
 
   function updateCarousel() {
-    const offset = -index * 100;
-    track.style.transform = `translateX(${offset}%)`;
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
   }
 
-  prevBtn.addEventListener("click", () => {
+  prevBtn.addEventListener("click", function () {
     index = (index - 1 + slides.length) % slides.length;
     updateCarousel();
   });
 
-  nextBtn.addEventListener("click", () => {
+  nextBtn.addEventListener("click", function () {
     index = (index + 1) % slides.length;
     updateCarousel();
   });
+
+  updateCarousel();
 });
-</script>
+
 
 </head>
 
@@ -353,7 +361,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-<header class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true">
+<header
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  
+>
   <a href="/prime-lab-tw-website/" class="home">
     
       <span class="logo">
@@ -376,37 +391,55 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
-        <a href="/prime-lab-tw-website/research/" data-tooltip="Research Direction, Introduction, equipment">
+        <a
+          href="/prime-lab-tw-website/research/"
+          data-tooltip="Research Direction, Introduction, equipment"
+        >
           Research
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/publication/" data-tooltip="Publications">
+        <a
+          href="/prime-lab-tw-website/publication/"
+          data-tooltip="Publications"
+        >
           Publications
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/team/" data-tooltip="About our team">
+        <a
+          href="/prime-lab-tw-website/team/"
+          data-tooltip="About our team"
+        >
           Team
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/blog/" data-tooltip="News and inspiration">
+        <a
+          href="/prime-lab-tw-website/blog/"
+          data-tooltip="News and inspiration"
+        >
           Blog
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/activity/" data-tooltip="lab research, activity gallery">
+        <a
+          href="/prime-lab-tw-website/activity/"
+          data-tooltip="lab research, activity gallery"
+        >
           Activity
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/contact/" data-tooltip="Email, address, and location">
+        <a
+          href="/prime-lab-tw-website/contact/"
+          data-tooltip="Email, address, and location"
+        >
           Contact
         </a>
       
@@ -431,14 +464,23 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="page">
-    <div class="float">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <div
+  class="float"
+  
+  
+>
   
 <div class="portrait-wrapper">
   <a class="portrait" data-style="" aria-label="Yen-Ju Chen">
     
 
-    <img src="/prime-lab-tw-website/images/PersonalPhoto/YJC.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+    <img src="/prime-lab-tw-website/images/PersonalPhoto/YJC.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;" />
 
     
       <span class="portrait-name">
@@ -483,7 +525,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   </div>
 
-<br>
+<br />
   
     
     
@@ -500,7 +542,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   </div>
 
-<br>
+<br />
   
     
     
@@ -517,7 +559,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   </div>
 
-<br>
+<br />
   
     
     
@@ -534,7 +576,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   </div>
 
-<br>
+<br />
   
     
     
@@ -551,7 +593,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </a>
   </div>
 
-<br>
+<br />
   
 </div>
 
@@ -584,7 +626,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 </details>
 
-<hr>
+<hr />
 
 <details class="collapse-block">
   <summary>
@@ -594,27 +636,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <section>
 
-    <p><strong>Assitant Professor</strong><br>
-Department of Psychology    (2026/02 – now)<br>
-Soochow University, Taipei, Taiwan<br></p>
+    <p><strong>Assitant Professor</strong><br />
+Department of Psychology    (2026/02 – now)<br />
+Soochow University, Taipei, Taiwan<br /></p>
 
-    <p><strong>Ph.D. in Informatics (Intelligence Science &amp; Technology)</strong><br>
-Intelligence Science and Technology Course    (2022/10 – 2025/09)<br>
-Graduate School of Informatics<br>
-Kyoto University, Kyoto, Japan<br></p>
+    <p><strong>Ph.D. in Informatics (Intelligence Science &amp; Technology)</strong><br />
+Intelligence Science and Technology Course    (2022/10 – 2025/09)<br />
+Graduate School of Informatics<br />
+Kyoto University, Kyoto, Japan<br /></p>
 
-    <p><strong>M.S. in Psychology</strong><br>
-Department of Psychology    (2020/09 – 2022/06)<br>
-National Cheng Kung University, Tainan, Taiwan<br></p>
+    <p><strong>M.S. in Psychology</strong><br />
+Department of Psychology    (2020/09 – 2022/06)<br />
+National Cheng Kung University, Tainan, Taiwan<br /></p>
 
-    <p><strong>B.S. in Psychology</strong><br>
-Department of Psychology    (2016/09 – 2020/06)<br>
-Soochow University, Taipei, Taiwan<br></p>
+    <p><strong>B.S. in Psychology</strong><br />
+Department of Psychology    (2016/09 – 2020/06)<br />
+Soochow University, Taipei, Taiwan<br /></p>
   </section>
 
 </details>
 
-<hr>
+<hr />
 
 <details class="collapse-block">
   <summary>
@@ -624,23 +666,23 @@ Soochow University, Taipei, Taiwan<br></p>
 
 <section>
 
-    <p><strong>Visiting Researcher — University of Nottingham (UK)</strong><br>
-2024/08 – 2024/09<br>
+    <p><strong>Visiting Researcher — University of Nottingham (UK)</strong><br />
+2024/08 – 2024/09<br />
 Supervisor: Alan Johnston</p>
 
-    <p><strong>Research Assistant — Kyoto University</strong><br>
-2022/10 – 2025/09<br>
+    <p><strong>Research Assistant — Kyoto University</strong><br />
+2022/10 – 2025/09<br />
 Supervisor: Shin’ya Nishida</p>
 
-    <p><strong>Research Assistant — Soochow University</strong><br>
-2017/09 – 2018/09<br>
+    <p><strong>Research Assistant — Soochow University</strong><br />
+2017/09 – 2018/09<br />
 Supervisor: Man-Ying Wang</p>
 
   </section>
 
 </details>
 
-<hr>
+<hr />
 
 <details class="collapse-block">
   <summary>
@@ -709,7 +751,14 @@ Supervisor: Man-Ying Wang</p>
     
 
 
-<footer class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true" data-size="wide">
+<footer
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  data-size="wide"
+>
   <!--
     <div>
       Extra details like contact info or address
@@ -725,7 +774,16 @@ Supervisor: Man-Ying Wang</p>
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a
+      class="button"
+      href="mailto:prime.lab.tw@gmail.com"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -740,7 +798,16 @@ Supervisor: Man-Ying Wang</p>
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=9RKoQacAAAAJ"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -755,7 +822,16 @@ Supervisor: Man-Ying Wang</p>
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a
+      class="button"
+      href="https://github.com/PRIME-PSY-LAB"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
       <i class="icon fa-brands fa-github"></i>
       
     </a>
@@ -766,16 +842,25 @@ Supervisor: Man-Ying Wang</p>
   </div>
 
   <div>
-    © 2025
+    &copy; 2025
     Perceptual Representation and InforMation Engineering Lab
-      |   Built with
+    &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input
+    type="checkbox"
+    class="dark-toggle"
+    data-tooltip="Dark mode"
+    aria-label="toggle dark mode"
+    oninput="onDarkToggleChange(event)"
+  >
 </footer>
 
   </body>
+</html>
+</script>
+</head>
 </html>

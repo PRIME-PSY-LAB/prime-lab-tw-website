@@ -369,32 +369,40 @@
 
 
 <script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
 document.addEventListener("DOMContentLoaded", function () {
-  const track = document.querySelector(".pub-carousel-track");
-  if (!track) return;
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
 
+  const track = carousel.querySelector(".pub-carousel-track");
   const slides = Array.from(track.children);
-  const prevBtn = document.querySelector(".pub-prev");
-  const nextBtn = document.querySelector(".pub-next");
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
 
   let index = 0;
 
   function updateCarousel() {
-    const offset = -index * 100;
-    track.style.transform = `translateX(${offset}%)`;
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
   }
 
-  prevBtn.addEventListener("click", () => {
+  prevBtn.addEventListener("click", function () {
     index = (index - 1 + slides.length) % slides.length;
     updateCarousel();
   });
 
-  nextBtn.addEventListener("click", () => {
+  nextBtn.addEventListener("click", function () {
     index = (index + 1) % slides.length;
     updateCarousel();
   });
+
+  updateCarousel();
 });
-</script>
+
 
 </head>
 
@@ -407,7 +415,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-<header class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true">
+<header
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  
+>
   <a href="/prime-lab-tw-website/" class="home">
     
       <span class="logo">
@@ -430,37 +445,55 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
-        <a href="/prime-lab-tw-website/research/" data-tooltip="Research Direction, Introduction, equipment">
+        <a
+          href="/prime-lab-tw-website/research/"
+          data-tooltip="Research Direction, Introduction, equipment"
+        >
           Research
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/publication/" data-tooltip="Publications">
+        <a
+          href="/prime-lab-tw-website/publication/"
+          data-tooltip="Publications"
+        >
           Publications
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/team/" data-tooltip="About our team">
+        <a
+          href="/prime-lab-tw-website/team/"
+          data-tooltip="About our team"
+        >
           Team
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/blog/" data-tooltip="News and inspiration">
+        <a
+          href="/prime-lab-tw-website/blog/"
+          data-tooltip="News and inspiration"
+        >
           Blog
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/activity/" data-tooltip="lab research, activity gallery">
+        <a
+          href="/prime-lab-tw-website/activity/"
+          data-tooltip="lab research, activity gallery"
+        >
           Activity
         </a>
       
     
       
-        <a href="/prime-lab-tw-website/contact/" data-tooltip="Email, address, and location">
+        <a
+          href="/prime-lab-tw-website/contact/"
+          data-tooltip="Email, address, and location"
+        >
           Contact
         </a>
       
@@ -485,24 +518,28 @@ document.addEventListener("DOMContentLoaded", function () {
   
   
 
-  <section class="background" data-size="page">
-    <h1 id="research">
-<i class="icon fa-solid fa-wrench"></i>Research</h1>
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <h1 id="research"><i class="icon fa-solid fa-wrench"></i>Research</h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
 <div class="tags">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: publication&quot;" class="tag" data-tooltip="Show items with the tag &quot;publication&quot;">
         publication
       </a>
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: resource&quot;" class="tag" data-tooltip="Show items with the tag &quot;resource&quot;">
         resource
       </a>
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: website&quot;" class="tag" data-tooltip="Show items with the tag &quot;website&quot;">
         website
       </a>
     
@@ -515,7 +552,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <!--
   <background></background>
   <dark></dark>
@@ -526,7 +568,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <div class="card" data-style="">
   <a href="https://github.com/" aria-label="Cool Dataset" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Dataset" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;" />
   </a>
 
   <div class="card-text">
@@ -553,7 +595,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   <div class="tags" data-repo="greenelab/lab-website-template">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: resource&quot;" class="tag" data-tooltip="Show items with the tag &quot;resource&quot;">
         resource
       </a>
     
@@ -566,7 +608,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <div class="card" data-style="">
   <a href="https://github.com/" aria-label="Cool Package" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Package" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;" />
   </a>
 
   <div class="card-text">
@@ -593,7 +635,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   <div class="tags" data-repo="greenelab/lab-website-template">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: resource&quot;" class="tag" data-tooltip="Show items with the tag &quot;resource&quot;">
         resource
       </a>
     
@@ -609,7 +651,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
   
 
-  <section class="background" data-size="page">
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
     <!--
   <background></background>
   <dark></dark>
@@ -620,7 +667,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <div class="card" data-style="small">
   <a href="https://github.com/" aria-label="Cool Tutorial" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Tutorial" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;" />
   </a>
 
   <div class="card-text">
@@ -647,11 +694,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   <div class="tags" data-repo="greenelab/lab-website-template">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: resource&quot;" class="tag" data-tooltip="Show items with the tag &quot;resource&quot;">
         resource
       </a>
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: publication&quot;" class="tag" data-tooltip="Show items with the tag &quot;publication&quot;">
         publication
       </a>
     
@@ -664,7 +711,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <div class="card" data-style="small">
   <a href="https://github.com/" aria-label="Cool Web App" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Web App" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;" />
   </a>
 
   <div class="card-text">
@@ -691,7 +738,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   <div class="tags" data-repo="greenelab/lab-website-template">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: software&quot;" class="tag" data-tooltip="Show items with the tag &quot;software&quot;">
         software
       </a>
     
@@ -704,7 +751,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 <div class="card" data-style="small">
   <a href="https://github.com/" aria-label="Cool Web Server" class="card-image">
-    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;">
+    <img src="/prime-lab-tw-website/images/photo.jpg" alt="Cool Web Server" loading="lazy" onerror="this.src = '/prime-lab-tw-website/images/fallback.svg'; this.onerror = null;" />
   </a>
 
   <div class="card-text">
@@ -731,7 +778,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   <div class="tags" data-repo="greenelab/lab-website-template">
     
-      <a href="/prime-lab-tw-website/research/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
+      <a href="/prime-lab-tw-website/research/?search=&quot;tag: software&quot;" class="tag" data-tooltip="Show items with the tag &quot;software&quot;">
         software
       </a>
     
@@ -748,7 +795,14 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     
 
 
-<footer class="background" style="--image: url('/prime-lab-tw-website/images/background.jpg')" data-dark="true" data-size="wide">
+<footer
+  class="background"
+  style="--image: url('/prime-lab-tw-website/images/background.jpg')"
+  
+    data-dark="true"
+  
+  data-size="wide"
+>
   <!--
     <div>
       Extra details like contact info or address
@@ -764,7 +818,16 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a
+      class="button"
+      href="mailto:prime.lab.tw@gmail.com"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -779,7 +842,16 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=9RKoQacAAAAJ"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -794,7 +866,16 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+    <a
+      class="button"
+      href="https://github.com/PRIME-PSY-LAB"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
       <i class="icon fa-brands fa-github"></i>
       
     </a>
@@ -805,16 +886,25 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 
   <div>
-    © 2025
+    &copy; 2025
     Perceptual Representation and InforMation Engineering Lab
-      |   Built with
+    &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input
+    type="checkbox"
+    class="dark-toggle"
+    data-tooltip="Dark mode"
+    aria-label="toggle dark mode"
+    oninput="onDarkToggleChange(event)"
+  >
 </footer>
 
   </body>
+</html>
+</script>
+</head>
 </html>
