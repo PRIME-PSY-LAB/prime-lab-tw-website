@@ -78,13 +78,13 @@ and high-performance computing resources for large-scale simulations and trainin
     title="CRS Display ++"
     subtitle="High quality research-oriented monitor"
     link = "https://www.crsltd.com/tools-for-vision-science/calibrated-displays/displaypp-uhd-lcd-monitor/"
-    image = images/EnviromentDemoImage/Display++.png
+    image = "images/EnviromentDemoImage/Display++.png"
   %}
   {% include card.html
     title="Tobii Pro Glasses 3"
     subtitle = "wearable goggles"
     link = "https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3"
-    image = images/EnviromentDemoImage/TobiiProGlass.webp
+    image = "images/EnviromentDemoImage/TobiiProGlass.webp"
   %}
 {% endcapture %}
 
