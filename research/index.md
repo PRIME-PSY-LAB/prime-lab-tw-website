@@ -64,7 +64,6 @@ and high-performance computing resources for large-scale simulations and trainin
       component="card"
       data="projects"
       filter="group == 'Past'"
-      style="small"
     %}
   </div>
   </section>
@@ -74,16 +73,23 @@ and high-performance computing resources for large-scale simulations and trainin
 
 ## Research environment
 
-<div class="project-grid project-grid--environment">
-  {%- comment -%}
-    This card links to a dedicated environment / equipment page
-    (see _research_intro/environment.md below).
-  {%- endcomment -%}
+{% capture content %}
   {% include card.html
-    title="Lab space & equipment"
-    subtitle="Visual psychophysics facilities, displays and computing"
-    description="Overview of our experimental rooms, calibrated displays, stimulus control computers, and GPU workstations used for modeling and large-scale simulations."
-    link="/research/environment/"
-    tags="environment, equipment, facilities"
+    title="CRS Display ++"
+    subtitle="High quality research-oriented monitor"
+    link = "https://www.crsltd.com/tools-for-vision-science/calibrated-displays/displaypp-uhd-lcd-monitor/"
+    image = images/EnviromentDemoImage/Display++.png
   %}
-</div>
+  {% include card.html
+    title="Tobii Pro Glasses 3"
+    subtitle = "wearable goggles"
+    link = "https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3"
+    image = images/EnviromentDemoImage/TobiiProGlass.webp
+  %}
+{% endcapture %}
+
+{% 
+  include grid.html
+  content = content
+  style = "square"
+%}
