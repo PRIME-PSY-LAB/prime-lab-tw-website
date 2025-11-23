@@ -91,6 +91,5 @@ and high-performance computing resources for large-scale simulations and trainin
 {% 
   include grid.html
   content = content
-  style = "square"
 %}
 
