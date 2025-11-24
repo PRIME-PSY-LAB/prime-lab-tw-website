@@ -1,3 +1,19 @@
+- title: Hierarchical Motion Perception Model
+  subtitle: Dual-pathway motion model bridging human and machine vision
+  group: Collaborative
+  image: images/Research_Intro_image/hierarchical-motion/image.png
+  link: /research/hierarchical-motion/
+  authors:
+    - Ziwei He
+    - Zitang Sun
+    - Yen-Ju Chen
+    - Yung-Hao Yang
+    - Shin'ya Nishida
+  tags:
+    - motion perception
+    - deep learning
+    - computational modeling
+
 - title: Multi-order Human Visual Motion Processing
   subtitle: Dual-pathway motion model bridging human and machine vision
   group: Past
