@@ -27,20 +27,18 @@
   }
 
   .activity-album-slides {
-    position: relative;
-    min-height: 260px;
+  position: relative;
+  // 不固定高度，讓 caption 正常排進來
   }
 
   .activity-album-slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.4s ease;
+    display: none;     // 非目前圖片不顯示
+    opacity: 1;
+    pointer-events: auto;
+    position: relative;
 
     &.is-active {
-      opacity: 1;
-      pointer-events: auto;
+      display: block;  // 顯示目前那張
     }
   }
 

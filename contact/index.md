@@ -11,7 +11,7 @@ nav:
 {%
   include button.html
   type="email"
-  text="Send email to us"
+  text="prime.lab.tw@gmail.com"
   link="prime.lab.tw@gmail.com"
 %}
 {%
