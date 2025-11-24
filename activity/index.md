@@ -8,6 +8,21 @@ permalink: /activity/
 
 # {% include icon.html icon="fa-solid fa-soccer-ball" %}Activity
 
+<style>
+    /* 預設隱藏所有輪播項目 */
+    .carousel-item {
+        display: none;
+        transition: transform 0.6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    
+    /* 只有擁有 active 標記的項目才顯示 */
+    .carousel-item.active {
+        display: block;
+    }
+</style>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
@@ -30,17 +45,14 @@ permalink: /activity/
 
 
 <script>
-    // 設定 Lightbox 的參數
     lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true,
       'albumLabel': "Image %1 of %2",
-      'fadeDuration': 300,
-      'imageFadeDuration': 300
-      // 只要 Lightbox 成功載入，右上角會自動出現 X 關閉鍵，也可以點擊黑色背景關閉
+      'fadeDuration': 300
     })
 
-    // 強制啟動 Bootstrap Carousel (保險起見)
+    // 確保文件載入完成後啟動輪播
     $(document).ready(function(){
         $('.carousel').carousel();
     });
