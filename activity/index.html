@@ -496,6 +496,63 @@ document.addEventListener("DOMContentLoaded", function () {
   <section class="background" data-size="page">
     <h1 id="activity">
 <i class="icon fa-solid fa-soccer-ball"></i>Activity</h1>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+<div class="row">
+  
+  <div class="col-md-6 mb-4">
+    <h3 class="text-center mb-3">Research &amp; Teaching</h3>
+    
+    <div id="carouselResearch" class="carousel slide" data-ride="carousel" data-interval="4000">
+      
+      <div class="carousel-inner">
+        
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselResearch" role="button" data-slide="prev" style="height: 300px;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselResearch" role="button" data-slide="next" style="height: 300px;">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+  <div class="col-md-6 mb-4">
+    <h3 class="text-center mb-3">Lab Life</h3>
+    
+    <div id="carouselLife" class="carousel slide" data-ride="carousel" data-interval="5000">
+      
+      <div class="carousel-inner">
+        
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselLife" role="button" data-slide="prev" style="height: 300px;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselLife" role="button" data-slide="next" style="height: 300px;">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'albumLabel': "Image %1 of %2"
+    })
+</script>
   </section>
 
 
