@@ -1,4 +1,4 @@
-{% assign album_data = site.data.activities[include.album_id] %}
+{% assign album_data = site.data.activity[include.album_id] %}
 <div id="carousel-{{ include.album_id }}" class="carousel slide" data-ride="carousel" data-interval="{{ include.interval | default: 5000 }}">
   
   <div class="carousel-inner">

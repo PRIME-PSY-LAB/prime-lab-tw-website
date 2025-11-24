@@ -1,24 +1,19 @@
-# _data/activities.yml
-
-# 左側：研究與教學相簿
 research:
-  - image: "images/activity/demo_research_1.jpeg" # 照片路徑
-    title: "VSS 2024 Poster session"                    # 照片標題
-    caption: "the doctoral student Yen-Ju was explaining the research at VSS 2024" # 照片說明
-    link: "/2025/11/01/tryhighglight-copy.html"        # 相關文章連結 (可選)
+  - image: "images/activity/demo_research_1.jpeg"
+    title: "VSS 2024 Poster session"
+    caption: "The doctoral student Yen-Ju was explaining the research at VSS 2024"
+    link: "/2025/11/01/tryhighglight-copy.html"
   
   - image: "images/activity/demo_research_2.jpg"
-    title: "VSS 2023 Poster session" 
-    caption: "the doctoral student Yen-Ju was explaining the research at VSS 2023"
-    # link: "" # 如果沒有連結，這行可以刪除或留空
+    title: "VSS 2023 Poster session"
+    caption: "The doctoral student Yen-Ju was explaining the research at VSS 2023"
 
-# 右側：生活與課外活動相簿
 life:
   - image: "images/activity/demo_life_1.jpg"
     title: "GRADUATE!!"
-    caption: "graduate for Yen-Ju passed the oral exam."
+    caption: "Graduate for Yen-Ju passed the oral exam."
     
   - image: "images/activity/demo_life_2.jpg"
-    title: "123"
-    caption: "good day for hiking."
+    title: "Hiking Day"
+    caption: "Good day for hiking."
     link: "/blog/2024/10/hiking"
