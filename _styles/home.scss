@@ -1,0 +1,23 @@
+// 只影響首頁（layout: home）
+body.home {
+  font-size: 1.05rem;   // 比全站略大一點
+  line-height: 1.7;
+}
+
+// 首頁主標、副標等，你可以依風格調整
+body.home h1 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+body.home h2 {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+body.home p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}

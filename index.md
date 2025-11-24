@@ -1,4 +1,5 @@
 ---
+layout: home
 ---
 
 # Quick about us
