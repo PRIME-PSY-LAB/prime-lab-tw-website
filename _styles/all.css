@@ -502,18 +502,15 @@ details.collapse-block .collapse-label {
 }
 .activity-album .activity-album-slides {
   position: relative;
-  min-height: 260px;
 }
 .activity-album .activity-album-slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.4s ease;
-}
-.activity-album .activity-album-slide.is-active {
+  display: none;
   opacity: 1;
   pointer-events: auto;
+  position: relative;
+}
+.activity-album .activity-album-slide.is-active {
+  display: block;
 }
 .activity-album .activity-album-image {
   width: 100%;
