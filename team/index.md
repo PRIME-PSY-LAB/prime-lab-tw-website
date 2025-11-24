@@ -52,6 +52,7 @@ nav:
 - [Kiyofumi Miyoshi](https://researchmap.jp/kiyofumimiyoshi?lang=en),   Kyoto University, Kyoto, Japan
 - [Alan Johnston](https://www.nottingham.ac.uk/psychology/people/alan.johnston),    University of Nottingham, Nottingham, UK
 - [Zitang Sun](https://www.researchgate.net/profile/Zitang-Sun),    Sony Co., Japan
+- [Ziwei He](https://scholar.google.com/citations?hl=zh-CN&user=W4OVvaEAAAAJ),   Kyoto University, Kyoto, Japan
 
 </section>
 
