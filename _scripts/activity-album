@@ -1,0 +1,97 @@
+(function () {
+  function createLightbox() {
+    var overlay = document.createElement('div');
+    overlay.className = 'activity-lightbox-overlay';
+    overlay.innerHTML =
+      '<div class="activity-lightbox-inner">' +
+      '  <img class="activity-lightbox-image" src="" alt="">' +
+      '  <button class="activity-lightbox-close" aria-label="Close">&times;</button>' +
+      '</div>';
+
+    document.body.appendChild(overlay);
+
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay || e.target.classList.contains('activity-lightbox-close')) {
+        overlay.classList.remove('is-open');
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        overlay.classList.remove('is-open');
+      }
+    });
+
+    return overlay;
+  }
+
+  var lightboxOverlay = null;
+
+  function openLightbox(src, alt) {
+    if (!lightboxOverlay) lightboxOverlay = createLightbox();
+    var img = lightboxOverlay.querySelector('.activity-lightbox-image');
+    img.src = src;
+    img.alt = alt || '';
+    lightboxOverlay.classList.add('is-open');
+  }
+
+  function initAlbum(albumId) {
+    var album = document.getElementById(albumId);
+    if (!album) return;
+
+    var slides = album.querySelectorAll('.activity-album-slide');
+    if (!slides.length) return;
+
+    var prevBtn = album.querySelector('.activity-album-prev');
+    var nextBtn = album.querySelector('.activity-album-next');
+    var frame = album.querySelector('.activity-album-frame');
+
+    var current = 0;
+    var timer = null;
+    var INTERVAL = 5000;
+
+    function show(n) {
+      if (n < 0) n = slides.length - 1;
+      if (n >= slides.length) n = 0;
+      current = n;
+
+      slides.forEach((s, i) => {
+        s.classList.toggle('is-active', i === current);
+      });
+    }
+
+    function next() { show(current + 1); }
+    function prev() { show(current - 1); }
+
+    function autoStart() {
+      autoStop();
+      timer = setInterval(next, INTERVAL);
+    }
+
+    function autoStop() {
+      if (timer) clearInterval(timer);
+    }
+
+    nextBtn.addEventListener('click', next);
+    prevBtn.addEventListener('click', prev);
+
+    frame.addEventListener('mouseenter', autoStop);
+    frame.addEventListener('mouseleave', autoStart);
+
+    album.querySelectorAll('.activity-album-lightbox').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const img = a.querySelector('img');
+        openLightbox(a.href, img?.alt || "");
+      });
+    });
+
+    show(0);
+    autoStart();
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    initAlbum('research-album');
+    initAlbum('life-album');
+  });
+})();
