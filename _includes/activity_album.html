@@ -1,0 +1,42 @@
+<div class="activity-album" id="{{ include.id }}">
+  <h2 class="activity-album-title">{{ include.title }}</h2>
+
+  <div class="activity-album-frame">
+    <button class="activity-album-nav activity-album-prev" type="button" aria-label="Previous image">
+      &#10094;
+    </button>
+
+    <div class="activity-album-slides">
+      {% for item in include.data %}
+      <div class="activity-album-slide{% if forloop.first %} is-active{% endif %}" data-index="{{ forloop.index0 }}">
+        
+        <!-- 點圖片：開大圖 lightbox -->
+        <a href="{{ item.image | relative_url }}" class="activity-album-lightbox">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" class="activity-album-image">
+        </a>
+
+        <div class="activity-album-caption">
+          <div class="activity-album-caption-main">
+            <div class="activity-album-caption-title">
+              {{ item.title }}
+            </div>
+            <div class="activity-album-caption-text">
+              {{ item.caption }}
+            </div>
+          </div>
+
+          {% if item.link %}
+          <a class="activity-album-link" href="{{ item.link | relative_url }}">
+            View related post →
+          </a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <button class="activity-album-nav activity-album-next" type="button" aria-label="Next image">
+      &#10095;
+    </button>
+  </div>
+</div>
