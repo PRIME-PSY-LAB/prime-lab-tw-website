@@ -1,0 +1,31 @@
+{% assign album_data = site.data.activities[include.album_id] %}
+<div id="carousel-{{ include.album_id }}" class="carousel slide" data-ride="carousel" data-interval="{{ include.interval | default: 5000 }}">
+  
+  <div class="carousel-inner">
+    {% for item in album_data %}
+    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+        <a href="{{ item.image | relative_url }}" data-lightbox="{{ include.album_id }}" data-title="{{ item.caption }}">
+            <img src="{{ item.image | relative_url }}" class="d-block w-100" alt="{{ item.title }}" 
+                 style="height: 300px; object-fit: cover; border-radius: 5px;">
+        </a>
+        
+        <div class="mt-2 text-center">
+            <h5>{{ item.title }}</h5>
+            <p class="small text-muted mb-1">{{ item.caption }}</p>
+            {% if item.link %}
+            <a href="{{ item.link | relative_url }}" class="btn btn-sm btn-outline-primary py-0" style="font-size: 0.8rem;">Read More</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <a class="carousel-control-prev" href="#carousel-{{ include.album_id }}" role="button" data-slide="prev" style="height: 300px;">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-{{ include.album_id }}" role="button" data-slide="next" style="height: 300px;">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
