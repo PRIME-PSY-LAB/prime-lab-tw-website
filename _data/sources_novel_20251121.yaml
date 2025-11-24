@@ -88,6 +88,7 @@
   type: paper
   publisher: Journal of Vision
   date: 2024-09-01
+  image: images/PaperThumbnail/DynaGap.png
   buttons:
     - type: paper
       link: https://jov.arvojournals.org/article.aspx?articleid=2801252
