@@ -145,12 +145,36 @@ Supervisor: Man-Ying Wang
 
 <section markdown="1">
 
-| Semester | Department | lecture level | Lecture name | Description | Others |
-|---:|-----|---|-----|-------|-----|
-| 2026 Spring | Department of law | bachelor level | General Psychology | Introduction to basic history and concpet of psychology and the discussion with the application on forensic psychology. | — |
-| 2026 Spring | Department of psychology | bachelor level | Data Analysis with R  | Learning to use R for operating the data and doing the simulation. | — |
-
-</section>
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+  <tr style="border-bottom: 2px solid #ccc;">
+    <th style="text-align: left; padding: 8px;">Semester</th>
+    <th style="text-align: left; padding: 8px;">Department</th>
+    <th style="text-align: left; padding: 8px;">Level</th>
+    <th style="text-align: left; padding: 8px;">Lecture Name</th>
+    <th style="text-align: left; padding: 8px;">Description</th>
+    <th style="text-align: center; padding: 8px;">Others</th>
+  </tr>
+</thead>
+<tbody>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026 Spring</td>
+    <td style="padding: 8px;">Department of Law</td>
+    <td style="padding: 8px;">Bachelor</td>
+    <td style="padding: 8px;">General Psychology</td>
+    <td style="padding: 8px;">Introduction to basic history and concept of psychology and the discussion with the application on forensic psychology.</td>
+    <td style="text-align: center; padding: 8px;">—</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026 Spring</td>
+    <td style="padding: 8px;">Department of Psychology</td>
+    <td style="padding: 8px;">Bachelor</td>
+    <td style="padding: 8px;">Data Analysis with R</td>
+    <td style="padding: 8px;">Learning to use R for operating the data and doing the simulation.</td>
+    <td style="text-align: center; padding: 8px;">—</td>
+  </tr>
+</tbody>
+</table>
 
 </section>
 
