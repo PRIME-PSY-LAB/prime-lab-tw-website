@@ -146,9 +146,9 @@ Supervisor: Man-Ying Wang
 <section markdown="1">
 
 | Semester | Department | lecture level | Lecture name | Description | Others |
-|---:|---|---|---|---|---|
+|---:|-----|---|-----|-------|-----|
 | 2026 Spring | Department of law | bachelor level | General Psychology | Introduction to basic history and concpet of psychology and the discussion with the application on forensic psychology. | — |
-| 2026 Spring | Department of psychology | bachelor level | data analysis with R  | Learning to use R for operating the data and doing the simulation. | — |
+| 2026 Spring | Department of psychology | bachelor level | Data Analysis with R  | Learning to use R for operating the data and doing the simulation. | — |
 
 </section>
 
