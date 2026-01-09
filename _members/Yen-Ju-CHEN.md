@@ -13,7 +13,7 @@ links:
   researchgate: https://www.researchgate.net/profile/Yen-Ju-Chen-12
   orcid: 0000-0002-2038-1440
   github: gloneer
-  email: chen.yen-ju.t05@kyoto-u.jp
+  email: yen-ju.chen@scu.edu.tw
 ---
 
 
