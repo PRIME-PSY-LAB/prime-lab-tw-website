@@ -5,7 +5,7 @@
 
   # PRIME-PSY-LAB's Website
 
-  Visit **[prime-psy-lab.github.io/prime-lab-tw-website](https://prime-psy-lab.github.io/prime-lab-tw-website)** 🚀
+  Visit **[www.prime-psy-lab.com](http://www.prime-psy-lab.com)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
