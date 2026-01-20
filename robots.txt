@@ -1,1 +1,1 @@
-Sitemap: https://prime-psy-lab.github.io/prime-lab-tw-website/sitemap.xml
+Sitemap: http://prime-psy-lab.com/sitemap.xml
