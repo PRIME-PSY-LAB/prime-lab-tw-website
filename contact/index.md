@@ -17,7 +17,7 @@ nav:
 {%
   include button.html
   type="phone"
-  text="(+886)(02)2881-9471 ##6917"
+  text="(+886) (02) 2881-9471 #6917"
   link=""
 %}
 {%
