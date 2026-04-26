@@ -1,5 +1,7 @@
 ---
 title: Blog
+lang: en
+translation_key: blog
 nav:
   order: 4
   tooltip: News and inspiration
@@ -16,4 +18,4 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="post-excerpt" %}
+{% include list.html data="posts" component="post-excerpt" filter="lang != 'zh'" %}

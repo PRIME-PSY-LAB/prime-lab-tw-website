@@ -1,5 +1,7 @@
 ---
 title: Team
+lang: en
+translation_key: team
 nav:
   order: 3
   tooltip: About our team
@@ -10,19 +12,19 @@ nav:
 {% include section.html %}
 
 ## Principle Investigator
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role == 'pi' and lang != 'zh'" %}
 
 ## Post Doc researcher
-{% include list.html data="members" component="portrait" filter="role == 'pd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'pd' and lang != 'zh'" %}
 
 ## Doctoral student
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and lang != 'zh'" %}
 
 ## Master student
-{% include list.html data="members" component="portrait" filter="role == 'ms'" %}
+{% include list.html data="members" component="portrait" filter="role == 'ms' and lang != 'zh'" %}
 
 ## Bachelor student
-{% include list.html data="members" component="portrait" filter="role == 'bs'" %}
+{% include list.html data="members" component="portrait" filter="role == 'bs' and lang != 'zh'" %}
 
 ## Alumni
 <details class="collapse-block">
@@ -32,7 +34,7 @@ nav:
   </summary>
   
 
-  {% include list.html data="members" component="portrait" filter="role == 'al'" %}
+  {% include list.html data="members" component="portrait" filter="role == 'al' and lang != 'zh'" %}
 
 
 </details>

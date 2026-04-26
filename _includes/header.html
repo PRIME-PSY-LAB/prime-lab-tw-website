@@ -12,20 +12,32 @@
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
-  {% if page.url == "/" %}
+  {% if page.translation_key == "home" or page.url == "/" %}
     data-big
   {% endif %}
 >
-  <a href="{{ "/" | relative_url }}" class="home">
+  {% assign current_lang = page.lang | default: "en" %}
+  {% assign home_url = "/" %}
+  {% if current_lang == "zh" %}
+    {% assign home_url = "/zh/" %}
+  {% endif %}
+
+  <a href="{{ home_url | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
         <img src="{{ logo | relative_url | uri_escape }}" alt="logo">
       </span>
     {% endif %}
     {% if site.logo-text != false %}
-      <span class="title-text" data-tooltip="Home">
+          <span class="title-text" data-tooltip="{% if current_lang == "zh" %}首頁{% else %}Home{% endif %}">
         {% if site.title and site.show-title != false %}
-          <span class="title">{{ site.title }}</span>
+          <span class="title">
+            {% if current_lang == "zh" %}
+              知覺表徵與建模實驗室
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </span>
         {% endif %}
         {% if site.subtitle and site.show-subtitle != false %}
           <span class="subtitle">{{ site.subtitle }}</span>
@@ -41,15 +53,17 @@
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for nav_page in pages %}
+      {% assign nav_lang = nav_page.lang | default: "en" %}
+      {% if nav_page.nav and nav_lang == current_lang %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+          href="{{ nav_page.url | relative_url | uri_escape }}"
+          data-tooltip="{{ nav_page.nav.tooltip | xml_escape }}"
         >
-          {{ page.title }}
+          {{ nav_page.title }}
         </a>
       {% endif %}
     {% endfor %}
+    {% include language-switcher.html %}
   </nav>
 </header>

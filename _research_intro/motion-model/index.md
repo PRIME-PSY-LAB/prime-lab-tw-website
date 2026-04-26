@@ -1,5 +1,7 @@
 ---
 title: Machine learning modelling for multi-order human visual motion processing
+lang: en
+translation_key: motion-model
 layout: project
 permalink: /research/motion-model/
 image: /images/Research_Intro_image/motion-model/Mario_model.gif

@@ -1,0 +1,49 @@
+- title: 階層式運動知覺模型
+  subtitle: 連結人類與機器視覺的雙路徑運動模型
+  group: Collaborative
+  image: images/Research_Intro_image/hierarchical-motion/image.png
+  link: /zh/research/hierarchical-motion/
+  tags:
+    - 運動知覺
+    - 深度學習
+    - 計算建模
+
+- title: 多階層人類視覺運動處理
+  subtitle: 建構能處理一階與高階運動訊號的類人模型
+  group: Past
+  image: images/Research_Intro_image/motion-model/Mario_model.gif
+  link: /zh/research/motion-model/
+  tags:
+    - 運動知覺
+    - 深度學習
+    - 計算建模
+
+- title: 視覺分割中的時間同步與結構
+  subtitle: 時間結構如何影響知覺組織？
+  group: Past
+  image: images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp
+  link: /zh/research/temporal-async-seg/
+  tags:
+    - 時間視覺
+    - 視覺分割
+    - 知覺組織
+
+- title: 身心疾病共病網路
+  subtitle: 以網路模型分析多疾病之間的互動關係
+  group: Past
+  image: images/Research_Intro_image/comorbidity-network/IMG1.png
+  link: /zh/research/comorbidity-network/
+  tags:
+    - 資料探勘
+    - 疾病網路
+    - 高齡化
+
+- title: 喚醒與趨近動機對時間知覺的影響
+  subtitle: 情緒與動機如何改變主觀時間
+  group: Past
+  image: images/Research_Intro_image/time-perception/IMG.jpeg
+  link: /zh/research/time-perception/
+  tags:
+    - 時間知覺
+    - 情緒
+    - 趨近動機

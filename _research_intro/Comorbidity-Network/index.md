@@ -1,6 +1,8 @@
 ---
 layout: project
 title: Comorbidity Network of Physical and Mental Disorders
+lang: en
+translation_key: comorbidity-network
 permalink: /research/comorbidity-network/
 ---
 

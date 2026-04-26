@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: home
 ---
 
 # About PRIME Lab
@@ -44,8 +46,9 @@ You can explore our lab through:
       Both resolve to the same name and are linked here.
     {%- endcomment -%}
     {% assign post = site.posts | where: "name", marker.name | first %}
+    {% assign post_lang = post.lang | default: "en" %}
 
-    {%- if post -%}
+    {%- if post and post_lang == "en" -%}
     <article class="highlight-card">
 
       <a href="{{ post.url | relative_url }}" class="highlight-image-link">
@@ -98,7 +101,7 @@ Latest updates from our lab.
   Show all posts in reverse chronological order.
 {% endcomment %}
 
-{% assign news_posts = site.posts | sort: "date" | reverse %}
+{% assign news_posts = site.posts | data_filter: "lang != 'zh'" | sort: "date" | reverse %}
 
 <div class="news-list-container">
   <ul class="news-list">

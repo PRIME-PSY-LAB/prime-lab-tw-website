@@ -1,5 +1,7 @@
 ---
 name: Yen-Ju Chen
+lang: en
+translation_key: yen-ju-chen
 image: images/PersonalPhoto/YJC.jpg
 role: pi
 position: Assistant Professor

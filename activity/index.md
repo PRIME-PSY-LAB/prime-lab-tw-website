@@ -1,5 +1,7 @@
 ---
 title: Activity
+lang: en
+translation_key: activity
 nav:
   order: 5
   tooltip: lab research, activity gallery

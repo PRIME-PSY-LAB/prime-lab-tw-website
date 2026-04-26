@@ -59,7 +59,7 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{% if page.lang == "zh" %}zh_TW{% else %}en_US{% endif %}">
 
 <meta property="twitter:title" content="{{ title }}">
 <meta property="twitter:description" content="{{ description }}">

@@ -1,5 +1,7 @@
 ---
 title: Research
+lang: en
+translation_key: research
 nav:
   order: 1
   tooltip: Research direction, projects, environment
@@ -73,23 +75,5 @@ and high-performance computing resources for large-scale simulations and trainin
 
 ## Research environment
 
-{% capture content %}
-  {% include card.html
-    title="CRS Display ++"
-    subtitle="High quality research-oriented monitor"
-    link = "https://www.crsltd.com/tools-for-vision-science/calibrated-displays/displaypp-uhd-lcd-monitor/"
-    image = "images/EnviromentDemoImage/Display++.png"
-  %}
-  {% include card.html
-    title="Tobii Pro Glasses 3"
-    subtitle = "wearable goggles"
-    link = "https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3"
-    image = "images/EnviromentDemoImage/TobiiProGlass.webp"
-  %}
-{% endcapture %}
-
-{% 
-  include grid.html
-  content = content
-%}
+{% include equipment-section.html lang="en" %}
 

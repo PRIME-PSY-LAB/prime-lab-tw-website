@@ -1,5 +1,7 @@
 ---
 title: Hello World !! first step as scholar
+lang: en
+translation_key: first-step-as-scholar
 image: 
 author: Yen-Ju Chen
 tags: news, position

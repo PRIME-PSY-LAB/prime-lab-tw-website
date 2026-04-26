@@ -1,0 +1,53 @@
+{% assign current_lang = page.lang | default: "en" %}
+{% assign translation_key = page.translation_key | default: page.url %}
+{% assign documents = site.pages
+  | concat: site.posts
+  | concat: site.research_intro
+  | concat: site.members
+%}
+{% assign en_url = nil %}
+{% assign zh_url = nil %}
+
+{% for document in documents %}
+  {% if document.translation_key == translation_key %}
+    {% assign document_lang = document.lang | default: "en" %}
+    {% if document_lang == "zh" %}
+      {% assign zh_url = document.url %}
+    {% else %}
+      {% assign en_url = document.url %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% assign en_url = en_url | default: page.url %}
+{% if zh_url == nil %}
+  {% if page.url == "/" %}
+    {% assign zh_url = "/zh/" %}
+  {% elsif page.url contains "/zh/" %}
+    {% assign zh_url = page.url %}
+  {% else %}
+    {% assign zh_url = "/zh/" %}
+  {% endif %}
+{% endif %}
+
+{% if en_url == nil %}
+  {% if page.url contains "/zh/" %}
+    {% assign en_url = page.url | remove_first: "/zh" %}
+  {% else %}
+    {% assign en_url = page.url %}
+  {% endif %}
+{% endif %}
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    {% include icon.html icon="fa-solid fa-language" %}
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="{{ en_url | relative_url }}" {% if current_lang != "zh" %}selected{% endif %}>
+      English
+    </option>
+    <option value="{{ zh_url | relative_url }}" {% if current_lang == "zh" %}selected{% endif %}>
+      繁體中文
+    </option>
+  </select>
+</label>

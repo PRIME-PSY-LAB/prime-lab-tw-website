@@ -1,0 +1,44 @@
+{% assign lang = include.lang | default: page.lang | default: "en" %}
+
+{% for category in site.data.equipment %}
+  {% if lang == "zh" %}
+    {% assign category_title = category.title_zh | default: category.title_en %}
+  {% else %}
+    {% assign category_title = category.title_en %}
+  {% endif %}
+
+<details class="collapse-block" open>
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">{{ category_title }}</span>
+  </summary>
+
+  <section markdown="1">
+  {% capture content %}
+    {% for item in category.items %}
+      {% if lang == "zh" %}
+        {% assign item_title = item.name_zh | default: item.name_en %}
+        {% assign item_description = item.description_zh | default: item.description_en %}
+        {% assign item_location_label = "收納" %}
+        {% assign item_code_label = "編號" %}
+      {% else %}
+        {% assign item_title = item.name_en %}
+        {% assign item_description = item.description_en %}
+        {% assign item_location_label = "Storage" %}
+        {% assign item_code_label = "Code" %}
+      {% endif %}
+      {% capture item_subtitle %}{{ item_location_label }}: {{ item.location }}{% if item.code and item.code != "" %} / {{ item_code_label }}: {{ item.code }}{% endif %}{% endcapture %}
+      {% include card.html
+        title=item_title
+        subtitle=item_subtitle
+        description=item_description
+        link=item.link
+        image=item.image
+      %}
+    {% endfor %}
+  {% endcapture %}
+
+  {% include grid.html content=content %}
+  </section>
+</details>
+{% endfor %}

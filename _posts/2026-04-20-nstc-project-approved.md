@@ -1,5 +1,7 @@
 ---
 title: NSTC Research Project Approved
+lang: en
+translation_key: nstc-project-approved
 image: /images/blog/nstc-object-recognition/figure-1-framework.png
 author: Yen-Ju Chen
 tags:

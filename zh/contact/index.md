@@ -1,14 +1,14 @@
 ---
-title: Contact
-lang: en
+title: 聯絡我們
+lang: zh
 translation_key: contact
+permalink: /zh/contact/
 nav:
   order: 6
-  tooltip: Email, address, and location
+  tooltip: Email、地址與位置
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
-
+# {% include icon.html icon="fa-regular fa-envelope" %} 聯絡我們
 
 {%
   include button.html
@@ -25,6 +25,6 @@ nav:
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
+  tooltip="在 Google Maps 查看實驗室位置"
   link="https://maps.app.goo.gl/jNGbJ14QaSDaz4Cw6"
 %}

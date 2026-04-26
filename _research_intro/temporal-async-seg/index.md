@@ -1,5 +1,7 @@
 ---
 title: Temporal synchrony and structure in visual segmentation
+lang: en
+translation_key: temporal-async-seg
 layout: project
 permalink: /research/temporal-async-seg/
 image: /images/Research_Intro_image/motion-model/Mario_model.gif

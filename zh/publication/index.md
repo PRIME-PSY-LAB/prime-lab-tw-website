@@ -1,34 +1,27 @@
 ---
-title: Publications
-lang: en
+title: 發表成果
+lang: zh
 translation_key: publication
+permalink: /zh/publication/
 nav:
   order: 2
-  tooltip: Publications
+  tooltip: 期刊、會議與預印本
 ---
 
-# {% include icon.html icon="fa-solid fa-book-open" %} Publications
+# {% include icon.html icon="fa-solid fa-book-open" %} 發表成果
 
-Our lab publishes work on visual perception, temporal processing,  
-motion perception, and computational models of human vision.
+我們的研究聚焦於視覺知覺、時間處理、運動知覺，以及人類視覺的計算模型。
 
 {% include section.html %}
 
-## Highlights
+## 精選論文
 
 {% assign highlighted_pubs = site.data.citations | where: "group", "highlighted" | sort: "date" | reverse %}
-
 
 {% if highlighted_pubs and highlighted_pubs.size > 0 %}
 
 <div class="pub-carousel">
-  <button
-    class="pub-carousel-arrow pub-carousel-prev"
-    type="button"
-    aria-label="Previous highlighted publication"
-  >
-    ‹
-  </button>
+  <button class="pub-carousel-arrow pub-carousel-prev" type="button" aria-label="Previous highlighted publication">‹</button>
 
   <div class="pub-carousel-viewport">
     <div class="pub-carousel-track">
@@ -37,22 +30,16 @@ motion perception, and computational models of human vision.
         <div class="pub-highlight-inner">
           <div class="pub-highlight-image">
             {% if pub.image %}
-              <img
-                src="{{ pub.image | relative_url | uri_escape }}"
-                alt="Thumbnail for {{ pub.title | escape }}"
-                loading="lazy"
-              >
+              <img src="{{ pub.image | relative_url | uri_escape }}" alt="Thumbnail for {{ pub.title | escape }}" loading="lazy">
             {% else %}
-              <span class="pub-placeholder-icon">🧪</span>
+              <span class="pub-placeholder-icon">Paper</span>
             {% endif %}
           </div>
 
           <div class="pub-highlight-content">
             <h3 class="pub-highlight-title">
               {% if pub.link %}
-                <a href="{{ pub.link }}" target="_blank" rel="noopener">
-                  {{ pub.title | default: "[no title]" }}
-                </a>
+                <a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title | default: "[no title]" }}</a>
               {% else %}
                 {{ pub.title | default: "[no title]" }}
               {% endif %}
@@ -60,19 +47,13 @@ motion perception, and computational models of human vision.
 
             <p class="pub-highlight-meta">
               {% if pub.authors %}
-                <span class="pub-highlight-authors">
-                  {{ pub.authors | join: ", " }}
-                </span>
+                <span class="pub-highlight-authors">{{ pub.authors | join: ", " }}</span>
               {% endif %}
               {% if pub.publisher %}
-                · <span class="pub-highlight-publisher">
-                  {{ pub.publisher }}
-                </span>
+                · <span class="pub-highlight-publisher">{{ pub.publisher }}</span>
               {% endif %}
               {% if pub.date %}
-                · <span class="pub-highlight-date">
-                  {{ pub.date | date: "%Y-%m-%d" }}
-                </span>
+                · <span class="pub-highlight-date">{{ pub.date | date: "%Y-%m-%d" }}</span>
               {% endif %}
             </p>
 
@@ -90,28 +71,18 @@ motion perception, and computational models of human vision.
     </div>
   </div>
 
-  <button
-    class="pub-carousel-arrow pub-carousel-next"
-    type="button"
-    aria-label="Next highlighted publication"
-  >
-    ›
-  </button>
+  <button class="pub-carousel-arrow pub-carousel-next" type="button" aria-label="Next highlighted publication">›</button>
 </div>
 
 {% else %}
-_Once you mark some entries in `_data/sources_*.yaml` or `citations.yaml` with `group: highlighted`, they will appear here._
+_目前尚未設定精選論文。_
 {% endif %}
 
 {% include section.html %}
 
-## All publications
+## 全部發表
 
 {% include search-box.html %}
-
-{%- comment -%}
-  Collect all unique tags from site.data.citations
-{%- endcomment -%}
 
 {% assign all_tags = "" | split: "" %}
 {% for c in site.data.citations %}
@@ -127,16 +98,10 @@ _Once you mark some entries in `_data/sources_*.yaml` or `citations.yaml` with `
     {% assign clean = tag | strip %}
     {% assign query = '"tag: ' | append: clean | append: '"' %}
     {% assign encoded = query | uri_escape %}
-    <a
-      class="tag pub-tag-filter-chip"
-      href="{{ page.url | relative_url }}?search={{ encoded }}"
-    >
-      {{ clean }}
-    </a>
+    <a class="tag pub-tag-filter-chip" href="{{ page.url | relative_url }}?search={{ encoded }}">{{ clean }}</a>
   {% endfor %}
 </div>
 {% endif %}
-
 
 {% include search-info.html %}
 
@@ -145,4 +110,3 @@ _Once you mark some entries in `_data/sources_*.yaml` or `citations.yaml` with `
   component="citation"
   style="rich"
 %}
-

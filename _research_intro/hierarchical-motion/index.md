@@ -1,5 +1,7 @@
 ---
 title: Hierarchical Motion Perception Model
+lang: en
+translation_key: hierarchical-motion
 subtitle: Dual-pathway motion model bridging human and machine vision
 image: images/Research_Intro_image/hierarchical-motion/image.png
 permalink: /research/hierarchical-motion/
