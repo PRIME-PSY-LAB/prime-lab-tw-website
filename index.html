@@ -419,6 +419,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <header class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-big>
+  
+  
+  
+
   <a href="/" class="home">
     
       <span class="logo">
@@ -426,9 +430,13 @@ document.addEventListener("DOMContentLoaded", function () {
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+          <span class="title-text" data-tooltip="Home">
         
-          <span class="title">Perceptual Representation and InforMation modEling Lab</span>
+          <span class="title">
+            
+              Perceptual Representation and InforMation modEling Lab
+            
+          </span>
         
         
       </span>
@@ -441,11 +449,16 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
+      
         <a href="/research/" data-tooltip="Research direction, projects, environment">
           Research
         </a>
       
     
+      
+      
+    
+      
       
         <a href="/publication/" data-tooltip="Publications">
           Publications
@@ -453,11 +466,22 @@ document.addEventListener("DOMContentLoaded", function () {
       
     
       
+      
+    
+      
+      
+    
+      
+      
         <a href="/team/" data-tooltip="About our team">
           Team
         </a>
       
     
+      
+      
+    
+      
       
         <a href="/blog/" data-tooltip="News and inspiration">
           Blog
@@ -465,17 +489,52 @@ document.addEventListener("DOMContentLoaded", function () {
       
     
       
+      
         <a href="/activity/" data-tooltip="lab research, activity gallery">
           Activity
         </a>
       
     
       
+      
+    
+      
+      
         <a href="/contact/" data-tooltip="Email, address, and location">
           Contact
         </a>
       
     
+      
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    <i class="icon fa-solid fa-language"></i>
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="/" selected>
+      English
+    </option>
+    <option value="/zh/">
+      繁體中文
+    </option>
+  </select>
+</label>
+
   </nav>
 </header>
 
@@ -542,7 +601,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <h2 id="highlights">Highlights</h2>
 
 <div class="highlight-grid">
-<article class="highlight-card">
+    <article class="highlight-card">
 
       <a href="/2026/04/20/nstc-project-approved.html" class="highlight-image-link">
         
@@ -575,7 +634,8 @@ document.addEventListener("DOMContentLoaded", function () {
         
       </div>
 
-    </article><article class="highlight-card">
+    </article>
+    <article class="highlight-card">
 
       <a href="/2025/01/08/offer-announcement.html" class="highlight-image-link">
         

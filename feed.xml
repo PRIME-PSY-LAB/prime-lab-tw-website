@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://www.prime-psy-lab.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.prime-psy-lab.com/" rel="alternate" type="text/html" /><updated>2026-04-26T14:13:41+00:00</updated><id>http://www.prime-psy-lab.com/feed.xml</id><title type="html">Perceptual Representation and InforMation modEling Lab</title><subtitle>Delve into the mind, depict with the beauty of math.</subtitle><entry><title type="html">NSTC Research Project Approved</title><link href="http://www.prime-psy-lab.com/2026/04/20/nstc-project-approved.html" rel="alternate" type="text/html" title="NSTC Research Project Approved" /><published>2026-04-20T00:00:00+00:00</published><updated>2026-04-26T14:12:02+00:00</updated><id>http://www.prime-psy-lab.com/2026/04/20/nstc-project-approved</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/04/20/nstc-project-approved.html"><![CDATA[<p>I am pleased to share that my NSTC research project was approved on April 20, 2026.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://www.prime-psy-lab.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.prime-psy-lab.com/" rel="alternate" type="text/html" /><updated>2026-04-26T15:18:09+00:00</updated><id>http://www.prime-psy-lab.com/feed.xml</id><title type="html">Perceptual Representation and InforMation modEling Lab</title><subtitle>Delve into the mind, depict with the beauty of math.</subtitle><entry xml:lang="zh"><title type="html">國科會研究計畫通過</title><link href="http://www.prime-psy-lab.com/zh/2026/04/20/nstc-project-approved.html" rel="alternate" type="text/html" title="國科會研究計畫通過" /><published>2026-04-20T00:00:00+00:00</published><updated>2026-04-26T15:15:46+00:00</updated><id>http://www.prime-psy-lab.com/zh/2026/04/20/nstc-project-approved-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2026/04/20/nstc-project-approved.html"><![CDATA[<p>很高興與大家分享，我的國科會研究計畫已於 2026 年 4 月 20 日通過。</p>
+
+<p>這個計畫的題目是 <strong>「建構人類物件辨識的跨層次計算框架：從知覺結構到語意空間」</strong>。計畫的核心目標，是理解人類如何在動態且充滿雜訊的視覺環境中辨識物件，並以這些知識建立更貼近人類知覺歷程的計算模型。</p>
+
+<p><img src="/images/blog/nstc-object-recognition/figure-1-framework.png" alt="人類物件辨識的計算框架" /></p>
+
+<p>在日常生活中，物件辨識通常顯得非常自然。我們可以在視角、光線、運動、遮蔽與雜訊都不斷改變的情況下辨識物體。然而，這種能力其實仰賴一連串複雜的計算：視覺系統必須將不穩定的影像訊號組織成有意義的知覺單元，將這些單元連結到物件結構，最後再對應到概念知識。</p>
+
+<p>近年的深度學習模型在物件分類任務上已有非常好的表現，但這些模型多半仍偏重靜態影像特徵。它們尚未完整捕捉人類如何使用時間訊息、結構化表徵與概念脈絡來完成物件辨識。</p>
+
+<p>這項計畫會從三個彼此連結的方向推進。</p>
+
+<p>第一，我們將使用心理物理實驗，檢驗人類如何利用時間相關性形成知覺單元。這條研究路線希望回答：動態視覺訊號是否能揭示知覺組織背後的核心計算原理？</p>
+
+<p>第二，我們將發展新的方法來量測物件與場景概念。透過結合行為實驗與生成式 AI 工具，這項計畫希望以更可控制、可量化的方式描述概念空間。</p>
+
+<p><img src="/images/blog/nstc-object-recognition/figure-4-concept-metamer.png" alt="以 concept metamer 量測物件概念表徵" /></p>
+
+<p>第三，我們將建立並評估物件辨識的計算模型。這個計畫並不只追求分類正確率，而是希望檢驗模型是否能重現類似人類的知覺模式，包括對時空結構的敏感性、在雜訊條件下的穩定性，以及辨識過程中受到概念脈絡影響的干擾效果。</p>
+
+<p><img src="/images/blog/nstc-object-recognition/figure-6-training-data.png" alt="以模擬眼動產生動態訓練資料" /></p>
+
+<p>未來三年，這項計畫將整合視覺心理物理學、計算建模與人工智慧，研究穩定的物件知識如何從動態視覺輸入中形成。我期待這項研究不只推進視覺科學，也能為更可解釋、更以人類為中心的人工視覺系統提供基礎。</p>
+
+<p>感謝國科會的支持，也很期待在 PRIME Lab 展開這個新的研究階段。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="最新消息" /><category term="國科會" /><category term="研究計畫" /><category term="物件辨識" /><summary type="html"><![CDATA[很高興與大家分享，我的國科會研究計畫已於 2026 年 4 月 20 日通過。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/nstc-object-recognition/figure-1-framework.png" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/nstc-object-recognition/figure-1-framework.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">NSTC Research Project Approved</title><link href="http://www.prime-psy-lab.com/2026/04/20/nstc-project-approved.html" rel="alternate" type="text/html" title="NSTC Research Project Approved" /><published>2026-04-20T00:00:00+00:00</published><updated>2026-04-26T15:15:46+00:00</updated><id>http://www.prime-psy-lab.com/2026/04/20/nstc-project-approved</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/04/20/nstc-project-approved.html"><![CDATA[<p>I am pleased to share that my NSTC research project was approved on April 20, 2026.</p>
 
 <p>The project is titled <strong>“From Perceptual Structure to Semantic Space: A Human-centered Computational Framework for Object Recognition”</strong>. Its central goal is to understand how humans recognize objects in dynamic and noisy visual environments, and to use this understanding to build computational models that are better aligned with human perception.</p>
 
@@ -22,7 +46,7 @@
 
 <p>Over the next three years, this project will integrate visual psychophysics, computational modeling, and artificial intelligence to study how stable object knowledge emerges from dynamic visual input. I hope this work will contribute not only to vision science, but also to the development of more interpretable and human-centered artificial vision systems.</p>
 
-<p>I am grateful for the support from NSTC and excited to begin this next stage of research at PRIME Lab.</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="news" /><category term="grant" /><category term="research" /><category term="object recognition" /><summary type="html"><![CDATA[I am pleased to share that my NSTC research project was approved on April 20, 2026.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/nstc-object-recognition/figure-1-framework.png" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/nstc-object-recognition/figure-1-framework.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hello World !! first step as scholar</title><link href="http://www.prime-psy-lab.com/2025/01/08/offer-announcement.html" rel="alternate" type="text/html" title="Hello World !! first step as scholar" /><published>2025-01-08T00:00:00+00:00</published><updated>2026-04-26T14:12:02+00:00</updated><id>http://www.prime-psy-lab.com/2025/01/08/offer%20announcement</id><content type="html" xml:base="http://www.prime-psy-lab.com/2025/01/08/offer-announcement.html"><![CDATA[<p>I’m delighted to share that I have accepted an offer to join the Department of Psychology at Soochow University (Taipei, Taiwan) as a tenure-track Assistant Professor, starting February 2026.</p>
+<p>I am grateful for the support from NSTC and excited to begin this next stage of research at PRIME Lab.</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="news" /><category term="grant" /><category term="research" /><category term="object recognition" /><summary type="html"><![CDATA[I am pleased to share that my NSTC research project was approved on April 20, 2026.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/nstc-object-recognition/figure-1-framework.png" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/nstc-object-recognition/figure-1-framework.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Hello World !! first step as scholar</title><link href="http://www.prime-psy-lab.com/2025/01/08/offer-announcement.html" rel="alternate" type="text/html" title="Hello World !! first step as scholar" /><published>2025-01-08T00:00:00+00:00</published><updated>2026-04-26T15:15:46+00:00</updated><id>http://www.prime-psy-lab.com/2025/01/08/offer%20announcement</id><content type="html" xml:base="http://www.prime-psy-lab.com/2025/01/08/offer-announcement.html"><![CDATA[<p>I’m delighted to share that I have accepted an offer to join the Department of Psychology at Soochow University (Taipei, Taiwan) as a tenure-track Assistant Professor, starting February 2026.</p>
 
 <p>I am grateful to my advisors, collaborators, and mentors, and all colleagues who supported my work — and to my family for their encouragement.</p>
 
@@ -32,4 +56,14 @@
 
 <p>Thank you to everyone who helped me get here — I’m excited for this next chapter.</p>
 
-<p>— Yen‑Ju Chen —</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="news," /><category term="position" /><summary type="html"><![CDATA[I’m delighted to share that I have accepted an offer to join the Department of Psychology at Soochow University (Taipei, Taiwan) as a tenure-track Assistant Professor, starting February 2026.]]></summary></entry></feed>
+<p>— Yen‑Ju Chen —</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="news," /><category term="position" /><summary type="html"><![CDATA[I’m delighted to share that I have accepted an offer to join the Department of Psychology at Soochow University (Taipei, Taiwan) as a tenure-track Assistant Professor, starting February 2026.]]></summary></entry><entry xml:lang="zh"><title type="html">Hello World：作為學者的第一步</title><link href="http://www.prime-psy-lab.com/zh/2025/01/08/offer-announcement.html" rel="alternate" type="text/html" title="Hello World：作為學者的第一步" /><published>2025-01-08T00:00:00+00:00</published><updated>2026-04-26T15:15:46+00:00</updated><id>http://www.prime-psy-lab.com/zh/2025/01/08/offer-announcement-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2025/01/08/offer-announcement.html"><![CDATA[<p>很高興與大家分享，我已接受東吳大學心理學系的聘任，將於 2026 年 2 月起擔任專任助理教授。</p>
+
+<p>這是一個新的開始，也是一段長期累積後的重要里程碑。非常感謝一路上支持我的指導教授、合作夥伴、同事、朋友與家人。能夠在東吳大學展開自己的研究與教學工作，對我來說有很深的意義。</p>
+
+<p>未來，我會持續推進知覺心理學、視覺科學、image-computable models、計算建模與資料分析相關研究，也期待在教學中與學生一起探索心理學和人工智慧交會的可能性。</p>
+
+<p>如果你是對這些主題有興趣的學生或潛在合作夥伴，歡迎與我聯絡。</p>
+
+<p>謝謝所有幫助我走到這一步的人。這是新的章節，也是 PRIME Lab 的起點。</p>
+
+<p>– 陳彥儒</p>]]></content><author><name>陳彥儒</name></author><category term="最新消息" /><category term="職涯" /><summary type="html"><![CDATA[很高興與大家分享，我已接受東吳大學心理學系的聘任，將於 2026 年 2 月起擔任專任助理教授。]]></summary></entry></feed>

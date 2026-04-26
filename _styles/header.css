@@ -100,6 +100,28 @@ nav > a:hover {
   color: var(--primary);
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+.language-switcher select {
+  min-width: 110px;
+  max-width: 100%;
+  padding: 4px 24px 4px 8px;
+  border: solid 1px var(--light-gray);
+  border-radius: 4px;
+  background: var(--background);
+  color: var(--text);
+  font: inherit;
+}
+
+.language-switcher-icon {
+  display: inline-flex;
+}
+
 @media (max-width: 700px) {
   header:not([data-big]) {
     justify-content: flex-end;

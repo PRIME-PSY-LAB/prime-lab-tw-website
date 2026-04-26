@@ -419,6 +419,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+  
+  
+  
+
   <a href="/" class="home">
     
       <span class="logo">
@@ -426,9 +430,13 @@ document.addEventListener("DOMContentLoaded", function () {
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+          <span class="title-text" data-tooltip="Home">
         
-          <span class="title">Perceptual Representation and InforMation modEling Lab</span>
+          <span class="title">
+            
+              Perceptual Representation and InforMation modEling Lab
+            
+          </span>
         
         
       </span>
@@ -441,11 +449,16 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
+      
         <a href="/research/" data-tooltip="Research direction, projects, environment">
           Research
         </a>
       
     
+      
+      
+    
+      
       
         <a href="/publication/" data-tooltip="Publications">
           Publications
@@ -453,11 +466,22 @@ document.addEventListener("DOMContentLoaded", function () {
       
     
       
+      
+    
+      
+      
+    
+      
+      
         <a href="/team/" data-tooltip="About our team">
           Team
         </a>
       
     
+      
+      
+    
+      
       
         <a href="/blog/" data-tooltip="News and inspiration">
           Blog
@@ -465,17 +489,52 @@ document.addEventListener("DOMContentLoaded", function () {
       
     
       
+      
         <a href="/activity/" data-tooltip="lab research, activity gallery">
           Activity
         </a>
       
     
       
+      
+    
+      
+      
         <a href="/contact/" data-tooltip="Email, address, and location">
           Contact
         </a>
       
     
+      
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    <i class="icon fa-solid fa-language"></i>
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="/blog/" selected>
+      English
+    </option>
+    <option value="/zh/blog/">
+      繁體中文
+    </option>
+  </select>
+</label>
+
   </nav>
 </header>
 
@@ -527,6 +586,26 @@ document.addEventListener("DOMContentLoaded", function () {
     
       <a href="/blog/?search=%22tag:%20position%22" class="tag" data-tooltip='Show items with the tag "position"'>
         position
+      </a>
+    
+      <a href="/blog/?search=%22tag:%20%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF%22" class="tag" data-tooltip='Show items with the tag "最新消息"'>
+        最新消息
+      </a>
+    
+      <a href="/blog/?search=%22tag:%20%E8%81%B7%E6%B6%AF%22" class="tag" data-tooltip='Show items with the tag "職涯"'>
+        職涯
+      </a>
+    
+      <a href="/blog/?search=%22tag:%20%E5%9C%8B%E7%A7%91%E6%9C%83%22" class="tag" data-tooltip='Show items with the tag "國科會"'>
+        國科會
+      </a>
+    
+      <a href="/blog/?search=%22tag:%20%E7%A0%94%E7%A9%B6%E8%A8%88%E7%95%AB%22" class="tag" data-tooltip='Show items with the tag "研究計畫"'>
+        研究計畫
+      </a>
+    
+      <a href="/blog/?search=%22tag:%20%E7%89%A9%E4%BB%B6%E8%BE%A8%E8%AD%98%22" class="tag" data-tooltip='Show items with the tag "物件辨識"'>
+        物件辨識
       </a>
     
       <a href="/blog/?search=%22tag:%20grant%22" class="tag" data-tooltip='Show items with the tag "grant"'>

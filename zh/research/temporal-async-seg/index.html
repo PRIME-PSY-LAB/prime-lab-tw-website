@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>視覺分割中的時間同步與結構 | Perceptual Representation and InforMation modEling Lab</title>
+
+<link rel="icon" href="/images/icon.png">
+
+<meta name="title" content="視覺分割中的時間同步與結構">
+<meta name="description" content="Delve into the mind, depict with the beauty of math.">
+
+<meta property="og:title" content="視覺分割中的時間同步與結構">
+<meta property="og:site_title" content="Perceptual Representation and InforMation modEling Lab">
+<meta property="og:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="og:url" content="http://www.prime-psy-lab.com">
+<meta property="og:image" content="/images/share.jpg">
+<meta property="og:locale" content="zh_TW">
+
+<meta property="twitter:title" content="視覺分割中的時間同步與結構">
+<meta property="twitter:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="twitter:url" content="http://www.prime-psy-lab.com">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "視覺分割中的時間同步與結構",
+    "description": "Delve into the mind, depict with the beauty of math.",
+    "headline": "視覺分割中的時間同步與結構",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": "http://www.prime-psy-lab.com"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="http://www.prime-psy-lab.com/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="/_scripts/activity-album.js"></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/activity-album"></script>
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+<script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
+
+  const track = carousel.querySelector(".pub-carousel-track");
+  const slides = Array.from(track.children);
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
+
+  let index = 0;
+
+  function updateCarousel() {
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
+  }
+
+  prevBtn.addEventListener("click", function () {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", function () {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+  });
+
+  updateCarousel();
+});
+</script>
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+  
+  
+  
+
+  <a href="/zh/" class="home">
+    
+      <span class="logo">
+        <img src="/images/icon.png" alt="logo">
+      </span>
+    
+    
+          <span class="title-text" data-tooltip="首頁">
+        
+          <span class="title">
+            
+              知覺表徵與建模實驗室
+            
+          </span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+      
+    
+      
+      
+        <a href="/zh/research/" data-tooltip="研究方向、計畫與實驗環境">
+          研究
+        </a>
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/publication/" data-tooltip="期刊、會議與預印本">
+          發表成果
+        </a>
+      
+    
+      
+      
+        <a href="/zh/team/" data-tooltip="實驗室成員">
+          團隊
+        </a>
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/blog/" data-tooltip="最新消息與研究筆記">
+          部落格
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/activity/" data-tooltip="研究、教學與實驗室相簿">
+          活動
+        </a>
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/contact/" data-tooltip="Email、地址與位置">
+          聯絡我們
+        </a>
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    <i class="icon fa-solid fa-language"></i>
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="/research/temporal-async-seg/">
+      English
+    </option>
+    <option value="/zh/research/temporal-async-seg/" selected>
+      繁體中文
+    </option>
+  </select>
+</label>
+
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="1" style="--image: url('/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp')">
+    <!--
+  <background>/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp</background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">視覺分割中的時間同步與結構</h1>
+  <p class="center">
+    
+
+
+  </p>
+<div class="tags">
+    
+      <a href="/research?search=%22tag:%20%E6%99%82%E9%96%93%E8%A6%96%E8%A6%BA%22" class="tag" data-tooltip='Show items with the tag "時間視覺"'>
+        時間視覺
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E8%A6%96%E8%A6%BA%E5%88%86%E5%89%B2%22" class="tag" data-tooltip='Show items with the tag "視覺分割"'>
+        視覺分割
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E7%9F%A5%E8%A6%BA%E7%B5%84%E7%B9%94%22" class="tag" data-tooltip='Show items with the tag "知覺組織"'>
+        知覺組織
+      </a>
+    
+  </div>
+
+
+  
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<h1 id="視覺分割中的時間同步與結構">視覺分割中的時間同步與結構</h1>
+
+<p>視覺系統如何利用<strong>時間</strong>來判斷哪些元素屬於同一個物體或同一個知覺單元？這條研究線透過視覺分割作業、common-fate displays 與時間同步/時間結構操弄，分析人類如何從動態訊號中形成空間組織。</p>
+
+<h2 id="核心問題">核心問題</h2>
+
+<ul>
+  <li>元素是否在同一時間改變，會如何影響知覺分組？</li>
+  <li>即使局部同步受到雜訊干擾，整體時間結構是否仍能支持視覺分割？</li>
+  <li>人類是否能跨特徵維度使用共同的時間相關性？</li>
+</ul>
+
+<h2 id="方法與意義">方法與意義</h2>
+
+<p>我們結合心理物理實驗與計算模型，量化時間結構在視覺組織中的角色。這些結果可進一步作為人類物件辨識模型中的動態組織機制基礎。</p>
+
+<p><img src="/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp" alt="Temporal structure model fit"></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p class="center">
+  <a href="/research/">
+    ← Back to Research
+  </a>
+</p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Perceptual Representation and InforMation modEling Lab
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>

@@ -419,6 +419,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+  
+  
+  
+
   <a href="/" class="home">
     
       <span class="logo">
@@ -426,9 +430,13 @@ document.addEventListener("DOMContentLoaded", function () {
       </span>
     
     
-      <span class="title-text" data-tooltip="Home">
+          <span class="title-text" data-tooltip="Home">
         
-          <span class="title">Perceptual Representation and InforMation modEling Lab</span>
+          <span class="title">
+            
+              Perceptual Representation and InforMation modEling Lab
+            
+          </span>
         
         
       </span>
@@ -441,11 +449,16 @@ document.addEventListener("DOMContentLoaded", function () {
     
     
       
+      
         <a href="/research/" data-tooltip="Research direction, projects, environment">
           Research
         </a>
       
     
+      
+      
+    
+      
       
         <a href="/publication/" data-tooltip="Publications">
           Publications
@@ -453,11 +466,22 @@ document.addEventListener("DOMContentLoaded", function () {
       
     
       
+      
+    
+      
+      
+    
+      
+      
         <a href="/team/" data-tooltip="About our team">
           Team
         </a>
       
     
+      
+      
+    
+      
       
         <a href="/blog/" data-tooltip="News and inspiration">
           Blog
@@ -465,17 +489,52 @@ document.addEventListener("DOMContentLoaded", function () {
       
     
       
+      
         <a href="/activity/" data-tooltip="lab research, activity gallery">
           Activity
         </a>
       
     
       
+      
+    
+      
+      
         <a href="/contact/" data-tooltip="Email, address, and location">
           Contact
         </a>
       
     
+      
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    <i class="icon fa-solid fa-language"></i>
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="/research/" selected>
+      English
+    </option>
+    <option value="/zh/research/">
+      繁體中文
+    </option>
+  </select>
+</label>
+
   </nav>
 </header>
 
@@ -926,46 +985,199 @@ and high-performance computing resources for large-scale simulations and trainin
 
 <h2 id="research-environment">Research environment</h2>
 
-<div class="grid" data-style="">
+<details class="collapse-block" open="">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">Wearable eye tracking and video</span>
+  </summary>
+
+  <section>
+
+    <div class="grid" data-style="">
   
 <div class="card" data-style="">
-  <a href="https://www.crsltd.com/tools-for-vision-science/calibrated-displays/displaypp-uhd-lcd-monitor/" aria-label="CRS Display" class="card-image">
-    <img src="/images/EnviromentDemoImage/Display++.png" alt="CRS Display" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-
-  <div class="card-text">
-    
-      <a href="https://www.crsltd.com/tools-for-vision-science/calibrated-displays/displaypp-uhd-lcd-monitor/" class="card-title">
-        CRS Display ++
-    </a>
-    
-
-    
-      <span class="card-subtitle">High quality research-oriented monitor</span>
-    
-
-    
-
-    
-  </div>
-</div>
-
-<div class="card" data-style="">
-  <a href="https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3" aria-label="Tobii Pro Glasses 3" class="card-image">
-    <img src="/images/EnviromentDemoImage/TobiiProGlass.webp" alt="Tobii Pro Glasses 3" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  <a href="https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3" aria-label="Tobii Pro Glasses 3 eye-tracking system" class="card-image">
+    <img src="/images/equipment/tobii-pro-glasses-3.webp" alt="Tobii Pro Glasses 3 eye-tracking system" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
       <a href="https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3" class="card-title">
-        Tobii Pro Glasses 3
+        Tobii Pro Glasses 3 eye-tracking system
     </a>
     
 
     
-      <span class="card-subtitle">wearable goggles</span>
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-9</span>
     
 
+    
+      <p>
+        Wearable eye-tracking system for natural behavior, social interaction, and mobile visual attention studies.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/accessories/tobii-corrective-lenses" aria-label="Tobii Pro Glasses 3 corrective lenses" class="card-image">
+    <img src="/images/equipment/tobii-corrective-lenses.webp" alt="Tobii Pro Glasses 3 corrective lenses" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/accessories/tobii-corrective-lenses" class="card-title">
+        Tobii Pro Glasses 3 corrective lenses
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 眼動儀鐵櫃 / Code: C-1</span>
+    
+
+    
+      <p>
+        Corrective lens kit for participant eye-tracking sessions with Tobii Pro Glasses 3.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3" aria-label="Tobii Pro External Processing Unit" class="card-image">
+    <img src="/images/equipment/tobii-pro-glasses-3.webp" alt="Tobii Pro External Processing Unit" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3" class="card-title">
+        Tobii Pro External Processing Unit
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 眼動儀鐵櫃 / Code: C-2</span>
+    
+
+    
+      <p>
+        External processing unit used with wearable eye-tracking recordings and data capture workflows.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/discontinued/tobii-pro-glasses-2" aria-label="Tobii Glasses 2 wearable eye tracker" class="card-image">
+    <img src="/images/equipment/tobii-glasses-2.webp" alt="Tobii Glasses 2 wearable eye tracker" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/discontinued/tobii-pro-glasses-2" class="card-title">
+        Tobii Glasses 2 wearable eye tracker
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 上方防潮箱 / Code: X-1</span>
+    
+
+    
+      <p>
+        Earlier-generation wearable eye tracker for mobile gaze and behavior recordings.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/discontinued/tobii-pro-glasses-2" aria-label="Tobii Glasses 2 accessories box" class="card-image">
+    <img src="/images/equipment/tobii-glasses-2.webp" alt="Tobii Glasses 2 accessories box" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/discontinued/tobii-pro-glasses-2" class="card-title">
+        Tobii Glasses 2 accessories box
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 眼動儀鐵櫃 / Code: C-5</span>
+    
+
+    
+      <p>
+        Accessories for maintaining and running Tobii Glasses 2 recording sessions.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3" aria-label="Tobii Pro Glasses 3 accessories box" class="card-image">
+    <img src="/images/equipment/tobii-pro-glasses-3.webp" alt="Tobii Pro Glasses 3 accessories box" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3" class="card-title">
+        Tobii Pro Glasses 3 accessories box
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-2</span>
+    
+
+    
+      <p>
+        Accessories for Tobii Pro Glasses 3 participant setup and recording workflows.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.wired.com/2012/12/pivothead-durango" aria-label="Pivothead video recording eyewear" class="card-image">
+    <img src="/images/equipment/pivothead-durango.jpg" alt="Pivothead video recording eyewear" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.wired.com/2012/12/pivothead-durango" class="card-title">
+        Pivothead video recording eyewear
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-5</span>
+    
+
+    
+      <p>
+        Wearable video eyewear for first-person scene recording and behavior observation.
+
+      </p>
     
 
     
@@ -974,6 +1186,408 @@ and high-performance computing resources for large-scale simulations and trainin
 
 
 </div>
+
+  </section>
+</details>
+
+<details class="collapse-block" open="">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">Screen-based eye tracking</span>
+  </summary>
+
+  <section>
+
+    <div class="grid" data-style="">
+  
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/discontinued/tobii-pro-x3-120" aria-label="Tobii Pro X3-120" class="card-image">
+    <img src="/images/equipment/tobii-x3-120.webp" alt="Tobii Pro X3-120" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/discontinued/tobii-pro-x3-120" class="card-title">
+        Tobii Pro X3-120
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 眼動儀鐵櫃 / Code: C-3</span>
+    
+
+    
+      <p>
+        Compact 120 Hz screen-based eye tracker for controlled visual attention and psychophysics experiments.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/discontinued/tobii-pro-x2-30" aria-label="Tobii X2-30 Compact" class="card-image">
+    <img src="/images/equipment/tobii-x2-30.webp" alt="Tobii X2-30 Compact" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/discontinued/tobii-pro-x2-30" class="card-title">
+        Tobii X2-30 Compact
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-8</span>
+    
+
+    
+      <p>
+        Compact screen-based eye tracker for gaze measurement on laptop or monitor setups.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/eye-trackers/screen-based/tobii-pro-nano" aria-label="Tobii Pro Nano" class="card-image">
+    <img src="/images/equipment/tobii-pro-nano.webp" alt="Tobii Pro Nano" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/eye-trackers/screen-based/tobii-pro-nano" class="card-title">
+        Tobii Pro Nano
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-7</span>
+    
+
+    
+      <p>
+        Portable research eye tracker for screen-based attention and decision-making studies.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://help.tobii.com/hc/en-us/articles/212818309-Specifications-for-EyeX" aria-label="Tobii EyeX Controller" class="card-image">
+    <img src="/images/equipment/tobii-generic-eye-tracker.jpg" alt="Tobii EyeX Controller" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://help.tobii.com/hc/en-us/articles/212818309-Specifications-for-EyeX" class="card-title">
+        Tobii EyeX Controller
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-3</span>
+    
+
+    
+      <p>
+        Screen-based eye tracker for gaze interaction, demonstrations, and legacy experimental setups.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://help.tobii.com/hc/en-us/articles/213414285-Specifications-for-the-Tobii-Eye-Tracker-4C" aria-label="Tobii Eye Tracker 4C" class="card-image">
+    <img src="/images/equipment/tobii-generic-eye-tracker.jpg" alt="Tobii Eye Tracker 4C" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://help.tobii.com/hc/en-us/articles/213414285-Specifications-for-the-Tobii-Eye-Tracker-4C" class="card-title">
+        Tobii Eye Tracker 4C
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-4</span>
+    
+
+    
+      <p>
+        Consumer-grade eye tracker useful for gaze interaction prototyping and demonstrations.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://developer.tobiipro.com/tobiiprosdk/eyetrackercompatibility.html" aria-label="Tobii T60 eye tracker" class="card-image">
+    <img src="/images/equipment/tobii-generic-eye-tracker.jpg" alt="Tobii T60 eye tracker" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://developer.tobiipro.com/tobiiprosdk/eyetrackercompatibility.html" class="card-title">
+        Tobii T60 eye tracker
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 裡面那間鐵櫃旁邊的地板 / Code: 黑色箱子在旁邊</span>
+    
+
+    
+      <p>
+        Legacy remote eye tracker for screen-based experiments and compatibility checks.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.tobii.com/products/discontinued/tobii-pro-x2-30" aria-label="Tobii Mobile Device Stand for X2" class="card-image">
+    <img src="/images/equipment/tobii-x2-30.webp" alt="Tobii Mobile Device Stand for X2" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.tobii.com/products/discontinued/tobii-pro-x2-30" class="card-title">
+        Tobii Mobile Device Stand for X2
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 裡面那間鐵櫃旁邊的地板</span>
+    
+
+    
+      <p>
+        Stand for mobile-device eye-tracking studies with Tobii X2-series trackers.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+
+</div>
+
+  </section>
+</details>
+
+<details class="collapse-block" open="">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">Physiology, VR, and computing</span>
+  </summary>
+
+  <section>
+
+    <div class="grid" data-style="">
+  
+<div class="card" data-style="">
+  <a href="https://mindmedia.com/products/nexus-10-mkii" aria-label="NeXus 10 MKII" class="card-image">
+    <img src="/images/equipment/nexus-10-mkii.jpg" alt="NeXus 10 MKII" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://mindmedia.com/products/nexus-10-mkii" class="card-title">
+        NeXus 10 MKII
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 裡面那間右方最下面的鐵櫃 / Code: H-1</span>
+    
+
+    
+      <p>
+        Multimodal physiology system for EEG, EMG, heart rate, skin conductance, respiration, and related signals.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://fove-inc.com/product/fove0/" aria-label="FOVE eye-tracking VR headset" class="card-image">
+    <img src="/images/equipment/fove-0.webp" alt="FOVE eye-tracking VR headset" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://fove-inc.com/product/fove0/" class="card-title">
+        FOVE eye-tracking VR headset
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 上方防潮箱 / Code: X-2</span>
+    
+
+    
+      <p>
+        VR headset with integrated eye tracking for immersive gaze-based research.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://us-store.msi.com/Creator-M16-B13VF-1241" aria-label="MSI Creator M16 laptop" class="card-image">
+    <img src="/images/equipment/msi-creator-m16.png" alt="MSI Creator M16 laptop" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://us-store.msi.com/Creator-M16-B13VF-1241" class="card-title">
+        MSI Creator M16 laptop
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 眼動儀鐵櫃 / Code: C-6</span>
+    
+
+    
+      <p>
+        High-performance laptop for experiment control, data processing, and model development.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://www.celulares.com/sharp/aquos-phone-sh930w" aria-label="SHARP SH930W AQUOS PHONE" class="card-image">
+    <img src="/images/equipment/sharp-sh930w.jpg" alt="SHARP SH930W AQUOS PHONE" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://www.celulares.com/sharp/aquos-phone-sh930w" class="card-title">
+        SHARP SH930W AQUOS PHONE
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 裡面那間右方下面數來第二層的鐵櫃 / Code: G-1</span>
+    
+
+    
+      <p>
+        Android smartphone for mobile display, app-based, or device-control experiments.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+
+</div>
+
+  </section>
+</details>
+
+<details class="collapse-block" open="">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">Accessories and connectivity</span>
+  </summary>
+
+  <section>
+
+    <div class="grid" data-style="">
+  
+<div class="card" data-style="">
+  <a href="https://mindmedia.com/products/nexus-10-mkii-battery-charger" aria-label="HXY-H4 battery charger" class="card-image">
+    <img src="/images/equipment/nexus-charger.jpg" alt="HXY-H4 battery charger" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://mindmedia.com/products/nexus-10-mkii-battery-charger" class="card-title">
+        HXY-H4 battery charger
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-6</span>
+    
+
+    
+      <p>
+        Battery charger used to support recording equipment and field sessions.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+<div class="card" data-style="">
+  <a href="https://plugable.com/products/usbc-te1000/" aria-label="USB Type-C to Gigabit Ethernet Adapter" class="card-image">
+    <img src="/images/equipment/usb-c-ethernet.jpg" alt="USB Type-C to Gigabit Ethernet Adapter" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://plugable.com/products/usbc-te1000/" class="card-title">
+        USB Type-C to Gigabit Ethernet Adapter
+    </a>
+    
+
+    
+      <span class="card-subtitle">Storage: 下方防潮箱 / Code: Y-1</span>
+    
+
+    
+      <p>
+        Network adapter for stable wired data transfer and device connectivity.
+
+      </p>
+    
+
+    
+  </div>
+</div>
+
+
+</div>
+
+  </section>
+</details>
   </section>
 
 
