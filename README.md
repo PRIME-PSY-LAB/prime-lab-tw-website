@@ -1,4 +1,36 @@
 
+# PRIME-LAB Website Version Notes
+
+## Current Version
+
+**ver 1.1.3**  
+Last updated: **2026-04-28 00:17 +08:00**  
+Branch: **ver-1.1.3-20260428-0017**
+
+## Version Mapping
+
+| Version | Branch | Main change |
+| --- | --- | --- |
+| ver 1.0.0 | initial site state | Original baseline |
+| ver 1.0.1 | codex/update-homepage-undex | Homepage copy update |
+| ver 1.1.0 | codex/add-zh-language-switcher | Traditional Chinese language system |
+| ver 1.1.1 | codex/refine-zh-equipment | Chinese/equipment/research refinements |
+| ver 1.1.2 | codex/add-nstc... | NSTC project and related content |
+| ver 1.1.3 | ver-1.1.3-20260428-0017 | Site-wide font and visible version metadata |
+
+## Diff From Previous Version
+
+Compared with the previous deployed branch (`origin/main` before this update), this version changes:
+
+- Sets the whole website default font to **Noto Sans TC** for title, heading, and body text.
+- Loads **Noto Sans TC** explicitly from Google Fonts so visitors without the font installed still see the intended typeface.
+- Keeps **Roboto Mono** as the code font.
+- Adds `_data/version.yml` as the single source for website version metadata.
+- Adds a footer corner marker showing the current version and last updated time.
+- Styles the footer version marker so it stays subtle on desktop and flows normally on mobile.
+
+---
+
   ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
@@ -281,4 +313,3 @@ git push origin main
 4. `_members/*.md`（team）
 
 ---
-
