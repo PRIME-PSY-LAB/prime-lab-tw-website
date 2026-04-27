@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>視覚分割における時間同期と時間構造 | Perceptual Representation and InforMation modEling Lab</title>
+
+<link rel="icon" href="/images/icon.png">
+
+<meta name="title" content="視覚分割における時間同期と時間構造">
+<meta name="description" content="Delve into the mind, depict with the beauty of math.">
+
+<meta property="og:title" content="視覚分割における時間同期と時間構造">
+<meta property="og:site_title" content="Perceptual Representation and InforMation modEling Lab">
+<meta property="og:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="og:url" content="http://www.prime-psy-lab.com">
+<meta property="og:image" content="/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="視覚分割における時間同期と時間構造">
+<meta property="twitter:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="twitter:url" content="http://www.prime-psy-lab.com">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "視覚分割における時間同期と時間構造",
+    "description": "Delve into the mind, depict with the beauty of math.",
+    "headline": "視覚分割における時間同期と時間構造",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": "http://www.prime-psy-lab.com"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="http://www.prime-psy-lab.com/feed.xml">
+
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;400;500;600;700&amp;family=Roboto+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="/_scripts/activity-album.js"></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/activity-album"></script>
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/contact-form.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/publication-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+<script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
+
+  const track = carousel.querySelector(".pub-carousel-track");
+  const slides = Array.from(track.children);
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
+
+  let index = 0;
+
+  function updateCarousel() {
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
+  }
+
+  prevBtn.addEventListener("click", function () {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", function () {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+  });
+
+  updateCarousel();
+});
+</script>
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+  
+  
+  
+
+  <a href="/ja/" class="home">
+    
+      <span class="logo">
+        <img src="/images/icon.png" alt="logo">
+      </span>
+    
+    
+          <span class="title-text" data-tooltip="ホーム">
+        
+          <span class="title">
+            
+              知覚表現・情報モデリング研究室
+            
+          </span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/research/" data-tooltip="研究方向、プロジェクト、研究環境">
+          研究
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/publication/" data-tooltip="論文、学会発表、プレプリント">
+          研究業績
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/team/" data-tooltip="研究室メンバー">
+          メンバー
+        </a>
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/blog/" data-tooltip="ニュースと研究ノート">
+          ブログ
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/activity/" data-tooltip="研究、教育、研究室アルバム">
+          活動
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/contact/" data-tooltip="Email、住所、アクセス">
+          お問い合わせ
+        </a>
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    <i class="icon fa-solid fa-language"></i>
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="/research/temporal-async-seg/">
+      English
+    </option>
+    <option value="/zh/research/temporal-async-seg/">
+      繁體中文
+    </option>
+    <option value="/ja/research/temporal-async-seg/" selected>
+      日本語
+    </option>
+  </select>
+</label>
+
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="1" style="--image: url('/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp')">
+    <!--
+  <background>/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp</background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">視覚分割における時間同期と時間構造</h1>
+  <p class="center">
+    
+
+
+  </p>
+<div class="tags">
+    
+      <a href="/research?search=%22tag:%20%E6%99%82%E9%96%93%E8%A6%96%E8%A6%9A%22" class="tag" data-tooltip='Show items with the tag "時間視覚"'>
+        時間視覚
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E6%99%82%E9%96%93%E5%90%8C%E6%9C%9F%22" class="tag" data-tooltip='Show items with the tag "時間同期"'>
+        時間同期
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E6%99%82%E9%96%93%E6%A7%8B%E9%80%A0%22" class="tag" data-tooltip='Show items with the tag "時間構造"'>
+        時間構造
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E8%A6%96%E8%A6%9A%E5%88%86%E5%89%B2%22" class="tag" data-tooltip='Show items with the tag "視覚分割"'>
+        視覚分割
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E7%9F%A5%E8%A6%9A%E7%9A%84%E7%BE%A4%E5%8C%96%22" class="tag" data-tooltip='Show items with the tag "知覚的群化"'>
+        知覚的群化
+      </a>
+    
+  </div>
+
+
+  
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<h1 id="視覚分割における時間同期と時間構造">視覚分割における時間同期と時間構造</h1>
+
+<p>視覚系は、どの要素が同じまとまりに属するのかを判断するために、<strong>時間</strong>をどのように使うのでしょうか。この研究線では、<strong>分割課題</strong>、<strong>common-fate motion displays</strong>、<strong>同期検出 / 群化パラダイム</strong>を組み合わせ、二つの重要な時間手がかりを切り分けます。</p>
+
+<ul>
+  <li>
+<strong>時間同期</strong>：要素が同じ時点で変化するか。</li>
+  <li>
+<strong>時間構造</strong>：局所的な同期がノイズや jitter を含む場合でも、時間全体の変化パターンが情報を持つか。</li>
+</ul>
+
+<p>これらの研究は、時間構造が単なる「ノイズを含む同期」ではなく、部分的に<strong>独立した手がかり</strong>であり、特定の時間条件では視覚分割を主導しうることを示しています。</p>
+
+<hr>
+
+<h2 id="三つの連結した研究">三つの連結した研究</h2>
+
+<h3 id="1-時間構造に支えられた時間同期による分割journal-of-vision-2021">1. 時間構造に支えられた時間同期による分割（Journal of Vision 2021）</h3>
+
+<p>第一段階では、時間とともに変化する動的表示を用いた temporal segmentation task を行いました。時間同期が<strong>一貫した構造手がかりを伴う場合</strong>と、より不規則なパターンに埋め込まれる場合を比較し、同期は時間構造に支えられると、テクスチャや領域の時間的分割において著しく有効になることを示しました。</p>
+
+<p>つまり視覚系は、「同期」を局所的でフレームごとの信号としてだけ扱うのではなく、それが埋め込まれている<strong>より大きな時間パターン</strong>の中で評価しています。</p>
+
+<hr>
+
+<h3 id="2-一般化された-common-fate-と構造優位効果journal-of-vision-2022">2. 一般化された common fate と構造優位効果（Journal of Vision 2022）</h3>
+
+<p>第二の研究では、問題を<strong>運動に基づく common-fate display</strong>へ拡張しました。観察者は random-dot patterns を見ます。一部の dot は共通の運動方向を持ち、その他はランダムに運動します。領域間の方向変化の temporal asynchrony により、表示は<strong>行方向または列方向</strong>へ群化されます。</p>
+
+<p>重要なのは、領域間の<strong>局所的な temporal asynchrony</strong>を同一に保ちながら、領域が<strong>同じ時間構造</strong>を持つか、<strong>異なる時間構造</strong>を持つかを操作した点です。</p>
+
+<p>結果は次のことを示しました。</p>
+
+<ul>
+  <li>視覚系は知覚的群化のために、<strong>時間同期</strong>と<strong>時間構造</strong>の両方を利用する。</li>
+  <li>
+<strong>時間周波数が高くなるほど</strong>時間構造が有効になり、一般化された common fate において明確な<strong>構造優位効果</strong>が生じる。</li>
+</ul>
+
+<hr>
+
+<h3 id="3-修士論文低時間周波数における時間構造">3. 修士論文：低時間周波数における時間構造</h3>
+
+<p>修士論文 <em>Temporal structure does not trump temporal synchrony in low temporal frequency: Implication and its potential interpretation</em> では、時間構造が単なる<strong>同期の不確実性操作</strong>なのか、それ自体が<strong>独立した時間手がかり</strong>なのかを直接検証しました。</p>
+
+<p>研究では二つの条件を実装しました。</p>
+
+<ul>
+  <li>
+<strong>Fixed structure pair</strong>：二つのちらつく円盤、または flicker elements lattice が<strong>同じ時間構造</strong>を共有する。</li>
+  <li>
+<strong>Jitter structure pair</strong>：局所的な同期量は同じだが、lead/lag の方向が不安定で、同期タイミングの不確実性が増す。</li>
+</ul>
+
+<p>同期検出課題と、4×4 flicker lattices を用いた時間情報に基づく群化課題を通して、低時間周波数と高時間周波数を比較しました。結果として、jitter structure 条件は不確実性が高いにもかかわらず fixed structure 条件を下回らず、高時間周波数では時間構造が独立した顕著な手がかりとして働くことが示されました。</p>
+
+<hr>
+
+<h2 id="概念的統合">概念的統合</h2>
+
+<p>三つの研究から、次の図式が得られます。</p>
+
+<ol>
+  <li>
+    <p><strong>同期は必要だが十分ではない。</strong><br>
+高次の時間パターンを操作すると、局所同期だけでは分割成績を説明できません。</p>
+  </li>
+  <li>
+    <p><strong>時間構造は追加的な全体手がかりである。</strong><br>
+同一領域内の時間構造が一貫し、領域間で区別できる場合、局所同期を統制しても時間構造は分割と common-fate grouping を支えます。</p>
+  </li>
+  <li>
+    <p><strong>構造と同期のバランスは時間周波数に依存する。</strong><br>
+低時間周波数では同期が強い手がかりとして残りますが、高時間周波数では時間構造が同期を上回る組織化信号になりやすくなります。</p>
+  </li>
+</ol>
+
+<hr>
+
+<h2 id="関連発表論文">関連発表・論文</h2>
+
+<ul>
+  <li>
+    <p><strong>Chen, Y.-J., &amp; Huang, P.-C. (2021).</strong> Temporal synchrony accompany with structure cue is more effective in the segmentation task. <em>Journal of Vision, 21</em>(9), 2137.<br>
+DOI: 10.1167/jov.21.9.2137</p>
+  </li>
+  <li>
+    <p><strong>Chen, Y.-J., &amp; Huang, P.-C. (2022).</strong> Generalized form of common fate: Evidence of structure dominance effect. <em>Journal of Vision, 22</em>(14), 3830.<br>
+DOI: 10.1167/jov.22.14.3830</p>
+  </li>
+  <li>
+    <p><strong>Chen, Y.-J. (2022).</strong> <em>Temporal structure does not trump temporal synchrony in low temporal frequency: Implication and its potential interpretation.</em> Master’s thesis, National Cheng Kung University, Department of Psychology.</p>
+  </li>
+</ul>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p class="center">
+  <a href="/research/">
+    ← Back to Research
+  </a>
+</p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Perceptual Representation and InforMation modEling Lab
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  
+    <div class="site-version" aria-label="site version">
+      ver 1.2.0 | Updated 2026-04-28 01:06 +08:00
+    </div>
+  
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>

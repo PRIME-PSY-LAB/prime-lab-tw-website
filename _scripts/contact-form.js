@@ -17,6 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
         repeat: "系統偵測到相同資訊在 10 分鐘內已送出過，請稍後再試。"
       };
     }
+    if (lang === "ja") {
+      return {
+        invalid: "すべての項目を入力してください。空白や記号だけの内容は送信できません。",
+        email: "有効な連絡先メールアドレスを入力してください。",
+        repeat: "同じ内容は10分以内に再送信できません。しばらくしてからお試しください。"
+      };
+    }
     return {
       invalid: "Please complete every field with content that is not only whitespace or symbols.",
       email: "Please enter a valid email address.",

@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク | Perceptual Representation and InforMation modEling Lab</title>
+
+<link rel="icon" href="/images/icon.png">
+
+<meta name="title" content="知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク">
+<meta name="description" content="Delve into the mind, depict with the beauty of math.">
+
+<meta property="og:title" content="知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク">
+<meta property="og:site_title" content="Perceptual Representation and InforMation modEling Lab">
+<meta property="og:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="og:url" content="http://www.prime-psy-lab.com">
+<meta property="og:image" content="/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク">
+<meta property="twitter:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="twitter:url" content="http://www.prime-psy-lab.com">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク",
+    "description": "Delve into the mind, depict with the beauty of math.",
+    "headline": "知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": "http://www.prime-psy-lab.com"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="http://www.prime-psy-lab.com/feed.xml">
+
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;400;500;600;700&amp;family=Roboto+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="/_scripts/activity-album.js"></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/activity-album"></script>
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/contact-form.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/publication-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+<script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
+
+  const track = carousel.querySelector(".pub-carousel-track");
+  const slides = Array.from(track.children);
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
+
+  let index = 0;
+
+  function updateCarousel() {
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
+  }
+
+  prevBtn.addEventListener("click", function () {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", function () {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+  });
+
+  updateCarousel();
+});
+</script>
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+  
+  
+  
+
+  <a href="/ja/" class="home">
+    
+      <span class="logo">
+        <img src="/images/icon.png" alt="logo">
+      </span>
+    
+    
+          <span class="title-text" data-tooltip="ホーム">
+        
+          <span class="title">
+            
+              知覚表現・情報モデリング研究室
+            
+          </span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/research/" data-tooltip="研究方向、プロジェクト、研究環境">
+          研究
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/publication/" data-tooltip="論文、学会発表、プレプリント">
+          研究業績
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/team/" data-tooltip="研究室メンバー">
+          メンバー
+        </a>
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/blog/" data-tooltip="ニュースと研究ノート">
+          ブログ
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/activity/" data-tooltip="研究、教育、研究室アルバム">
+          活動
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/ja/contact/" data-tooltip="Email、住所、アクセス">
+          お問い合わせ
+        </a>
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    <i class="icon fa-solid fa-language"></i>
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="/research/object-recognition-framework/">
+      English
+    </option>
+    <option value="/zh/research/object-recognition-framework/">
+      繁體中文
+    </option>
+    <option value="/ja/research/object-recognition-framework/" selected>
+      日本語
+    </option>
+  </select>
+</label>
+
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="1" style="--image: url('/images/blog/nstc-object-recognition/figure-1-framework.png')">
+    <!--
+  <background>/images/blog/nstc-object-recognition/figure-1-framework.png</background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク</h1>
+  <p class="center">
+    
+
+
+  </p>
+<div class="tags">
+    
+      <a href="/research?search=%22tag:%20%E7%89%A9%E4%BD%93%E8%AA%8D%E8%AD%98%22" class="tag" data-tooltip='Show items with the tag "物体認識"'>
+        物体認識
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E7%9F%A5%E8%A6%9A%E7%9A%84%E7%B5%84%E7%B9%94%E5%8C%96%22" class="tag" data-tooltip='Show items with the tag "知覚的組織化"'>
+        知覚的組織化
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E7%94%9F%E6%88%90%E3%83%A2%E3%83%87%E3%83%AB%22" class="tag" data-tooltip='Show items with the tag "生成モデル"'>
+        生成モデル
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E8%A8%88%E7%AE%97%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0%22" class="tag" data-tooltip='Show items with the tag "計算モデリング"'>
+        計算モデリング
+      </a>
+    
+      <a href="/research?search=%22tag:%20nstc%22" class="tag" data-tooltip='Show items with the tag "nstc"'>
+        nstc
+      </a>
+    
+  </div>
+
+
+  
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<h1 id="知覚構造から意味空間へ">知覚構造から意味空間へ</h1>
+
+<p>人間は、不安定で動的、かつノイズを含む視覚環境の中でも物体を素早く認識できます。道の向こうの友人を見分ける、鍵束から目的の鍵を選ぶ、落下するカップを行動に間に合うように同定する。このような日常的能力は自然に見えますが、視覚系が連続的に変化する画像信号を、安定した意味のある物体表現へ変換しているために可能になります。</p>
+
+<p>この NSTC プロジェクト <strong>「知覚構造から意味空間へ：人間中心の物体認識計算フレームワーク」</strong> は、人間の知覚過程によって制約された物体認識の計算モデルを開発します。分類精度だけを目標にするのではなく、モデル内の各計算過程が測定可能な人間行動と対応するかを問います。</p>
+
+<p><img src="/images/blog/nstc-object-recognition/figure-1-framework.png" alt="人間中心の物体認識計算フレームワーク"></p>
+
+<h2 id="なぜ新しいフレームワークが必要か">なぜ新しいフレームワークが必要か</h2>
+
+<p>近年の深層ニューラルネットワークは物体分類や検出で高い性能を示しますが、その計算は人間視覚と重要な点で異なります。多くのモデルは静的な特徴抽出を重視し、時間情報の統合、画像を意味のある部品へ分解する仕組み、物体知識を階層的な概念構造として扱う仕組みが明示的ではありません。そのため、動的観察、ノイズ入力、材質変化、汎化を必要とする条件では、モデル行動と人間行動の間に体系的な差が残ります。</p>
+
+<p>人間の物体認識は、画像とすべてのカテゴリラベルを平坦に照合する過程ではありません。視覚系はまず局所的な視覚情報を抽出し、空間と時間にまたがる信号を統合し、知覚単位を形成し、それらを物体の形状や意味に関する知識へ結びつけます。本プロジェクトは、その後段階、すなわち関係的な視覚表現がどのように構造化された部品へ分解され、概念空間へ接続され、文脈制約の下で物体同定へ至るのかに焦点を当てます。</p>
+
+<h2 id="研究線-1時間構造から知覚単位を形成する">研究線 1：時間構造から知覚単位を形成する</h2>
+
+<p>第一の研究線では、人間視覚が時間相関構造を使って視覚入力を意味のある構成要素へ分解するかを検証します。動的視覚刺激を用い、観察者が異なる時間相関パターンにどのように反応するかを測定します。中心仮説は、時間構造が単なるノイズや不確実性ではなく、知覚的組織化を支える計算的手がかりであるというものです。</p>
+
+<p>心理物理実験、特に視覚適応パラダイムを用いて、観察者が特定の時間相関構造へ選択的に敏感であるかを調べます。もし視覚系にそのような構造に調整された機構があるなら、ある相関パターンへ適応した後、類似パターンへの感度が選択的に低下するはずです。</p>
+
+<h2 id="研究線-2生成モデルで概念構造を測る">研究線 2：生成モデルで概念構造を測る</h2>
+
+<p>第二の研究線では、物体概念とその関係構造を測定する方法を開発します。多次元尺度構成法のような従来手法は固定刺激集合に対する反応から表現構造を推定しますが、刺激集合が固定されると、低次画像特徴を制御しながら概念距離を体系的に操作することが難しくなります。</p>
+
+<p>本プロジェクトでは、生成 AI を高次元刺激制御の道具として使用します。生成モデルが人間の概念空間を完全に再現するとは仮定せず、その潜在表現を、画像空間と概念空間の特定領域から刺激を標本化するための制御可能な手段として用います。これにより、人間が類似性をどのように判断するか、概念がどのように群化するか、物体知識が階層的に構成されているかを検証できます。</p>
+
+<p><img src="/images/blog/nstc-object-recognition/figure-4-concept-metamer.png" alt="物体表現を測定する concept metamer フレームワーク"></p>
+
+<h2 id="研究線-3物体認識における構造化照合">研究線 3：物体認識における構造化照合</h2>
+
+<p>第三の研究線では、物体認識が subset-based matching に依存するかを検証します。日常場面では、文脈が出現しうる物体集合を制約します。台所、森、リビング、海岸といった場面は、詳細な同定に先立って候補空間を狭めます。したがって人間の認識は、すべてのカテゴリを平坦に評価するのではなく、関連する概念サブセットを選び、その内部で視覚証拠を照合している可能性があります。</p>
+
+<p>この仮説は、統制された物体検出課題と視覚探索課題で検証します。同じ概念サブセットに属する妨害刺激が、異なるサブセットの妨害刺激よりも強く干渉するなら、人間の物体認識は概念空間の構造に敏感であることを示します。</p>
+
+<h2 id="研究線-4人間に整合した計算モデル">研究線 4：人間に整合した計算モデル</h2>
+
+<p>最終段階では、行動研究の結果を計算モデルに統合します。モデルは、時空間的な構成要素分解と概念空間内のサブセット照合を含みます。評価では分類精度だけでなく、時間構造への感度、構造化ノイズ下での頑健性、視覚変化を越えた汎化、概念サブセット間の干渉パターンなど、人間に関連する指標を用います。</p>
+
+<p><img src="/images/blog/nstc-object-recognition/figure-6-training-data.png" alt="模擬眼球運動による動的訓練データの生成"></p>
+
+<h2 id="期待される貢献">期待される貢献</h2>
+
+<p>三年間を通して、本プロジェクトは心理物理実験、生成刺激制御、計算モデリングを統合し、動的な人間の物体認識を支える主要な計算を明らかにします。視覚科学に対しては、変化する視覚入力から安定した意味ある物体表現がどのように形成されるかを説明します。人工知能に対しては、時間情報を統合し、構造を明示的に表現し、現実的条件下でより頑健に汎化する視覚システムの設計原理を提供します。</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p class="center">
+  <a href="/research/">
+    ← Back to Research
+  </a>
+</p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Perceptual Representation and InforMation modEling Lab
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  
+    <div class="site-version" aria-label="site version">
+      ver 1.2.0 | Updated 2026-04-28 01:06 +08:00
+    </div>
+  
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
