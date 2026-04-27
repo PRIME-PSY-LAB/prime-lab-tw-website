@@ -32,6 +32,12 @@
     </a>
   </div>
 
+  {% if site.data.version.number and site.data.version.last_updated %}
+    <div class="site-version" aria-label="site version">
+      {{ site.data.version.number }} | Updated {{ site.data.version.last_updated }}
+    </div>
+  {% endif %}
+
   <input
     type="checkbox"
     class="dark-toggle"
