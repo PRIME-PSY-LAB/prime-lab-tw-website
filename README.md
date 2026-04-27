@@ -1,3 +1,19 @@
+# PRIME-LAB Website Version Notes
+
+## Current Version
+
+**ver 1.1.1**  
+Branch: **ver-1.1.1-20260427-2357**
+
+## Diff From Previous Version
+
+Compared with **ver 1.1.0**, this version changes:
+
+- Refines bilingual research pages and Chinese content coverage.
+- Updates research equipment presentation and related project media.
+- Includes contact workflow/layout refinements made after the Chinese-site rollout.
+
+---
 
   ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
