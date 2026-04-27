@@ -1,3 +1,19 @@
+# PRIME-LAB Website Version Notes
+
+## Current Version
+
+**ver 1.1.2**  
+Branch: **ver-1.1.2-20260426-2212**
+
+## Diff From Previous Version
+
+Compared with **ver 1.1.1**, this version changes:
+
+- Adds the NSTC object-recognition project approval blog content.
+- Adds supporting project text and media for the approval announcement.
+- Preserves this update as the NSTC-specific version branch.
+
+---
 
   ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
