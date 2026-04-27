@@ -14,8 +14,15 @@ nav:
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
+{% assign en_posts = site.posts | data_filter: "lang == 'en'" %}
+{% assign en_tags = "" | split: "" %}
+{% for post in en_posts %}
+  {% if post.tags %}
+    {% assign en_tags = en_tags | concat: post.tags %}
+  {% endif %}
+{% endfor %}
+{% include tags.html tags=en_tags %}
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="post-excerpt" filter="lang != 'zh'" %}
+{% include list.html data="posts" component="post-excerpt" filter="lang == 'en'" %}

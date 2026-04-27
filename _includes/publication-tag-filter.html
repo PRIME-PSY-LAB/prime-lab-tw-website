@@ -28,6 +28,12 @@
   {% endfor %}
 </div>
 <button class="pub-tag-more" type="button" hidden>
-  {% if page.lang == "zh" %}顯示更多 tag{% else %}Show more tags{% endif %}
+  {% if page.lang == "zh" %}
+    顯示更多 tag
+  {% elsif page.lang == "ja" %}
+    タグをさらに表示
+  {% else %}
+    Show more tags
+  {% endif %}
 </button>
 {% endif %}

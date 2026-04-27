@@ -101,7 +101,7 @@ Latest updates from our lab.
   Show all posts in reverse chronological order.
 {% endcomment %}
 
-{% assign news_posts = site.posts | data_filter: "lang != 'zh'" | sort: "date" | reverse %}
+{% assign news_posts = site.posts | data_filter: "lang == 'en'" | sort: "date" | reverse %}
 
 <div class="news-list-container">
   <ul class="news-list">

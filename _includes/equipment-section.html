@@ -3,6 +3,8 @@
 {% for category in site.data.equipment %}
   {% if lang == "zh" %}
     {% assign category_title = category.title_zh | default: category.title_en %}
+  {% elsif lang == "ja" %}
+    {% assign category_title = category.title_ja | default: category.title_en %}
   {% else %}
     {% assign category_title = category.title_en %}
   {% endif %}
@@ -20,6 +22,10 @@
         {% assign item_title = item.name_zh | default: item.name_en %}
         {% assign item_description = item.description_zh | default: item.description_en %}
         {% assign item_subtitle = item.subtitle_zh | default: item.subtitle_en %}
+      {% elsif lang == "ja" %}
+        {% assign item_title = item.name_ja | default: item.name_en %}
+        {% assign item_description = item.description_ja | default: item.description_en %}
+        {% assign item_subtitle = item.subtitle_ja | default: item.subtitle_en %}
       {% else %}
         {% assign item_title = item.name_en %}
         {% assign item_description = item.description_en %}

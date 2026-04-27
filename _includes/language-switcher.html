@@ -7,12 +7,15 @@
 %}
 {% assign en_url = nil %}
 {% assign zh_url = nil %}
+{% assign ja_url = nil %}
 
 {% for document in documents %}
   {% if document.translation_key == translation_key %}
     {% assign document_lang = document.lang | default: "en" %}
     {% if document_lang == "zh" %}
       {% assign zh_url = document.url %}
+    {% elsif document_lang == "ja" %}
+      {% assign ja_url = document.url %}
     {% else %}
       {% assign en_url = document.url %}
     {% endif %}
@@ -33,8 +36,20 @@
 {% if en_url == nil %}
   {% if page.url contains "/zh/" %}
     {% assign en_url = page.url | remove_first: "/zh" %}
+  {% elsif page.url contains "/ja/" %}
+    {% assign en_url = page.url | remove_first: "/ja" %}
   {% else %}
     {% assign en_url = page.url %}
+  {% endif %}
+{% endif %}
+
+{% if ja_url == nil %}
+  {% if page.url == "/" %}
+    {% assign ja_url = "/ja/" %}
+  {% elsif page.url contains "/ja/" %}
+    {% assign ja_url = page.url %}
+  {% else %}
+    {% assign ja_url = "/ja/" %}
   {% endif %}
 {% endif %}
 
@@ -43,11 +58,14 @@
     {% include icon.html icon="fa-solid fa-language" %}
   </span>
   <select aria-label="Language" onchange="window.location.href = this.value">
-    <option value="{{ en_url | relative_url }}" {% if current_lang != "zh" %}selected{% endif %}>
+    <option value="{{ en_url | relative_url }}" {% if current_lang != "zh" and current_lang != "ja" %}selected{% endif %}>
       English
     </option>
     <option value="{{ zh_url | relative_url }}" {% if current_lang == "zh" %}selected{% endif %}>
       繁體中文
+    </option>
+    <option value="{{ ja_url | relative_url }}" {% if current_lang == "ja" %}selected{% endif %}>
+      日本語
     </option>
   </select>
 </label>

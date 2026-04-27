@@ -20,6 +20,8 @@
   {% assign home_url = "/" %}
   {% if current_lang == "zh" %}
     {% assign home_url = "/zh/" %}
+  {% elsif current_lang == "ja" %}
+    {% assign home_url = "/ja/" %}
   {% endif %}
 
   <a href="{{ home_url | relative_url }}" class="home">
@@ -29,11 +31,13 @@
       </span>
     {% endif %}
     {% if site.logo-text != false %}
-          <span class="title-text" data-tooltip="{% if current_lang == "zh" %}首頁{% else %}Home{% endif %}">
+          <span class="title-text" data-tooltip="{% if current_lang == "zh" %}首頁{% elsif current_lang == "ja" %}ホーム{% else %}Home{% endif %}">
         {% if site.title and site.show-title != false %}
           <span class="title">
             {% if current_lang == "zh" %}
               知覺表徵與建模實驗室
+            {% elsif current_lang == "ja" %}
+              知覚表現・情報モデリング研究室
             {% else %}
               {{ site.title }}
             {% endif %}

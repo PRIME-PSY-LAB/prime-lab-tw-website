@@ -1,111 +1,151 @@
 - title_en: Wearable eye tracking and video
   title_zh: 穿戴式眼動與第一人稱錄影
+  title_ja: 装着型アイトラッキングと一人称映像記録
   items:
     - name_en: Tobii Pro Glasses 3 system
       name_zh: Tobii Pro Glasses 3 系統
+      name_ja: Tobii Pro Glasses 3 システム
       subtitle_en: Wearable eye tracking
       subtitle_zh: 穿戴式眼動追蹤
+      subtitle_ja: 装着型アイトラッキング
       description_en: Wearable eye-tracking system for natural behavior, social interaction, and mobile visual-attention studies. The lab set includes the eye-tracking unit, corrective lenses, an external processing unit, and accessories for participant setup and recording workflows.
       description_zh: 穿戴式眼動測定系統，適合自然情境、社會互動與行動視覺注意研究。實驗室設備組包含眼動測定器、矯正鏡片、外部處理單元，以及受試者設定與紀錄流程所需配件。
+      description_ja: 自然行動、社会的相互作用、移動中の視覚注意を調べるための装着型アイトラッキングシステムです。眼動計本体、補正レンズ、外部処理ユニット、参加者設定と記録に必要な付属品を含みます。
       image: images/equipment/tobii-pro-glasses-3.webp
       link: https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3
     - name_en: Tobii Glasses 2 system
       name_zh: Tobii Glasses 2 系統
+      name_ja: Tobii Glasses 2 システム
       subtitle_en: Wearable eye tracking
       subtitle_zh: 穿戴式眼動追蹤
+      subtitle_ja: 装着型アイトラッキング
       description_en: Earlier-generation wearable eye tracker for mobile gaze and behavior recordings. The lab set includes the wearable eye tracker and accessory box.
       description_zh: 前一代穿戴式眼動儀，可用於行動情境中的視線與行為紀錄。實驗室設備組包含穿戴式眼動儀與配件盒。
+      description_ja: 移動場面での視線と行動を記録する旧世代の装着型アイトラッカーです。眼動計本体と付属品ボックスを含みます。
       image: images/equipment/tobii-glasses-2.webp
       link: https://www.tobii.com/products/discontinued/tobii-pro-glasses-2
     - name_en: Pivothead video recording eyewear
       name_zh: Pivothead 第一人稱錄影眼鏡
+      name_ja: Pivothead 一人称映像記録メガネ
       subtitle_en: First-person video
       subtitle_zh: 第一人稱錄影
+      subtitle_ja: 一人称映像記録
       description_en: Wearable video eyewear for first-person scene recording and behavior observation.
       description_zh: 第一人稱視角錄影眼鏡，可輔助場景紀錄與行為觀察。
+      description_ja: 一人称視点の場面記録と行動観察に用いる装着型ビデオメガネです。
       image: images/equipment/pivothead-durango.jpg
       link: https://www.wired.com/2012/12/pivothead-durango
 
 - title_en: Screen-based eye tracking
   title_zh: 螢幕式眼動追蹤
+  title_ja: スクリーンベース型アイトラッキング
   items:
     - name_en: Tobii Pro X3-120
       name_zh: Tobii Pro X3-120 螢幕式眼動儀
+      name_ja: Tobii Pro X3-120 スクリーンベース型アイトラッカー
       subtitle_en: 120 Hz screen-based eye tracker
       subtitle_zh: 120 Hz 螢幕式眼動儀
+      subtitle_ja: 120 Hz スクリーンベース型アイトラッカー
       description_en: Compact screen-based eye tracker for controlled visual attention and psychophysics experiments.
       description_zh: 小型螢幕式眼動儀，適合控制式視覺注意與心理物理實驗。
+      description_ja: 視覚注意や心理物理実験を統制環境で行うための小型スクリーンベース型アイトラッカーです。
       image: images/equipment/tobii-x3-120.webp
       link: https://www.tobii.com/products/discontinued/tobii-pro-x3-120
     - name_en: Tobii X2-30 Compact with mobile-device stand
       name_zh: Tobii X2-30 Compact 與行動裝置支架
+      name_ja: Tobii X2-30 Compact とモバイル端末スタンド
       subtitle_en: Compact screen-based eye tracking
       subtitle_zh: 小型螢幕式眼動追蹤
+      subtitle_ja: 小型スクリーンベース型アイトラッキング
       description_en: Compact eye tracker for gaze measurement on laptop, monitor, or mobile-device setups. The lab set includes the X2-30 tracker and a mobile-device stand.
       description_zh: 小型螢幕式眼動儀，可搭配筆電、螢幕或行動裝置進行凝視位置量測。實驗室設備組包含 X2-30 眼動儀與行動裝置支架。
+      description_ja: ノートPC、モニター、モバイル端末環境での視線計測に用いる小型アイトラッカーです。X2-30 本体とモバイル端末スタンドを含みます。
       image: images/equipment/tobii-x2-30.webp
       link: https://www.tobii.com/products/discontinued/tobii-pro-x2-30
     - name_en: Tobii Pro Nano
       name_zh: Tobii Pro Nano 螢幕式眼動儀
+      name_ja: Tobii Pro Nano スクリーンベース型アイトラッカー
       subtitle_en: Portable screen-based eye tracker
       subtitle_zh: 可攜式螢幕眼動儀
+      subtitle_ja: 可搬型スクリーンベース型アイトラッカー
       description_en: Portable research eye tracker for screen-based attention, decision-making, and interaction studies.
       description_zh: 可攜式研究級眼動儀，適合螢幕式注意力、決策與互動研究。
+      description_ja: スクリーン上の注意、意思決定、インタラクション研究に用いる可搬型の研究用アイトラッカーです。
       image: images/equipment/tobii-pro-nano.webp
       link: https://www.tobii.com/products/eye-trackers/screen-based/tobii-pro-nano
     - name_en: Legacy Tobii screen-based trackers
       name_zh: 舊款 Tobii 螢幕式眼動追蹤器
+      name_ja: 旧世代 Tobii スクリーンベース型アイトラッカー
       subtitle_en: EyeX, Eye Tracker 4C, and T60
       subtitle_zh: EyeX、Eye Tracker 4C 與 T60
+      subtitle_ja: EyeX、Eye Tracker 4C、T60
       description_en: Legacy Tobii devices retained for gaze-interaction prototypes, demonstrations, compatibility checks, and screen-based experiment setups.
       description_zh: 舊款 Tobii 眼動追蹤設備，可用於凝視互動原型、展示、相容性測試與螢幕式實驗架構。
+      description_ja: 視線インタラクションのプロトタイプ、デモ、互換性確認、スクリーンベース実験の構築に使う旧世代 Tobii 機器です。
       image: images/equipment/tobii-generic-eye-tracker.jpg
       link: https://developer.tobiipro.com/tobiiprosdk/eyetrackercompatibility.html
 
 - title_en: Physiology, VR, and computing
   title_zh: 生理量測、VR 與運算設備
+  title_ja: 生理計測・VR・計算環境
   items:
     - name_en: NeXus 10 MKII
       name_zh: NeXus 10 MKII 生理訊號紀錄系統
+      name_ja: NeXus 10 MKII 生理信号記録システム
       subtitle_en: Multimodal physiology recording
       subtitle_zh: 多模態生理訊號紀錄
+      subtitle_ja: 多モーダル生理信号記録
       description_en: Multimodal physiology system for EEG, EMG, heart rate, skin conductance, respiration, and related signals.
       description_zh: 多模態生理訊號紀錄系統，可量測 EEG、EMG、心率、膚電、呼吸等訊號。
+      description_ja: EEG、EMG、心拍、皮膚コンダクタンス、呼吸などを記録できる多モーダル生理信号システムです。
       image: images/equipment/nexus-10-mkii.jpg
       link: https://mindmedia.com/products/nexus-10-mkii
     - name_en: FOVE eye-tracking VR headset
       name_zh: FOVE 眼動追蹤 VR 頭戴顯示器
+      name_ja: FOVE アイトラッキング VR ヘッドセット
       subtitle_en: Eye-tracking virtual reality
       subtitle_zh: 眼動追蹤虛擬實境
+      subtitle_ja: アイトラッキング対応 VR
       description_en: VR headset with integrated eye tracking for immersive gaze-based research.
       description_zh: 內建眼動追蹤的 VR 頭戴顯示器，適合沉浸式視線與互動研究。
+      description_ja: 眼動計測を内蔵した VR ヘッドセットで、没入型の視線・インタラクション研究に用います。
       image: images/equipment/fove-0.webp
       link: https://fove-inc.com/product/fove0/
     - name_en: MSI Creator M16 laptop
       name_zh: MSI Creator M16 筆電
+      name_ja: MSI Creator M16 ノートPC
       subtitle_en: Experiment and modeling workstation
       subtitle_zh: 實驗與模型運算工作站
+      subtitle_ja: 実験制御・モデル計算用ワークステーション
       description_en: High-performance laptop for experiment control, data processing, and model development.
       description_zh: 高效能筆電，可用於實驗控制、資料處理與模型開發。
+      description_ja: 実験制御、データ処理、モデル開発に用いる高性能ノートPCです。
       image: images/equipment/msi-creator-m16.png
       link: https://us-store.msi.com/Creator-M16-B13VF-1241
     - name_en: SHARP SH930W AQUOS PHONE
       name_zh: SHARP SH930W AQUOS PHONE
+      name_ja: SHARP SH930W AQUOS PHONE
       subtitle_en: Mobile display and device-control testing
       subtitle_zh: 行動顯示與裝置控制測試
+      subtitle_ja: モバイル表示・端末制御テスト
       description_en: Android smartphone for mobile display, app-based, or device-control experiments.
       description_zh: Android 智慧型手機，可用於行動顯示、App 或裝置控制相關實驗。
+      description_ja: モバイル表示、アプリベース実験、端末制御実験に用いる Android スマートフォンです。
       image: images/equipment/sharp-sh930w.jpg
       link: https://www.celulares.com/sharp/aquos-phone-sh930w
 
 - title_en: Accessories and connectivity
   title_zh: 配件與連接周邊
+  title_ja: アクセサリと接続周辺機器
   items:
     - name_en: Battery charging and network adapters
       name_zh: 電池充電與網路連接配件
+      name_ja: バッテリー充電器とネットワークアダプタ
       subtitle_en: Experiment support accessories
       subtitle_zh: 實驗支援配件
+      subtitle_ja: 実験支援アクセサリ
       description_en: Support equipment for field sessions, device charging, stable wired data transfer, and device connectivity. The lab set includes an HXY-H4 battery charger and a USB Type-C to Gigabit Ethernet adapter.
       description_zh: 支援外場實驗、設備充電、穩定有線資料傳輸與裝置連接。實驗室設備組包含 HXY-H4 電池充電器與 USB Type-C 轉 Gigabit Ethernet 轉接器。
+      description_ja: フィールド実験、機器充電、安定した有線データ転送、端末接続を支援する周辺機器です。HXY-H4 バッテリー充電器と USB Type-C to Gigabit Ethernet アダプタを含みます。
       image: images/equipment/usb-c-ethernet.jpg
       link: https://plugable.com/products/usbc-te1000/
