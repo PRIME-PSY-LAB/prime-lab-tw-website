@@ -1,3 +1,19 @@
+# PRIME-LAB Website Version Notes
+
+## Current Version
+
+**ver 1.0.1**  
+Branch: **ver-1.0.1-20260426-2122**
+
+## Diff From Previous Version
+
+Compared with **ver 1.0.0**, this version changes:
+
+- Updates the homepage copy and front-page presentation.
+- Keeps the first page focused on the lab identity and introduction.
+- Corresponds to the former codex/update-homepage-index branch.
+
+---
 
   ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
