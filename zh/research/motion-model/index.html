@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>多階層人類視覺運動處理 | Perceptual Representation and InforMation modEling Lab</title>
+<title>多階層人類視覺運動處理的機器學習模型 | Perceptual Representation and InforMation modEling Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="多階層人類視覺運動處理">
+<meta name="title" content="多階層人類視覺運動處理的機器學習模型">
 <meta name="description" content="Delve into the mind, depict with the beauty of math.">
 
-<meta property="og:title" content="多階層人類視覺運動處理">
+<meta property="og:title" content="多階層人類視覺運動處理的機器學習模型">
 <meta property="og:site_title" content="Perceptual Representation and InforMation modEling Lab">
 <meta property="og:description" content="Delve into the mind, depict with the beauty of math.">
 <meta property="og:url" content="http://www.prime-psy-lab.com">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="zh_TW">
 
-<meta property="twitter:title" content="多階層人類視覺運動處理">
+<meta property="twitter:title" content="多階層人類視覺運動處理的機器學習模型">
 <meta property="twitter:description" content="Delve into the mind, depict with the beauty of math.">
 <meta property="twitter:url" content="http://www.prime-psy-lab.com">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "多階層人類視覺運動處理",
+    "name": "多階層人類視覺運動處理的機器學習模型",
     "description": "Delve into the mind, depict with the beauty of math.",
-    "headline": "多階層人類視覺運動處理",
+    "headline": "多階層人類視覺運動處理的機器學習模型",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -358,9 +358,13 @@
 
   <script src="/_scripts/anchors.js"></script>
 
+  <script src="/_scripts/contact-form.js"></script>
+
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/publication-tags.js"></script>
 
   <script src="/_scripts/search.js"></script>
 
@@ -563,7 +567,7 @@ document.addEventListener("DOMContentLoaded", function () {
 -->
 
 
-<h1 class="center">多階層人類視覺運動處理</h1>
+<h1 class="center">多階層人類視覺運動處理的機器學習模型</h1>
   <p class="center">
     
 
@@ -609,28 +613,129 @@ document.addEventListener("DOMContentLoaded", function () {
 -->
 
 
-<h1 id="多階層人類視覺運動處理">多階層人類視覺運動處理</h1>
+<h1 id="多階層人類視覺運動處理的機器學習模型">多階層人類視覺運動處理的機器學習模型</h1>
 
-<p>本計畫建立具有生物啟發特性的運動知覺模型，目標是同時處理<strong>一階運動</strong>（亮度訊號）與<strong>高階運動</strong>（例如對比、紋理或材質造成的運動線索），並比較模型與人類視覺在自然場景中的表現。</p>
+<p>本計畫發展一個受生物視覺啟發的運動知覺模型，能同時處理<strong>一階運動</strong>（以亮度為基礎）與<strong>高階</strong>特徵運動，並將模型行為與人類在自然場景中的視覺表現進行比較。</p>
 
-<h2 id="研究核心">研究核心</h2>
+<p>核心想法是結合<strong>可訓練的 motion-energy sensing</strong> 與<strong>圖結構 recurrent integration network</strong>，並檢驗模型在何種訓練環境下，會自然獲得接近人類的二階運動敏感性；特別是面對由非 Lambertian 材質構成的物體，例如具光澤、透明或金屬表面的物體。</p>
 
-<p>人類視覺系統不只依賴局部影像強度變化，也會使用更抽象的特徵與結構來推估物體運動。本研究以可訓練的 motion-energy sensing、圖結構整合與深度學習模型，探討模型在何種訓練環境下會自然發展出接近人類的高階運動敏感性。</p>
+<hr>
 
-<h2 id="方法">方法</h2>
+<h2 id="概觀">概觀</h2>
+
+<p>電腦視覺中的古典 optical-flow 模型在標準 benchmark 上可以達到甚至超越人類的準確度，但這些模型通常仰賴<strong>亮度守恆定律</strong>，因此無法充分捕捉由高階特徵所承載的運動，例如對比包絡或動態紋理。</p>
+
+<p>然而，心理物理與神經生理研究顯示，生物視覺系統對一階與二階運動具有<strong>分離但彼此互動的處理路徑</strong>。</p>
+
+<p>在本計畫中，我們：</p>
 
 <ul>
-  <li>建立模擬 V1-like 局部運動偵測的可訓練感受器。</li>
-  <li>使用 graph-based recurrent integration 模擬較高階的全域運動整合。</li>
-  <li>加入處理高階特徵的第二路徑，測試模型是否能處理非 Lambertian 材質造成的複雜運動訊號。</li>
-  <li>將模型表現與人類心理物理資料和傳統 computer vision models 比較。</li>
+  <li>建立一個模擬 <strong>V1 → MT</strong> 運動處理階層的兩階段、雙路徑運動模型。</li>
+  <li>使用<strong>自然影片</strong>訓練模型估計物體運動。</li>
+  <li>操弄移動物體的<strong>材質屬性</strong>，測試二階運動機制是否有助於在<strong>光學擾動</strong>下進行穩健的運動估計。</li>
+  <li>將模型反應與<strong>人類心理物理資料</strong>以及傳統電腦視覺模型進行比較。</li>
 </ul>
 
-<h2 id="意義">意義</h2>
+<hr>
 
-<p>這條研究線連結人類視覺科學與機器視覺，目標不是只追求 benchmark accuracy，而是建立能說明人類運動知覺機制的計算模型。</p>
+<h2 id="模型與方法">模型與方法</h2>
 
-<p><img src="/images/Research_Intro_image/motion-model/image.png" alt="Dual-pathway motion perception model"></p>
+<h3 id="第一階段可訓練的-motion-energy-sensing">第一階段：可訓練的 motion-energy sensing</h3>
+
+<ul>
+  <li>在深度學習框架中實作 256 個 motion-energy units，包含 <strong>Gabor 空間濾波器</strong>與時間濾波器。</li>
+  <li>這些單元的參數（偏好速度、方向、空間頻率等）皆可訓練，因此能從自然影片中學習有效率的運動編碼。</li>
+  <li>此階段模擬 <strong>V1-like 局部運動偵測器</strong>，並能重現古典發現，例如 component-selective 與 pattern-selective cells，以及對運動錯覺（reverse phi、missing fundamental 等）的反應。</li>
+</ul>
+
+<h3 id="第二階段圖結構-recurrent-integration">第二階段：圖結構 recurrent integration</h3>
+
+<ul>
+  <li>將局部 motion energies 視為<strong>完全連接運動圖</strong>中的節點。</li>
+  <li>以 <strong>self-attention mechanism</strong> 定義節點之間的自適應連結；透過 recurrent updates 將局部運動整合成一致的全域運動場。</li>
+  <li>此階段模擬 <strong>MT-like integration</strong>，能解決 aperture problem，並可在不額外訓練的情況下，透過圖分割支援<strong>基於運動的 instance segmentation</strong>。</li>
+</ul>
+
+<h3 id="高階運動的雙路徑設計">高階運動的雙路徑設計</h3>
+
+<ul>
+  <li>在 motion-energy stage 之前加入第二條 sensing pathway：一組 <strong>3D CNN layers</strong> 進行非線性前處理，用來抽取高階時空特徵（動態紋理、閃爍等）。</li>
+  <li>此結構受到二階運動處理中 <strong>filter–rectify–filter</strong> 架構的啟發。</li>
+  <li>兩條路徑皆以 end-to-end 方式訓練，以從影片中估計物體運動。</li>
+</ul>
+
+<h3 id="訓練資料與材質操弄">訓練資料與材質操弄</h3>
+
+<ul>
+  <li>以自然運動資料集作為 baseline。</li>
+  <li>為了檢驗二階機制的角色，研究者建立兩種版本的運動資料集：
+    <ul>
+      <li>
+<strong>Lambertian</strong> 物體：表面為霧面材質。</li>
+      <li>
+<strong>Non-Lambertian</strong> 物體：具有光澤、透明或金屬材質，會誘發強烈光學擾動。</li>
+    </ul>
+  </li>
+  <li>透過分別訓練雙路徑模型，研究測試<strong>材質統計特性</strong>如何驅動二階運動敏感性的產生。</li>
+</ul>
+
+<hr>
+
+<h2 id="主要發現">主要發現</h2>
+
+<h3 id="與人類一致的運動編碼">與人類一致的運動編碼</h3>
+
+<ul>
+  <li>第一階段與第二階段的單元會自然分化出 <strong>component</strong> 與 <strong>pattern</strong> motion-selective populations，對應 V1 與 MT 的神經紀錄。</li>
+  <li>模型能重現多種<strong>心理物理現象</strong>，包括全域運動整合與依賴脈絡的 pooling，而且參數範圍與人類資料相當接近。</li>
+</ul>
+
+<h3 id="穩健的運動估計與分割">穩健的運動估計與分割</h3>
+
+<ul>
+  <li>在 <strong>MPI-Sintel</strong> 與 <strong>KITTI</strong> 等 benchmark 上，模型能達到具競爭力的 optical-flow 估計，同時比標準電腦視覺模型更接近人類的知覺錯誤型態。</li>
+  <li>第二階段的圖表示可支援<strong>不需額外訓練的基於運動分割</strong>：只要對運動圖進行簡單二分，就能得到近似 instance-level 的移動物體分割。</li>
+</ul>
+
+<h3 id="二階運動知覺的獲得">二階運動知覺的獲得</h3>
+
+<ul>
+  <li>當模型只在標準運動資料集上訓練時，模型無法知覺二階運動，這與目前許多電腦視覺模型的限制相符。</li>
+  <li>當模型訓練於包含<strong>非 Lambertian 材質</strong>與光學擾動的資料集時，雙路徑模型會：
+    <ul>
+      <li>自發發展出與人類觀察者相當的<strong>二階運動敏感性</strong>。</li>
+      <li>使用高階訊號在一階 optical flow 受到干擾時，<strong>穩定物體運動估計</strong>。</li>
+    </ul>
+  </li>
+  <li>這些結果支持一個假設：生物視覺中的二階運動機制，可能是為了在複雜材質造成的光學變化下，仍能<strong>穩健追蹤物體運動</strong>而演化出來。</li>
+</ul>
+
+<hr>
+
+<h2 id="圖示">圖示</h2>
+
+<p><img src="/images/Research_Intro_image/motion-model/image.png" alt="Dual-pathway motion perception model">
+<img src="/images/Research_Intro_image/motion-model/modeldemo.gif" alt="Some fantastic model output"></p>
+
+<p><em>圖。兩階段雙路徑運動模型概觀。第一階段實作可訓練的 motion-energy sensors，用於一階與高階運動；第二階段透過圖結構 recurrent network 整合局部運動，以推論物體運動並分割移動物體。</em></p>
+
+<h2 id="相關出版">相關出版</h2>
+
+<p>Sun, Z., <strong>Chen, Y.-J.</strong>, Yang, Y.-H., Li, Y., &amp; Nishida, S.<br>
+Machine learning modelling for multi-order human visual motion processing. Nature Machine Intelligence, 2025.<br>
+DOI: 10.1038/s42256-025-01068-w</p>
+
+<p>Sun, Z., <strong>Chen, Y.-J.</strong>, Yang, Y.-H., &amp; Nishida, S.<br>
+Modelling Human Visual Motion Processing with Trainable Motion Energy Sensing and a Self-attention Network. arXiv:2305.09156, 2023.<br>
+DOI: 10.48550/arXiv.2305.09156</p>
+
+<p>Sun, Z., <strong>Chen, Y.-J.</strong>, Yang, Y.-H., &amp; Nishida, S.<br>
+Modeling of Human Motion Perception Mechanism: A Simulation based on Deep Neural Network and Attention Transformer. Journal of Vision, 23(9), 4894, 2023.<br>
+DOI: 10.1167/jov.23.9.4894</p>
+
+<p>Sun, Z., <strong>Chen, Y.-J.</strong>, Yang, Y.-H., &amp; Nishida, S.<br>
+Acquisition of second-order motion perception by learning to recognize the motion of objects made by non-diffusive materials. Journal of Vision, 24(10), 374, 2024.<br>
+DOI: 10.1167/jov.24.10.374</p>
   </section>
 
   

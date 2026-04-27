@@ -5,4 +5,108 @@ form {
   gap: 10px;
 }
 
+.contact-form {
+  display: block;
+  max-width: 780px;
+  margin: 1rem 0 0;
+}
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.4rem;
+  padding: 0.7rem 0.8rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: inherit;
+  font: inherit;
+}
+
+.contact-message {
+  margin-top: 0.9rem;
+}
+
+.contact-submit {
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 0.45rem;
+  padding: 0.7rem 1rem;
+  background: var(--primary, #4f7cff);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.contact-flight {
+  position: relative;
+  min-height: 72px;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.contact-envelope {
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  width: 46px;
+  height: 30px;
+  border: 2px solid currentColor;
+  border-radius: 3px;
+}
+
+.contact-envelope::before,
+.contact-envelope::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(35deg, transparent 48%, currentColor 50%, transparent 52%), linear-gradient(-35deg, transparent 48%, currentColor 50%, transparent 52%);
+}
+
+.contact-flight p {
+  margin-left: 62px;
+  line-height: 58px;
+}
+
+.contact-flight.is-flying .contact-envelope {
+  animation: contact-envelope-flight 900ms ease-in forwards;
+}
+
+.contact-submit-frame {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes contact-envelope-flight {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(620px, -52px) scale(0.25);
+    opacity: 0;
+  }
+}
+@media (max-width: 700px) {
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*# sourceMappingURL=form.css.map */

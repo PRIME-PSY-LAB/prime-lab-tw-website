@@ -358,9 +358,13 @@
 
   <script src="/_scripts/anchors.js"></script>
 
+  <script src="/_scripts/contact-form.js"></script>
+
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/publication-tags.js"></script>
 
   <script src="/_scripts/search.js"></script>
 
@@ -585,6 +589,66 @@ document.addEventListener("DOMContentLoaded", function () {
       
     </a>
   </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="send-us-a-message">Send us a message</h2>
+
+<form class="contact-form" action="https://formsubmit.co/prime.lab.tw@gmail.com" method="POST" target="contact-submit-frame" data-contact-form="">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_subject" value="[contact from website] Website contact">
+
+  <div class="contact-form-grid">
+    <label>
+      Email
+      <input type="email" name="email" required="" autocomplete="email">
+    </label>
+
+    <label>
+      Name / preferred form of address
+      <input type="text" name="name" required="" autocomplete="name">
+    </label>
+
+    <label>
+      Affiliation
+      <input type="text" name="affiliation" required="">
+    </label>
+
+    <label>
+      Subject
+      <input type="text" name="subject" required="" data-contact-subject="">
+    </label>
+  </div>
+
+  <label class="contact-message">
+    Message
+    <textarea name="message" rows="7" required=""></textarea>
+  </label>
+
+  <button class="contact-submit" type="submit">
+    Send message
+  </button>
+
+  <div class="contact-flight" aria-live="polite" hidden="">
+    <div class="contact-envelope"></div>
+    <p>
+      Your message has been sent.
+    </p>
+  </div>
+</form>
+
+<iframe name="contact-submit-frame" class="contact-submit-frame" title="contact submission"></iframe>
   </section>
 
 

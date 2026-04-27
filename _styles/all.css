@@ -406,6 +406,25 @@ details.collapse-block .collapse-label {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.pub-tag-count {
+  opacity: 0.72;
+  font-size: 0.78em;
+}
+
+.pub-tag-more {
+  margin: 0.25rem 0 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.45rem;
+  padding: 0.45rem 0.75rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: inherit;
+  cursor: pointer;
+}
+
+.pub-tag-more:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 /* ===========================
    Research – Project cards
    =========================== */

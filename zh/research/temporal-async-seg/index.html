@@ -358,9 +358,13 @@
 
   <script src="/_scripts/anchors.js"></script>
 
+  <script src="/_scripts/contact-form.js"></script>
+
   <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/publication-tags.js"></script>
 
   <script src="/_scripts/search.js"></script>
 
@@ -571,16 +575,24 @@ document.addEventListener("DOMContentLoaded", function () {
   </p>
 <div class="tags">
     
-      <a href="/research?search=%22tag:%20%E6%99%82%E9%96%93%E8%A6%96%E8%A6%BA%22" class="tag" data-tooltip='Show items with the tag "時間視覺"'>
-        時間視覺
+      <a href="/research?search=%22tag:%20%E9%81%8B%E5%8B%95%E7%9F%A5%E8%A6%BA%22" class="tag" data-tooltip='Show items with the tag "運動知覺"'>
+        運動知覺
       </a>
     
-      <a href="/research?search=%22tag:%20%E8%A6%96%E8%A6%BA%E5%88%86%E5%89%B2%22" class="tag" data-tooltip='Show items with the tag "視覺分割"'>
-        視覺分割
+      <a href="/research?search=%22tag:%20%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%22" class="tag" data-tooltip='Show items with the tag "深度學習"'>
+        深度學習
       </a>
     
-      <a href="/research?search=%22tag:%20%E7%9F%A5%E8%A6%BA%E7%B5%84%E7%B9%94%22" class="tag" data-tooltip='Show items with the tag "知覺組織"'>
-        知覺組織
+      <a href="/research?search=%22tag:%20%E8%A8%88%E7%AE%97%E5%BB%BA%E6%A8%A1%22" class="tag" data-tooltip='Show items with the tag "計算建模"'>
+        計算建模
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E4%B8%80%E9%9A%8E%E9%81%8B%E5%8B%95%22" class="tag" data-tooltip='Show items with the tag "一階運動"'>
+        一階運動
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E4%BA%8C%E9%9A%8E%E9%81%8B%E5%8B%95%22" class="tag" data-tooltip='Show items with the tag "二階運動"'>
+        二階運動
       </a>
     
   </div>
@@ -603,21 +615,113 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <h1 id="視覺分割中的時間同步與結構">視覺分割中的時間同步與結構</h1>
 
-<p>視覺系統如何利用<strong>時間</strong>來判斷哪些元素屬於同一個物體或同一個知覺單元？這條研究線透過視覺分割作業、common-fate displays 與時間同步/時間結構操弄，分析人類如何從動態訊號中形成空間組織。</p>
-
-<h2 id="核心問題">核心問題</h2>
+<p>視覺系統如何利用<strong>時間</strong>來判斷哪些元素屬於同一個群組？在這條研究線中，我們結合<strong>分割作業</strong>、<strong>common-fate motion displays</strong>，以及<strong>同步偵測 / 分組典範</strong>，拆解兩個關鍵的時間線索：</p>
 
 <ul>
-  <li>元素是否在同一時間改變，會如何影響知覺分組？</li>
-  <li>即使局部同步受到雜訊干擾，整體時間結構是否仍能支持視覺分割？</li>
-  <li>人類是否能跨特徵維度使用共同的時間相關性？</li>
+  <li>
+<strong>時間同步</strong>：元素是否在同一時間改變。</li>
+  <li>
+<strong>時間結構</strong>：即使局部同步受到雜訊或 jitter 影響，整體隨時間變化的模式仍可能提供訊息。</li>
 </ul>
 
-<h2 id="方法與意義">方法與意義</h2>
+<p>這些計畫共同顯示，時間結構不只是「有雜訊的同步」，而是一個部分<strong>獨立的線索</strong>；在適當時間條件下，它甚至可以主導視覺分割。</p>
 
-<p>我們結合心理物理實驗與計算模型，量化時間結構在視覺組織中的角色。這些結果可進一步作為人類物件辨識模型中的動態組織機制基礎。</p>
+<hr>
 
-<p><img src="/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp" alt="Temporal structure model fit"></p>
+<h2 id="三個緊密連結的研究">三個緊密連結的研究</h2>
+
+<h3 id="1-具有結構支持的時間同步分割journal-of-vision-2021">1. 具有結構支持的時間同步分割（Journal of Vision 2021）</h3>
+
+<p>第一階段使用 temporal segmentation task。動態顯示中的元素會隨時間改變，並控制其同步性 / 非同步性與時間結構。透過操弄時間同步是否<strong>伴隨一致的結構線索</strong>，或是否嵌入更不規則的模式中，我們發現當同步性受到時間結構支持時，對於隨時間分割紋理或區域會<strong>顯著更有效</strong>。</p>
+
+<p>換言之，視覺系統並不把「同步」視為純粹局部、逐 frame 的訊號，而是會將它放在<strong>更大的時間模式</strong>中加以評估。</p>
+
+<hr>
+
+<h3 id="2-廣義-common-fate-與結構主導效果journal-of-vision-2022">2. 廣義 common fate 與結構主導效果（Journal of Vision 2022）</h3>
+
+<p>第二個研究將問題延伸到<strong>以運動為基礎的 common-fate display</strong>。觀察者觀看 random-dot patterns，其中一部分 dots（signal dots）共享同一運動方向，其他 dots 則隨機移動。根據不同區域中運動方向改變的 temporal asynchrony，畫面可以被分組為<strong>列 vs. 行</strong>。</p>
+
+<p>關鍵操弄是正交控制：</p>
+
+<ul>
+  <li>區域之間是否具有<strong>相同時間結構</strong>或<strong>不同時間結構</strong>，同時</li>
+  <li>保持區域之間的<strong>局部 temporal asynchrony</strong> 完全相同。</li>
+</ul>
+
+<p>結果顯示：</p>
+
+<ul>
+  <li>視覺系統同時依賴<strong>時間同步</strong>與<strong>時間結構</strong>來完成知覺分組。</li>
+  <li>當<strong>時間頻率增加</strong>時，<strong>時間結構變得更有效</strong>，在廣義 common fate 中產生明確的<strong>結構主導效果</strong>。</li>
+</ul>
+
+<p>這項研究將 Gestalt 傳統中的 common fate 連結到更一般化的<strong>時間相似性結構</strong>概念，其中<strong>隨時間變化的相關模式</strong>是分割的重要基礎。</p>
+
+<hr>
+
+<h3 id="3-碩士論文低時間頻率下的時間結構">3. 碩士論文：低時間頻率下的時間結構</h3>
+
+<p>碩士論文 <em>Temporal structure does not trump temporal synchrony in low temporal frequency: Implication and its potential interpretation</em> 直接檢驗時間結構究竟只是<strong>同步不確定性的操弄</strong>，還是本身就是一個<strong>獨立的時間線索</strong>。</p>
+
+<p>研究中實作兩個關鍵操弄：</p>
+
+<ul>
+  <li>
+<strong>Fixed structure pair</strong>：兩個閃爍圓盤（或 flicker elements lattice）共享<strong>相同時間結構</strong>。</li>
+  <li>
+<strong>Jitter structure pair</strong>：局部時間同步量相同，但 lead/lag 方向不穩定，增加<strong>同步時間的不確定性</strong>。</li>
+</ul>
+
+<p>跨越<strong>同步偵測作業</strong>與<strong>基於時間訊息的分組作業</strong>（4×4 flicker lattices），並比較<strong>低時間頻率</strong>與<strong>高時間頻率</strong>後，結果顯示：</p>
+
+<ul>
+  <li>儘管 jitter structure 條件具有較高時間不確定性，其表現<strong>並未低於</strong> fixed structure 條件。</li>
+  <li>在<strong>較高時間頻率</strong>（例如本研究約 8 Hz）下，<strong>時間結構表現得像是一個獨立且更顯著的線索</strong>，而不是同步性退化後的結果。</li>
+</ul>
+
+<p>這些結果支持時間結構<strong>可能無法被簡化為「同步 + 雜訊」</strong>，且其貢獻具有<strong>頻率依賴性</strong>。</p>
+
+<hr>
+
+<h2 id="概念整合">概念整合</h2>
+
+<p>三個研究共同形成以下圖像：</p>
+
+<ol>
+  <li>
+    <p><strong>同步是必要但不足的。</strong><br>
+當操弄高階時間模式時，局部時間同步本身無法完整解釋分割表現。</p>
+  </li>
+  <li>
+    <p><strong>時間結構是一個額外的全域線索。</strong><br>
+當同一區域內的時間結構一致、且不同區域之間可區分時，即使局部同步被配對控制，時間結構仍能支持<strong>分割</strong>與 <strong>common-fate grouping</strong>。</p>
+  </li>
+  <li>
+    <p><strong>結構與同步之間的平衡取決於時間頻率。</strong><br>
+在<strong>低時間頻率</strong>下，同步性仍是強而有時主導的線索；在<strong>較高時間頻率</strong>下，時間結構越來越能<strong>勝過同步性</strong>，成為動態場景中更有力的組織訊號。</p>
+  </li>
+</ol>
+
+<p>整體而言，這些研究有助於修正<strong>時間視覺與知覺分組</strong>理論，釐清大腦何時讀取<strong>瞬間 timing</strong>，何時依賴跨時間視窗的<strong>變化形狀</strong>。</p>
+
+<hr>
+
+<h2 id="出版與論文">出版與論文</h2>
+
+<ul>
+  <li>
+    <p><strong>Chen, Y.-J., &amp; Huang, P.-C. (2021).</strong> Temporal synchrony accompany with structure cue is more effective in the segmentation task. <em>Journal of Vision, 21</em>(9), 2137.<br>
+DOI: 10.1167/jov.21.9.2137</p>
+  </li>
+  <li>
+    <p><strong>Chen, Y.-J., &amp; Huang, P.-C. (2022).</strong> Generalized form of common fate: Evidence of structure dominance effect. <em>Journal of Vision, 22</em>(14), 3830.<br>
+DOI: 10.1167/jov.22.14.3830</p>
+  </li>
+  <li>
+    <p><strong>Chen, Y.-J. (2022).</strong> <em>Temporal structure does not trump temporal synchrony in low temporal frequency: Implication and its potential interpretation.</em> Master’s thesis, National Cheng Kung University, Department of Psychology.</p>
+  </li>
+</ul>
   </section>
 
   
