@@ -4,7 +4,7 @@ lang: en
 translation_key: object-recognition-framework
 layout: project
 permalink: /research/object-recognition-framework/
-image: /images/Research_Intro_image/hierarchical-motion/image.png
+image: /images/blog/nstc-object-recognition/figure-1-framework.png
 tags:
   - object recognition
   - perceptual organization
@@ -19,7 +19,7 @@ Humans recognize objects rapidly in visual environments that are unstable, dynam
 
 This NSTC project, **From Perceptual Structure to Semantic Space: A Human-centered Computational Framework for Object Recognition**, develops a computational account of object recognition that is constrained by human perceptual processes. The project does not treat classification accuracy as the only goal. Instead, it asks whether each computational step in a model can be linked to measurable human behavior.
 
-![Human-centered object recognition framework]({{ "/images/Research_Intro_image/hierarchical-motion/image.png" | relative_url }})
+![Human-centered object recognition framework]({{ "/images/blog/nstc-object-recognition/figure-1-framework.png" | relative_url }})
 
 ## Why a new framework is needed
 
@@ -33,8 +33,6 @@ The first research line tests whether human vision uses temporal correlation str
 
 The project will use psychophysical paradigms, including visual adaptation, to test whether observers show selective sensitivity to specific temporal-correlation structures. If the visual system contains mechanisms tuned to such structures, adapting to one correlation pattern should selectively reduce sensitivity to similar patterns. This would provide behavioral evidence that temporal organization contributes directly to the formation of perceptual units used in object recognition.
 
-![Temporal structure and segmentation]({{ "/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp" | relative_url }})
-
 ## Research line 2: Measuring conceptual structure with generative models
 
 The second research line develops a method for measuring object concepts and their relational structure. Traditional approaches such as multidimensional scaling infer representational structure from responses to a fixed image set. These methods are useful, but once the stimulus set is fixed, it becomes difficult to manipulate conceptual distance while controlling low-level image properties.
@@ -42,6 +40,8 @@ The second research line develops a method for measuring object concepts and the
 This project uses generative artificial intelligence as a tool for high-dimensional stimulus control. The goal is not to assume that generative models perfectly reproduce human conceptual space. Instead, their latent representations provide a controllable way to sample stimuli from targeted regions of image and concept space. This makes it possible to test how humans judge similarity, how concepts cluster, and whether object knowledge is organized hierarchically.
 
 By combining generative sampling with behavioral measurement, the project aims to build a standardized framework for quantifying conceptual structure. This framework can then be used to compare human observers with computational models under matched stimulus conditions.
+
+![Concept metamer framework for measuring object representations]({{ "/images/blog/nstc-object-recognition/figure-4-concept-metamer.png" | relative_url }})
 
 ## Research line 3: Structured matching during object recognition
 
@@ -54,6 +54,8 @@ This hypothesis will be tested using controlled object detection and visual sear
 The final stage integrates findings from the behavioral studies into a computational model. The model will incorporate spatiotemporal component decomposition and subset-based matching within conceptual space. Its value will be evaluated not only by classification accuracy, but also by human-relevant metrics: sensitivity to temporal structure, robustness under structured noise, generalization across visual variation, and interference patterns across conceptual subsets.
 
 This approach turns psychological theory into testable model constraints. It also provides a reusable benchmark for comparing future artificial vision systems with human perception.
+
+![Generating dynamic training data with simulated eye movements]({{ "/images/blog/nstc-object-recognition/figure-6-training-data.png" | relative_url }})
 
 ## Expected contribution
 

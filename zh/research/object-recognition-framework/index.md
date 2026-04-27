@@ -4,7 +4,7 @@ lang: zh
 translation_key: object-recognition-framework
 layout: project
 permalink: /zh/research/object-recognition-framework/
-image: /images/Research_Intro_image/hierarchical-motion/image.png
+image: /images/blog/nstc-object-recognition/figure-1-framework.png
 tags:
   - 物件辨識
   - 知覺組織
@@ -19,7 +19,7 @@ tags:
 
 本國科會計畫「建構人類物件辨識的跨層次計算框架：從知覺結構到語意空間」旨在建立一套受人類知覺歷程限制的物件辨識模型。本計畫不只追求分類準確率，而是進一步詢問：模型的每一步計算是否能對應到可測量的人類行為。
 
-![人類物件辨識計算框架]({{ "/images/Research_Intro_image/hierarchical-motion/image.png" | relative_url }})
+![人類物件辨識計算框架]({{ "/images/blog/nstc-object-recognition/figure-1-framework.png" | relative_url }})
 
 ## 為什麼需要新的框架？
 
@@ -33,8 +33,6 @@ tags:
 
 本計畫將使用心理物理實驗，包括視覺適應典範，檢驗觀察者是否對特定時間相關結構具有選擇性敏感度。如果視覺系統包含對這些結構調諧的機制，那麼適應某一種相關模式後，對相似模式的敏感度應該會選擇性下降。這將提供行為證據，說明時間組織直接參與物件辨識所需的知覺單元形成。
 
-![時間結構與視覺分割]({{ "/images/Research_Intro_image/temporal-async-seg/model_fit_plot.bmp" | relative_url }})
-
 ## 研究路線二：以生成式模型量測概念結構
 
 第二條研究路線發展量測物體概念與其關係結構的方法。傳統方法，例如 multidimensional scaling，會根據固定圖片集上的行為反應推估表徵結構。這些方法有其價值，但當刺激集合固定後，研究者很難在控制低階影像特徵的同時，系統性操弄概念距離。
@@ -42,6 +40,8 @@ tags:
 本計畫使用生成式人工智慧作為高維度刺激控制工具。重點不是假設生成式模型完美複製人類概念空間，而是利用其 latent representations 提供可控制的取樣方式，從特定影像與概念空間區域產生刺激。如此便能測試人類如何判斷相似性、概念如何群聚，以及物體知識是否具有階層結構。
 
 透過生成式取樣與行為測量的結合，本計畫希望建立一套標準化框架，用於量化概念結構。此框架也能在相同刺激條件下，比較人類觀察者與計算模型。
+
+![以 concept metamer 量測物件概念表徵]({{ "/images/blog/nstc-object-recognition/figure-4-concept-metamer.png" | relative_url }})
 
 ## 研究路線三：物件辨識中的結構化比對
 
@@ -54,6 +54,8 @@ tags:
 最後階段會將行為研究結果整合到計算模型中。模型將包含時空部件分解，以及概念空間中的子集合比對。模型評估不只看分類準確率，也會使用與人類相關的指標：對時間結構的敏感度、在結構化雜訊下的穩健性、跨視覺變化的泛化能力，以及概念子集合之間的干擾型態。
 
 這種做法可將心理學理論轉化為可檢驗的模型限制，也能為未來人工視覺系統與人類知覺的比較建立可重複使用的 benchmark。
+
+![以模擬眼動產生動態訓練資料]({{ "/images/blog/nstc-object-recognition/figure-6-training-data.png" | relative_url }})
 
 ## 預期貢獻
 
