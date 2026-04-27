@@ -1,3 +1,19 @@
+# PRIME-LAB Website Version Notes
+
+## Current Version
+
+**ver 1.1.0**  
+Branch: **ver-1.1.0-20260426-2315**
+
+## Diff From Previous Version
+
+Compared with **ver 1.0.1**, this version changes:
+
+- Adds the Traditional Chinese language system and language switcher.
+- Adds Chinese page counterparts and translated site navigation/content.
+- Introduces the broader bilingual structure used by later versions.
+
+---
 
   ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
