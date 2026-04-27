@@ -604,49 +604,70 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <h2 id="傳送訊息">傳送訊息</h2>
 
-<form class="contact-form" action="https://formsubmit.co/prime.lab.tw@gmail.com" method="POST" target="contact-submit-frame" data-contact-form="">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_template" value="table">
-  <input type="hidden" name="_subject" value="[contact from website] Website contact">
+<div class="contact-panel">
+  <section class="contact-panel-column">
+    <form class="contact-form" action="https://formsubmit.co/prime.lab.tw@gmail.com" method="POST" target="contact-submit-frame" data-contact-form="" data-lang="zh" novalidate="">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_subject" value="[contact from website] Website contact">
+      <input type="hidden" name="_replyto" value="" data-contact-replyto="">
 
-  <div class="contact-form-grid">
-    <label>
-      聯絡信箱
-      <input type="email" name="email" required="" autocomplete="email">
-    </label>
+      <div class="contact-form-grid">
+        <label>
+          聯絡信箱
+          <input type="email" name="email" required="" autocomplete="email" data-contact-field="">
+        </label>
 
-    <label>
-      稱呼方式
-      <input type="text" name="name" required="" autocomplete="name">
-    </label>
+        <label>
+          稱呼方式
+          <input type="text" name="name" required="" autocomplete="name" data-contact-field="">
+        </label>
 
-    <label>
-      單位
-      <input type="text" name="affiliation" required="">
-    </label>
+        <label>
+          單位
+          <input type="text" name="affiliation" required="" data-contact-field="">
+        </label>
 
-    <label>
-      主旨
-      <input type="text" name="subject" required="" data-contact-subject="">
-    </label>
-  </div>
+        <label>
+          主旨
+          <input type="text" name="subject" required="" data-contact-subject="" data-contact-field="">
+        </label>
+      </div>
 
-  <label class="contact-message">
-    內文
-    <textarea name="message" rows="7" required=""></textarea>
-  </label>
+      <label class="contact-message">
+        內文
+        <textarea name="message" rows="7" required="" data-contact-field=""></textarea>
+      </label>
 
-  <button class="contact-submit" type="submit">
-    送出信件
-  </button>
+      <p class="contact-error" data-contact-error="" role="alert" hidden=""></p>
 
-  <div class="contact-flight" aria-live="polite" hidden="">
-    <div class="contact-envelope"></div>
+      <button class="contact-submit" type="submit">
+        送出信件
+      </button>
+
+      <div class="contact-flight" aria-live="polite" hidden="">
+        <div class="contact-envelope"></div>
+        <p>
+          信件已送出。
+        </p>
+      </div>
+    </form>
+  </section>
+
+  <section class="contact-panel-column experiment-signup">
+    <h2>實驗報名</h2>
     <p>
-      信件已送出。
+      
+        目前沒有實驗能夠報名，還請見諒
+      
     </p>
-  </div>
-</form>
+    <pre class="apology-face" aria-hidden="true">
+  /) /)
+( . .)
+( づ♡
+    </pre>
+  </section>
+</div>
 
 <iframe name="contact-submit-frame" class="contact-submit-frame" title="contact submission"></iframe>
   </section>
