@@ -4,13 +4,20 @@ PRIME Lab website for the Perceptual Representation and InforMation modEling Lab
 
 Live site: [www.prime-psy-lab.com](http://www.prime-psy-lab.com)
 
-This repository is a Jekyll static website based on the Lab Website Template, with bilingual English and Traditional Chinese pages, research/project cards, publication filtering, blog/highlight posts, and a contact form.
+This repository is a Jekyll static website based on the Lab Website Template, with English, Traditional Chinese, and Japanese pages, research/project cards, publication filtering, blog/highlight posts, and a contact form.
 
 ## Current Version
 
-**ver 1.1.3**  
-Branch: `ver-1.1.3-20260428-0017`  
-Last updated: `2026-04-28 00:17 +08:00`
+**ver 1.2.0**  
+Branch: `ver-1.2.0-20260428-0051`  
+Last updated: `2026-04-28 01:06 +08:00`
+
+Version difference from `ver 1.1.3`:
+
+- Added the Japanese site layer under `/ja/`.
+- Extended the language switcher from English/Traditional Chinese to English/Traditional Chinese/Japanese.
+- Added Japanese homepage, team, research, publication, blog, activity, contact, member, post, project, and equipment content.
+- Updated language-specific filters so English pages no longer include Japanese posts or members.
 
 Version marker location on the website:
 
@@ -21,7 +28,7 @@ Version marker location on the website:
 The footer should show:
 
 ```text
-ver 1.1.3 | Updated 2026-04-28 00:17 +08:00
+ver 1.2.0 | Updated 2026-04-28 01:06 +08:00
 ```
 
 ## Version Branches
@@ -36,6 +43,7 @@ Use version branches for site updates.
 | ver 1.1.1 | `ver-1.1.1-20260427-2357` | Chinese/equipment/research refinements |
 | ver 1.1.2 | `ver-1.1.2-20260426-2212` | NSTC project/blog content |
 | ver 1.1.3 | `ver-1.1.3-20260428-0017` | Noto Sans TC and visible version metadata |
+| ver 1.2.0 | `ver-1.2.0-20260428-0051` | Japanese language layer |
 
 Branch naming format:
 
@@ -67,21 +75,27 @@ The following local pages were checked through the generated Jekyll site at `htt
 | --- | --- | --- |
 | `/` | 200 | English homepage |
 | `/zh/` | 200 | Traditional Chinese homepage |
+| `/ja/` | 200 | Japanese homepage |
 | `/team/` | 200 | English team page |
 | `/zh/team/` | 200 | Chinese team page |
+| `/ja/team/` | 200 | Japanese team page |
 | `/research/` | 200 | English research overview |
 | `/zh/research/` | 200 | Chinese research overview |
+| `/ja/research/` | 200 | Japanese research overview |
 | `/publication/` | 200 | English publication page |
 | `/zh/publication/` | 200 | Chinese publication page |
+| `/ja/publication/` | 200 | Japanese publication page |
 | `/blog/` | 200 | English blog page |
 | `/zh/blog/` | 200 | Chinese blog page |
+| `/ja/blog/` | 200 | Japanese blog page |
 | `/contact/` | 200 | English contact page |
 | `/zh/contact/` | 200 | Chinese contact page |
+| `/ja/contact/` | 200 | Japanese contact page |
 
 All checked pages included:
 
 - the language switcher
-- the `ver 1.1.3` footer marker
+- the `ver 1.2.0` footer marker
 - the Google Fonts request for `Noto Sans TC`
 
 ## Repository Structure
@@ -90,21 +104,28 @@ All checked pages included:
 | --- | --- | --- |
 | `index.md` | English homepage | Yes |
 | `zh/index.md` | Chinese homepage | Yes |
+| `ja/index.md` | Japanese homepage | Yes |
 | `team/index.md`, `zh/team/index.md` | Team listing pages | Yes |
+| `ja/team/index.md` | Japanese team listing page | Yes |
 | `_members/` | Individual member pages | Yes |
 | `research/index.md`, `zh/research/index.md` | Research overview pages | Yes |
+| `ja/research/index.md` | Japanese research overview page | Yes |
 | `_research_intro/` | English research detail pages generated as a collection | Yes |
 | `zh/research/*/index.md` | Chinese research detail pages | Yes |
+| `ja/research/*/index.md` | Japanese research detail pages | Yes |
 | `_data/projects.yaml` | English research cards | Yes |
 | `_data/projects_zh.yaml` | Chinese research cards | Yes |
+| `_data/projects_ja.yaml` | Japanese research cards | Yes |
 | `_data/equipment.yaml` | Research environment equipment cards | Yes |
 | `publication/index.md`, `zh/publication/index.md` | Publication pages | Yes |
+| `ja/publication/index.md` | Japanese publication page | Yes |
 | `_data/sources_*.yaml` | Manual publication source records | Yes, carefully |
 | `_data/citations.yaml` | Generated publication data | Usually no |
 | `_posts/` | Blog/news posts | Yes |
 | `_highlight_post/` | English highlight post markers | Yes |
 | `blog/index.md`, `zh/blog/index.md` | Blog index pages | Yes |
-| `contact/index.md`, `zh/contact/index.md` | Contact pages | Yes |
+| `ja/blog/index.md` | Japanese blog index page | Yes |
+| `contact/index.md`, `zh/contact/index.md`, `ja/contact/index.md` | Contact pages | Yes |
 | `_data/version.yml` | Website version metadata | Yes, every release |
 | `images/` | Site images, GIFs, thumbnails | Yes |
 | `assets/` | PDFs and downloadable assets | Yes |
@@ -133,7 +154,7 @@ _layouts/default.html
 
 Important shared components:
 
-- `_includes/language-switcher.html`: builds the English/Chinese page switcher from `lang` and `translation_key`.
+- `_includes/language-switcher.html`: builds the English/Chinese/Japanese page switcher from `lang` and `translation_key`.
 - `_includes/list.html`: renders cards, portraits, citations, and post excerpts from collections/data.
 - `_includes/contact-form.html`: renders the contact form and experiment sign-up area.
 - `_includes/publication-tag-filter.html`: creates publication tag chips and tag counts.
@@ -162,6 +183,12 @@ Chinese homepage:
 zh/index.md
 ```
 
+Japanese homepage:
+
+```text
+ja/index.md
+```
+
 The homepage contains:
 
 - lab introduction
@@ -182,6 +209,13 @@ Chinese highlight behavior:
 - Use the same `translation_key` as the English counterpart.
 - Add `highlight: true` when the Chinese post should appear in the Chinese highlights area.
 
+Japanese highlight behavior:
+
+- Japanese posts live in `_posts/`.
+- Use `lang: ja`.
+- Use the same `translation_key` as the English and Chinese counterparts.
+- Add `highlight: true` when the Japanese post should appear in the Japanese highlights area.
+
 ## Team Members
 
 Team listing pages:
@@ -189,6 +223,7 @@ Team listing pages:
 ```text
 team/index.md
 zh/team/index.md
+ja/team/index.md
 ```
 
 Member detail files:
@@ -196,6 +231,7 @@ Member detail files:
 ```text
 _members/Yen-Ju-CHEN.md
 _members/Yen-Ju-CHEN-zh.md
+_members/Yen-Ju-CHEN-ja.md
 ```
 
 Required front matter:
@@ -228,11 +264,12 @@ Role filters used by team pages:
 | `bs` | Bachelor student |
 | `al` | Alumni |
 
-For bilingual member pages:
+For multilingual member pages:
 
 - Keep the same `translation_key`.
-- Use `lang: en` and `lang: zh`.
+- Use `lang: en`, `lang: zh`, and `lang: ja`.
 - Chinese page should set its own `permalink`, usually `/zh/members/member-slug/`.
+- Japanese page should set its own `permalink`, usually `/ja/members/member-slug/`.
 
 ## Research Pages
 
@@ -241,6 +278,7 @@ Research overview:
 ```text
 research/index.md
 zh/research/index.md
+ja/research/index.md
 ```
 
 Research card data:
@@ -248,6 +286,7 @@ Research card data:
 ```text
 _data/projects.yaml
 _data/projects_zh.yaml
+_data/projects_ja.yaml
 ```
 
 Research detail pages:
@@ -255,6 +294,7 @@ Research detail pages:
 ```text
 _research_intro/<project-slug>/index.md
 zh/research/<project-slug>/index.md
+ja/research/<project-slug>/index.md
 ```
 
 Project card groups:
@@ -269,11 +309,13 @@ When adding a research project:
 
 1. Add or update the English card in `_data/projects.yaml`.
 2. Add or update the Chinese card in `_data/projects_zh.yaml`.
-3. Add the English detail page under `_research_intro/<slug>/index.md`.
-4. Add the Chinese detail page under `zh/research/<slug>/index.md`.
-5. Use the same `translation_key` on both detail pages.
-6. Put images under `images/Research_Intro_image/<slug>/` or another clear project folder.
-7. Build and check both `/research/` and `/zh/research/`.
+3. Add or update the Japanese card in `_data/projects_ja.yaml`.
+4. Add the English detail page under `_research_intro/<slug>/index.md`.
+5. Add the Chinese detail page under `zh/research/<slug>/index.md`.
+6. Add the Japanese detail page under `ja/research/<slug>/index.md`.
+7. Use the same `translation_key` on all detail pages.
+8. Put images under `images/Research_Intro_image/<slug>/` or another clear project folder.
+9. Build and check `/research/`, `/zh/research/`, and `/ja/research/`.
 
 Research environment equipment:
 
@@ -301,6 +343,7 @@ Publication pages:
 ```text
 publication/index.md
 zh/publication/index.md
+ja/publication/index.md
 ```
 
 Publication source data:
@@ -340,7 +383,7 @@ When adding a publication:
 3. Add `type`, `publisher`, `date`, `image`, `buttons`, and `tags` where possible.
 4. Use `group: highlighted` for highlighted publications.
 5. Run `bundle exec jekyll build`.
-6. Confirm `/publication/` and `/zh/publication/`.
+6. Confirm `/publication/`, `/zh/publication/`, and `/ja/publication/`.
 
 ## Blog, News, and Highlight Posts
 
@@ -355,6 +398,7 @@ Filename format:
 ```text
 YYYY-MM-DD-title.md
 YYYY-MM-DD-title-zh.md
+YYYY-MM-DD-title-ja.md
 ```
 
 Recommended front matter:
@@ -381,6 +425,15 @@ permalink: /zh/YYYY/MM/DD/title.html
 highlight: true
 ```
 
+For Japanese posts:
+
+```yaml
+lang: ja
+translation_key: same-key-as-english
+permalink: /ja/YYYY/MM/DD/title.html
+highlight: true
+```
+
 English highlight marker files live in:
 
 ```text
@@ -402,6 +455,7 @@ Activity page sources:
 ```text
 activity/
 zh/activity/
+ja/activity/
 ```
 
 Activity images:
@@ -425,6 +479,7 @@ Contact pages:
 ```text
 contact/index.md
 zh/contact/index.md
+ja/contact/index.md
 ```
 
 Shared contact form:
@@ -485,25 +540,29 @@ _styles/all.scss
 
 Avoid changing `_styles/` unless the change is intentionally site-wide.
 
-## Bilingual Maintenance Rules
+## Multilingual Maintenance Rules
 
 Every public page should follow these rules:
 
 - English page uses `lang: en`.
 - Chinese page uses `lang: zh`.
-- Both versions share the same `translation_key`.
+- Japanese page uses `lang: ja`.
+- All language versions share the same `translation_key`.
 - Chinese pages usually use a `/zh/.../` permalink.
+- Japanese pages usually use a `/ja/.../` permalink.
 - The language switcher depends on `translation_key` to keep users on the equivalent page.
-- Do not add an English-only detail page without a Chinese counterpart unless it is intentionally temporary.
-- Chinese translation should preserve the content structure and references unless there is a strong reason to reorganize.
+- Do not add an English-only detail page without Chinese and Japanese counterparts unless it is intentionally temporary.
+- Translations should preserve the content structure and references unless there is a strong reason to reorganize.
 
-Minimum bilingual checks:
+Minimum multilingual checks:
 
 1. Open English page.
 2. Switch to Chinese.
 3. Confirm it stays on the equivalent page, not just `/zh/`.
-4. Switch back to English.
-5. Confirm title, cards, images, and links match the intended counterpart.
+4. Switch to Japanese.
+5. Confirm it stays on the equivalent page, not just `/ja/`.
+6. Switch back to English.
+7. Confirm title, cards, images, and links match the intended counterparts.
 
 ## Local Verification on Windows
 
@@ -550,6 +609,7 @@ Open:
 ```text
 http://127.0.0.1:4000/
 http://127.0.0.1:4000/zh/
+http://127.0.0.1:4000/ja/
 ```
 
 If Windows native gems fail around Nokogiri:
@@ -563,10 +623,10 @@ If Windows native gems fail around Nokogiri:
 
 Before merging or deploying:
 
-- Homepage loads in English and Chinese.
+- Homepage loads in English, Chinese, and Japanese.
 - Navigation works.
 - Language switcher stays on equivalent pages.
-- Chinese characters render correctly in browser.
+- Chinese and Japanese characters render correctly in browser.
 - `Noto Sans TC` is loaded.
 - Research cards display images/GIFs.
 - Research detail pages load.
@@ -653,13 +713,16 @@ Safe files for routine content edits:
 ```text
 index.md
 zh/index.md
+ja/index.md
 _members/
 _posts/
 _highlight_post/
 _research_intro/
 zh/research/
+ja/research/
 _data/projects.yaml
 _data/projects_zh.yaml
+_data/projects_ja.yaml
 _data/equipment.yaml
 _data/sources_*.yaml
 images/
@@ -689,13 +752,14 @@ If a page does not appear:
 
 If the language switcher goes to the wrong page:
 
-- Confirm both pages share the same `translation_key`.
+- Confirm all language versions share the same `translation_key`.
 - Confirm the Chinese page has `lang: zh`.
+- Confirm the Japanese page has `lang: ja`.
 - Confirm the English page has `lang: en` or no `lang` only when English default is intended.
 
 If a research card does not show:
 
-- Check `group` spelling in `_data/projects.yaml` or `_data/projects_zh.yaml`.
+- Check `group` spelling in `_data/projects.yaml`, `_data/projects_zh.yaml`, or `_data/projects_ja.yaml`.
 - Check image paths relative to site root.
 - Check card `link` points to an existing page.
 
@@ -716,4 +780,3 @@ If CSS changes do not appear:
 - Confirm the SCSS file is imported or included.
 - Run `bundle exec jekyll build`.
 - Hard refresh the browser or add a cache-busting query string.
-
