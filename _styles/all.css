@@ -616,4 +616,158 @@ details.collapse-block .collapse-label {
   font-size: 1.2rem;
 }
 
+.contact-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.contact-panel-column {
+  min-width: 0;
+}
+
+.contact-form {
+  display: block !important;
+  margin: 1rem 0 0;
+  width: 100%;
+}
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.contact-form label {
+  display: grid !important;
+  gap: 0.35rem;
+  font-weight: 600;
+  align-items: start;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid color-mix(in srgb, currentColor 26%, transparent);
+  border-radius: 0.4rem;
+  padding: 0.7rem 0.8rem;
+  background: rgb(200, 200, 200);
+  color: #111;
+  font: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid color-mix(in srgb, currentColor 38%, transparent);
+  outline-offset: 2px;
+  background: rgb(215, 215, 215);
+}
+
+.contact-message {
+  margin-top: 0.9rem;
+}
+
+.contact-error {
+  margin: 0.75rem 0 0;
+  color: #ff6b6b;
+  font-weight: 700;
+}
+
+.contact-submit {
+  margin-top: 1rem;
+  border: 0;
+  border-radius: 0.45rem;
+  padding: 0.7rem 1rem;
+  background: #2f5fd0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.contact-flight {
+  position: relative;
+  min-height: 72px;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.contact-envelope {
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  width: 46px;
+  height: 30px;
+  border: 2px solid currentColor;
+  border-radius: 3px;
+}
+
+.contact-envelope::before,
+.contact-envelope::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(35deg, transparent 48%, currentColor 50%, transparent 52%), linear-gradient(-35deg, transparent 48%, currentColor 50%, transparent 52%);
+}
+
+.contact-flight p {
+  margin-left: 62px;
+  line-height: 58px;
+}
+
+.contact-flight.is-flying .contact-envelope {
+  animation: contact-envelope-flight 900ms ease-in forwards;
+}
+
+.contact-submit-frame {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.experiment-signup {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  background: rgb(200, 200, 200);
+  color: #111;
+}
+
+.experiment-signup h2 {
+  margin-top: 0;
+}
+
+.apology-face {
+  margin: 1rem 0 0;
+  border-radius: 0.35rem;
+  padding: 1rem;
+  background: rgb(180, 180, 180);
+  color: #111;
+  font: 700 1.25rem/1.25 monospace;
+  white-space: pre;
+}
+
+@keyframes contact-envelope-flight {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(620px, -52px) scale(0.25);
+    opacity: 0;
+  }
+}
+@media (max-width: 700px) {
+  .contact-panel {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
