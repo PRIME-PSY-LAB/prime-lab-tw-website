@@ -19,15 +19,12 @@
       {% if lang == "zh" %}
         {% assign item_title = item.name_zh | default: item.name_en %}
         {% assign item_description = item.description_zh | default: item.description_en %}
-        {% assign item_location_label = "收納" %}
-        {% assign item_code_label = "編號" %}
+        {% assign item_subtitle = item.subtitle_zh | default: item.subtitle_en %}
       {% else %}
         {% assign item_title = item.name_en %}
         {% assign item_description = item.description_en %}
-        {% assign item_location_label = "Storage" %}
-        {% assign item_code_label = "Code" %}
+        {% assign item_subtitle = item.subtitle_en %}
       {% endif %}
-      {% capture item_subtitle %}{{ item_location_label }}: {{ item.location }}{% if item.code and item.code != "" %} / {{ item_code_label }}: {{ item.code }}{% endif %}{% endcapture %}
       {% include card.html
         title=item_title
         subtitle=item_subtitle

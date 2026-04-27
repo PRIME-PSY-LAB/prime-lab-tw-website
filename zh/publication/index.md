@@ -84,24 +84,7 @@ _目前尚未設定精選論文。_
 
 {% include search-box.html %}
 
-{% assign all_tags = "" | split: "" %}
-{% for c in site.data.citations %}
-  {% if c.tags %}
-    {% assign all_tags = all_tags | concat: c.tags %}
-  {% endif %}
-{% endfor %}
-{% assign uniq_tags = all_tags | uniq | sort %}
-
-{% if uniq_tags.size > 0 %}
-<div class="pub-tag-filter">
-  {% for tag in uniq_tags %}
-    {% assign clean = tag | strip %}
-    {% assign query = '"tag: ' | append: clean | append: '"' %}
-    {% assign encoded = query | uri_escape %}
-    <a class="tag pub-tag-filter-chip" href="{{ page.url | relative_url }}?search={{ encoded }}">{{ clean }}</a>
-  {% endfor %}
-</div>
-{% endif %}
+{% include publication-tag-filter.html %}
 
 {% include search-info.html %}
 

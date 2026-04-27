@@ -28,3 +28,9 @@ nav:
   tooltip="在 Google Maps 查看實驗室位置"
   link="https://maps.app.goo.gl/jNGbJ14QaSDaz4Cw6"
 %}
+
+{% include section.html %}
+
+## 傳送訊息
+
+{% include contact-form.html lang="zh" %}

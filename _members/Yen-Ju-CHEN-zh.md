@@ -48,7 +48,7 @@ links:
 <details class="collapse-block">
   <summary>
     <span class="collapse-arrow">▶</span>
-    <span class="collapse-label">學歷</span>
+    <span class="collapse-label">學術經歷</span>
   </summary>
 
 <section markdown="1">

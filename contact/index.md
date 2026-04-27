@@ -28,3 +28,9 @@ nav:
   tooltip="Our location on Google Maps for easy navigation"
   link="https://maps.app.goo.gl/jNGbJ14QaSDaz4Cw6"
 %}
+
+{% include section.html %}
+
+## Send us a message
+
+{% include contact-form.html lang="en" %}

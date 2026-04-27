@@ -1,0 +1,33 @@
+{% assign all_tags = "" | split: "" %}
+{% for c in site.data.citations %}
+  {% if c.tags %}
+    {% assign all_tags = all_tags | concat: c.tags %}
+  {% endif %}
+{% endfor %}
+{% assign uniq_tags = all_tags | uniq | sort %}
+
+{% if uniq_tags.size > 0 %}
+<div class="pub-tag-filter" data-tag-limit="10">
+  {% for tag in uniq_tags %}
+    {% assign clean = tag | strip %}
+    {% assign tag_count = 0 %}
+    {% for c in site.data.citations %}
+      {% if c.tags contains clean %}
+        {% assign tag_count = tag_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% assign query = '"tag: ' | append: clean | append: '"' %}
+    {% assign encoded = query | uri_escape %}
+    <a
+      class="tag pub-tag-filter-chip"
+      href="{{ page.url | relative_url }}?search={{ encoded }}"
+      data-count="{{ tag_count }}"
+    >
+      {{ clean }} <span class="pub-tag-count">{{ tag_count }}</span>
+    </a>
+  {% endfor %}
+</div>
+<button class="pub-tag-more" type="button" hidden>
+  {% if page.lang == "zh" %}顯示更多 tag{% else %}Show more tags{% endif %}
+</button>
+{% endif %}

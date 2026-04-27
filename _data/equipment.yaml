@@ -1,60 +1,28 @@
 - title_en: Wearable eye tracking and video
   title_zh: 穿戴式眼動與第一人稱錄影
   items:
-    - name_en: Tobii Pro Glasses 3 eye-tracking system
-      name_zh: Tobii Pro Glasses 3 眼動測定器
-      description_en: Wearable eye-tracking system for natural behavior, social interaction, and mobile visual attention studies.
-      description_zh: 穿戴式眼動測定系統，適合自然情境、社會互動與行動視覺注意研究。
-      location: 下方防潮箱
-      code: Y-9
+    - name_en: Tobii Pro Glasses 3 system
+      name_zh: Tobii Pro Glasses 3 系統
+      subtitle_en: Wearable eye tracking
+      subtitle_zh: 穿戴式眼動追蹤
+      description_en: Wearable eye-tracking system for natural behavior, social interaction, and mobile visual-attention studies. The lab set includes the eye-tracking unit, corrective lenses, an external processing unit, and accessories for participant setup and recording workflows.
+      description_zh: 穿戴式眼動測定系統，適合自然情境、社會互動與行動視覺注意研究。實驗室設備組包含眼動測定器、矯正鏡片、外部處理單元，以及受試者設定與紀錄流程所需配件。
       image: images/equipment/tobii-pro-glasses-3.webp
       link: https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3
-    - name_en: Tobii Pro Glasses 3 corrective lenses
-      name_zh: Tobii Pro Glasses 3 矯正鏡片
-      description_en: Corrective lens kit for participant eye-tracking sessions with Tobii Pro Glasses 3.
-      description_zh: Tobii Pro Glasses 3 的矯正鏡片組，可支援需要視力矯正的受試者。
-      location: 眼動儀鐵櫃
-      code: C-1
-      image: images/equipment/tobii-corrective-lenses.webp
-      link: https://www.tobii.com/products/accessories/tobii-corrective-lenses
-    - name_en: Tobii Pro External Processing Unit
-      name_zh: Tobii Pro 外部處理單元
-      description_en: External processing unit used with wearable eye-tracking recordings and data capture workflows.
-      description_zh: 穿戴式眼動紀錄與資料擷取流程使用的外部處理單元。
-      location: 眼動儀鐵櫃
-      code: C-2
-      image: images/equipment/tobii-pro-glasses-3.webp
-      link: https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3
-    - name_en: Tobii Glasses 2 wearable eye tracker
-      name_zh: Tobii Glasses 2 穿戴式眼動儀
-      description_en: Earlier-generation wearable eye tracker for mobile gaze and behavior recordings.
-      description_zh: 前一代穿戴式眼動儀，可用於行動情境中的視線與行為紀錄。
-      location: 上方防潮箱
-      code: X-1
+    - name_en: Tobii Glasses 2 system
+      name_zh: Tobii Glasses 2 系統
+      subtitle_en: Wearable eye tracking
+      subtitle_zh: 穿戴式眼動追蹤
+      description_en: Earlier-generation wearable eye tracker for mobile gaze and behavior recordings. The lab set includes the wearable eye tracker and accessory box.
+      description_zh: 前一代穿戴式眼動儀，可用於行動情境中的視線與行為紀錄。實驗室設備組包含穿戴式眼動儀與配件盒。
       image: images/equipment/tobii-glasses-2.webp
       link: https://www.tobii.com/products/discontinued/tobii-pro-glasses-2
-    - name_en: Tobii Glasses 2 accessories box
-      name_zh: Tobii Glasses 2 配件盒
-      description_en: Accessories for maintaining and running Tobii Glasses 2 recording sessions.
-      description_zh: Tobii Glasses 2 的實驗配件與維護用品。
-      location: 眼動儀鐵櫃
-      code: C-5
-      image: images/equipment/tobii-glasses-2.webp
-      link: https://www.tobii.com/products/discontinued/tobii-pro-glasses-2
-    - name_en: Tobii Pro Glasses 3 accessories box
-      name_zh: Tobii Pro Glasses 3 配件盒
-      description_en: Accessories for Tobii Pro Glasses 3 participant setup and recording workflows.
-      description_zh: Tobii Pro Glasses 3 受試者設定與實驗紀錄流程使用的配件。
-      location: 下方防潮箱
-      code: Y-2
-      image: images/equipment/tobii-pro-glasses-3.webp
-      link: https://www.tobii.com/products/eye-trackers/wearables/tobii-pro-glasses-3
     - name_en: Pivothead video recording eyewear
       name_zh: Pivothead 第一人稱錄影眼鏡
+      subtitle_en: First-person video
+      subtitle_zh: 第一人稱錄影
       description_en: Wearable video eyewear for first-person scene recording and behavior observation.
       description_zh: 第一人稱視角錄影眼鏡，可輔助場景紀錄與行為觀察。
-      location: 下方防潮箱
-      code: Y-5
       image: images/equipment/pivothead-durango.jpg
       link: https://www.wired.com/2012/12/pivothead-durango
 
@@ -63,113 +31,81 @@
   items:
     - name_en: Tobii Pro X3-120
       name_zh: Tobii Pro X3-120 螢幕式眼動儀
-      description_en: Compact 120 Hz screen-based eye tracker for controlled visual attention and psychophysics experiments.
-      description_zh: 120 Hz 螢幕式眼動儀，適合控制式視覺注意與心理物理實驗。
-      location: 眼動儀鐵櫃
-      code: C-3
+      subtitle_en: 120 Hz screen-based eye tracker
+      subtitle_zh: 120 Hz 螢幕式眼動儀
+      description_en: Compact screen-based eye tracker for controlled visual attention and psychophysics experiments.
+      description_zh: 小型螢幕式眼動儀，適合控制式視覺注意與心理物理實驗。
       image: images/equipment/tobii-x3-120.webp
       link: https://www.tobii.com/products/discontinued/tobii-pro-x3-120
-    - name_en: Tobii X2-30 Compact
-      name_zh: Tobii X2-30 Compact 螢幕式眼動儀
-      description_en: Compact screen-based eye tracker for gaze measurement on laptop or monitor setups.
-      description_zh: 小型螢幕式眼動儀，可搭配筆電或螢幕進行凝視位置量測。
-      location: 下方防潮箱
-      code: Y-8
+    - name_en: Tobii X2-30 Compact with mobile-device stand
+      name_zh: Tobii X2-30 Compact 與行動裝置支架
+      subtitle_en: Compact screen-based eye tracking
+      subtitle_zh: 小型螢幕式眼動追蹤
+      description_en: Compact eye tracker for gaze measurement on laptop, monitor, or mobile-device setups. The lab set includes the X2-30 tracker and a mobile-device stand.
+      description_zh: 小型螢幕式眼動儀，可搭配筆電、螢幕或行動裝置進行凝視位置量測。實驗室設備組包含 X2-30 眼動儀與行動裝置支架。
       image: images/equipment/tobii-x2-30.webp
       link: https://www.tobii.com/products/discontinued/tobii-pro-x2-30
     - name_en: Tobii Pro Nano
       name_zh: Tobii Pro Nano 螢幕式眼動儀
-      description_en: Portable research eye tracker for screen-based attention and decision-making studies.
-      description_zh: 可攜式研究級眼動儀，適合螢幕式注意力與決策研究。
-      location: 下方防潮箱
-      code: Y-7
+      subtitle_en: Portable screen-based eye tracker
+      subtitle_zh: 可攜式螢幕眼動儀
+      description_en: Portable research eye tracker for screen-based attention, decision-making, and interaction studies.
+      description_zh: 可攜式研究級眼動儀，適合螢幕式注意力、決策與互動研究。
       image: images/equipment/tobii-pro-nano.webp
       link: https://www.tobii.com/products/eye-trackers/screen-based/tobii-pro-nano
-    - name_en: Tobii EyeX Controller
-      name_zh: Tobii EyeX Controller
-      description_en: Screen-based eye tracker for gaze interaction, demonstrations, and legacy experimental setups.
-      description_zh: 螢幕式眼動追蹤器，可用於凝視互動展示與舊版實驗架構。
-      location: 下方防潮箱
-      code: Y-3
-      image: images/equipment/tobii-generic-eye-tracker.jpg
-      link: https://help.tobii.com/hc/en-us/articles/212818309-Specifications-for-EyeX
-    - name_en: Tobii Eye Tracker 4C
-      name_zh: Tobii Eye Tracker 4C
-      description_en: Consumer-grade eye tracker useful for gaze interaction prototyping and demonstrations.
-      description_zh: 消費級眼動追蹤器，可用於凝視互動原型與展示。
-      location: 下方防潮箱
-      code: Y-4
-      image: images/equipment/tobii-generic-eye-tracker.jpg
-      link: https://help.tobii.com/hc/en-us/articles/213414285-Specifications-for-the-Tobii-Eye-Tracker-4C
-    - name_en: Tobii T60 eye tracker
-      name_zh: Tobii T60 眼動儀
-      description_en: Legacy remote eye tracker for screen-based experiments and compatibility checks.
-      description_zh: 舊款遠端式眼動儀，可用於螢幕式實驗與相容性測試。
-      location: 裡面那間鐵櫃旁邊的地板
-      code: 黑色箱子在旁邊
+    - name_en: Legacy Tobii screen-based trackers
+      name_zh: 舊款 Tobii 螢幕式眼動追蹤器
+      subtitle_en: EyeX, Eye Tracker 4C, and T60
+      subtitle_zh: EyeX、Eye Tracker 4C 與 T60
+      description_en: Legacy Tobii devices retained for gaze-interaction prototypes, demonstrations, compatibility checks, and screen-based experiment setups.
+      description_zh: 舊款 Tobii 眼動追蹤設備，可用於凝視互動原型、展示、相容性測試與螢幕式實驗架構。
       image: images/equipment/tobii-generic-eye-tracker.jpg
       link: https://developer.tobiipro.com/tobiiprosdk/eyetrackercompatibility.html
-    - name_en: Tobii Mobile Device Stand for X2
-      name_zh: Tobii X2 行動裝置支架
-      description_en: Stand for mobile-device eye-tracking studies with Tobii X2-series trackers.
-      description_zh: Tobii X2 系列眼動儀搭配行動裝置研究使用的支架。
-      location: 裡面那間鐵櫃旁邊的地板
-      code: ""
-      image: images/equipment/tobii-x2-30.webp
-      link: https://www.tobii.com/products/discontinued/tobii-pro-x2-30
 
 - title_en: Physiology, VR, and computing
   title_zh: 生理量測、VR 與運算設備
   items:
     - name_en: NeXus 10 MKII
       name_zh: NeXus 10 MKII 生理訊號紀錄系統
+      subtitle_en: Multimodal physiology recording
+      subtitle_zh: 多模態生理訊號紀錄
       description_en: Multimodal physiology system for EEG, EMG, heart rate, skin conductance, respiration, and related signals.
       description_zh: 多模態生理訊號紀錄系統，可量測 EEG、EMG、心率、膚電、呼吸等訊號。
-      location: 裡面那間右方最下面的鐵櫃
-      code: H-1
       image: images/equipment/nexus-10-mkii.jpg
       link: https://mindmedia.com/products/nexus-10-mkii
     - name_en: FOVE eye-tracking VR headset
       name_zh: FOVE 眼動追蹤 VR 頭戴顯示器
+      subtitle_en: Eye-tracking virtual reality
+      subtitle_zh: 眼動追蹤虛擬實境
       description_en: VR headset with integrated eye tracking for immersive gaze-based research.
       description_zh: 內建眼動追蹤的 VR 頭戴顯示器，適合沉浸式視線與互動研究。
-      location: 上方防潮箱
-      code: X-2
       image: images/equipment/fove-0.webp
       link: https://fove-inc.com/product/fove0/
     - name_en: MSI Creator M16 laptop
       name_zh: MSI Creator M16 筆電
+      subtitle_en: Experiment and modeling workstation
+      subtitle_zh: 實驗與模型運算工作站
       description_en: High-performance laptop for experiment control, data processing, and model development.
       description_zh: 高效能筆電，可用於實驗控制、資料處理與模型開發。
-      location: 眼動儀鐵櫃
-      code: C-6
       image: images/equipment/msi-creator-m16.png
       link: https://us-store.msi.com/Creator-M16-B13VF-1241
     - name_en: SHARP SH930W AQUOS PHONE
       name_zh: SHARP SH930W AQUOS PHONE
+      subtitle_en: Mobile display and device-control testing
+      subtitle_zh: 行動顯示與裝置控制測試
       description_en: Android smartphone for mobile display, app-based, or device-control experiments.
       description_zh: Android 智慧型手機，可用於行動顯示、App 或裝置控制相關實驗。
-      location: 裡面那間右方下面數來第二層的鐵櫃
-      code: G-1
       image: images/equipment/sharp-sh930w.jpg
       link: https://www.celulares.com/sharp/aquos-phone-sh930w
 
 - title_en: Accessories and connectivity
   title_zh: 配件與連接周邊
   items:
-    - name_en: HXY-H4 battery charger
-      name_zh: HXY-H4 電池充電器
-      description_en: Battery charger used to support recording equipment and field sessions.
-      description_zh: 支援錄影與行動實驗設備的電池充電器。
-      location: 下方防潮箱
-      code: Y-6
-      image: images/equipment/nexus-charger.jpg
-      link: https://mindmedia.com/products/nexus-10-mkii-battery-charger
-    - name_en: USB Type-C to Gigabit Ethernet Adapter
-      name_zh: USB Type-C 轉 Gigabit Ethernet 轉接器
-      description_en: Network adapter for stable wired data transfer and device connectivity.
-      description_zh: 有線網路轉接器，用於穩定資料傳輸與設備連接。
-      location: 下方防潮箱
-      code: Y-1
+    - name_en: Battery charging and network adapters
+      name_zh: 電池充電與網路連接配件
+      subtitle_en: Experiment support accessories
+      subtitle_zh: 實驗支援配件
+      description_en: Support equipment for field sessions, device charging, stable wired data transfer, and device connectivity. The lab set includes an HXY-H4 battery charger and a USB Type-C to Gigabit Ethernet adapter.
+      description_zh: 支援外場實驗、設備充電、穩定有線資料傳輸與裝置連接。實驗室設備組包含 HXY-H4 電池充電器與 USB Type-C 轉 Gigabit Ethernet 轉接器。
       image: images/equipment/usb-c-ethernet.jpg
       link: https://plugable.com/products/usbc-te1000/

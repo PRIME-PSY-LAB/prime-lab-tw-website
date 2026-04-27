@@ -14,6 +14,20 @@
     - deep learning
     - computational modeling
 
+- title: Human-centered Computational Framework for Object Recognition
+  subtitle: From perceptual structure to semantic space
+  group: Current
+  image: images/Research_Intro_image/hierarchical-motion/image.png
+  link: /research/object-recognition-framework/
+  authors:
+    - Yen-Ju Chen
+  tags:
+    - object recognition
+    - perceptual organization
+    - generative models
+    - computational modeling
+    - NSTC
+
 - title: Multi-order Human Visual Motion Processing
   subtitle: Dual-pathway motion model bridging human and machine vision
   group: Past
