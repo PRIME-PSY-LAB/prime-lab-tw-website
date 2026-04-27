@@ -741,14 +741,12 @@ details.collapse-block .collapse-label {
   margin-top: 0;
 }
 
-.apology-face {
+.apology-bunny {
+  display: block;
+  max-width: min(100%, 320px);
+  height: auto;
   margin: 1rem 0 0;
-  border-radius: 0.35rem;
-  padding: 1rem;
-  background: rgb(180, 180, 180);
-  color: #111;
-  font: 700 1.25rem/1.25 monospace;
-  white-space: pre;
+  background: transparent;
 }
 
 @keyframes contact-envelope-flight {
