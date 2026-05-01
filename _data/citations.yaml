@@ -1,5 +1,28 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.48550/arXiv.2512.09573
+  title: Investigate the Low-level Visual Perception in Vision-Language based Image
+    Quality Assessment
+  authors:
+  - Yuan Li
+  - Zitang Sun
+  - Yen-Ju Chen
+  - Shin'ya Nishida
+  publisher: arXiv
+  date: '2025-12-10'
+  link: https://doi.org/10.48550/arXiv.2512.09573
+  type: paper
+  group: highlighted
+  image: /images/PaperThumbnail/low-level-visual-perception-iqa.png
+  buttons:
+  - type: paper
+    link: https://doi.org/10.48550/arXiv.2512.09573
+  tags:
+  - VLM
+  - IQA
+  - low-level perception
+  plugin: sources.py
+  file: sources_novel_20251121.yaml
 - id: doi:10.1007/978-981-95-4378-6_20
   title: "Building Reasonable Inference for\_Vision-Language Models in\_Blind Image\
     \ Quality Assessment"
