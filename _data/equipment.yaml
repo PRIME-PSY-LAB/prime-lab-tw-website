@@ -138,6 +138,17 @@
   title_zh: 配件與連接周邊
   title_ja: アクセサリと接続周辺機器
   items:
+    - name_en: Calibrite Display Pro HL
+      name_zh: Calibrite Display Pro HL 螢幕校色器
+      name_ja: Calibrite Display Pro HL ディスプレイキャリブレーター
+      subtitle_en: High-luminance display calibration
+      subtitle_zh: 高亮度螢幕校色
+      subtitle_ja: 高輝度ディスプレイキャリブレーション
+      description_en: Professional display calibration device for color profiling LCD, mini-LED, OLED, and Apple XDR panels. The HL sensor measures up to 3,000 nits and supports accurate monitor calibration workflows with Calibrite PROFILER software.
+      description_zh: 專業螢幕校色與色彩描述檔建立設備，可用於 LCD、mini-LED、OLED 與 Apple XDR 面板。HL 高亮度感測器最高可量測 3,000 nits，搭配 Calibrite PROFILER 軟體支援精準螢幕校正流程。
+      description_ja: LCD、mini-LED、OLED、Apple XDR パネルの色管理とプロファイル作成に用いるプロ向けディスプレイキャリブレーション機器です。HL 高輝度センサーは最大 3,000 nits まで測定でき、Calibrite PROFILER ソフトウェアによる精密なモニター校正に対応します。
+      image: images/equipment/calibrite-display-pro-hl.jpg
+      link: https://calibrite.com/us/product/display-pro-hl/
     - name_en: Battery charging and network adapters
       name_zh: 電池充電與網路連接配件
       name_ja: バッテリー充電器とネットワークアダプタ
