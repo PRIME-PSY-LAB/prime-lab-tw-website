@@ -9,13 +9,21 @@
     <div class="activity-album-slides">
       {% for item in include.data %}
       <div class="activity-album-slide{% if forloop.first %} is-active{% endif %}" data-index="{{ forloop.index0 }}">
-        
-        <!-- 點圖片：開大圖 lightbox -->
         <a href="{{ item.image | relative_url }}" class="activity-album-lightbox">
           <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" class="activity-album-image">
         </a>
 
         <div class="activity-album-caption">
+          {% if item.link %}
+          <a class="activity-album-caption-main activity-album-caption-link" href="{{ item.link | relative_url }}">
+            <div class="activity-album-caption-title">
+              {{ item.title }}
+            </div>
+            <div class="activity-album-caption-text">
+              {{ item.caption }}
+            </div>
+          </a>
+          {% else %}
           <div class="activity-album-caption-main">
             <div class="activity-album-caption-title">
               {{ item.title }}
@@ -24,10 +32,11 @@
               {{ item.caption }}
             </div>
           </div>
+          {% endif %}
 
           {% if item.link %}
           <a class="activity-album-link" href="{{ item.link | relative_url }}">
-            View related post →
+            View related post
           </a>
           {% endif %}
         </div>

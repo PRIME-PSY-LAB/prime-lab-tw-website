@@ -1,4 +1,14 @@
 research:
+  - image: "images/activity/ncku-ai-seminar-20260605.jpg"
+    title: "NCKU Psychology Seminar"
+    caption: "Invited seminar at the Department of Psychology, National Cheng Kung University: When AI Seems Omnipotent."
+    link: "/2026/06/05/ncku-ai-vision-seminar.html"
+
+  - image: "images/activity/vss2026-he-poster-session.jpg"
+    title: "VSS 2026 Poster Presentation"
+    caption: "Ziwei He presented our hierarchical motion study at VSS 2026."
+    link: "/2026/05/19/vss2026-he-hierarchical-motion.html"
+
   - image: "images/activity/demo_research_1.jpeg"
     title: "VSS 2024 Poster session"
     caption: "The doctoral student Yen-Ju was explaining the research at VSS 2024"
