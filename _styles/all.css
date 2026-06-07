@@ -568,6 +568,13 @@ details.collapse-block .collapse-label {
 .activity-album .activity-album-caption .activity-album-caption-title {
   font-weight: 600;
 }
+.activity-album .activity-album-caption .activity-album-caption-link {
+  color: inherit;
+  text-decoration: none;
+}
+.activity-album .activity-album-caption .activity-album-caption-link:hover .activity-album-caption-title {
+  text-decoration: underline;
+}
 .activity-album .activity-album-caption .activity-album-caption-text {
   font-size: 0.9rem;
   color: #555;
