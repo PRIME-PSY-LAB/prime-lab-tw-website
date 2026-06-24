@@ -115,10 +115,28 @@ School of Psychology, University of Nottingham, Nottingham, UK（2024/08 - 2024/
 </thead>
 <tbody>
   <tr style="border-bottom: 1px solid #eee;">
-    <td style="padding: 8px;">2026/02 - 2026/07</td>
+    <td style="padding: 8px;">2026/02 - 2027/02</td>
     <td style="padding: 8px;">講義担当</td>
     <td style="padding: 8px;">東呉大学 法律学科</td>
     <td style="padding: 8px;">一般心理学</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">講義担当</td>
+    <td style="padding: 8px;">東呉大学 心理学科</td>
+    <td style="padding: 8px;">知覚心理学</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">講義担当</td>
+    <td style="padding: 8px;">東呉大学 心理学科</td>
+    <td style="padding: 8px;">心理学実験法実験</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">講義担当</td>
+    <td style="padding: 8px;">東呉大学 心理学科</td>
+    <td style="padding: 8px;">機械学習：統計的方法と応用</td>
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 8px;">2026/02 - 2026/07</td>

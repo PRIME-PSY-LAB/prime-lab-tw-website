@@ -27,13 +27,15 @@
     </a>
   {% endfor %}
 </div>
-<button class="pub-tag-more" type="button" hidden>
-  {% if page.lang == "zh" %}
-    顯示更多 tag
-  {% elsif page.lang == "ja" %}
-    タグをさらに表示
-  {% else %}
-    Show more tags
-  {% endif %}
-</button>
+{% if page.lang == "zh" %}
+  {% assign show_more_label = "顯示更多標籤" %}
+  {% assign show_less_label = "收合標籤" %}
+{% elsif page.lang == "ja" %}
+  {% assign show_more_label = "タグをさらに表示" %}
+  {% assign show_less_label = "タグを折りたたむ" %}
+{% else %}
+  {% assign show_more_label = "Show more tags" %}
+  {% assign show_less_label = "Show fewer tags" %}
+{% endif %}
+<div class="pub-tag-more-row"><button class="pub-tag-more" type="button" aria-expanded="false" data-show-more="{{ show_more_label }}" data-show-less="{{ show_less_label }}" hidden>{{ show_more_label }}</button></div>
 {% endif %}

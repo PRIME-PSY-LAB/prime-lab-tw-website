@@ -115,10 +115,28 @@ School of Psychology, University of Nottingham, Nottingham, UK（2024/08 - 2024/
 </thead>
 <tbody>
   <tr style="border-bottom: 1px solid #eee;">
-    <td style="padding: 8px;">2026/02 - 2026/07</td>
+    <td style="padding: 8px;">2026/02 - 2027/02</td>
     <td style="padding: 8px;">授課教師</td>
     <td style="padding: 8px;">東吳大學法律學系</td>
     <td style="padding: 8px;">普通心理學</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">授課教師</td>
+    <td style="padding: 8px;">東吳大學心理學系</td>
+    <td style="padding: 8px;">知覺心理學</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">授課教師</td>
+    <td style="padding: 8px;">東吳大學心理學系</td>
+    <td style="padding: 8px;">心理實驗法實驗</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">授課教師</td>
+    <td style="padding: 8px;">東吳大學心理學系</td>
+    <td style="padding: 8px;">機器學習：統計方法與應用</td>
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 8px;">2026/02 - 2026/07</td>

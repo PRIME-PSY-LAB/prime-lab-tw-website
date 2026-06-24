@@ -20,15 +20,21 @@ document.addEventListener("DOMContentLoaded", function () {
         filter.appendChild(chip);
       });
 
-    if (!moreButton) return;
-    if (chips.length <= limit) return;
+    if (!moreButton || chips.length <= limit) return;
 
     moreButton.hidden = false;
     moreButton.addEventListener("click", function () {
-      chips.forEach(function (chip) {
-        chip.hidden = false;
+      var expanded = moreButton.getAttribute("aria-expanded") === "true";
+      var newExpanded = !expanded;
+
+      chips.forEach(function (chip, index) {
+        chip.hidden = !newExpanded && index >= limit;
       });
-      moreButton.hidden = true;
+
+      moreButton.setAttribute("aria-expanded", String(newExpanded));
+      moreButton.textContent = newExpanded
+        ? moreButton.dataset.showLess
+        : moreButton.dataset.showMore;
     });
   });
 });

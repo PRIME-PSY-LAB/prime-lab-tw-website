@@ -113,10 +113,28 @@ Department of Psychology, Soochow University, Taipei, Taiwan (2017/09 - 2018/09)
 </thead>
 <tbody>
   <tr style="border-bottom: 1px solid #eee;">
-    <td style="padding: 8px;">2026/02 - 2026/07</td>
+    <td style="padding: 8px;">2026/02 - 2027/02</td>
     <td style="padding: 8px;">Lecture</td>
     <td style="padding: 8px;">Department of Law, Soochow University</td>
     <td style="padding: 8px;">General Psychology</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">Lecture</td>
+    <td style="padding: 8px;">Department of Psychology, Soochow University</td>
+    <td style="padding: 8px;">Psychology of Perception</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">Lecture</td>
+    <td style="padding: 8px;">Department of Psychology, Soochow University</td>
+    <td style="padding: 8px;">Laboratory for Methods of Psychological Experiment</td>
+  </tr>
+  <tr style="border-bottom: 1px solid #eee;">
+    <td style="padding: 8px;">2026/09 - 2027/02</td>
+    <td style="padding: 8px;">Lecture</td>
+    <td style="padding: 8px;">Department of Psychology, Soochow University</td>
+    <td style="padding: 8px;">Machine Learning: Statistical Methods and Applications</td>
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 8px;">2026/02 - 2026/07</td>
