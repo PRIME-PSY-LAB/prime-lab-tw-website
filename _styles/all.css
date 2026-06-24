@@ -406,6 +406,11 @@ details.collapse-block .collapse-label {
   background: rgba(255, 255, 255, 0.12);
 }
 
+.pub-tag-filter-chip[hidden],
+.pub-tag-more[hidden] {
+  display: none !important;
+}
+
 .pub-tag-count {
   opacity: 0.72;
   font-size: 0.78em;
@@ -413,16 +418,21 @@ details.collapse-block .collapse-label {
 
 .pub-tag-more {
   margin: 0.25rem 0 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  border: 1px solid currentColor;
   border-radius: 0.45rem;
   padding: 0.45rem 0.75rem;
-  background: rgba(255, 255, 255, 0.04);
+  background: transparent;
   color: inherit;
   cursor: pointer;
+  opacity: 0.78;
 }
 
 .pub-tag-more:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(127, 127, 127, 0.12);
+  opacity: 1;
 }
 
 /* ===========================
