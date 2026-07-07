@@ -1,4 +1,9 @@
 research:
+  - image: "images/activity/apcv2026-poster-session.jpg"
+    title: "APCV 2026 Poster Presentation"
+    caption: "Yen-Ju Chen presented PRIME Lab research on temporal segmentation and cross-attribute integration."
+    link: "/2026/07/01/apcv2026-auckland.html"
+
   - image: "images/activity/ncku-ai-seminar-20260605.jpg"
     title: "NCKU Psychology Seminar"
     caption: "Invited seminar at the Department of Psychology, National Cheng Kung University: When AI Seems Omnipotent."

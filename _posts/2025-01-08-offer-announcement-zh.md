@@ -5,7 +5,6 @@ translation_key: first-step-as-scholar
 permalink: /zh/2025/01/08/offer-announcement.html
 image:
 author: 陳彥儒
-highlight: true
 tags:
   - 最新消息
   - 職涯

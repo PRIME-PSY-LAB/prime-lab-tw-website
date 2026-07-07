@@ -5,7 +5,6 @@ translation_key: first-step-as-scholar
 image: 
 author: Yen-Ju Chen
 tags: news, position
-highlight: true
 ---
 
 I'm delighted to share that I have accepted an offer to join the Department of Psychology at Soochow University (Taipei, Taiwan) as a tenure-track Assistant Professor, starting February 2026. 

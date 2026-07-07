@@ -5,7 +5,6 @@ translation_key: first-step-as-scholar
 permalink: /ja/2025/01/08/offer-announcement.html
 image:
 author: Yen-Ju Chen
-highlight: true
 tags:
   - ニュース
   - キャリア
