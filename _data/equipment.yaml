@@ -1,6 +1,6 @@
-- title_en: Wearable eye tracking and video
-  title_zh: 穿戴式眼動與第一人稱錄影
-  title_ja: 装着型アイトラッキングと一人称映像記録
+- title_en: Eye tracking and first-person recording
+  title_zh: 眼動追蹤與第一人稱影像
+  title_ja: アイトラッキングと一人称映像記録
   items:
     - name_en: Tobii Pro Glasses 3 system
       name_zh: Tobii Pro Glasses 3 系統
@@ -36,10 +36,6 @@
       image: images/equipment/pivothead-durango.jpg
       link: https://www.wired.com/2012/12/pivothead-durango
 
-- title_en: Screen-based eye tracking
-  title_zh: 螢幕式眼動追蹤
-  title_ja: スクリーンベース型アイトラッキング
-  items:
     - name_en: Tobii Pro X3-120
       name_zh: Tobii Pro X3-120 螢幕式眼動儀
       name_ja: Tobii Pro X3-120 スクリーンベース型アイトラッカー
@@ -84,10 +80,21 @@
       description_ja: 視線インタラクションのプロトタイプ、デモ、互換性確認、スクリーンベース実験の構築に使う旧世代 Tobii 機器です。
       image: images/equipment/tobii-generic-eye-tracker.jpg
       link: https://developer.tobiipro.com/tobiiprosdk/eyetrackercompatibility.html
+    - name_en: FOVE eye-tracking VR headset
+      name_zh: FOVE 眼動追蹤 VR 頭戴顯示器
+      name_ja: FOVE アイトラッキング VR ヘッドセット
+      subtitle_en: Eye-tracking virtual reality
+      subtitle_zh: 眼動追蹤虛擬實境
+      subtitle_ja: アイトラッキング対応 VR
+      description_en: VR headset with integrated eye tracking for immersive gaze-based research.
+      description_zh: 內建眼動追蹤的 VR 頭戴顯示器，適合沉浸式視線與互動研究。
+      description_ja: 眼動計測を内蔵した VR ヘッドセットで、没入型の視線・インタラクション研究に用います。
+      image: images/equipment/fove-0.webp
+      link: https://fove-inc.com/product/fove0/
 
-- title_en: Physiology, VR, and computing
-  title_zh: 生理量測、VR 與運算設備
-  title_ja: 生理計測・VR・計算環境
+- title_en: Physiology, displays, and computing
+  title_zh: 生理量測、顯示與運算設備
+  title_ja: 生理計測・ディスプレイ・計算環境
   items:
     - name_en: NeXus 10 MKII
       name_zh: NeXus 10 MKII 生理訊號紀錄系統
@@ -100,17 +107,30 @@
       description_ja: EEG、EMG、心拍、皮膚コンダクタンス、呼吸などを記録できる多モーダル生理信号システムです。
       image: images/equipment/nexus-10-mkii.jpg
       link: https://mindmedia.com/products/nexus-10-mkii
-    - name_en: FOVE eye-tracking VR headset
-      name_zh: FOVE 眼動追蹤 VR 頭戴顯示器
-      name_ja: FOVE アイトラッキング VR ヘッドセット
-      subtitle_en: Eye-tracking virtual reality
-      subtitle_zh: 眼動追蹤虛擬實境
-      subtitle_ja: アイトラッキング対応 VR
-      description_en: VR headset with integrated eye tracking for immersive gaze-based research.
-      description_zh: 內建眼動追蹤的 VR 頭戴顯示器，適合沉浸式視線與互動研究。
-      description_ja: 眼動計測を内蔵した VR ヘッドセットで、没入型の視線・インタラクション研究に用います。
-      image: images/equipment/fove-0.webp
-      link: https://fove-inc.com/product/fove0/
+    - name_en: BenQ MOBIUZ EX321UZ monitor
+      name_zh: BenQ MOBIUZ EX321UZ 螢幕
+      name_ja: BenQ MOBIUZ EX321UZ モニター
+      subtitle_en: 31.5-inch 4K 240 Hz QD-OLED display
+      subtitle_zh: 31.5 吋 4K 240 Hz QD-OLED 顯示器
+      subtitle_ja: 31.5型 4K 240 Hz QD-OLED ディスプレイ
+      description_en: 31.5-inch QD-OLED monitor with 3840 × 2160 resolution, a 240 Hz refresh rate, 0.03 ms GtG response time, 99% P3 color gamut, and VESA DisplayHDR True Black 500. It supports visual-stimulus presentation, color-critical experiments, and high-refresh-rate display testing.
+      description_zh: 31.5 吋 QD-OLED 螢幕，具備 3840 × 2160 解析度、240 Hz 更新率、0.03 ms GtG 反應時間、99% P3 色域與 VESA DisplayHDR True Black 500，可用於視覺刺激呈現、重視色彩再現的實驗與高更新率顯示測試。
+      description_ja: 31.5型 QD-OLED モニターで、3840 × 2160 解像度、240 Hz リフレッシュレート、0.03 ms GtG 応答速度、99% P3 色域、VESA DisplayHDR True Black 500 に対応します。視覚刺激の提示、色再現を重視する実験、高リフレッシュレート表示の検証に使用します。
+      image: images/equipment/benq-ex321uz.webp
+      link: https://www.benq.com/en-us/monitor/gaming/ex321uz.html
+    - name_en: High-performance experiment workstation
+      name_zh: 高效能實驗電腦
+      name_ja: 高性能実験用ワークステーション
+      subtitle_en: Experiment control, data processing, and GPU computing
+      subtitle_zh: 實驗控制、資料處理與 GPU 運算
+      subtitle_ja: 実験制御・データ処理・GPU 計算
+      description_en: >-
+        High-performance desktop for experiment control, data processing, model development, and GPU-accelerated computing. Configuration: Intel Core Ultra 7 265K processor with CPU cooler; ASUS PRIME Z890-P WIFI-CSM motherboard; AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2 (64 GB total); Crucial P310 PCIe Gen4 2 TB SSD × 1; WD Ultrastar DC HA340 4 TB 3.5-inch enterprise HDD (US7Z1204BLE6L4); MSI GeForce RTX 5090 32G VENTUS 3X OC; MCA-U000C-KFVK03 universal vertical GPU holder kit Gen5 (black); Superchannel SAF100 silent E-ATX chassis; and FSP HYDRO G PRO 1200W ATX 3 power supply.
+      description_zh: >-
+        高效能桌上型電腦，可用於實驗控制、資料處理、模型開發與 GPU 加速運算。配備：Intel Core Ultra 7 265K 處理器與 CPU 散熱器；華碩 PRIME Z890-P WIFI-CSM 主機板；AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2（共 64 GB）；美光 Crucial P310 PCIe Gen4 2 TB SSD × 1；WD 威騰 Ultrastar DC HA340 4 TB 3.5 吋企業級內接硬碟（US7Z1204BLE6L4）；MSI GeForce RTX 5090 32G VENTUS 3X OC；MCA-U000C-KFVK03 通用型垂直顯卡支架套件 Gen5（黑色）；視博通 SAF100 靜音版 E-ATX 機殼；全漢 HYDRO G PRO 1200W ATX 3 電源供應器。
+      description_ja: >-
+        実験制御、データ処理、モデル開発、GPU アクセラレーション計算に用いる高性能デスクトップPCです。構成：Intel Core Ultra 7 265K プロセッサーと CPU クーラー、ASUS PRIME Z890-P WIFI-CSM マザーボード、AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2（計 64 GB）、Crucial P310 PCIe Gen4 2 TB SSD × 1、WD Ultrastar DC HA340 4 TB 3.5インチ エンタープライズHDD（US7Z1204BLE6L4）、MSI GeForce RTX 5090 32G VENTUS 3X OC、MCA-U000C-KFVK03 Gen5 汎用縦置き GPU ホルダー（ブラック）、Superchannel SAF100 静音 E-ATX ケース、FSP HYDRO G PRO 1200W ATX 3 電源ユニット。
+      image: images/equipment/experiment-workstation.webp
     - name_en: MSI Creator M16 laptop
       name_zh: MSI Creator M16 筆電
       name_ja: MSI Creator M16 ノートPC
