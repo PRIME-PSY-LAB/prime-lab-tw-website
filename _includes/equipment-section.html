@@ -9,13 +9,13 @@
     {% assign category_title = category.title_en %}
   {% endif %}
 
-<details class="collapse-block" open>
+<details class="collapse-block equipment-group" open>
   <summary>
     <span class="collapse-arrow">▶</span>
     <span class="collapse-label">{{ category_title }}</span>
   </summary>
 
-  <section markdown="1">
+  <section class="equipment-grid-section" markdown="1">
   {% capture content %}
     {% for item in category.items %}
       {% if lang == "zh" %}

@@ -8,6 +8,9 @@ role: bs
 position: 学部生
 description: 心理学科 在学中
 affiliation: 東呉大学，台北，台湾
+card:
+  title: 心理学科在学
+  affiliation: 東呉大学，台北，台湾
 aliases:
   - Chen-Kai Hsia
 ---

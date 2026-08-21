@@ -1,0 +1,54 @@
+{% assign lang = include.lang | default: page.lang | default: "en" %}
+
+{% if lang == "zh" %}
+  {% assign collaborators_show = "展開合作夥伴" %}
+  {% assign collaborators_hide = "收合合作夥伴" %}
+{% elsif lang == "ja" %}
+  {% assign collaborators_show = "共同研究者を表示" %}
+  {% assign collaborators_hide = "共同研究者を隠す" %}
+{% else %}
+  {% assign collaborators_show = "Show collaborators" %}
+  {% assign collaborators_hide = "Hide collaborators" %}
+{% endif %}
+
+<details class="collapse-block collaborator-collapse">
+  <summary>
+    <span class="collapse-arrow">▶</span>
+    <span class="collapse-label">
+      <span class="collaborator-label-closed">{{ collaborators_show }}</span>
+      <span class="collaborator-label-open">{{ collaborators_hide }}</span>
+    </span>
+  </summary>
+
+  <div class="collaborator-grid">
+
+{% for collaborator in site.data.collaborators %}
+  {% if lang == "zh" %}
+    {% assign collaborator_name = collaborator.name_zh | default: collaborator.name_en %}
+    {% assign collaborator_title = collaborator.title_zh | default: collaborator.title_en %}
+    {% assign collaborator_affiliation = collaborator.affiliation_zh | default: collaborator.affiliation_en %}
+    {% assign collaborator_url = collaborator.url_zh | default: collaborator.url %}
+  {% elsif lang == "ja" %}
+    {% assign collaborator_name = collaborator.name_ja | default: collaborator.name_en %}
+    {% assign collaborator_title = collaborator.title_ja | default: collaborator.title_en %}
+    {% assign collaborator_affiliation = collaborator.affiliation_ja | default: collaborator.affiliation_en %}
+    {% assign collaborator_url = collaborator.url_ja | default: collaborator.url %}
+  {% else %}
+    {% assign collaborator_name = collaborator.name_en %}
+    {% assign collaborator_title = collaborator.title_en %}
+    {% assign collaborator_affiliation = collaborator.affiliation_en %}
+    {% assign collaborator_url = collaborator.url_en | default: collaborator.url %}
+  {% endif %}
+
+  {% include portrait.html
+    name=collaborator_name
+    description=collaborator_title
+    affiliation=collaborator_affiliation
+    image=collaborator.image
+    image_position=collaborator.image_position
+    slug=collaborator.id
+    url=collaborator_url
+  %}
+{% endfor %}
+  </div>
+</details>

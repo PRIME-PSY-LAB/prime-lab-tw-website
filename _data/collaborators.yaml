@@ -1,0 +1,93 @@
+- id: cheng-yen-wang
+  name_en: Cheng-Yen Wang
+  name_zh: 王承諺
+  name_ja: 王承諺（Cheng-Yen Wang）
+  title_en: Assistant Professor
+  title_zh: 助理教授
+  title_ja: 助理教授
+  affiliation_en: Graduate Institute of Education, Tunghai University
+  affiliation_zh: 東海大學教育研究所
+  affiliation_ja: 東海大学教育研究所
+  image: images/PersonalPhoto/collaborators/cheng-yen-wang.webp
+  url: https://resume.thu.edu.tw/portfolio/main/if266/B00
+
+- id: shinya-nishida
+  name_en: Shinʼya Nishida
+  name_zh: Shinʼya Nishida
+  name_ja: 西田眞也（Shinʼya Nishida）
+  title_en: Professor
+  title_zh: 正教授
+  title_ja: 教授
+  affiliation_en: Graduate School of Informatics, Kyoto University
+  affiliation_zh: 京都大學資訊學研究科
+  affiliation_ja: 京都大学大学院情報学研究科
+  image: images/PersonalPhoto/collaborators/shinya-nishida.webp
+  url: https://researchmap.jp/shinyanishida?lang=en
+
+- id: kiyofumi-miyoshi
+  name_en: Kiyofumi Miyoshi
+  name_zh: Kiyofumi Miyoshi
+  name_ja: 三好清文（Kiyofumi Miyoshi）
+  title_en: Associate Professor
+  title_zh: 准教授
+  title_ja: 准教授
+  affiliation_en: Graduate School of Informatics, Kyoto University
+  affiliation_zh: 京都大學資訊學研究科
+  affiliation_ja: 京都大学大学院情報学研究科
+  image: images/PersonalPhoto/collaborators/kiyofumi-miyoshi.webp
+  url: https://researchmap.jp/kiyofumimiyoshi?lang=en
+
+- id: alan-johnston
+  name_en: Alan Johnston
+  name_zh: Alan Johnston
+  name_ja: Alan Johnston
+  title_en: Professor
+  title_zh: 教授
+  title_ja: 教授
+  affiliation_en: School of Psychology, University of Nottingham
+  affiliation_zh: 諾丁漢大學心理學院
+  affiliation_ja: ノッティンガム大学心理学部
+  image: images/PersonalPhoto/collaborators/alan-johnston.webp
+  url: https://www.nottingham.ac.uk/psychology/people/alan.johnston
+
+- id: zitang-sun
+  name_en: Zitang Sun
+  name_zh: Zitang Sun
+  name_ja: Zitang Sun
+  title_en: Researcher
+  title_zh: 研究員
+  title_ja: 研究員
+  affiliation_en: Sony Group Corporation
+  affiliation_zh: Sony Group Corporation
+  affiliation_ja: ソニーグループ株式会社
+  image: images/PersonalPhoto/collaborators/zitang-sun.svg
+  url: https://www.researchgate.net/profile/Zitang-Sun
+
+- id: yuan-li
+  name_en: Yuan Li
+  name_zh: Yuan Li
+  name_ja: Yuan Li
+  title_en: PhD Candidate
+  title_zh: 博士候選人
+  title_ja: 博士候補者
+  affiliation_en: Graduate School of Informatics, Kyoto University
+  affiliation_zh: 京都大學資訊學研究科
+  affiliation_ja: 京都大学大学院情報学研究科
+  image: images/PersonalPhoto/collaborators/yuan-li.svg
+  url_en: /team/
+  url_zh: /zh/team/
+  url_ja: /ja/team/
+
+- id: ziwei-he
+  name_en: Ziwei He
+  name_zh: Ziwei He
+  name_ja: Ziwei He
+  title_en: PhD Candidate
+  title_zh: 博士候選人
+  title_ja: 博士候補者
+  affiliation_en: Graduate School of Informatics, Kyoto University
+  affiliation_zh: 京都大學資訊學研究科
+  affiliation_ja: 京都大学大学院情報学研究科
+  image: images/activity/vss2026-he-poster-session.jpg
+  image_position: right center
+  url: https://scholar.google.com/citations?hl=zh-CN&user=W4OVvaEAAAAJ

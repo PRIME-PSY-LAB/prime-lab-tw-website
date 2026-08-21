@@ -8,6 +8,9 @@ role: pi
 position: 助教
 description: 助教
 affiliation: 東呉大学 心理学科，台北，台湾
+card:
+  title: 助教
+  affiliation: 東呉大学 心理学科，台北，台湾
 aliases:
   - 陳彥儒
 cv: /assets/Personal CV.pdf

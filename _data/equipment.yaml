@@ -124,12 +124,42 @@
       subtitle_en: Experiment control, data processing, and GPU computing
       subtitle_zh: 實驗控制、資料處理與 GPU 運算
       subtitle_ja: 実験制御・データ処理・GPU 計算
-      description_en: >-
-        High-performance desktop for experiment control, data processing, model development, and GPU-accelerated computing. Configuration: Intel Core Ultra 7 265K processor with CPU cooler; ASUS PRIME Z890-P WIFI-CSM motherboard; AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2 (64 GB total); Crucial P310 PCIe Gen4 2 TB SSD × 1; WD Ultrastar DC HA340 4 TB 3.5-inch enterprise HDD (US7Z1204BLE6L4); MSI GeForce RTX 5090 32G VENTUS 3X OC; MCA-U000C-KFVK03 universal vertical GPU holder kit Gen5 (black); Superchannel SAF100 silent E-ATX chassis; and FSP HYDRO G PRO 1200W ATX 3 power supply.
-      description_zh: >-
-        高效能桌上型電腦，可用於實驗控制、資料處理、模型開發與 GPU 加速運算。配備：Intel Core Ultra 7 265K 處理器與 CPU 散熱器；華碩 PRIME Z890-P WIFI-CSM 主機板；AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2（共 64 GB）；美光 Crucial P310 PCIe Gen4 2 TB SSD × 1；WD 威騰 Ultrastar DC HA340 4 TB 3.5 吋企業級內接硬碟（US7Z1204BLE6L4）；MSI GeForce RTX 5090 32G VENTUS 3X OC；MCA-U000C-KFVK03 通用型垂直顯卡支架套件 Gen5（黑色）；視博通 SAF100 靜音版 E-ATX 機殼；全漢 HYDRO G PRO 1200W ATX 3 電源供應器。
-      description_ja: >-
-        実験制御、データ処理、モデル開発、GPU アクセラレーション計算に用いる高性能デスクトップPCです。構成：Intel Core Ultra 7 265K プロセッサーと CPU クーラー、ASUS PRIME Z890-P WIFI-CSM マザーボード、AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2（計 64 GB）、Crucial P310 PCIe Gen4 2 TB SSD × 1、WD Ultrastar DC HA340 4 TB 3.5インチ エンタープライズHDD（US7Z1204BLE6L4）、MSI GeForce RTX 5090 32G VENTUS 3X OC、MCA-U000C-KFVK03 Gen5 汎用縦置き GPU ホルダー（ブラック）、Superchannel SAF100 静音 E-ATX ケース、FSP HYDRO G PRO 1200W ATX 3 電源ユニット。
+      description_en: |-
+        High-performance desktop for experiment control, data processing, model development, and GPU-accelerated computing.
+
+        - **Processor:** Intel Core Ultra 7 265K with CPU cooler
+        - **Motherboard:** ASUS PRIME Z890-P WIFI-CSM
+        - **Memory:** AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2 (64 GB total)
+        - **SSD:** Crucial P310 PCIe Gen4 2 TB × 1
+        - **HDD:** WD Ultrastar DC HA340 4 TB 3.5-inch enterprise HDD (US7Z1204BLE6L4)
+        - **GPU:** MSI GeForce RTX 5090 32G VENTUS 3X OC
+        - **GPU holder:** MCA-U000C-KFVK03 universal vertical GPU holder kit Gen5 (black)
+        - **Chassis:** Superchannel SAF100 silent E-ATX chassis
+        - **Power supply:** FSP HYDRO G PRO 1200W ATX 3
+      description_zh: |-
+        高效能桌上型電腦，可用於實驗控制、資料處理、模型開發與 GPU 加速運算。
+
+        - **處理器：** Intel Core Ultra 7 265K 與 CPU 散熱器
+        - **主機板：** 華碩 PRIME Z890-P WIFI-CSM
+        - **記憶體：** AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2（共 64 GB）
+        - **固態硬碟：** 美光 Crucial P310 PCIe Gen4 2 TB × 1
+        - **硬碟：** WD 威騰 Ultrastar DC HA340 4 TB 3.5 吋企業級內接硬碟（US7Z1204BLE6L4）
+        - **顯示卡：** MSI GeForce RTX 5090 32G VENTUS 3X OC
+        - **顯卡支架：** MCA-U000C-KFVK03 通用型垂直顯卡支架套件 Gen5（黑色）
+        - **機殼：** 視博通 SAF100 靜音版 E-ATX 機殼
+        - **電源供應器：** 全漢 HYDRO G PRO 1200W ATX 3
+      description_ja: |-
+        実験制御、データ処理、モデル開発、GPU アクセラレーション計算に用いる高性能デスクトップPCです。
+
+        - **プロセッサー：** Intel Core Ultra 7 265K と CPU クーラー
+        - **マザーボード：** ASUS PRIME Z890-P WIFI-CSM
+        - **メモリー：** AX5U6000C3032G-DTLABK DDR5-6000 32 GB × 2（計 64 GB）
+        - **SSD：** Crucial P310 PCIe Gen4 2 TB × 1
+        - **HDD：** WD Ultrastar DC HA340 4 TB 3.5インチ エンタープライズHDD（US7Z1204BLE6L4）
+        - **GPU：** MSI GeForce RTX 5090 32G VENTUS 3X OC
+        - **GPUホルダー：** MCA-U000C-KFVK03 Gen5 汎用縦置き GPU ホルダー（ブラック）
+        - **ケース：** Superchannel SAF100 静音 E-ATX ケース
+        - **電源ユニット：** FSP HYDRO G PRO 1200W ATX 3
       image: images/equipment/experiment-workstation.webp
     - name_en: MSI Creator M16 laptop
       name_zh: MSI Creator M16 筆電

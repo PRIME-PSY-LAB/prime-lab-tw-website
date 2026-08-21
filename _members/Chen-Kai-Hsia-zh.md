@@ -8,6 +8,9 @@ role: bs
 position: 大學部學生
 description: 心理學系在學
 affiliation: 東吳大學，臺北，臺灣
+card:
+  title: 心理學系在學
+  affiliation: 東吳大學，臺北，臺灣
 aliases:
   - Chen-Kai Hsia
 ---

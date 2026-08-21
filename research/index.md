@@ -60,7 +60,7 @@ and high-performance computing resources for large-scale simulations and trainin
     <span class="collapse-label">click to see past projects</span>
   </summary>
 
-  <section markdown="1">
+  <section class="past-projects-section" markdown="1">
   <div class="project-grid project-grid--past">
     {% include list.html
       component="card"

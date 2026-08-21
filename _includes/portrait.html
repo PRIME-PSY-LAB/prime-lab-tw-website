@@ -8,6 +8,14 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign card_title = member.card.title
+  | default: member.description
+  | default: member.position
+  | default: type.description
+%}
+{% assign card_affiliation = member.card.affiliation
+  | default: member.affiliation
+%}
 
 <div class="portrait-wrapper">
   <a
@@ -27,6 +35,9 @@
       class="portrait-image"
       alt="member portrait"
       loading="lazy"
+      {% if member.image_position %}
+        style="object-position: {{ member.image_position }};"
+      {% endif %}
       {% include fallback.html %}
     >
 
@@ -36,15 +47,15 @@
       </span>
     {% endif %}
 
-    {% if member.description or type %}
+    {% if card_title %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {{ card_title }}
       </span>
     {% endif %}
 
-    {% if member.affiliation %}
+    {% if card_affiliation %}
       <span class="portrait-affiliation">
-        {{ member.affiliation }}
+        {{ card_affiliation }}
       </span>
     {% endif %}
   </a>

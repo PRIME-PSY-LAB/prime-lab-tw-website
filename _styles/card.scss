@@ -50,3 +50,61 @@
   margin-top: -10px !important;
   font-style: italic;
 }
+
+.card-description {
+  width: 100%;
+}
+
+.card-description > :first-child {
+  margin-top: 0;
+}
+
+.card-description > :last-child {
+  margin-bottom: 0;
+}
+
+.card-description ul,
+.card-description ol {
+  padding-left: 1.4em;
+}
+
+.card-description li + li {
+  margin-top: 0.35em;
+}
+
+.card-participants {
+  width: 100%;
+  font-size: 0.9em;
+  line-height: var(--compact);
+}
+
+.card-participants-label {
+  font-weight: var(--semi-bold);
+}
+
+@media (max-width: 500px) {
+  .equipment-group {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .equipment-grid-section {
+    padding: 20px 0;
+  }
+
+  .equipment-grid-section .grid > .card {
+    max-width: 100%;
+  }
+
+  .equipment-grid-section .card-text {
+    padding: 16px;
+  }
+
+  .past-projects-section {
+    padding: 20px 0;
+  }
+
+  .project-grid--past .card {
+    max-width: 100%;
+  }
+}

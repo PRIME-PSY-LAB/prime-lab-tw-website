@@ -35,9 +35,15 @@
     {% endif %}
 
     {% if include.description %}
-      <p>
-        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
-      </p>
+      <div class="card-description">
+        {{ include.description | markdownify }}
+      </div>
+    {% endif %}
+
+    {% if include.participants %}
+      <div class="card-participants">
+        <span class="card-participants-label">{% if page.lang == "zh" %}參與人員：{% elsif page.lang == "ja" %}参加者：{% else %}Participants: {% endif %}</span>{% for participant in include.participants %}<a href="{{ participant.link | relative_url | uri_escape }}">{{ participant.name }}</a>{% unless forloop.last %}{% if page.lang == "en" %}, {% else %}、{% endif %}{% endunless %}{% endfor %}
+      </div>
     {% endif %}
 
     {% if include.tags or include.repo %}

@@ -8,6 +8,9 @@ role: pi
 position: 助理教授
 description: 助理教授
 affiliation: 東吳大學心理學系，臺北，臺灣
+card:
+  title: 助理教授
+  affiliation: 東吳大學心理學系，臺北，臺灣
 aliases:
   - Yen-Ju Chen
 cv: /assets/Personal CV.pdf

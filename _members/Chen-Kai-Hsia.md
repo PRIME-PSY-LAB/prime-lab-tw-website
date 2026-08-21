@@ -7,6 +7,9 @@ role: bs
 position: Undergraduate Student
 description: Undergraduate Student
 affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
+card:
+  title: Undergraduate Student in Psychology
+  affiliation: Soochow University, Taipei, Taiwan
 aliases:
   - 夏晨愷
 ---

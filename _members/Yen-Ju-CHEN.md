@@ -7,6 +7,9 @@ role: pi
 position: Assistant Professor
 description: Assistant Professor
 affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
+card:
+  title: Assistant Professor
+  affiliation: Department of Psychology, Soochow University, Taipei, Taiwan
 aliases:
 cv: /assets/Personal CV.pdf
 

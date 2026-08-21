@@ -56,7 +56,7 @@ nav:
     <span class="collapse-label">點擊查看過去計畫</span>
   </summary>
 
-  <section markdown="1">
+  <section class="past-projects-section" markdown="1">
   <div class="project-grid project-grid--past">
     {% include list.html
       component="card"

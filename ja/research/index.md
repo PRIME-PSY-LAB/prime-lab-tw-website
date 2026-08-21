@@ -56,7 +56,7 @@ PRIME Lab は、人間の視覚知覚と時間処理を研究しています。�
     <span class="collapse-label">過去のプロジェクトを表示</span>
   </summary>
 
-  <section markdown="1">
+  <section class="past-projects-section" markdown="1">
   <div class="project-grid project-grid--past">
     {% include list.html
       component="card"
