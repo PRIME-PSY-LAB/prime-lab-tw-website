@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>排他性網路攻擊的大型語言模型代理人模擬 | Perceptual Representation and InforMation modEling Lab</title>
+
+<link rel="icon" href="/images/icon.png">
+
+<meta name="title" content="排他性網路攻擊的大型語言模型代理人模擬">
+<meta name="description" content="Delve into the mind, depict with the beauty of math.">
+
+<meta property="og:title" content="排他性網路攻擊的大型語言模型代理人模擬">
+<meta property="og:site_title" content="Perceptual Representation and InforMation modEling Lab">
+<meta property="og:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="og:url" content="http://www.prime-psy-lab.com">
+<meta property="og:image" content="/images/share.jpg">
+<meta property="og:locale" content="zh_TW">
+
+<meta property="twitter:title" content="排他性網路攻擊的大型語言模型代理人模擬">
+<meta property="twitter:description" content="Delve into the mind, depict with the beauty of math.">
+<meta property="twitter:url" content="http://www.prime-psy-lab.com">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "排他性網路攻擊的大型語言模型代理人模擬",
+    "description": "Delve into the mind, depict with the beauty of math.",
+    "headline": "排他性網路攻擊的大型語言模型代理人模擬",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": "http://www.prime-psy-lab.com"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="http://www.prime-psy-lab.com/feed.xml">
+
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;400;500;600;700&amp;family=Roboto+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="/_scripts/activity-album.js"></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/activity-album"></script>
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/contact-form.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/publication-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+<script>
+// ===========================
+// Publications – highlight carousel
+// ===========================
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector(".pub-carousel");
+  if (!carousel) return;
+
+  const track = carousel.querySelector(".pub-carousel-track");
+  const slides = Array.from(track.children);
+  const prevBtn = carousel.querySelector(".pub-carousel-prev");
+  const nextBtn = carousel.querySelector(".pub-carousel-next");
+
+  if (!slides.length) return;
+
+  let index = 0;
+
+  function updateCarousel() {
+    // 每張卡片寬度是 100%，直接位移整個 track
+    track.style.transform = "translateX(" + (-index * 100) + "%)";
+  }
+
+  prevBtn.addEventListener("click", function () {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener("click", function () {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+  });
+
+  updateCarousel();
+});
+</script>
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
+  
+  
+  
+
+  <a href="/zh/" class="home">
+    
+      <span class="logo">
+        <img src="/images/icon.png" alt="logo">
+      </span>
+    
+    
+          <span class="title-text" data-tooltip="首頁">
+        
+          <span class="title">
+            
+              知覺表徵與建模實驗室
+            
+          </span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+      
+    
+      
+      
+        <a href="/zh/research/" data-tooltip="研究方向、計畫與實驗環境">
+          研究
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/publication/" data-tooltip="期刊、會議與預印本">
+          發表成果
+        </a>
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/team/" data-tooltip="實驗室成員">
+          團隊
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/blog/" data-tooltip="最新消息與研究筆記">
+          部落格
+        </a>
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/activity/" data-tooltip="研究、教學與實驗室相簿">
+          活動
+        </a>
+      
+    
+      
+      
+    
+      
+      
+        <a href="/zh/contact/" data-tooltip="Email、地址與位置">
+          聯絡我們
+        </a>
+      
+    
+      
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<label class="language-switcher" data-tooltip="Language">
+  <span class="language-switcher-icon" aria-hidden="true">
+    <i class="icon fa-solid fa-language"></i>
+  </span>
+  <select aria-label="Language" onchange="window.location.href = this.value">
+    <option value="/research/llm-agent-cyber-aggression/">
+      English
+    </option>
+    <option value="/zh/research/llm-agent-cyber-aggression/" selected>
+      繁體中文
+    </option>
+    <option value="/ja/research/llm-agent-cyber-aggression/">
+      日本語
+    </option>
+  </select>
+</label>
+
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="1" style="--image: url('/images/Research_Intro_image/llm-agent-cyber-aggression/network-agents.webp')">
+    <!--
+  <background>/images/Research_Intro_image/llm-agent-cyber-aggression/network-agents.webp</background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">排他性網路攻擊的大型語言模型代理人模擬</h1>
+  <p class="center">
+    
+
+
+  </p>
+<div class="tags">
+    
+      <a href="/research?search=%22tag:%20%E7%B6%B2%E8%B7%AF%E6%94%BB%E6%93%8A%22" class="tag" data-tooltip='Show items with the tag "網路攻擊"'>
+        網路攻擊
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E5%A4%A7%E5%9E%8B%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B%E4%BB%A3%E7%90%86%E4%BA%BA%22" class="tag" data-tooltip='Show items with the tag "大型語言模型代理人"'>
+        大型語言模型代理人
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E8%A8%88%E7%AE%97%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8%22" class="tag" data-tooltip='Show items with the tag "計算社會科學"'>
+        計算社會科學
+      </a>
+    
+      <a href="/research?search=%22tag:%20%E4%BA%BA%E6%A0%BC%E5%BB%BA%E6%A8%A1%22" class="tag" data-tooltip='Show items with the tag "人格建模"'>
+        人格建模
+      </a>
+    
+      <a href="/research?search=%22tag:%20qlora%22" class="tag" data-tooltip='Show items with the tag "qlora"'>
+        qlora
+      </a>
+    
+  </div>
+
+
+  
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<h1 id="排他性網路攻擊的大型語言模型代理人模擬">排他性網路攻擊的大型語言模型代理人模擬</h1>
+
+<p>本合作計畫探討管理員行為與群體中較高暗黑人格傾向成員的比例，如何共同影響模擬線上群體中的排他性網路攻擊。研究先以大型語言模型（LLM）代理人建立可控制的矽基實驗環境，再規劃與小規模真人資料比較。</p>
+
+<h2 id="研究設計">研究設計</h2>
+
+<ul>
+  <li>交叉操弄五種管理員行為與五種群體暗黑人格組成。</li>
+  <li>讓代理人群體在固定的線上討論情境中互動並進行排除投票。</li>
+  <li>比較管理員效果、群體組成效果及其交互作用，並檢驗有毒線上去抑制的可能中介角色。</li>
+</ul>
+
+<h2 id="ai-受試者建模">AI 受試者建模</h2>
+
+<p>AI 受試者模型凍結同一個預訓練語言模型，僅學習 <code class="language-plaintext highlighter-rouge">Q_High</code> 與 <code class="language-plaintext highlighter-rouge">Q_Low</code> 兩組 QLoRA 端點。每位模擬受試者具有 0 至 1 的連續特質分數，用來混合兩端的 Likert 作答機率分布，而非被硬性分成高、低兩組。模型驗證包含受試者層級交叉驗證、多個隨機種子、建構與效標效度檢查，以及跨模型比較。</p>
+
+<h2 id="研究範圍">研究範圍</h2>
+
+<p>本模擬主要作為可重現的假設檢驗與方法開發環境；模擬輸出不會直接視為人類行為證據，仍須由後續真人研究驗證。</p>
+
+<p><strong>合作成員：</strong> <a href="https://resume.thu.edu.tw/portfolio/main/if266/B00">王承諺</a>，東海大學；陳彥儒，PRIME Lab。</p>
+
+<p><img src="/images/Research_Intro_image/llm-agent-cyber-aggression/network-agents.webp" alt="模擬代理人網路與被排除成員的抽象示意圖"></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p class="center">
+  <a href="/research/">
+    ← Back to Research
+  </a>
+</p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:prime.lab.tw@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=9RKoQacAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/PRIME-PSY-LAB" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Perceptual Representation and InforMation modEling Lab
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  
+    <div class="site-version" aria-label="site version">
+      ver 1.3.6 | Updated 2026-08-21 10:16 +08:00
+    </div>
+  
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>

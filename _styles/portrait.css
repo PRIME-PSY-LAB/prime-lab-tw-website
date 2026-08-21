@@ -73,4 +73,21 @@
   display: none;
 }
 
+.collaborator-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.collaborator-collapse .collaborator-label-open {
+  display: none;
+}
+
+.collaborator-collapse[open] .collaborator-label-closed {
+  display: none;
+}
+.collaborator-collapse[open] .collaborator-label-open {
+  display: inline;
+}
+
 /*# sourceMappingURL=portrait.css.map */
