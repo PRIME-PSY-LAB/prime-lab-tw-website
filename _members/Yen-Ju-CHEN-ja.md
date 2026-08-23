@@ -192,6 +192,7 @@ School of Psychology, University of Nottingham, Nottingham, UK（2024/08 - 2024/
 
 **会議抄録**
 
+- **Chen, Y. J.**, Sun, Z., & Nishida, S. (2026). Integration of visual attributes in spatial segmentation based on temporal asynchrony revealed by a noise masking paradigm. Asia-Pacific Conference on Vision, Auckland, New Zealand.
 - He, Z., **Chen, Y. J.**, Yang, Y. H., & Nishida, S. (2026). Multi-layered hierarchical motion: Ancestors matter, descendants do not. Annual Meeting of Vision Science Society, Florida, USA.
 - **Chen, Y. J.**, Sun, Z., & Nishida, S. Y. (2025). Temporal dynamics of spatial segmentation based on temporal correlation measured by continuous tracking. *Journal of Vision*, 25(9), 1996-1996. https://doi.org/10.1167/jov.25.9.1996
 - **Chen, Y. J.**, Sun, Z., & Nishida, S. Y. (2024). Square versus triangular wave modulation in temporal asynchrony segmentation: An insight into underlying computation. Asia Pacific Conference on Vision, Singapore.
@@ -279,7 +280,7 @@ School of Psychology, University of Nottingham, Nottingham, UK（2024/08 - 2024/
 
 <section markdown="1">
 
-- 台湾心理学会 会員，台北，台湾（2021 - 2022）
+- 台湾心理学会 会員，台北，台湾（2021 - 現在）
 - Vision Science Society 会員，Florida, US（2021 - 2026）
 
 </section>
