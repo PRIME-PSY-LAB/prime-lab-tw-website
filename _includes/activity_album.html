@@ -1,3 +1,15 @@
+{% assign album_lang = page.lang | default: "en" %}
+{% assign title_key = "title_" | append: album_lang %}
+{% assign caption_key = "caption_" | append: album_lang %}
+{% assign link_key = "link_" | append: album_lang %}
+{% if album_lang == "zh" %}
+  {% assign related_post_label = "閱讀相關文章" %}
+{% elsif album_lang == "ja" %}
+  {% assign related_post_label = "関連記事を読む" %}
+{% else %}
+  {% assign related_post_label = "View related post" %}
+{% endif %}
+
 <div class="activity-album" id="{{ include.id }}">
   <h2 class="activity-album-title">{{ include.title }}</h2>
 
@@ -8,35 +20,38 @@
 
     <div class="activity-album-slides">
       {% for item in include.data %}
+      {% assign item_title = item[title_key] | default: item.title %}
+      {% assign item_caption = item[caption_key] | default: item.caption %}
+      {% assign item_link = item[link_key] | default: item.link %}
       <div class="activity-album-slide{% if forloop.first %} is-active{% endif %}" data-index="{{ forloop.index0 }}">
         <a href="{{ item.image | relative_url }}" class="activity-album-lightbox">
-          <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" class="activity-album-image">
+          <img src="{{ item.image | relative_url }}" alt="{{ item_title | escape }}" class="activity-album-image">
         </a>
 
         <div class="activity-album-caption">
-          {% if item.link %}
-          <a class="activity-album-caption-main activity-album-caption-link" href="{{ item.link | relative_url }}">
+          {% if item_link %}
+          <a class="activity-album-caption-main activity-album-caption-link" href="{{ item_link | relative_url }}">
             <div class="activity-album-caption-title">
-              {{ item.title }}
+              {{ item_title }}
             </div>
             <div class="activity-album-caption-text">
-              {{ item.caption }}
+              {{ item_caption }}
             </div>
           </a>
           {% else %}
           <div class="activity-album-caption-main">
             <div class="activity-album-caption-title">
-              {{ item.title }}
+              {{ item_title }}
             </div>
             <div class="activity-album-caption-text">
-              {{ item.caption }}
+              {{ item_caption }}
             </div>
           </div>
           {% endif %}
 
-          {% if item.link %}
-          <a class="activity-album-link" href="{{ item.link | relative_url }}">
-            View related post
+          {% if item_link %}
+          <a class="activity-album-link" href="{{ item_link | relative_url }}">
+            {{ related_post_label }}
           </a>
           {% endif %}
         </div>
