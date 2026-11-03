@@ -1,0 +1,56 @@
+---
+---
+
+.seminar-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin: 40px 0;
+  align-items: start;
+
+  .figure {
+    margin: 0;
+    min-width: 0;
+  }
+
+  .figure-image img {
+    height: auto;
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.seminar-photo-grid--portraits .figure-image img {
+  height: 560px;
+  object-fit: contain;
+  box-shadow: none;
+
+  @media (max-width: 650px) {
+    height: auto;
+  }
+}
+
+.seminar-photo-archive {
+  margin: 24px 0;
+  padding: 18px 22px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  summary:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 5px;
+  }
+}
+
+.seminar-poster .figure {
+  max-width: 640px;
+  margin: 24px auto 0;
+}

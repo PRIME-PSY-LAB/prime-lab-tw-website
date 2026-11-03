@@ -5,7 +5,6 @@ translation_key: heping-high-school-psychology
 permalink: /zh/2026/09/29/heping-high-school-psychology.html
 image: /images/blog/heping-high-school-20260929/20260929_112817.jpg
 author: Yen-Ju Chen
-highlight: true
 tags:
   - 消息
   - 高中宣講

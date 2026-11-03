@@ -4,7 +4,6 @@ lang: en
 translation_key: heping-high-school-psychology
 image: /images/blog/heping-high-school-20260929/20260929_112817.jpg
 author: Yen-Ju Chen
-highlight: true
 tags:
   - news
   - outreach

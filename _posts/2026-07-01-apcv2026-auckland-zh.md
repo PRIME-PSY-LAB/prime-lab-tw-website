@@ -5,7 +5,6 @@ translation_key: apcv2026-auckland
 permalink: /zh/2026/07/01/apcv2026-auckland.html
 image: /images/activity/apcv2026-auckland-harbour.jpg
 author: Yen-Ju Chen
-highlight: true
 tags:
   - 最新消息
   - APCV
