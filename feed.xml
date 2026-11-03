@@ -1,4 +1,448 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://www.prime-psy-lab.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.prime-psy-lab.com/" rel="alternate" type="text/html" /><updated>2026-09-29T13:00:14+00:00</updated><id>http://www.prime-psy-lab.com/feed.xml</id><title type="html">Perceptual Representation and InforMation modEling Lab</title><subtitle>Delve into the mind, depict with the beauty of math.</subtitle><entry xml:lang="ja"><title type="html">和平高校で心理学科と東呉大学を紹介</title><link href="http://www.prime-psy-lab.com/ja/2026/09/29/heping-high-school-psychology.html" rel="alternate" type="text/html" title="和平高校で心理学科と東呉大学を紹介" /><published>2026-09-29T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/09/29/heping-high-school-psychology-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/09/29/heping-high-school-psychology.html"><![CDATA[<!-- excerpt start -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://www.prime-psy-lab.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.prime-psy-lab.com/" rel="alternate" type="text/html" /><updated>2026-11-03T13:36:35+00:00</updated><id>http://www.prime-psy-lab.com/feed.xml</id><title type="html">Perceptual Representation and InforMation modEling Lab</title><subtitle>Delve into the mind, depict with the beauty of math.</subtitle><entry xml:lang="ja"><title type="html">国際的な研究を学びの場へ：立命館大学・佐良土晟博士の講演</title><link href="http://www.prime-psy-lab.com/ja/2026/11/03/akira-sarodo-visual-adaptation.html" rel="alternate" type="text/html" title="国際的な研究を学びの場へ：立命館大学・佐良土晟博士の講演" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/11/03/akira-sarodo-visual-adaptation-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/11/03/akira-sarodo-visual-adaptation.html"><![CDATA[<!-- excerpt start -->
+<p>2026 年 11 月 3 日、東呉大学心理学科は、日本の立命館大学から佐良土晟博士（Dr. Akira Sarodo）を迎え、視覚順応と空間・時間知覚に関する講演を開催しました。陳彥儒が企画した本講演は、主に学科の学生を対象とし、海外の研究者の研究や学術的な発信に直接触れる機会となりました。
+<!-- excerpt end --></p>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/seminar-audience.jpg" class="figure-image" aria-label="C301 教室で英語の講演に参加する心理学科の学生">
+    <img src="/images/blog/akira-sarodo-20261103/seminar-audience.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="C301 教室で英語の講演に参加する心理学科の学生" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      C301 教室で英語の講演に参加する心理学科の学生。
+
+    </figcaption>
+  
+</figure>
+
+<h2 id="学生の学びに海外の研究を取り入れる">学生の学びに海外の研究を取り入れる</h2>
+
+<p>佐良土博士は、立命館大学 OIC 総合研究機構の特別研究員です。講演題目は「Adaptation to imperceptible motion links size and duration compression」。東呉大学心理学科の C301 教室で午前 10:00 から 11:30 まで、質疑応答を含めて英語で行われました。</p>
+
+<p>海外の研究者を学科に招くことで、学生は異なる研究環境で取り組まれている問いを知り、実験の設計やデータの解釈について研究者本人の説明を聞くことができます。英語による講演と質疑の時間は、国際的な学術コミュニケーションに触れ、知覚心理学の授業と現在の研究を結び付ける機会にもなりました。</p>
+
+<h2 id="見かけの大きさと持続時間は一緒に変化するのか">見かけの大きさと持続時間は一緒に変化するのか</h2>
+
+<p>空間と時間は通常、知覚の異なる側面として扱われます。一方、視覚順応の研究では、特定の刺激によって物体が小さく見えたり、刺激の持続時間が短く感じられたりすることが報告されています。佐良土博士は個人差に着目し、この二つの変化が共変動するかを検討しました。</p>
+
+<p>研究では、大きさ判断と持続時間判断に同じ順応刺激を用い、複数の時間周波数を比較しました。大きさの圧縮はすべての検討した周波数で認められ、60 Hz で最も弱くなりました。持続時間の圧縮は、10、20、60 Hz などの高い周波数で認められました。60 Hz 条件では、二つの圧縮効果に有意な相関がありました。</p>
+
+<p>より大きな標本を用いた第二の実験では、60 Hz の順応後に、大きさと持続時間の主観的等価点（PSE）が非順応の基準条件より低下しました。基準条件で補正した二つの変化量にも正の関連が認められました。これらの結果は、共通する順応関連の要因や、大細胞系視覚経路の関与という解釈と整合的です。背景にある機序の解明には、さらに別の証拠を合わせて検討する必要があります。</p>
+
+<div class="seminar-photo-grid">
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/research-presentation.jpg" class="figure-image" aria-label="視覚順応研究の実験設計と結果を説明する佐良土博士">
+    <img src="/images/blog/akira-sarodo-20261103/research-presentation.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="視覚順応研究の実験設計と結果を説明する佐良土博士" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      視覚順応研究の実験設計と結果を説明する佐良土博士。
+
+    </figcaption>
+  
+</figure>
+
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/classroom-view.jpg" class="figure-image" aria-label="教室後方から見た講演者と発表画面">
+    <img src="/images/blog/akira-sarodo-20261103/classroom-view.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="教室後方から見た講演者と発表画面" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      教室後方から見た講演者と発表画面。
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<h2 id="学内での学術交流">学内での学術交流</h2>
+
+<p>今回の来訪により、東呉大学心理学科の学生は、普段学んでいる場で日本の研究者から直接話を聞くことができました。陳彥儒による講演の企画を通じて、海外の研究者と学科の学生・教員が交流し、学科の国際的なつながりを日々の学びに取り入れる機会となりました。</p>
+
+<p>ご来訪くださった佐良土博士、ならびに参加した学生・教員の皆さまに感謝します。</p>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/faculty-and-visitors-child-redacted.webp" class="figure-image" aria-label="写真の成人は左から 学科主任 佐良土晟博士 陳彥儒 同行の研究者">
+    <img src="/images/blog/akira-sarodo-20261103/faculty-and-visitors-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="写真の成人は左から 学科主任 佐良土晟博士 陳彥儒 同行の研究者" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      写真の成人は左から、学科主任、佐良土晟博士、陳彥儒、同行の研究者。
+
+    </figcaption>
+  
+</figure>
+
+<details class="seminar-photo-archive">
+<summary>来訪時の写真をさらに見る</summary>
+<div class="seminar-photo-grid seminar-photo-grid--portraits">
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/visit-portrait-1-child-redacted.webp" class="figure-image" aria-label="来訪した研究者と東呉大学心理学科の教員による記念撮影">
+    <img src="/images/blog/akira-sarodo-20261103/visit-portrait-1-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="来訪した研究者と東呉大学心理学科の教員による記念撮影" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      来訪した研究者と東呉大学心理学科の教員による記念撮影。
+
+    </figcaption>
+  
+</figure>
+
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/visit-portrait-2-child-redacted.webp" class="figure-image" aria-label="別の角度から撮影した来訪時の記念写真">
+    <img src="/images/blog/akira-sarodo-20261103/visit-portrait-2-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="別の角度から撮影した来訪時の記念写真" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      別の角度から撮影した来訪時の記念写真。
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+</details>
+
+<details class="seminar-photo-archive seminar-poster">
+<summary>講演ポスター：題目と講演者紹介</summary>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/seminar-poster.jpg" class="figure-image" aria-label="2026 年 11 月 3 日の心理学科講演会ポスター">
+    <img src="/images/blog/akira-sarodo-20261103/seminar-poster.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="2026 年 11 月 3 日の心理学科講演会ポスター" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      2026 年 11 月 3 日の心理学科講演会ポスター。
+
+    </figcaption>
+  
+</figure>
+
+
+</details>]]></content><author><name>Yen-Ju Chen</name></author><category term="学術交流" /><category term="国際交流" /><category term="視覚知覚" /><category term="東呉大学" /><summary type="html"><![CDATA[2026 年 11 月 3 日、東呉大学心理学科は、日本の立命館大学から佐良土晟博士（Dr. Akira Sarodo）を迎え、視覚順応と空間・時間知覚に関する講演を開催しました。陳彥儒が企画した本講演は、主に学科の学生を対象とし、海外の研究者の研究や学術的な発信に直接触れる機会となりました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/akira-sarodo-20261103/seminar-audience.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/akira-sarodo-20261103/seminar-audience.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">與國際學者走進知覺研究：立命館大學佐良土晟博士來訪</title><link href="http://www.prime-psy-lab.com/zh/2026/11/03/akira-sarodo-visual-adaptation.html" rel="alternate" type="text/html" title="與國際學者走進知覺研究：立命館大學佐良土晟博士來訪" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/zh/2026/11/03/akira-sarodo-visual-adaptation-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2026/11/03/akira-sarodo-visual-adaptation.html"><![CDATA[<!-- excerpt start -->
+<p>2026 年 11 月 3 日，東吳大學心理學系邀請日本立命館大學佐良土晟博士（Dr. Akira Sarodo）來訪，分享視覺適應與空間、時間知覺的研究。本次講座由陳彥儒老師主辦，以系上學生為主要參與對象，讓同學在校園內接觸國際學者的研究與學術表達，拓展對知覺科學的認識。
+<!-- excerpt end --></p>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/seminar-audience.jpg" class="figure-image" aria-label="心理學系學生於 C301 教室參與英語講座">
+    <img src="/images/blog/akira-sarodo-20261103/seminar-audience.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="心理學系學生於 C301 教室參與英語講座" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      心理學系學生於 C301 教室參與英語講座。
+
+    </figcaption>
+  
+</figure>
+
+<h2 id="把國際研究帶進學生的學習現場">把國際研究帶進學生的學習現場</h2>
+
+<p>佐良土博士現為立命館大學 OIC 綜合研究機構特別研究員。本次講座於上午 10:00 至 11:30 在東吳心理系 C301 教室舉行，以英語進行，並安排問答時間。講題為「Adaptation to imperceptible motion links size and duration compression」。</p>
+
+<p>透過邀請海外研究者到系上分享，同學可以直接認識不同學術環境中的研究問題，聆聽研究者如何說明實驗設計與解讀資料。英語講座與問答也提供了接觸國際學術溝通的機會，讓課堂中的知覺心理學與正在進行的研究相互連結。</p>
+
+<h2 id="我們看到的大小與時間會一起改變嗎">我們看到的大小與時間，會一起改變嗎？</h2>
+
+<p>空間與時間通常被視為不同的知覺面向，但視覺適應研究發現，某些刺激可能讓物體看起來變小，也讓一段刺激顯得更短。佐良土博士以個體差異的研究方式，探討這兩種變化是否共同發生。</p>
+
+<p>研究在大小判斷與時間長短判斷作業中使用相同的適應刺激，並比較不同時間頻率。結果顯示，大小壓縮出現在所有測試頻率，且在 60 Hz 時最弱；時間壓縮則出現在 10、20 與 60 Hz 等較高頻率。在 60 Hz 條件下，兩種壓縮效應呈顯著相關。</p>
+
+<p>第二項較大樣本的實驗進一步發現，60 Hz 適應相較於未適應基準，會降低大小與時間判斷的主觀相等點（PSE），而兩項經基準校正後的變化呈正相關。這些結果與兩種知覺受到共同適應因素影響的解釋一致，也與巨細胞視覺路徑可能參與其中的觀點相符。相關結果仍需與其他證據一起評估，才能釐清背後的機制。</p>
+
+<div class="seminar-photo-grid">
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/research-presentation.jpg" class="figure-image" aria-label="佐良土博士說明視覺適應的實驗設計與結果">
+    <img src="/images/blog/akira-sarodo-20261103/research-presentation.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="佐良土博士說明視覺適應的實驗設計與結果" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      佐良土博士說明視覺適應的實驗設計與結果。
+
+    </figcaption>
+  
+</figure>
+
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/classroom-view.jpg" class="figure-image" aria-label="講座現場 從課堂後方望向講者與投影畫面">
+    <img src="/images/blog/akira-sarodo-20261103/classroom-view.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="講座現場 從課堂後方望向講者與投影畫面" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      講座現場：從課堂後方望向講者與投影畫面。
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<h2 id="從講座延伸的學術交流">從講座延伸的學術交流</h2>
+
+<p>這次來訪讓東吳心理系學生有機會在熟悉的學習環境中，直接接觸來自日本的研究者。陳彥儒老師透過講座安排，促成海外學者與系上師生面對面的交流，將系所的國際聯繫帶入學生的日常學習。</p>
+
+<p>感謝佐良土博士來訪與分享，也謝謝參與講座的同學與老師。</p>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/faculty-and-visitors-child-redacted.webp" class="figure-image" aria-label="活動合影 成人由左至右為系主任 佐良土晟博士 陳彥儒老師及另一位同行學者">
+    <img src="/images/blog/akira-sarodo-20261103/faculty-and-visitors-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="活動合影 成人由左至右為系主任 佐良土晟博士 陳彥儒老師及另一位同行學者" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      活動合影。成人由左至右為系主任、佐良土晟博士、陳彥儒老師及另一位同行學者。
+
+    </figcaption>
+  
+</figure>
+
+<details class="seminar-photo-archive">
+<summary>更多活動照片</summary>
+<div class="seminar-photo-grid seminar-photo-grid--portraits">
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/visit-portrait-1-child-redacted.webp" class="figure-image" aria-label="來訪學者與東吳心理系教師合影">
+    <img src="/images/blog/akira-sarodo-20261103/visit-portrait-1-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="來訪學者與東吳心理系教師合影" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      來訪學者與東吳心理系教師合影。
+
+    </figcaption>
+  
+</figure>
+
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/visit-portrait-2-child-redacted.webp" class="figure-image" aria-label="來訪合影的另一個角度">
+    <img src="/images/blog/akira-sarodo-20261103/visit-portrait-2-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="來訪合影的另一個角度" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      來訪合影的另一個角度。
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+</details>
+
+<details class="seminar-photo-archive seminar-poster">
+<summary>活動海報：講題與講者簡介</summary>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/seminar-poster.jpg" class="figure-image" aria-label="2026 年 11 月 3 日心理學系專題講座海報">
+    <img src="/images/blog/akira-sarodo-20261103/seminar-poster.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="2026 年 11 月 3 日心理學系專題講座海報" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      2026 年 11 月 3 日心理學系專題講座海報。
+
+    </figcaption>
+  
+</figure>
+
+
+</details>]]></content><author><name>Yen-Ju Chen</name></author><category term="學術交流" /><category term="國際交流" /><category term="視覺知覺" /><category term="東吳大學" /><summary type="html"><![CDATA[2026 年 11 月 3 日，東吳大學心理學系邀請日本立命館大學佐良土晟博士（Dr. Akira Sarodo）來訪，分享視覺適應與空間、時間知覺的研究。本次講座由陳彥儒老師主辦，以系上學生為主要參與對象，讓同學在校園內接觸國際學者的研究與學術表達，拓展對知覺科學的認識。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/akira-sarodo-20261103/seminar-audience.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/akira-sarodo-20261103/seminar-audience.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">International research in the classroom: a visit from Dr. Akira Sarodo</title><link href="http://www.prime-psy-lab.com/2026/11/03/akira-sarodo-visual-adaptation.html" rel="alternate" type="text/html" title="International research in the classroom: a visit from Dr. Akira Sarodo" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/2026/11/03/akira-sarodo-visual-adaptation</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/11/03/akira-sarodo-visual-adaptation.html"><![CDATA[<!-- excerpt start -->
+<p>On November 3, 2026, the Department of Psychology at Soochow University welcomed Dr. Akira Sarodo from Ritsumeikan University, Japan, for a seminar on visual adaptation and the perception of space and time. Organized by Yen-Ju Chen, the event was intended primarily for students in the department, bringing an international researcher’s work and approach to scientific communication into their learning environment.
+<!-- excerpt end --></p>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/seminar-audience.jpg" class="figure-image" aria-label="Psychology students attend the English-language seminar in Room C301.">
+    <img src="/images/blog/akira-sarodo-20261103/seminar-audience.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Psychology students attend the English-language seminar in Room C301." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Psychology students attend the English-language seminar in Room C301.
+
+    </figcaption>
+  
+</figure>
+
+<h2 id="bringing-international-research-into-students-learning">Bringing international research into students’ learning</h2>
+
+<p>Dr. Sarodo is a postdoctoral researcher at Ritsumeikan University’s OIC Research Organization. His seminar, “Adaptation to imperceptible motion links size and duration compression,” took place in Room C301 from 10:00 to 11:30. It was delivered in English and included time for questions.</p>
+
+<p>Inviting researchers from overseas gives students direct access to questions being studied in other academic settings. They can hear how a researcher explains an experimental design and interprets evidence. The English seminar and question period also offered a chance to encounter international academic communication and connect their perception courses with ongoing research.</p>
+
+<h2 id="can-perceived-size-and-duration-change-together">Can perceived size and duration change together?</h2>
+
+<p>Space and time are usually treated as distinct dimensions of perception. Visual adaptation studies, however, suggest that some stimuli can make an object appear smaller and an interval seem shorter. Dr. Sarodo used an individual differences approach to ask whether these changes covary.</p>
+
+<p>The study used the same adaptor in size and duration judgments and compared several temporal frequencies. Size compression occurred at all tested frequencies and was weakest at 60 Hz. Duration compression occurred at higher frequencies, including 10, 20 and 60 Hz. At 60 Hz, the two compression effects were significantly correlated.</p>
+
+<p>A second experiment with a larger sample found that 60 Hz adaptation reduced the points of subjective equality (PSEs) for both size and duration relative to a non-adaptation baseline. The two baseline-corrected shifts were positively associated. These findings are consistent with a shared adaptation-related contribution and with possible involvement of the magnocellular visual pathway. Further evidence is needed to establish the underlying mechanism.</p>
+
+<div class="seminar-photo-grid">
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/research-presentation.jpg" class="figure-image" aria-label="Dr. Sarodo explains the experimental design and results of the visual adaptation study.">
+    <img src="/images/blog/akira-sarodo-20261103/research-presentation.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Dr. Sarodo explains the experimental design and results of the visual adaptation study." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Dr. Sarodo explains the experimental design and results of the visual adaptation study.
+
+    </figcaption>
+  
+</figure>
+
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/classroom-view.jpg" class="figure-image" aria-label="A view of the speaker and presentation from the back of the classroom.">
+    <img src="/images/blog/akira-sarodo-20261103/classroom-view.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="A view of the speaker and presentation from the back of the classroom." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      A view of the speaker and presentation from the back of the classroom.
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<h2 id="academic-exchange-on-campus">Academic exchange on campus</h2>
+
+<p>The visit gave Soochow psychology students a chance to hear directly from a researcher based in Japan within their own department. By organizing the seminar, Yen-Ju Chen brought an international academic connection into students’ everyday learning and created an opportunity for exchange between the visitor and the department’s students and faculty.</p>
+
+<p>We thank Dr. Sarodo for visiting and sharing his work, and the students and faculty who joined the seminar.</p>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/faculty-and-visitors-child-redacted.webp" class="figure-image" aria-label="Adults, from left to right: the department chair, Dr. Akira Sarodo, Yen-Ju Chen and a fellow visiting scholar.">
+    <img src="/images/blog/akira-sarodo-20261103/faculty-and-visitors-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Adults, from left to right: the department chair, Dr. Akira Sarodo, Yen-Ju Chen and a fellow visiting scholar." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Adults, from left to right: the department chair, Dr. Akira Sarodo, Yen-Ju Chen and a fellow visiting scholar.
+
+    </figcaption>
+  
+</figure>
+
+<details class="seminar-photo-archive">
+<summary>More photographs from the visit</summary>
+<div class="seminar-photo-grid seminar-photo-grid--portraits">
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/visit-portrait-1-child-redacted.webp" class="figure-image" aria-label="Visiting scholars with faculty from Soochow Psychology.">
+    <img src="/images/blog/akira-sarodo-20261103/visit-portrait-1-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Visiting scholars with faculty from Soochow Psychology." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Visiting scholars with faculty from Soochow Psychology.
+
+    </figcaption>
+  
+</figure>
+
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/visit-portrait-2-child-redacted.webp" class="figure-image" aria-label="Another view of the group photograph during the visit.">
+    <img src="/images/blog/akira-sarodo-20261103/visit-portrait-2-child-redacted.webp" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Another view of the group photograph during the visit." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Another view of the group photograph during the visit.
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+</details>
+
+<details class="seminar-photo-archive seminar-poster">
+<summary>Seminar poster: title and speaker profile</summary>
+
+<figure class="figure">
+  <a href="/images/blog/akira-sarodo-20261103/seminar-poster.jpg" class="figure-image" aria-label="Poster for the Department of Psychology seminar on November 3, 2026.">
+    <img src="/images/blog/akira-sarodo-20261103/seminar-poster.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Poster for the Department of Psychology seminar on November 3, 2026." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Poster for the Department of Psychology seminar on November 3, 2026.
+
+    </figcaption>
+  
+</figure>
+
+
+</details>]]></content><author><name>Yen-Ju Chen</name></author><category term="academic exchange" /><category term="international exchange" /><category term="visual perception" /><category term="Soochow University" /><summary type="html"><![CDATA[On November 3, 2026, the Department of Psychology at Soochow University welcomed Dr. Akira Sarodo from Ritsumeikan University, Japan, for a seminar on visual adaptation and the perception of space and time. Organized by Yen-Ju Chen, the event was intended primarily for students in the department, bringing an international researcher’s work and approach to scientific communication into their learning environment.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/akira-sarodo-20261103/seminar-audience.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/akira-sarodo-20261103/seminar-audience.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">和平高校で心理学科と東呉大学を紹介</title><link href="http://www.prime-psy-lab.com/ja/2026/09/29/heping-high-school-psychology.html" rel="alternate" type="text/html" title="和平高校で心理学科と東呉大学を紹介" /><published>2026-09-29T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/09/29/heping-high-school-psychology-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/09/29/heping-high-school-psychology.html"><![CDATA[<!-- excerpt start -->
 <p>2026 年 9 月 29 日、台北市立和平高級中学を訪問し、<strong>「心理学科と東呉大学の紹介」</strong> をテーマに講演しました。心理学が何を研究するのか、心理学科では何を学ぶのか、そしてどのような進学・職業の道があるのかを紹介し、東呉大学の学習環境についてもお話ししました。
 <!-- excerpt end --></p>
 
@@ -45,7 +489,7 @@
 
     </figcaption>
   
-</figure>]]></content><author><name>Yen-Ju Chen</name></author><category term="ニュース" /><category term="高校訪問" /><category term="心理学" /><category term="東呉大学" /><summary type="html"><![CDATA[2026 年 9 月 29 日、台北市立和平高級中学を訪問し、「心理学科と東呉大学の紹介」 をテーマに講演しました。心理学が何を研究するのか、心理学科では何を学ぶのか、そしてどのような進学・職業の道があるのかを紹介し、東呉大学の学習環境についてもお話ししました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">和平高中宣講：認識心理系與東吳大學</title><link href="http://www.prime-psy-lab.com/zh/2026/09/29/heping-high-school-psychology.html" rel="alternate" type="text/html" title="和平高中宣講：認識心理系與東吳大學" /><published>2026-09-29T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/zh/2026/09/29/heping-high-school-psychology-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2026/09/29/heping-high-school-psychology.html"><![CDATA[<!-- excerpt start -->
+</figure>]]></content><author><name>Yen-Ju Chen</name></author><category term="ニュース" /><category term="高校訪問" /><category term="心理学" /><category term="東呉大学" /><summary type="html"><![CDATA[2026 年 9 月 29 日、台北市立和平高級中学を訪問し、「心理学科と東呉大学の紹介」 をテーマに講演しました。心理学が何を研究するのか、心理学科では何を学ぶのか、そしてどのような進学・職業の道があるのかを紹介し、東呉大学の学習環境についてもお話ししました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">和平高中宣講：認識心理系與東吳大學</title><link href="http://www.prime-psy-lab.com/zh/2026/09/29/heping-high-school-psychology.html" rel="alternate" type="text/html" title="和平高中宣講：認識心理系與東吳大學" /><published>2026-09-29T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/zh/2026/09/29/heping-high-school-psychology-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2026/09/29/heping-high-school-psychology.html"><![CDATA[<!-- excerpt start -->
 <p>2026 年 9 月 29 日，我來到臺北市立和平高級中學，以 <strong>「心理系與東吳大學介紹」</strong> 為題，和同學們分享心理學在研究什麼、心理系學生平常學些什麼，以及未來可以探索的升學與職涯方向，也介紹了東吳大學的學習環境與資源。
 <!-- excerpt end --></p>
 
@@ -92,7 +536,7 @@
 
     </figcaption>
   
-</figure>]]></content><author><name>Yen-Ju Chen</name></author><category term="消息" /><category term="高中宣講" /><category term="心理學" /><category term="東吳大學" /><summary type="html"><![CDATA[2026 年 9 月 29 日，我來到臺北市立和平高級中學，以 「心理系與東吳大學介紹」 為題，和同學們分享心理學在研究什麼、心理系學生平常學些什麼，以及未來可以探索的升學與職涯方向，也介紹了東吳大學的學習環境與資源。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Introducing Psychology and Soochow University at Heping High School</title><link href="http://www.prime-psy-lab.com/2026/09/29/heping-high-school-psychology.html" rel="alternate" type="text/html" title="Introducing Psychology and Soochow University at Heping High School" /><published>2026-09-29T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/2026/09/29/heping-high-school-psychology</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/09/29/heping-high-school-psychology.html"><![CDATA[<!-- excerpt start -->
+</figure>]]></content><author><name>Yen-Ju Chen</name></author><category term="消息" /><category term="高中宣講" /><category term="心理學" /><category term="東吳大學" /><summary type="html"><![CDATA[2026 年 9 月 29 日，我來到臺北市立和平高級中學，以 「心理系與東吳大學介紹」 為題，和同學們分享心理學在研究什麼、心理系學生平常學些什麼，以及未來可以探索的升學與職涯方向，也介紹了東吳大學的學習環境與資源。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Introducing Psychology and Soochow University at Heping High School</title><link href="http://www.prime-psy-lab.com/2026/09/29/heping-high-school-psychology.html" rel="alternate" type="text/html" title="Introducing Psychology and Soochow University at Heping High School" /><published>2026-09-29T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/2026/09/29/heping-high-school-psychology</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/09/29/heping-high-school-psychology.html"><![CDATA[<!-- excerpt start -->
 <p>On September 29, 2026, I visited Taipei Municipal Heping High School to give a talk titled <strong>“Introducing Psychology and Soochow University.”</strong> We explored what psychology studies, what students learn in a psychology degree, and the study and career directions they might consider. I also introduced the learning environment and resources at Soochow University.
 <!-- excerpt end --></p>
 
@@ -139,7 +583,7 @@
 
     </figcaption>
   
-</figure>]]></content><author><name>Yen-Ju Chen</name></author><category term="news" /><category term="outreach" /><category term="psychology" /><category term="Soochow University" /><summary type="html"><![CDATA[On September 29, 2026, I visited Taipei Municipal Heping High School to give a talk titled “Introducing Psychology and Soochow University.” We explored what psychology studies, what students learn in a psychology degree, and the study and career directions they might consider. I also introduced the learning environment and resources at Soochow University.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">APCV 2026 オークランド参加記録：temporal segmentation と属性間統合</title><link href="http://www.prime-psy-lab.com/ja/2026/07/01/apcv2026-auckland.html" rel="alternate" type="text/html" title="APCV 2026 オークランド参加記録：temporal segmentation と属性間統合" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/07/01/apcv2026-auckland-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/07/01/apcv2026-auckland.html"><![CDATA[<p><img src="/images/activity/apcv2026-auckland-harbour.jpg" alt="APCV 2026 参加時のオークランド港の眺め" /></p>
+</figure>]]></content><author><name>Yen-Ju Chen</name></author><category term="news" /><category term="outreach" /><category term="psychology" /><category term="Soochow University" /><summary type="html"><![CDATA[On September 29, 2026, I visited Taipei Municipal Heping High School to give a talk titled “Introducing Psychology and Soochow University.” We explored what psychology studies, what students learn in a psychology degree, and the study and career directions they might consider. I also introduced the learning environment and resources at Soochow University.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/blog/heping-high-school-20260929/20260929_112817.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">APCV 2026 オークランド参加記録：temporal segmentation と属性間統合</title><link href="http://www.prime-psy-lab.com/ja/2026/07/01/apcv2026-auckland.html" rel="alternate" type="text/html" title="APCV 2026 オークランド参加記録：temporal segmentation と属性間統合" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/07/01/apcv2026-auckland-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/07/01/apcv2026-auckland.html"><![CDATA[<p><img src="/images/activity/apcv2026-auckland-harbour.jpg" alt="APCV 2026 参加時のオークランド港の眺め" /></p>
 
 <p>2026 年 7 月 1 日から 7 月 4 日まで、ニュージーランドのオークランドで開催された APCV &amp; EPC 2026 に参加しました。会場はオークランド大学で、港と街を見渡すところから始まり、その後は視覚科学と実験心理学に関する発表と議論が続く数日間となりました。</p>
 
@@ -167,7 +611,7 @@
 
 <p>結果として、異なる属性からの noise も temporal segmentation を妨害することが示されました。信号強度をそろえた場合、いくつかの条件では属性内 noise に近い大きさの妨害が生じました。フル強度条件では輝度による妨害が強く見られましたが、補足実験から、この非対称性は相対的な信号強度に依存することが示されました。さらに、各属性が temporal correlation の計算前に gain-weighted single-channel の表現へ統合されると仮定したモデルは、行動データの大部分を説明しました。これらの結果は、temporal segmentation が各属性内で独立に完結するのではなく、異なる属性からの信号が統合段階で相互作用することを示唆しています。</p>
 
-<p>Poster session では、この考え方をより明確に議論することができました。特に、属性特異的な処理と統合された temporal computation の境界がどこにあるのかという質問が多く、この研究が焦点を当てている理論的なポイントを改めて確認する機会になりました。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="ニュース" /><category term="APCV" /><category term="視覚知覚" /><category term="temporal segmentation" /><category term="心理物理学" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">APCV 2026 奧克蘭參會紀錄：temporal segmentation 與跨屬性整合</title><link href="http://www.prime-psy-lab.com/zh/2026/07/01/apcv2026-auckland.html" rel="alternate" type="text/html" title="APCV 2026 奧克蘭參會紀錄：temporal segmentation 與跨屬性整合" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/zh/2026/07/01/apcv2026-auckland-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2026/07/01/apcv2026-auckland.html"><![CDATA[<p><img src="/images/activity/apcv2026-auckland-harbour.jpg" alt="APCV 2026 行程中的奧克蘭港景" /></p>
+<p>Poster session では、この考え方をより明確に議論することができました。特に、属性特異的な処理と統合された temporal computation の境界がどこにあるのかという質問が多く、この研究が焦点を当てている理論的なポイントを改めて確認する機会になりました。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="ニュース" /><category term="APCV" /><category term="視覚知覚" /><category term="temporal segmentation" /><category term="心理物理学" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">APCV 2026 奧克蘭參會紀錄：temporal segmentation 與跨屬性整合</title><link href="http://www.prime-psy-lab.com/zh/2026/07/01/apcv2026-auckland.html" rel="alternate" type="text/html" title="APCV 2026 奧克蘭參會紀錄：temporal segmentation 與跨屬性整合" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/zh/2026/07/01/apcv2026-auckland-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2026/07/01/apcv2026-auckland.html"><![CDATA[<p><img src="/images/activity/apcv2026-auckland-harbour.jpg" alt="APCV 2026 行程中的奧克蘭港景" /></p>
 
 <p>2026 年 7 月 1 日至 7 月 4 日，我前往紐西蘭奧克蘭參加 APCV &amp; EPC 2026。會議地點在奧克蘭大學，這趟行程從奧克蘭港與城市景色開始，接著進入連續幾天關於視覺科學與實驗心理學的交流。</p>
 
@@ -195,7 +639,7 @@
 
 <p>結果顯示，跨屬性的 noise 會干擾 temporal segmentation；在訊號強度匹配時，部分條件下的干擾程度甚至接近同屬性 noise。完整強度下，亮度通常造成較強的干擾，但補充實驗顯示這種不對稱和相對訊號強度有關。以 gain-weighted single-channel 為假設的模型，也就是不同屬性在 temporal correlation 計算前先進入整合表徵，能夠解釋大部分行為資料。這些結果支持一個觀點：temporal segmentation 並不是在每個視覺屬性內獨立完成，而是不同屬性訊號會先透過整合階段互相作用，再影響 segmentation 的判斷。</p>
 
-<p>Poster session 也讓這個理論問題變得更具體。與會者的提問多半集中在「屬性特定處理」與「整合後 temporal computation」之間的邊界，而這正是這項研究想要釐清的位置。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="最新消息" /><category term="APCV" /><category term="視覺知覺" /><category term="temporal segmentation" /><category term="心理物理學" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">APCV 2026 in Auckland: Presenting Temporal Segmentation Research</title><link href="http://www.prime-psy-lab.com/2026/07/01/apcv2026-auckland.html" rel="alternate" type="text/html" title="APCV 2026 in Auckland: Presenting Temporal Segmentation Research" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/2026/07/01/apcv2026-auckland</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/07/01/apcv2026-auckland.html"><![CDATA[<p><img src="/images/activity/apcv2026-auckland-harbour.jpg" alt="Auckland harbour during the APCV 2026 trip" /></p>
+<p>Poster session 也讓這個理論問題變得更具體。與會者的提問多半集中在「屬性特定處理」與「整合後 temporal computation」之間的邊界，而這正是這項研究想要釐清的位置。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="最新消息" /><category term="APCV" /><category term="視覺知覺" /><category term="temporal segmentation" /><category term="心理物理學" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">APCV 2026 in Auckland: Presenting Temporal Segmentation Research</title><link href="http://www.prime-psy-lab.com/2026/07/01/apcv2026-auckland.html" rel="alternate" type="text/html" title="APCV 2026 in Auckland: Presenting Temporal Segmentation Research" /><published>2026-07-01T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/2026/07/01/apcv2026-auckland</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/07/01/apcv2026-auckland.html"><![CDATA[<p><img src="/images/activity/apcv2026-auckland-harbour.jpg" alt="Auckland harbour during the APCV 2026 trip" /></p>
 
 <p>From July 1 to July 4, 2026, I visited Auckland, New Zealand, for APCV &amp; EPC 2026. The meeting was held at the University of Auckland, and the trip began with a clear view of the harbour and the city before moving into several days of vision science and experimental psychology.</p>
 
@@ -223,7 +667,7 @@
 
 <p>The results showed that cross-attribute noise impaired temporal segmentation, in several cases approaching the level of within-attribute noise when signal strength was matched. Luminance often produced stronger interference under full-strength conditions, but supplementary tests showed that this asymmetry depended on relative signal strength. A gain-weighted single-channel model, in which attributes are integrated before temporal correlation computation, accounted for most of the behavioral variance. These findings support the idea that temporal segmentation is not computed independently within each visual attribute; instead, signals interact through an integrated stage before segmentation decisions are made.</p>
 
-<p>The poster session was a good opportunity to make this argument more explicit. Questions from other researchers focused on the boundary between attribute-specific processing and integrated temporal computation, which is exactly where this project is trying to sharpen the theory.</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="news" /><category term="APCV" /><category term="visual perception" /><category term="temporal segmentation" /><category term="psychophysics" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">AI が万能に見える時代に：成大心理学科での seminar</title><link href="http://www.prime-psy-lab.com/ja/2026/06/05/ncku-ai-vision-seminar.html" rel="alternate" type="text/html" title="AI が万能に見える時代に：成大心理学科での seminar" /><published>2026-06-05T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/06/05/ncku-ai-vision-seminar-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/06/05/ncku-ai-vision-seminar.html"><![CDATA[<p><img src="/images/activity/ncku-ai-seminar-20260605.jpg" alt="国立成功大学心理学科での invited seminar" /></p>
+<p>The poster session was a good opportunity to make this argument more explicit. Questions from other researchers focused on the boundary between attribute-specific processing and integrated temporal computation, which is exactly where this project is trying to sharpen the theory.</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="news" /><category term="APCV" /><category term="visual perception" /><category term="temporal segmentation" /><category term="psychophysics" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/apcv2026-auckland-harbour.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">AI が万能に見える時代に：成大心理学科での seminar</title><link href="http://www.prime-psy-lab.com/ja/2026/06/05/ncku-ai-vision-seminar.html" rel="alternate" type="text/html" title="AI が万能に見える時代に：成大心理学科での seminar" /><published>2026-06-05T00:00:00+00:00</published><updated>2026-11-03T13:34:57+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/06/05/ncku-ai-vision-seminar-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/06/05/ncku-ai-vision-seminar.html"><![CDATA[<p><img src="/images/activity/ncku-ai-seminar-20260605.jpg" alt="国立成功大学心理学科での invited seminar" /></p>
 
 <p>大学院時代の後輩である Liang-Sheng さんから招待をいただき、母校である国立成功大学心理学科で seminar を行いました。成大心理の教室に戻り、自分の研究を話すことはとても特別な経験でした。知覚、計算モデル、心理学理論に関する私の問いの多くは、この場所で少しずつ形になっていったからです。</p>
 
@@ -273,120 +717,4 @@
 
 <p>だからこそ、AI の時代においても心理学理論は不可欠だと考えています。心理学理論は、単にモデルと予測精度を競うものではありません。現象がどのレベルで理解可能になるのかを定義するものでもあります。</p>
 
-<p>改めて Liang-Sheng さんの招待に感謝します。また、温かい議論をしてくださった成大心理学科の先生方と学生の皆さんにも感謝します。成大に戻ったことで、科学の訓練とは方法を学ぶだけではなく、技術が変わってもなお問い続ける価値のある問いを学ぶことなのだと、改めて感じました。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="ニュース" /><category term="講演" /><category term="AI" /><category term="視知覚" /><category term="心理学" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="zh"><title type="html">當 AI 看似無所不能：回到成大心理的 seminar</title><link href="http://www.prime-psy-lab.com/zh/2026/06/05/ncku-ai-vision-seminar.html" rel="alternate" type="text/html" title="當 AI 看似無所不能：回到成大心理的 seminar" /><published>2026-06-05T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/zh/2026/06/05/ncku-ai-vision-seminar-zh</id><content type="html" xml:base="http://www.prime-psy-lab.com/zh/2026/06/05/ncku-ai-vision-seminar.html"><![CDATA[<p><img src="/images/activity/ncku-ai-seminar-20260605.jpg" alt="受邀至成功大學心理學系進行 seminar" /></p>
-
-<p>很感謝以前碩士班的學弟良聖邀請，讓我有機會回到母校成功大學心理學系進行 seminar。重新站在成大心理的講台上，是一件很特別的事情。許多關於知覺、計算模型與心理學理論的問題，都是在這個地方慢慢被養成的；這次能帶著近幾年的研究回來分享，也像是把一段問題意識重新帶回它最早萌芽的地方。</p>
-
-<p>這次演講的題目是 <strong>「當 AI 看似無所不能：以視知覺研究為例」</strong>。投影片可以在這裡下載：</p>
-
-<p><a href="/assets/slides/ncku-ai-vision-seminar-20260605-web.pptx">下載演講投影片</a></p>
-
-<h2 id="當表現看起來像智慧">當表現看起來像智慧</h2>
-
-<p>演講一開始，我先從一個很日常的感受談起：AI 好像已經什麼都會了。它可以辨識物體、分割影像、理解語音、回答問題、規劃行動、玩遊戲，也能生成文字與圖片。這些能力中，有許多曾經被認為是人類認知的核心。因此，一個自然的問題是：如果 AI 已經能做到這些事情，那心理學理論是否還有必要？</p>
-
-<p>我的答案是否定的。高表現是一種工程成就，但不等於對人類認知的科學解釋。一個 benchmark 告訴我們，某個系統在特定目標與資料分布下可以解決一個任務；但它不會自動告訴我們，人類心智真正面對的是什麼問題、使用什麼表徵、又為什麼會形成這樣的機制。</p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-14-marr-three-levels.png" alt="Marr 的三個分析層次" /></p>
-
-<p>這個區分可以回到 Marr 的三層分析。完整的解釋不只問「系統有沒有成功」，還要問它在計算什麼、用什麼演算法與表徵完成，以及如何被實作在具體的物理或生物系統中。現代 AI 很容易讓我們把注意力放在實作與表現上：建立模型、餵入資料、最佳化結果。但心理學仍然需要追問另一個層次的問題：有機體到底試圖解決什麼問題？這個計算為什麼在它所處的世界中有意義？</p>
-
-<h2 id="ai-模型不等於人類機制">AI 模型不等於人類機制</h2>
-
-<p>演講的第一個核心主題，是 AI 模型與人類認知機制不能直接畫上等號。AI 模型可能很擅長估計光流、辨識物體或生成合理影像，但這不代表它是為了重現人類如何與世界互動而設計的。</p>
-
-<p>視知覺研究特別適合看見這個差異。人類的運動知覺對特定的時空結構非常敏感，而某些錯覺可以揭露視覺系統內部使用的偵測器與假設。電腦視覺模型可能在自然影像資料集上表現優異，卻在為人類演算法而設計的刺激上失敗。這在工程上不一定是缺陷，但在科學上非常有意義。它提醒我們，「能解任務」和「使用相同計算」是兩件不同的事。</p>
-
-<p>換句話說，AI 的價值不是取代心理學理論，而是迫使理論變得更精確。模型失敗時，我們必須說清楚人類系統到底多了什麼。模型成功時，我們也必須追問，是哪些限制條件讓這個成功變得可能。</p>
-
-<h2 id="ai-作為科學儀器">AI 作為科學儀器</h2>
-
-<p>接著我談了兩個研究例子。第一個例子是把 AI 當成 <strong>假說檢驗的代理模型</strong>。在多階運動知覺的研究中，我們可以透過計算模型檢驗：某種架構與某種訓練環境，是否足以產生接近人類的反應模式。這裡的哲學意義在於，模型不是有機體，但它可以成為受控制的思想實驗。當某個假設下的模型失敗，而另一組限制下的模型成功時，我們就能更清楚地看見，人類視覺系統可能是為了哪些自然環境中的規律而演化。</p>
-
-<p>第二個例子則是把 AI 當成 <strong>彈性的刺激生成器</strong>。心理物理學中最困難的部分，常常不是測量行為，而是設計出能精準操弄變項、又避免混入混淆因素的刺激。當研究問題需要控制大量視覺元素之間的 pairwise temporal correlation 時，傳統的數學建構會很快遇到限制。機器學習式的刺激生成器，則能把刺激設計轉換成最佳化問題，讓我們產生原本難以構造的實驗材料。</p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-47-feedforward-backward-loss.png" alt="以 feedforward generation 與 backward propagation loss 進行 AI 刺激生成" /></p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-49-temporal-grouping-results.png" alt="Temporal grouping 研究中的行為結果" /></p>
-
-<p>這和請 AI 直接「給答案」非常不同。在這裡，模型比較像是實驗儀器的一部分。它幫助我們製造新的觀察條件，讓原本難以測量的問題變得可以研究。但科學價值仍然來自人類研究者對問題的定義、對限制條件的設計，以及對結果意義的詮釋。</p>
-
-<h2 id="問題本身才是問題">問題本身才是問題</h2>
-
-<p>演講最後回到一個比較哲學的主張：當 AI 越來越擅長解決已被明確定義的任務時，科學研究的價值並不會消失，而是更往上游移動。真正困難的工作，往往是定義問題本身。</p>
-
-<p>科學拓展知識大致有兩條路。第一條路，是在既有框架中填補尚未發現的 potential knowledge：理論提出預測，實驗加以驗證，已知世界因此變大。第二條路，則是改變框架本身：創造新的測量、新的表徵，或新的操作化方式，讓原本 inaccessible 的問題變得可以研究。</p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-60-expanding-knowledge-boundary.png" alt="從科學革命的角度理解問題框架的轉換" /></p>
-
-<p>AI 在第一條路上已經非常強大。它可以搜尋、最佳化、近似與模擬。但第二條路仍然深刻地依賴人類研究者：我們必須決定什麼算是一個現象、什麼值得被測量、目前的語言缺少了什麼，以及怎樣的問題能讓不可見的東西變得可見。</p>
-
-<p>這也是為什麼我認為，在 AI 時代，心理學理論仍然不可或缺。心理學理論不是單純和模型比誰預測得更準；它更重要的任務，是定義現象能在什麼層次上被理解。</p>
-
-<p>再次感謝良聖的邀請，也謝謝成大心理的老師與同學們給予非常溫暖的討論。回到成大提醒我，科學訓練不只是學方法，也是在學如何提出那些即使技術改變了，仍然值得繼續追問的問題。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="消息" /><category term="演講" /><category term="AI" /><category term="視知覺" /><category term="心理學" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">When AI Seems Omnipotent: A Seminar at NCKU Psychology</title><link href="http://www.prime-psy-lab.com/2026/06/05/ncku-ai-vision-seminar.html" rel="alternate" type="text/html" title="When AI Seems Omnipotent: A Seminar at NCKU Psychology" /><published>2026-06-05T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/2026/06/05/ncku-ai-vision-seminar</id><content type="html" xml:base="http://www.prime-psy-lab.com/2026/06/05/ncku-ai-vision-seminar.html"><![CDATA[<p><img src="/images/activity/ncku-ai-seminar-20260605.jpg" alt="Invited seminar at the Department of Psychology, National Cheng Kung University" /></p>
-
-<p>I was grateful for the invitation from Liang-Sheng, my former junior colleague from graduate school, to return to my alma mater, the Department of Psychology at National Cheng Kung University, for a seminar. It was a special experience to stand again in a place where many of my own questions about perception, computation, and psychological theory first took shape.</p>
-
-<p>The talk was titled <strong>“When AI Seems Omnipotent: Perspectives from Visual Perception Research.”</strong> The full slide deck is available here:</p>
-
-<p><a href="/assets/slides/ncku-ai-vision-seminar-20260605-web.pptx">Download the seminar slides</a></p>
-
-<h2 id="when-performance-looks-like-intelligence">When performance looks like intelligence</h2>
-
-<p>The talk began with a familiar impression: AI now seems able to do almost everything. It recognizes objects, segments images, follows speech, answers questions, plans actions, plays games, and generates images or text with striking fluency. Many of these abilities once sat close to the center of psychological inquiry. If a single family of models can now perform them, it is natural to ask whether psychological theory has become less necessary.</p>
-
-<p>My answer was no. Strong performance is an engineering achievement, but it is not yet a scientific explanation of human cognition. A benchmark tells us that a system can solve a task under a defined objective and data distribution. It does not automatically tell us what problem the human mind is solving, what representation it uses, or why the mechanism takes the form it does.</p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-14-marr-three-levels.png" alt="Marr's three levels of analysis" /></p>
-
-<p>This distinction is close to Marr’s classical three levels of analysis. A complete explanation asks about the computational goal, the algorithmic or representational process, and the physical implementation. Modern AI often pushes us toward the implementation and performance side: build a system, train it, evaluate it. Psychology must keep asking a different kind of question: what is the organism trying to compute, and why is that computation useful in the world it inhabits?</p>
-
-<h2 id="ai-models-are-not-human-mechanisms">AI models are not human mechanisms</h2>
-
-<p>One central theme of the seminar was that AI models and human cognitive mechanisms should not be treated as the same thing. An AI model may be excellent at estimating optical flow, recognizing an object, or generating a plausible image, but it was not necessarily built to reproduce how a human observer interacts with the world.</p>
-
-<p>Visual perception makes this gap visible. Human motion perception is sensitive to particular spatiotemporal structures, and some illusions expose the detectors and assumptions used by the visual system. Computer vision models can succeed on natural-image benchmarks while failing on stimuli designed around the human algorithm. That failure is not a defect in engineering terms, but it is scientifically informative. It tells us that “solving the task” and “using the same computation” are different claims.</p>
-
-<p>In this sense, AI becomes useful not because it replaces psychological theory, but because it sharpens theory. A model failure can force us to specify what the human system must be doing. A model success can become meaningful only after we ask which constraints made the success possible.</p>
-
-<h2 id="ai-as-a-scientific-instrument">AI as a scientific instrument</h2>
-
-<p>The seminar then turned to two research examples. The first treated AI as a <strong>hypothesis testing proxy</strong>. In work on multi-order motion perception, computational models can be used to test whether a proposed architecture and training environment are sufficient to reproduce human-like responses. The philosophical point is subtle: the model is not the organism, but it can become a controlled thought experiment. If a model trained under one set of assumptions fails, and a model trained with different constraints succeeds, we gain a sharper view of what kind of natural regularities the human visual system may have adapted to.</p>
-
-<p>The second example treated AI as a <strong>flexible stimulus generator</strong>. In psychophysics, the hardest part is often not measuring behavior, but creating stimuli that isolate the intended variable without smuggling in unwanted confounds. When a research question requires controlling many pairwise temporal correlations among visual elements, traditional construction can quickly become mathematically impossible. A machine-learning generator can instead optimize stimuli toward a desired structure.</p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-47-feedforward-backward-loss.png" alt="Feedforward generation and backward propagation loss for AI-based stimulus generation" /></p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-49-temporal-grouping-results.png" alt="Behavioral results from temporal grouping research" /></p>
-
-<p>This use of AI is very different from asking an AI to “give the answer.” Here, the model is part of the experimental apparatus. It helps us create observations that would otherwise be difficult to obtain. The scientific value still depends on the human act of defining the question, designing the constraint, and interpreting what the resulting behavior means.</p>
-
-<h2 id="the-problem-is-the-problem">The problem is the problem</h2>
-
-<p>The talk ended with a more philosophical claim: as AI becomes better at solving well-defined tasks, the value of science does not disappear. It moves upstream. The hardest work is often defining what the problem is.</p>
-
-<p>Science expands knowledge in two ways. Sometimes it fills in potential knowledge within an existing framework: a theory predicts something, an experiment tests it, and the known world grows. At other times, science changes the framework itself. It creates new measurements, new representations, and new ways of making a previously inaccessible question researchable.</p>
-
-<p><img src="/images/blog/ncku-ai-vision-seminar/slide-60-expanding-knowledge-boundary.png" alt="Scientific revolution as a reframing of what can be measured and tested" /></p>
-
-<p>AI is already powerful in the first route. It can search, optimize, approximate, and simulate at enormous scale. But the second route remains deeply human: deciding what counts as a phenomenon, what should be measured, what is missing from our current language, and what kind of question would make the invisible visible.</p>
-
-<p>That is why I think psychological theory remains essential in the age of AI. It does not merely compete with models for predictive accuracy. It defines the level at which a phenomenon becomes intelligible.</p>
-
-<p>Thank you again to Liang-Sheng for the invitation, and to the faculty and students at NCKU Psychology for the warm discussion. Returning to NCKU reminded me that scientific training is not only about learning methods. It is also about learning how to ask questions that remain worth asking even when technology changes.</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="news" /><category term="seminar" /><category term="AI" /><category term="visual perception" /><category term="psychology" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">VSS 2026 ポスター：Ancestors Matter, Descendants Do Not</title><link href="http://www.prime-psy-lab.com/ja/2026/05/19/vss2026-he-hierarchical-motion.html" rel="alternate" type="text/html" title="VSS 2026 ポスター：Ancestors Matter, Descendants Do Not" /><published>2026-05-19T00:00:00+00:00</published><updated>2026-09-29T12:59:18+00:00</updated><id>http://www.prime-psy-lab.com/ja/2026/05/19/vss2026-he-hierarchical-motion-ja</id><content type="html" xml:base="http://www.prime-psy-lab.com/ja/2026/05/19/vss2026-he-hierarchical-motion.html"><![CDATA[<p><img src="/images/activity/vss2026-he-poster-session.jpg" alt="VSS 2026 で階層的運動知覚のポスターを発表する Ziwei He" /></p>
-
-<p>2026 年 5 月 19 日、京都大学時代の後輩である Ziwei He さんが、Vision Sciences Society 年会で私たちのポスターを発表しました。題目は <strong>“Multi-Layered Hierarchical Motion: Ancestors Matter, Descendants Do Not”</strong> で、著者は Ziwei He、Yen-Ju Chen、Yung-Hao Yang、Shin’ya Nishida です。</p>
-
-<p><a href="/assets/posters/vss2026-he-hierarchical-motion-poster.pdf">VSS 2026 ポスターをダウンロード</a></p>
-
-<p><img src="/images/blog/vss2026-he-hierarchical-motion/poster-preview.png" alt="VSS 2026 ポスターのプレビュー" /></p>
-
-<p>この研究は、一見単純ですが重要な問いから始まります。複数の入れ子状の運動階層があるとき、どの階層が相対運動の知覚を形づくるのでしょうか。日常の運動は、単一のベクトルとして知覚されることはほとんどありません。歩く人を見るとき、身体全体の移動があり、手足は身体に対して動き、さらに局所的な要素は大きな物体の中に含まれています。視覚系は「何が動いているか」だけでなく、「何を参照枠として使うか」を決める必要があります。</p>
-
-<p>ポスターでは、この問題を vector matching paradigm で検討しました。参加者は、背景、大きな円、中間の円、小さな円からなる多階層の刺激を見ます。各試行の前に、どの層が target で、どの層が reference かが示されます。刺激提示後、参加者は target が reference に対してどのように動いたかを再現しました。</p>
-
-<p>中心的な結果は、タイトルの通りです。Target より上位にある参照物、つまり「祖先」は相対運動知覚に強く影響しました。一方で、target の下位にある課題無関連の子や孫、つまり「子孫」はほとんど影響しませんでした。人間の視覚系は複雑な階層的運動を分解できますが、その精度は階層距離と参照枠の設定によって制約されます。</p>
-
-<p>この結果は、induced motion を単一の参照物との関係だけで考えるのではなく、階層構造全体に対する推論として捉える必要があることを示しています。視覚科学にとってこれは重要です。入れ子状の運動信号が、どのように安定した知覚世界へ組織化されるのかを、より明確に問うことができるからです。</p>
-
-<p>この研究が VSS のポスターセッションで共有されたことをうれしく思います。ポスター発表では、図を指しながら境界条件を議論し、仮説を問い直し、理論をより明確にすることができます。そうした対話の中で、研究は少しずつ強くなっていきます。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="ニュース" /><category term="VSS" /><category term="視知覚" /><category term="運動知覚" /><category term="階層的運動" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/vss2026-he-poster-session.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/vss2026-he-poster-session.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>改めて Liang-Sheng さんの招待に感謝します。また、温かい議論をしてくださった成大心理学科の先生方と学生の皆さんにも感謝します。成大に戻ったことで、科学の訓練とは方法を学ぶだけではなく、技術が変わってもなお問い続ける価値のある問いを学ぶことなのだと、改めて感じました。</p>]]></content><author><name>Yen-Ju Chen</name></author><category term="ニュース" /><category term="講演" /><category term="AI" /><category term="視知覚" /><category term="心理学" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" /><media:content medium="image" url="http://www.prime-psy-lab.com/images/activity/ncku-ai-seminar-20260605.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
