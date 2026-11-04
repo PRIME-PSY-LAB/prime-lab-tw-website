@@ -184,10 +184,20 @@
       image: images/equipment/sharp-sh930w.jpg
       link: https://www.celulares.com/sharp/aquos-phone-sh930w
 
-- title_en: Accessories and connectivity
-  title_zh: 配件與連接周邊
-  title_ja: アクセサリと接続周辺機器
+- title_en: Calibrators and Other Instruments
+  title_zh: 校正器與其他儀器
+  title_ja: 校正器とその他の機器
   items:
+    - name_en: Low-pressure sodium light (35 W)
+      name_zh: 低壓鈉燈（35 W）
+      name_ja: 低圧ナトリウムランプ（35 W）
+      subtitle_en: Low-pressure sodium light
+      subtitle_zh: 低壓鈉燈
+      subtitle_ja: 低圧ナトリウムランプ
+      description_en: 35 W low-pressure sodium light.
+      description_zh: 功率為 35 W 的低壓鈉燈。
+      description_ja: 消費電力 35 W の低圧ナトリウムランプです。
+      image: images/equipment/low-pressure-sodium-35w.webp
     - name_en: Calibrite Display Pro HL
       name_zh: Calibrite Display Pro HL 螢幕校色器
       name_ja: Calibrite Display Pro HL ディスプレイキャリブレーター
